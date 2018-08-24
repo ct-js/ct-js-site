@@ -1,0 +1,205 @@
+extends pugTemplates/basic.pug
+block head
+    title Ct.js — a free game editor
+    meta(name="description" content="A free 2D game editor based on web technologies.")
+block body
+    section.intro#intro.blue.gradient
+        .inner
+            .c5
+                img(src="/img/logoWhite.png" title="A ct.js logo. Ct.js is a free alternative to Game Maker, Construct and others")
+            .c7
+                h1.nmt
+                    em Your new 2D game editor
+                p.big ct.js aims to make learning programming fun and game development easy by its visual editors and well-documented code library. It is available for Windows, Linux and Mac.
+
+                a.button.nml(href="/download") 
+                    i.icon-save
+                    span=`Download v${downloads.version}`
+                a.button(href="/changelog").dim 
+                    i.icon-file
+                    span Changelog
+            .clear
+    section#features
+        .inner
+            .aFeatureList
+                .aFeature.c4.center
+                    div
+                        i.icon-features.huge
+                    h3 Highly extensible
+                    p.
+                        The core library of ct.js is small but powerful,
+                        and can be easily extended in one click by modules.
+                        You can write your own modules, too!
+                .aFeature.c4.center
+                    div
+                        i.icon-smile-face.huge
+                    h3 Easy to learn
+                    p.
+                        ct.js is accessible and ready-to-use for both
+                        newbies and pros. It is bundled with examples,
+                        tutorials and docs.
+                .aFeature.c4.center
+                    div
+                        i.icon-responsive.huge
+                    h3 Games that run everywhere
+                    p.
+                        Games created with ct.js run in any modern browser,
+                        including mobile ones. We also plan adding
+                        an option to pack your game project as executable! 
+                .clear
+    section.blue#slider
+        .inner
+            h2.center.nmt
+                | ct.js is an extensible library
+                br
+                | coupled with visual workflow
+            p
+        .aSlider
+            each val in [1, 2, 3, 4, 5, 6, 7]
+                img(src=`/img/indexScreenshots/screenshot${val}.png`)
+        script(type="text/javascript").
+            var opts = {
+                controls: false,
+                nav: false,
+
+                container: '.aSlider',
+                autoplay: true,
+                autoplayTimeout: 5000,
+                autoplayButton: false,
+                autoplayButtonOutput: false,
+                mouseDrag: true,
+                arrowKeys: true,
+                items: 1,
+                controls: false,
+                gutter: 20,
+                edgePadding: 20,
+                responsive: {
+                    500: {
+                        items: 2
+                    },
+                    1023: {
+                        items: 3
+                    }
+                },
+                swipeAngle: false,
+                speed: 400
+            };
+            var slider = tns(opts);
+    section.grey#demos
+        .inner
+            .center
+                h2.nmt Our demos
+                .hSub Each demo is open-sourced and is bundled with ct.js
+            .aCardList
+                +aCard("Greed — a small silly platformer", "/img/demoCatformer.png", "https://comigo.itch.io/catformer")
+                    p.
+                        Collect all the coins on the map!
+                    p.nmb.
+                        This demo shows how to create a side-view world
+                        by playing sprite animations, transforming things,
+                        creating basic enemies, handling player's
+                        keyboard input and detecting collisions.
+                +aCard("Catsteroids — a space shooter", "/img/demoCatsteroids.png", "https://comigo.itch.io/catsteroids")
+                    p.
+                        Fly through space, collect bonuses, earn score
+                        and destroy asteroids and enemy ships!
+                    p.nmb.
+                        This demo shows how to handle keyboard input,
+                        create basic menus, handle collisions
+                        and create new objects during the playtime.
+                +aCard("Memocats — a memory puzzle", "/img/demoMemocats.png", "https://comigo.itch.io/memocats")
+                    p.
+                        Find identical cards to clear the board.
+                    p.nmb.
+                        This demo shows how to play sounds, animate
+                        things and use the core ct.js library.
+                .clear
+    section#essencials.blue
+        .inner
+            h2.center.nmt ct.js has everything you need to build a game
+            -
+                var essencials = {
+                    'drag-n-drop2': 'Room / Level editor with grids and BGs',
+                    'code': 'Integrated code editor with error handling',
+                    'layers': 'Collision handling and other libraries',
+                    'photos': 'Framed animations',
+                    'music': 'Music & sound manager',
+                    'change-style': 'Styles to reuse GUI settings',
+                    'file': 'Notes & Docs in a side panel, on every screen',
+                    'magic-stick': 'Ability to use custom JavaScript',
+                    'rocket': 'Easy packing and deploying'
+                }
+            .anEssencialsList
+                - var i = 0;
+                each val, key in essencials
+                    .anEssencial.c4
+                        i(class=`icon-${key}`)
+                        p= val
+                    - i++;
+                    if (i % 3 === 0 && i !== 0)
+                        .clear
+    section#SOON
+        .inner
+            h2.center.nmt Coming SOON
+            -
+                var essencials = {
+                    'image-gallery': 'Basic image maipulation tools: flipping, resizing, etc.',
+                    'extension': 'Tile-based editor',
+                    'gift': 'Packing to an executable',
+                    'cursor-click': 'UI editor'
+                }
+            .anEssencialsList
+                - var i = 0;
+                each val, key in essencials
+                    .anEssencial.c6
+                        i(class=`icon-${key}`)
+                        p= val
+                    - i++;
+                    if (i % 2 === 0 && i !== 0)
+                        .clear
+    section#downloadCTA.blue.gradient
+        .inner
+            .fifty.npl
+                .hSub Join the world of game development
+                h2.nmt
+                    b It's free!
+            .fifty.npr.right
+                a.button(href="/download")
+                    i.icon-save
+                    span   Download
+            .clear
+    section#share.grey
+        -
+            var url = 'https%3A%2F%2Fctjs.rocks%2F',
+                title = 'ct.js%20%E2%80%94%20a%20free%20game%20editor';
+        .inner.center
+            h2.nmt Help ct.js grow!
+            .hSub Tell your friends about it
+            .ShareButtons
+                a(href=`http://www.facebook.com/sharer.php?u=${url}` target="_blank")
+                    img(src="https://static.addtoany.com/buttons/facebook.svg")
+                a(href=`http://vkontakte.ru/share.php?url=${url}` target="_blank")
+                    img(src="https://static.addtoany.com/buttons/vk.svg")
+                a(href=`https://telegram.me/share/url?url=${url}&text=${title}` target="_blank")
+                    img(src="https://static.addtoany.com/buttons/telegram.svg")
+                a(href=`https://twitter.com/share?url=${url}&amp;text=${title}` target="_blank")
+                    img(src="https://static.addtoany.com/buttons/twitter.svg")
+                a(href=`whatsapp://send?text=${url}%20${title}` target="_blank" data-action="share/whatsapp/share")
+                    img(src="https://static.addtoany.com/buttons/whatsapp.svg")
+                a(href=`http://reddit.com/submit?url=${url}&amp;title=${title}` target="_blank")
+                    img(src="https://static.addtoany.com/buttons/reddit.svg")
+                a(href=`https://plus.google.com/share?url=${url}` target="_blank")
+                    img(src="https://static.addtoany.com/buttons/google_plus.svg")
+
+mixin aCard(title, image, link)
+    .c4
+        .aCard
+            .aCardMedia
+                img(src=image)
+                .aCardButton
+                    a.button(href=link target="_blank")
+                        i.icon-play
+                        span   Play
+            h4.nmt= title
+            if block
+                block

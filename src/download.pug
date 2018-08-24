@@ -1,0 +1,74 @@
+extends pugTemplates/basic.pug
+block head
+    title Download ct.js
+    meta(name="description" content="Download a free 2D game editor from its official site.")
+block body
+    section.intro.blue#downloads
+        .inner
+            h2.center 
+                b Welcome aboard!
+            .hSub.center Select your operating system
+            .aCardList.white
+                .c4
+                    .aCard.center
+                        i.icon-windows.huge
+                        h3 Windows
+                        p Windows 7 and higher. Unzip and run ctjs.exe
+                        a.button(href=downloads.win64) Download x64
+                        a.button.small(href=downloads.win32) Download x32
+                .c4
+                    .aCard.center
+                        i.icon-laptop.huge
+                        h3 Linux
+                        p Unpack, mark 'ctjs' as an executable and run ./ctjs
+                        a.button(href=downloads.linux64) Download x64
+                        a.button.small(href=downloads.linux32) Download x32
+                .c4
+                    .aCard.center
+                        i.icon-apple.huge
+                        h3 Mac
+                        p Untested, but should work. Use at your own risk!
+                        a.button(href=downloads.mac64) Download x64
+            .clear
+    section#whatsnext
+        .inner.center
+            h2.nmt What's next?
+    section#docs.blue.gradient
+        .inner
+            .c1
+            .c3.npl
+                a.button.nml(href="https://docs.ctjs.rocks/")
+                    i.icon-file
+                    span   Docs
+            .c7.npr.right
+                h2.nmt
+                    b Read the docs
+                .hSub Complete our tutorials and learn the ct.js coding library
+            .c1
+            .clear
+    section#docs.blue.gradAlt
+        .inner
+            .c1
+            .c7.npl
+                h2.nmt
+                    b Join our community
+                .hSub Get help and reach out to other creators
+            .c3.npr.right
+                a.button.nmr(href="https://comigo.itch.io/ct/community")
+                    i.icon-help
+                    span   Forum
+            .c1
+            .clear
+    section#docs.blue.gradient
+        .inner
+            .c1
+            .c3.npl
+                a.button.nml(href="http://eepurl.com/c1iEH1")
+                    i.icon-letter
+                    span   Subscribe
+            .c7.npr.right
+                h2.nmt
+                    b Subscribe to our newsletter
+                .hSub Be the first to get updates to ct.js
+            .c1
+            .clear

@@ -1,0 +1,57 @@
+@charset "utf-8"
+
+html, body
+    margin 0
+    padding 0
+    position relative
+    height 100%
+body
+    font 16px/28px fonts
+    color text
+    background white
+
+:focus
+    outline 0
+
+[disabled]
+    opacity 0.5
+    filter grayscale(1)
+    position relative
+    &:after
+        content " "
+        display block
+        cursor not-allowed
+        top 0
+        left 0
+        right 0
+        bottom 0
+        position absolute
+
+.borderall
+    border 1px solid bd
+.borderleft
+    border-left 1px solid bd
+.borderright
+    border-right 1px solid bd
+.bordertop
+    border-top 1px solid bd
+.borderbottom
+    border-bottom 1px solid bd
+
+.tall
+    height 100%
+    overflow auto
+    box-sizing border-box
+
+// перекрытие
+.stretch
+    position fixed
+    top 0
+    left 0
+    right 0
+    bottom 0
+
+.short
+    width 4em
+    padding 0.2em 0.3em !important
+    line-height 1 !important

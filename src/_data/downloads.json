@@ -1,0 +1,8 @@
+{
+    "version": "0.3.1",
+    "win64": "https://www.dropbox.com/s/3rzvq050slkhr88/ct-win64.zip?dl=1",
+    "win32": "https://www.dropbox.com/s/odf1qmrgxufy0qk/ct-win32.zip?dl=1",
+    "linux64": "https://www.dropbox.com/s/rggqg28jxkr3m4g/ct-linux64.zip?dl=1",
+    "linux32": "https://www.dropbox.com/s/lcohn8oq7a6zfm1/ct-linux32.zip?dl=1",
+    "mac64": "https://www.dropbox.com/s/aemmxicsuaqp2ie/ct-osx64.zip?dl=1"
+}
