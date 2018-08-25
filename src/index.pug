@@ -6,11 +6,15 @@ block body
     section.intro#intro.blue.gradient
         .inner
             .c5
-                img(src="/img/logoWhite.png" title="A ct.js logo. Ct.js is a free alternative to Game Maker, Construct and others")
+                img(src="/img/logoWhite.png" title="A ct.js logo. Ct.js is a free alternative to Game Maker, Construct and others")
             .c7
                 h1.nmt
                     em Your new 2D game editor
-                p.big ct.js aims to make learning programming fun and game development easy by its visual editors and well-documented code library. It is available for Windows, Linux and Mac.
+                p.big.
+                    ct.js aims to make learning programming fun
+                    and game development easy by its visual editors
+                    and well-documented code library. It is available
+                    for Windows, Linux, and Mac.
 
                 a.button.nml(href="/download") 
                     i.icon-save
@@ -27,25 +31,25 @@ block body
                         i.icon-features.huge
                     h3 Highly extensible
                     p.
-                        The core library of ct.js is small but powerful,
-                        and can be easily extended in one click by modules.
+                        The core library of ct.js is small but powerful
+                        and can be easily extended in one click by modules.
                         You can write your own modules, too!
                 .aFeature.c4.center
                     div
                         i.icon-smile-face.huge
-                    h3 Easy to learn
+                    h3 Easy to learn
                     p.
-                        ct.js is accessible and ready-to-use for both
+                        ct.js is accessible and ready-to-use for both
                         newbies and pros. It is bundled with examples,
-                        tutorials and docs.
+                        tutorials, and docs.
                 .aFeature.c4.center
                     div
                         i.icon-responsive.huge
                     h3 Games that run everywhere
                     p.
-                        Games created with ct.js run in any modern browser,
-                        including mobile ones. We also plan adding
-                        an option to pack your game project as executable! 
+                        Games created with ct.js run in any modern browser,
+                        including mobile ones. We also plan to add
+                        an option to pack your game project as executable! 
                 .clear
     section.blue#slider
         .inner
@@ -55,7 +59,7 @@ block body
                 | coupled with visual workflow
             p
         .aSlider
-            each val in [1, 2, 3, 4, 5, 6, 7]
+            each val in [1, 2, 3, 4, 5, 6, 7]
                 img(src=`/img/indexScreenshots/screenshot${val}.png`)
         script(type="text/javascript").
             var opts = {
@@ -89,34 +93,34 @@ block body
         .inner
             .center
                 h2.nmt Our demos
-                .hSub Each demo is open-sourced and is bundled with ct.js
+                .hSub Each demo is open-source and is bundled with ct.js
             .aCardList
                 +aCard("Greed — a small silly platformer", "/img/demoCatformer.png", "https://comigo.itch.io/catformer")
                     p.
                         Collect all the coins on the map!
                     p.nmb.
-                        This demo shows how to create a side-view world
-                        by playing sprite animations, transforming things,
-                        creating basic enemies, handling player's
+                        This demo shows how to create a side-view world
+                        by playing sprite animations, transforming copies,
+                        creating simple enemies, handling player's
                         keyboard input and detecting collisions.
                 +aCard("Catsteroids — a space shooter", "/img/demoCatsteroids.png", "https://comigo.itch.io/catsteroids")
                     p.
-                        Fly through space, collect bonuses, earn score
+                        Fly through space, collect bonuses, earn score points
                         and destroy asteroids and enemy ships!
                     p.nmb.
-                        This demo shows how to handle keyboard input,
+                        This demo shows how to handle keyboard input,
                         create basic menus, handle collisions
                         and create new objects during the playtime.
                 +aCard("Memocats — a memory puzzle", "/img/demoMemocats.png", "https://comigo.itch.io/memocats")
                     p.
-                        Find identical cards to clear the board.
+                        Find identical cards to clear the board.
                     p.nmb.
-                        This demo shows how to play sounds, animate
+                        This demo shows how to play sounds, animate
                         things and use the core ct.js library.
                 .clear
     section#essencials.blue
         .inner
-            h2.center.nmt ct.js has everything you need to build a game
+            h2.center.nmt ct.js has everything you need to build a game
             -
                 var essencials = {
                     'drag-n-drop2': 'Room / Level editor with grids and BGs',
@@ -124,14 +128,14 @@ block body
                     'layers': 'Collision handling and other libraries',
                     'photos': 'Framed animations',
                     'music': 'Music & sound manager',
-                    'change-style': 'Styles to reuse GUI settings',
-                    'file': 'Notes & Docs in a side panel, on every screen',
-                    'magic-stick': 'Ability to use custom JavaScript',
+                    'change-style': 'Styles to reuse GUI settings',
+                    'file': 'Notes & docs in a side panel, on every screen',
+                    'magic-stick': 'Ability to use custom JavaScript',
                     'rocket': 'Easy packing and deploying'
                 }
             .anEssencialsList
                 - var i = 0;
-                each val, key in essencials
+                each val, key in essencials
                     .anEssencial.c4
                         i(class=`icon-${key}`)
                         p= val
@@ -145,12 +149,12 @@ block body
                 var essencials = {
                     'image-gallery': 'Basic image maipulation tools: flipping, resizing, etc.',
                     'extension': 'Tile-based editor — Now live as an experimental feature!',
-                    'gift': 'Packing to an executable',
+                    'gift': 'Packing to an executable',
                     'cursor-click': 'UI editor'
                 }
             .anEssencialsList
                 - var i = 0;
-                each val, key in essencials
+                each val, key in essencials
                     .anEssencial.c6
                         i(class=`icon-${key}`)
                         p= val
@@ -160,7 +164,7 @@ block body
     section#downloadCTA.blue.gradient
         .inner
             .fifty.npl
-                .hSub Join the world of game development
+                .hSub Join the world of game development
                 h2.nmt
                     b It's free!
             .fifty.npr.right
