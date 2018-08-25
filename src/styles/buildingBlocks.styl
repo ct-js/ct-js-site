@@ -36,8 +36,12 @@ nav
     color white
     z-index 999
     line-height 0
+    {trans}
+    &.above
+        background transparent
     img
         height 2.75rem
+        {trans}
     a
         text-decoration none
         display inline-block
@@ -52,6 +56,11 @@ nav
             opacity 0.65
     .toright a
         padding 0.5rem 0
+    &.below
+        img
+            height 2rem
+        .toright a
+            padding 0.25rem 0
 .aCard
     background white
     {shad}
