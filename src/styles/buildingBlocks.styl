@@ -16,10 +16,11 @@ section
     padding 3rem 0
     &.intro
         padding 6rem 0
-    &#footer
-        padding 1rem 0
-        background dark
-        color bl
+#footer
+    @extends section
+    padding 1rem 0
+    background dark
+    color bl
 .inner
     max-width 1140px
     margin 0 auto
@@ -42,6 +43,14 @@ nav
     img
         height 2.75rem
         {trans}
+    .toright a
+        padding 0.5rem 0
+    &.below
+        img
+            height 2rem
+        .toright a
+            padding 0.25rem 0
+nav, #footer
     a
         text-decoration none
         display inline-block
@@ -54,13 +63,6 @@ nav
         &:hover
             color white
             opacity 0.65
-    .toright a
-        padding 0.5rem 0
-    &.below
-        img
-            height 2rem
-        .toright a
-            padding 0.25rem 0
 .aCard
     background white
     {shad}
