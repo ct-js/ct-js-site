@@ -1,0 +1,59 @@
+extends pugTemplates/basic.pug
+block head
+    title Games made with ct.js — Ct.js
+    meta(name="description" content="Games created with ct.js, a free 2D game editor based on web technologies.")
+block body
+    section.blue.gradient
+        .inner.center
+            h1 Made with ct.js
+    section
+        .inner
+            +aCard('Among the Wolves (🌜🌲)', '/img/gameAmongTheWolves.png', 'https://comigo.itch.io/among-the-wolves')
+                p.
+                    A textless survival game made for Mini Jam 11.
+                p.nmb.
+                    Try to survive after crashing on a helicopter in this wild place with wolves, 
+                    almost no food, and with a strange monster howling at night…
+
+            +aCard('Disposable Magic', '/img/gameDisposableMagic.gif', 'https://comigo.itch.io/disposable-magic')
+                p.
+                    After a long adventure you finally face the Evil Sorcerer…
+                p.nmb.
+                    You find yourself in an epic boss fight! You should use your magic to survive, 
+                    but sticking to one element for long causes you to take lethal damage! 
+                    Change staffs as often as possible, combine powers, and use your powers wisely.
+            
+            +aCard('Shifted', '/img/gameShifted.png', 'https://comigo.itch.io/shifted')
+                p.
+                    A relaxing jigsaw puzzle. Take a blanket and a cup of tea.
+                p.nmb.
+                    Enjoy dozens of full-HD puzzles in three levels of complexity flavored 
+                    with nice ambient music.
+                    Ultra-casual, calming experience.
+                    3 levels of difficulty.
+            .clear
+                .center
+                    a.button.big(href="/contact") Submit Your Project
+    section#downloadCTA.blue.gradient
+        .inner
+            .fifty.npl
+                .hSub Join the world of game development
+                h2.nmt
+                    b It's free!
+            .fifty.npr.right
+                a.button(href="/download")
+                    i.icon-save
+                    span   Download
+            .clear
+mixin aCard(title, image, link)
+    .c4
+        .aCard
+            .aCardMedia
+                img(src=image)
+                .aCardButton
+                    a.button(href=link target="_blank")
+                        i.icon-play
+                        span   Play
+            h4.nmt= title
+            if block
+                block
