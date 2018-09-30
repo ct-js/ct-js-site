@@ -1,0 +1,29 @@
+extends pugTemplates/basic.pug
+block head
+    title Contact — Ct.js
+    meta(name="description" content="Send an email to the developer.")
+block body
+    section.blue.gradient
+        .inner.center
+            h1 Contact
+    section#contact
+        .inner
+            .c2
+            .c8
+                form(name="contact" method="POST" netlify)
+                    p.fifty.npl
+                        label
+                            span Your Name:
+                            input.wide(type="text" name="name")
+                    p.fifty.npr
+                        label
+                            span Your Email:
+                            input.wide(type="email" name="email")
+                    .clear
+                    p.nmt
+                        label
+                            span Message:
+                            textarea.wide(name="message")
+                    p.center
+                        button(type="submit") Send
+            .clear
