@@ -49,8 +49,8 @@ block body
                     h3 Games that run everywhere
                     p.
                         Games created with ct.js run in any modern browser,
-                        including mobile ones. We also plan to add
-                        an option to pack your game project as executable! 
+                        including mobile ones. You can also pack your game
+                        as an executable for Windows, Mac, and Linux! 
                 .clear
     section.blue#slider
         .inner
@@ -152,7 +152,7 @@ block body
                 var essencials = {
                     'image-gallery': 'Basic image maipulation tools: flipping, resizing, etc.',
                     'change-style': 'WebGL Renderer',
-                    'gift': 'Packing to an executable',
+                    //'gift': 'Packing to an executable',
                     'cursor-click': 'UI editor'
                 }
             .anEssencialsList
@@ -162,7 +162,7 @@ block body
                         i(class=`icon-${key}`)
                         p= val
                     - i++;
-                    if (i % 2 === 0 && i !== 0)
+                    if ((i % 2 === 0 && i !== 0) || i === Object.keys(essencials).length)
                         .clear
     section#downloadCTA.blue.gradient
         .inner
