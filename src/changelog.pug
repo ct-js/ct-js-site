@@ -6,7 +6,19 @@ block body
     section.intro.blue.gradient
         .inner.center
             h1 The Changelog
-    +changelogEntry("v 0.5.1 — Current", "30 October 2018. Fonts, EQS, ct.place optimizations, experimental game packer.")
+
+    +changelogEntry("v 0.5.2 — Current", "7 November 2018. Hotfix.")
+        :markdown-it
+            ### 🐛 Bug Fixes
+
+            * Fix autocompletion being triggered on `;` and line end
+            * Fix project update for older versions not working
+            * Fix ct.place.tile moving copies around by itself
+
+            ### 🍱 Demos
+
+            * Update tutorials' project version
+    +changelogEntry("v 0.5.1", "30 October 2018. Hotfix.")
         :markdown-it
             ### 🐛 Bug Fixes
 
