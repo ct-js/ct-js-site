@@ -9,21 +9,21 @@ block body
                 b Welcome aboard!
             .hSub.center You are downloading ct.js from the <b>alpha</b> channel. Select your operating system
             .aCardList.white
-                .c4
+                .c4.breakon800
                     .aCard.center
                         i.icon-windows.huge
                         h3 Windows
                         p Windows 7 and higher. Unzip and run ctjs.exe
                         a.button(href=downloads.win64Next) Download x64
                         a.button.small(href=downloads.win32Next) Download x32
-                .c4
+                .c4.breakon800
                     .aCard.center
                         i.icon-laptop.huge
                         h3 Linux
                         p Unpack, mark 'ctjs' as an executable and run ./ctjs
                         a.button(href=downloads.linux64Next) Download x64
                         a.button.small(href=downloads.linux32Next) Download x32
-                .c4
+                .c4.breakon800
                     .aCard.center
                         i.icon-apple.huge
                         h3 Mac
@@ -33,54 +33,4 @@ block body
             .center
                 p.hSub or get ct.js now on itch.io
                 iframe(src="https://itch.io/embed/238348?bg_color=ffffff&fg_color=222222&link_color=446adb&border_color=cccccc" width="552" height="167" frameborder="0")
-    section#whatsnext
-        .inner.center
-            h2.nmt What's next?
-    section#docs.blue.gradient
-        .inner
-            .c1
-            .c3.npl
-                a.button.nml(href="https://docs.ctjs.rocks/")
-                    i.icon-file
-                    span   Docs
-            .c7.npr.right
-                h2.nmt
-                    b Read the docs
-                .hSub Complete our tutorials and learn the ct.js coding library
-            .c1
-            .clear
-    section#docs.blue.gradAlt
-        .inner
-            .c1
-            .c7.npl
-                h2.nmt
-                    b Join our community
-                .hSub Get help and reach out to other creators
-            .c3.npr.right
-                a.button.nmr(href="https://discord.gg/CggbPkb") 
-                    i.icon-discord
-                    span   Discord
-                a.button.nmr(href="https://comigo.itch.io/ct/community")
-                    i.icon-help
-                    span   Forum
-            .c1
-            .clear
-    section#docs.blue.gradient
-        .inner
-            .c1
-            .c3.npl
-                a.button.nml(href="http://eepurl.com/c1iEH1")
-                    i.icon-letter
-                    span   Subscribe
-            .c7.npr.right
-                h2.nmt
-                    b Subscribe to our newsletter
-                .hSub Be the first to get updates to ct.js
-            .c1
-            .clear
-    section#support
-        .center
-            a(href="https://www.patreon.com/comigo" target="_blank")
-                img(src="/img/become_a_patron_button@2x.png" alt="Support the project on Patreon" title="Support ct.js on Patreon")
-            p.
-                Get priority support, source codes of games and your name included in the app!
+    include /whatsnext.pug

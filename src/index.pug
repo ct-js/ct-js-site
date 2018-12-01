@@ -5,9 +5,9 @@ block head
 block body
     section.intro#intro.blue.gradient
         .inner
-            .c5
+            .c5.breakon640
                 img(src="/img/logoWhite.png" title="A ct.js logo. Ct.js is a free alternative to Game Maker, Construct and others")
-            .c7
+            .c7.breakon640
                 h1.nmt.npb
                     em Your new 2D game editor
                 p.big.
@@ -31,7 +31,7 @@ block body
     section#features
         .inner
             .aFeatureList
-                .aFeature.c4.center
+                .aFeature.c4.center.breakon800
                     div
                         i.icon-features.huge
                     h3 Highly extensible
@@ -39,7 +39,7 @@ block body
                         The core library of ct.js is small but powerful
                         and can be easily extended in one click by modules.
                         You can write your own modules, too!
-                .aFeature.c4.center
+                .aFeature.c4.center.breakon800
                     div
                         i.icon-smile-face.huge
                     h3 Easy to learn
@@ -47,7 +47,7 @@ block body
                         ct.js is accessible and ready-to-use for both
                         newbies and pros. It is bundled with examples,
                         tutorials, and docs.
-                .aFeature.c4.center
+                .aFeature.c4.center.breakon800
                     div
                         i.icon-responsive.huge
                     h3 Games that run everywhere
@@ -143,7 +143,7 @@ block body
             .anEssencialsList
                 - var i = 0;
                 each val, key in essencials
-                    .anEssencial.c4
+                    .anEssencial.c4.breakon800
                         i(class=`icon-${key}`)
                         p= val
                     - i++;
@@ -162,7 +162,7 @@ block body
             .anEssencialsList
                 - var i = 0;
                 each val, key in essencials
-                    .anEssencial.c6
+                    .anEssencial.c6.breakon640
                         i(class=`icon-${key}`)
                         p= val
                     - i++;
@@ -180,8 +180,8 @@ block body
                     span   Download
             .clear
     section#partners
-        .c3
-        .c6.center
+        .c3.breakon960
+        .c6.center.breakon960
             h2.nmt Our Partner
             
             img#theMiniJamLogo(src="/img/minijamlogo.png")
@@ -224,7 +224,7 @@ block body
                 img(src="/img/become_a_patron_button@2x.png" alt="Support the project on Patreon" title="Support ct.js on Patreon")
 
 mixin aCard(title, image, link)
-    .c4
+    .c4.breakon800
         .aCard
             .aCardMedia
                 img(src=image)

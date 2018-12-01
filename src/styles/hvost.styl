@@ -305,17 +305,21 @@ for i in 1 2 3 4 5 6 7 8
 /* viewport control */
 .hide
     display none
-for size in 640 480
+for size in 960 800 640 480
     @media (max-width (size)px)
         .hide{size}
             display none
         .show{size}
             display initial
+        .lefton{size}
+            text-align left
         .breakon{size}
             display block !important
             float none
             width 100%
             box-sizing border-box
+            padding-left 0
+            padding-right 0
 
 /* Placeholder unification and input font inheritance */
 input
