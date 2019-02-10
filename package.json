@@ -9,7 +9,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@11ty/eleventy": "^0.5.2",
+    "@11ty/eleventy": "^0.5.4",
+    "axios": "^0.18.0",
     "gulp": "^4.0.0",
     "gulp-concat": "^2.6.1",
     "gulp-serve": "^1.4.0",
@@ -18,6 +19,7 @@
     "gulp-stylus": "^2.7.0",
     "gulp-uglify": "^3.0.1",
     "jstransformer-markdown-it": "^2.1.0",
-    "pump": "^3.0.0"
+    "pump": "^3.0.0",
+    "xml2js": "^0.4.19"
   }
 }

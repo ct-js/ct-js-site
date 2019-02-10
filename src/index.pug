@@ -201,7 +201,7 @@ block body
                     i.icon-save
                     span   Download
             .clear
-    section#partners
+    section#partners.grey
         .c3.breakon960
         .c6.center.breakon960
             h2.nmt Our Partner
@@ -219,6 +219,18 @@ block body
                 a(href="http://minijamofficial.com/" target="_blank") visit their official site
                 |!
         .clear
+    section#devlog
+        .inner.limited
+            h2 Devlog
+            each item in devlog.posts
+                .aDevlogPost
+                    h3.nmb
+                        a(href=item.link[0])=item.title
+                    p.nmt.meta=`Published on ${item.pubDate}`
+                    .aPostImage!=item.image
+                    a.button.nml(href=item.link[0]) 
+                        i.icon-file
+                        span   Read more…
     section#share.grey
         -
             var url = 'https%3A%2F%2Fctjs.rocks%2F',
