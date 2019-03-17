@@ -19,6 +19,7 @@
     "gulp-stylus": "^2.7.0",
     "gulp-uglify": "^3.0.1",
     "jstransformer-markdown-it": "^2.1.0",
+    "markdown-it-checkbox": "^1.1.0",
     "pump": "^3.0.0",
     "xml2js": "^0.4.19"
   }

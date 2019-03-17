@@ -6,32 +6,54 @@ block body
     section.blue.gradient
         .inner.center
             h1 Roadmap
-    section.npt
-        .c4
+    section.npt.grey#roadmap
+        .c4.breakon960
             h2.nmt Recently added issues
             each item in roadmap[0].posts
-                .aDevlogPost
-                    h3.nmb
-                        b=item.issueId
+                .anIssue(title="Click for details")
+                    h4.nm
+                        code.inline=item.issueId
                         span=` ${item.summary}`
+                    if item.description
+                        .anIssueDescription!=item.description
                     each label in item.labels
                         .aLabel=label
-        .c4
+            
+        .c4.breakon960
             h2.nmt Upcoming changes
-            each item in roadmap[1].posts
-                .aDevlogPost
-                    h3.nmb
-                        b=item.issueId
-                        span=` ${item.summary}`
-                    each label in item.labels
-                        .aLabel=label
-        .c4
+            if roadmap[1].posts.length
+                each item in roadmap[1].posts
+                    .anIssue(title="Click for details")
+                        h4.nm
+                            code.inline=item.issueId
+                            span=` ${item.summary}`
+                        if item.description
+                            .anIssueDescription!=item.description
+                        each label in item.labels
+                            .aLabel=label
+            else
+                p None! This column will be filled once we plan out our next release.
+        .c4.breakon960
             h2.nmt Recently closed issues
             each item in roadmap[2].posts
-                .aDevlogPost
-                    h3.nmb
-                        b=item.issueId
+                .anIssue(title="Click for details")
+                    h4.nm
+                        code.inline=item.issueId
                         span=` ${item.summary}`
+                    if item.description
+                        .anIssueDescription!=item.description
                     each label in item.labels
                         .aLabel=label
         .clear
+    script.
+        document.getElementById('roadmap').addEventListener('click', function (e) {
+            if (!e.target) {
+                return;
+            }
+            var elt = e.target.closest('.anIssue');
+            if (!elt.classList.contains('active')) {
+                elt.classList.add('active');
+            } else {
+                elt.classList.remove('active');
+            }
+        })
