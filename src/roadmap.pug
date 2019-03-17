@@ -1,0 +1,37 @@
+extends pugTemplates/basic.pug
+block head
+    title Roadmap — Ct.js
+    meta(name="description" content="Send an email to the developer.")
+block body
+    section.blue.gradient
+        .inner.center
+            h1 Roadmap
+    section.npt
+        .c4
+            h2.nmt Recently added issues
+            each item in roadmap[0].posts
+                .aDevlogPost
+                    h3.nmb
+                        b=item.issueId
+                        span=` ${item.summary}`
+                    each label in item.labels
+                        .aLabel=label
+        .c4
+            h2.nmt Upcoming changes
+            each item in roadmap[1].posts
+                .aDevlogPost
+                    h3.nmb
+                        b=item.issueId
+                        span=` ${item.summary}`
+                    each label in item.labels
+                        .aLabel=label
+        .c4
+            h2.nmt Recently closed issues
+            each item in roadmap[2].posts
+                .aDevlogPost
+                    h3.nmb
+                        b=item.issueId
+                        span=` ${item.summary}`
+                    each label in item.labels
+                        .aLabel=label
+        .clear
