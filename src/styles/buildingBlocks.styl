@@ -156,7 +156,9 @@ nav, #footer
     margin 0 0 1rem
     padding 1rem
     cursor pointer
-    transition 0.35s ease box-shadow
+    {trans}
+    h4
+        {trans}
     .anIssueDescription
         display none
     &.active .anIssueDescription
@@ -164,22 +166,6 @@ nav, #footer
     &:hover
         {shad}
     &.active
-        position fixed
-        z-index 2
-        left 50%
-        top 0
-        width 60%
-        margin 10% 0
-        transform translate(-50%, 0)
-        &::before
-            content ''
-            left -100vmax
-            top -100vmax
-            display block
-            position fixed
-            z-index -1
-            background rgba(bl, 0.35)
-            width 300vmax
-            height 900vmax
+        border-color act
         h4
             @extends h3
