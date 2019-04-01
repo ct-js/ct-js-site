@@ -6,10 +6,10 @@
     "linux32": "https://www.dropbox.com/s/hyzh6rj5g8r9du8/ct-linux32.zip?dl=1",
     "mac64": "https://www.dropbox.com/s/c1yizfwvhl22map/ct-osx64.zip?dl=1",
 
-    "versionNext": "1.0.0-next-2",
-    "win64Next": "https://www.dropbox.com/s/rm1eoqr1s23p4ot/ct-win64-next.zip?dl=1",
-    "win32Next": "https://www.dropbox.com/s/rv7e51w6vowzcuj/ct-win32-next.zip?dl=1",
-    "linux64Next": "https://www.dropbox.com/s/ql2dlc0yexcwih7/ct-linux64-next.zip?dl=1",
-    "linux32Next": "https://www.dropbox.com/s/iq5r3pun72euw4r/ct-linux32-next.zip?dl=1",
-    "mac64Next": "https://www.dropbox.com/s/2n38wlmiyntybv2/ct-osx64-next.zip?dl=1"
+    "versionNext": "1.0.0-next-3",
+    "win64Next": "https://www.dropbox.com/s/crqtkn9yyqt8qg1/ct-win64.zip?dl=1",
+    "win32Next": "https://www.dropbox.com/s/bn5606s594v6krb/ct-win32.zip?dl=1",
+    "linux64Next": "https://www.dropbox.com/s/3ofl5vtigvjhb4j/ct-linux64.zip?dl=1",
+    "linux32Next": "https://www.dropbox.com/s/qy9o2f1va3gzl2f/ct-linux32.zip?dl=1",
+    "mac64Next": "https://www.dropbox.com/s/7lxa3reqr7otzex/ct-osx64.zip?dl=1"
 }
