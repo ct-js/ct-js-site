@@ -1,6 +1,5 @@
 var gulp  = require('gulp');
 var shell = require('gulp-shell');
-var serve = require('gulp-serve');
 var uglify  = require('gulp-uglify');
 var concat  = require('gulp-concat');
 var pump = require('pump');
@@ -10,7 +9,7 @@ var sourcemaps = require('gulp-sourcemaps');
 const project = {
     buildDest: './dist',
     buildSrc: './src'
-}
+};
 
 
 // Uglify our javascript files into one.
@@ -39,7 +38,6 @@ gulp.task('styles', function() {
 gulp.task('watch', function () {
   gulp.watch(project.buildSrc + '/js/**/*', gulp.parallel('scripts'));
   gulp.watch(project.buildSrc + '/styles/**/*', gulp.parallel('styles'));
-  gulp.watch(project.buildSrc + '/**/*.pug',  gulp.parallel('generate'));
 });
 
 gulp.task('assets', gulp.parallel(
@@ -51,9 +49,7 @@ gulp.task('build', gulp.series(
   'generate',
   'assets'
 ));
-gulp.task('serve', serve({
-  root: [project.buildDest],
-  port: 8008,
-}));
 
-gulp.task('default', gulp.parallel('serve', 'watch', 'build'));
+gulp.task('serve', shell.task('eleventy --serve'));
+
+gulp.task('default', gulp.parallel('serve', 'assets', 'watch'));
