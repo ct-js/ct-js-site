@@ -16,15 +16,15 @@ block body
                     and well-documented code library. It is available
                     for Windows, Linux, and Mac.
 
-                a.button.nml(href="/download") 
+                a.button.nml(href="/download")
                     i.icon-save
                     span=`Download v${downloads.version}`
-                
-                a.button(href="/download-next") 
+
+                a.button(href="/download-next")
                     i.icon-save
                     span=`v${downloads.versionNext}`
 
-                a.button.dim(href="https://discord.gg/CggbPkb") 
+                a.button.dim(href="https://discord.gg/CggbPkb")
                     i.icon-discord
                     span   Discord
             .clear
@@ -54,7 +54,7 @@ block body
                     p.
                         Games created with ct.js run in any modern browser,
                         including mobile ones. You can also pack your game
-                        as an executable for Windows, Mac, and Linux! 
+                        as an executable for Windows, Mac, and Linux!
                 .clear
     section.blue.gradient#ctjsNext
         .inner
@@ -72,7 +72,7 @@ block body
                     li More settings for backgrounds and camera management;
                     li High-quality, automagical fullscreen mode;
                     li New features for catmods.
-                a.button(href="/download-next") 
+                a.button(href="/download-next")
                     i.icon-save
                     span=`Download v${downloads.versionNext}`
             .c6.npr.breakon960
@@ -83,7 +83,7 @@ block body
             h2.center.nmt
                 | ct.js is an extensible library
                 br
-                | coupled with visual workflow
+                | coupled with a visual workflow
             p
         .aSlider
             each val in [1, 2, 3, 4, 5, 6, 7]
@@ -207,16 +207,16 @@ block body
         .c3.breakon960
         .c6.center.breakon960
             h2.nmt Our Partner
-            
+
             img#theMiniJamLogo(src="/img/minijamlogo.png")
-            
+
             p.big.nmb
                 | Mini Jam is an open recurring game jam that is held every two weeks on itch.io.
                 |
                 |
                 a(href="https://discord.gg/kgzG645" target="_blank") Join their Discord server
                 |
-                | or 
+                | or
                 |
                 a(href="http://minijamofficial.com/" target="_blank") visit their official site
                 |!
@@ -230,7 +230,7 @@ block body
                         a(href=item.link[0])=item.title
                     p.nmt.meta=`Published on ${item.pubDate}`
                     .aPostImage!=item.image
-                    a.button.nml(href=item.link[0]) 
+                    a.button.nml(href=item.link[0])
                         i.icon-file
                         span   Read more…
     section#share.grey
