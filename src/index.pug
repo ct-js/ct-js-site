@@ -15,18 +15,16 @@ block body
                     and game development easy by its visual editors
                     and well-documented code library. It is available
                     for Windows, Linux, and Mac.
-
-                a.button.nml(href="/download")
-                    i.icon-save
-                    span=`Download v${downloads.version}`
-
-                a.button(href="/download-next")
-                    i.icon-save
-                    span=`v${downloads.versionNext}`
-
-                a.button.dim(href="https://discord.gg/CggbPkb")
-                    i.icon-discord
-                    span   Discord
+                div
+                    a.button.nml(href="/download-next")
+                        i.icon-save
+                        span=`Download v${downloads.versionNext}`
+                    a.button.dim(href="https://discord.gg/CggbPkb" target="_blank")
+                        i.icon-discord
+                        span   Discord
+                    a.button.dim(href="https://github.com/ct-js/ct-js" target="_blank")
+                        i.icon-github
+                        span   GitHub
             .clear
     section#features
         .inner
@@ -199,7 +197,7 @@ block body
                 h2.nmt
                     b It's free!
             .fifty.npr.right
-                a.button(href="/download")
+                a.button(href="/download-next")
                     i.icon-save
                     span   Download
             .clear
