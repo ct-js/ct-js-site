@@ -1,16 +1,16 @@
 nav#theNavBar
-    a(href="/" title="Go to the homepage").hide640
+    a(href="/" title=header[site.locale].gotoHomepage).hide640
         img(src="/img/logoWhiteSmall.png")
     .toright
         a(href="/changelog")
             i.icon-bookmark
-            span Changelog
+            span #{header[site.locale].changelog}
         a(href="https://docs.ctjs.rocks/")
             i.icon-file
-            span   Docs
+            span #{header[site.locale].docs}
         a(href="https://comigo.itch.io/ct/community")
             i.icon-help
-            span   Forum
+            span #{header[site.locale].forum}
         a(href="/download")
             i.icon-save
-            span   Download
+            span #{header[site.locale].download}

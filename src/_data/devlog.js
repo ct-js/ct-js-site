@@ -9,10 +9,12 @@ module.exports = () => {
         .then((response) => {
             // turn the feed XML into JSON
             toJSON(response.data, function (err, result) {
-                for (const post of result.rss.channel[0].item) {
+                const posts = result.rss.channel[0].item;
+                posts.length = Math.min(posts.length, 5);
+                for (const post of posts) {
                     post.image = String(post.description).split('<p>')[0];
                 }
-                resolve({'url': url, 'posts': result.rss.channel[0].item});
+                resolve({'url': url, 'posts': posts});
             });
         })
         .catch((error) => {

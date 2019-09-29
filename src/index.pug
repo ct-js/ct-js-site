@@ -199,7 +199,7 @@ block body
         .clear
     section#devlog
         .inner.limited
-            h2 Devlog
+            h2 Latest in the Devlog
             each item in devlog.posts
                 .aDevlogPost
                     h3.nmb
@@ -209,6 +209,8 @@ block body
                     a.button.nml(href=item.link[0])
                         i.icon-file
                         span   Read more…
+            p
+                a(href="https://comigo.itch.io/ct/devlog") More posts
     section#share.grey
         -
             var url = 'https%3A%2F%2Fctjs.rocks%2F',

@@ -1,22 +1,37 @@
 footer#footer
     .inner
-        p.center
-            span
-                =`© Copyright ${(new Date()).getFullYear()} Cosmo Myzrail Gorynych`
+        .c8.npl.breakon800
+            p.npt.nmt
+                span
+                    =`© Copyright ${(new Date()).getFullYear()}`
+                    |
+                    | #{footer[site.locale].comigo}
+                    |
+                    | —
+                    |
+                    | #{footer[site.locale].siteLicense} #[a(href="/" target="_blank") GPL-3].
+                    |
+                    | #{footer[site.locale].appLicense}
+            p
+                a(href="/") In English
                 |
-                | — the site is licensed under #[a(href="/" target="_blank") GPL-3]. The ct.js app is licensed under MIT license.
-            |
-            |
-            a(href="/contact") Contact
-            br
-            a(href="https://github.com/ct-js/ct-js" title="Fork us on GitHub!")
+                | |
+                |
+                a(href="/ru") На русском
+        .c4.npr.toleft.breakon800
+            a(href="https://github.com/ct-js/ct-js" title=footer[site.locale].forkUs)
                 i.icon-github
             span &nbsp; &nbsp;
-            a(href="https://discord.gg/CggbPkb" title="Join our Discord server!")
+            a(href="https://discord.gg/CggbPkb" title=footer[site.locale].joinServer)
                 i.icon-discord
             span &nbsp; &nbsp;
-            a(href="https://twitter.com/ctjsrocks" title="Follow ct.js on Twitter!")
+            a(href="https://t.me/comigogames" title=footer[site.locale].joinTelegram)
+                i.icon-telegram
+            span &nbsp; &nbsp;
+            a(href="https://twitter.com/ctjsrocks" title=footer[site.locale].twitter)
                 i.icon-twitter
             span &nbsp; &nbsp;
-            a(href="https://www.patreon.com/comigo" title="Support the project on Patreon")
+            a(href="https://www.patreon.com/comigo" title=footer[site.locale].patreon)
                 i.icon-patreon
+            p
+                a(href="/contact")=footer[site.locale].contact
