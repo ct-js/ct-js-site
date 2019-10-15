@@ -8,45 +8,14 @@ block body
             h1 Made with ct.js
     section
         .inner
-            +aCard('I like Dreams', '/img/gameILikeDreams.png', 'https://themysticsword.itch.io/i-like-dreams')
-                p.
-                    A tiny text adventure about dreams.
-                p.nmb.
-                    Explore your dream as far as possible until you wake up.
-            
-            +aCard('Shifted', '/img/gameShifted.png', 'https://comigo.itch.io/shifted')
-                p.
-                    A relaxing jigsaw puzzle. Take a blanket and a cup of tea.
-                p.nmb.
-                    Enjoy dozens of full-HD puzzles in three levels of complexity flavored 
-                    with nice ambient music.
-                    Ultra-casual, calming experience.
-                    3 levels of difficulty.
-            +aCard('Among the Wolves (🌜🌲)', '/img/gameAmongTheWolves.png', 'https://comigo.itch.io/among-the-wolves')
-                p.
-                    A textless survival game made for Mini Jam 11.
-                p.nmb.
-                    Try to survive after crashing on a helicopter in this wild place with wolves, 
-                    almost no food, and with a strange monster howling at night…
+            each game, ind in madeWithCtjs.games
+                +aCard(game.plainTitle, game.imageurl[0], game.link[0])
+                    p=game.description
+                if ind % 3 === 2
+                    .clear
             .clear
-               
-            +aCard('Stormcross', '/img/gameStormcross.png', 'https://comigo.itch.io/stormcross')
-                p.
-                    A game about voyaging the seas, fighting with pirates, surviving storms and everyday heroes.
-                p.nmb.
-                    An unknown disease spread to nearby islands. Your crew with city's only medic took a campaign to stop this illness and save the colony.
-            
-            +aCard('Disposable Magic', '/img/gameDisposableMagic.gif', 'https://comigo.itch.io/disposable-magic')
-                p.
-                    After a long adventure you finally face the Evil Sorcerer…
-                p.nmb.
-                    You find yourself in an epic boss fight! You should use your magic to survive, 
-                    but sticking to one element for long causes you to take lethal damage! 
-                    Change staffs as often as possible, combine powers, and use your powers wisely.
-                    
-            .clear
-                .center
-                    a.button.big(href="/contact") Submit Your Project
+            .center
+                a.button.big(href="/contact") Submit Your Project
     section#downloadCTA.blue.gradient
         .inner
             .fifty.npl
