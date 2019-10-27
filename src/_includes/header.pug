@@ -1,14 +1,17 @@
-- var nDownload     = site.locale != 'en' ? '/' + site.locale + '/download'     : '/download'
-- var nChangelog    = site.locale != 'en' ? '/' + site.locale + '/changelog'    : '/changelog'
+- var nDownload     = site.locale != 'en' ? '/' + site.locale + '/download'  : '/download'
+- var nChangelog    = site.locale != 'en' ? '/' + site.locale + '/changelog' : '/changelog'
+- var nIndex        = site.locale != 'en' ? '/' + site.locale + '/'          : '/'
+- var sLocale       = site.locale == 'br' ? 'pt_br' : site.locale;
+- var nDocs         = site.locale != 'en' ? 'https://docs.ctjs.rocks/' + sLocale : 'https://docs.ctjs.rocks/'
 
 nav#theNavBar
-    a(href="/" title=header[site.locale].gotoHomepage).hide640
+    a(href=nIndex title=header[site.locale].gotoHomepage).hide640
         img(src="/img/logoWhiteSmall.png")
     .toright
         a(href=nChangelog) 
             i.icon-bookmark
             span #{header[site.locale].changelog}
-        a(href="https://docs.ctjs.rocks/")
+        a(href=nDocs)
             i.icon-file
             span #{header[site.locale].docs}
         a(href="https://comigo.itch.io/ct/community")

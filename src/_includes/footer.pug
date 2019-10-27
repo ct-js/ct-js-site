@@ -1,3 +1,5 @@
+- var nContact     = site.locale != 'en' ? '/' + site.locale + '/contact'  : '/contact'
+
 footer#footer
     .inner
         .c8.npl.breakon800
@@ -38,4 +40,4 @@ footer#footer
             a(href="https://www.patreon.com/comigo" title=footer[site.locale].patreon)
                 i.icon-patreon
             p
-                a(href="/contact")=footer[site.locale].contact
+                a(href=nContact)=footer[site.locale].contact
