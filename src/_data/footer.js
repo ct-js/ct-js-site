@@ -10,6 +10,17 @@ module.exports = {
         patreon: 'Support the project on Patreon',
         joinTelegram: 'Follow the news in ComigoGames\' Telegram channel!'
     },
+    br: {
+        comigo: 'Cosmo Myzrail Gorynych',
+        siteLicense: 'o site está sobre licença',
+        appLicense: 'O aplicativo do ct.js está sobre a licença do MIT.',
+        contact: 'Contato',
+        forkUs: 'De um Fork na gente pelo GitHub!',
+        joinServer: 'Entre em nosso discord!',
+        twitter: 'Site o ct.js no Twitter!',
+        patreon: 'De seu suporte nesse projeto pelo Patreon',
+        joinTelegram: 'Siga as noticias pelo ComigoGames\' Canal do Telegram!'
+    },
     ru: {
         comigo: 'Космо Мизраил Горыныч',
         siteLicense: 'сайт выпущен под лицензией',

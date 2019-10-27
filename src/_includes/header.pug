@@ -1,8 +1,11 @@
+- var nDownload     = site.locale != 'en' ? '/' + site.locale + '/download'     : '/download'
+- var nChangelog    = site.locale != 'en' ? '/' + site.locale + '/changelog'    : '/changelog'
+
 nav#theNavBar
     a(href="/" title=header[site.locale].gotoHomepage).hide640
         img(src="/img/logoWhiteSmall.png")
     .toright
-        a(href="/changelog")
+        a(href=nChangelog) 
             i.icon-bookmark
             span #{header[site.locale].changelog}
         a(href="https://docs.ctjs.rocks/")
@@ -11,6 +14,6 @@ nav#theNavBar
         a(href="https://comigo.itch.io/ct/community")
             i.icon-help
             span #{header[site.locale].forum}
-        a(href="/download")
+        a(href=nDownload)
             i.icon-save
             span #{header[site.locale].download}
