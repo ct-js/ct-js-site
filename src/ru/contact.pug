@@ -1,0 +1,29 @@
+extends pugTemplates/basic.pug
+block head
+    title Обратная связь — Ct.js
+    meta(name="description" content="Отправьте письмо разработчику")
+block body
+    section.blue.gradient
+        .inner.center
+            h1 Написать письмо
+    section#contact
+        .inner
+            .c2
+            .c8
+                form(name="contact" method="POST" netlify)
+                    p.fifty.npl
+                        label
+                            span Ваше имя:
+                            input.wide(type="text" name="name")
+                    p.fifty.npr
+                        label
+                            span Ваш емейл:
+                            input.wide(type="email" name="email")
+                    .clear
+                    p.nmt
+                        label
+                            span Сообщение:
+                            textarea.wide(name="message")
+                    p.center
+                        button(type="submit") Отправить
+            .clear

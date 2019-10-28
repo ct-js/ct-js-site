@@ -1,5 +1,10 @@
 module.exports = {
     site: {
-        locale: 'ru'
+        locale: 'ru',
+        links: {
+            download: '/ru/download',
+            contact: '/ru/contact',
+            docs: 'https://docs.ctjs.rocks/ru/'
+        }
     }
 };
