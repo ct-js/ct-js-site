@@ -17,9 +17,9 @@ section
     &.blue
         background act
         &.gradient
-            background linear-gradient(45deg, accent1 0%, act 100%)
+            background linear-gradient(45deg, accent1 0, act 100%)
         &.gradAlt
-            background linear-gradient(45deg, act 0%, accent1 100%)
+            background linear-gradient(45deg, act 0, accent1 100%)
     &.grey
         background bl
     padding 3rem 0
@@ -85,7 +85,7 @@ nav
     &:hover
         {shadamb}
 .aCardMedia
-    margin -1rem -1.5rem 1rem -1.5rem
+    margin -1rem -1.5rem 1rem
     position relative
     img
         {trans}
@@ -118,15 +118,19 @@ nav
         font-size 1.5rem
         line-height 1.5
         margin 0 0 0 1.5rem
-    i
+    .feather
         flex 0 0 auto
         font-size 4rem
+        stroke-width 4
+        color accent1
+        .blue &
+            color white
 
 .ShareButtons
     padding 2rem 0 0
     a
         display inline-block
-        background linear-gradient(45deg, accent1 0%, act 100%)
+        background linear-gradient(45deg, accent1 0, act 100%)
         padding 0.75rem
         border-radius br
         line-height 0
@@ -149,18 +153,3 @@ nav
     border-radius 1rem
     margin 0.5rem 0.5rem 0 0
     color white
-
-.icon, .feather
-    width 1.5rem
-    height 1.5rem
-    vertical-align middle
-    margin-right 0.5rem
-    fill currentColor
-    &:last-child
-        margin-right 0
-.feather
-    stroke currentColor
-    stroke-width 2
-    stroke-linecap round
-    stroke-linejoin round
-    fill none

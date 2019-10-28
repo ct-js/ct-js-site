@@ -23,11 +23,11 @@ block body
                     a.button.dim(href="https://discord.gg/CggbPkb" target="_blank")
                         svg.icon
                             use(xlink:href="/icons.svg#discord")
-                        span   Discord
+                        span Discord
                     a.button.dim(href="https://github.com/ct-js/ct-js" target="_blank")
                         svg.icon
                             use(xlink:href="/icons.svg#github")
-                        span   GitHub
+                        span GitHub
             .clear
     section#features
         .inner
@@ -128,21 +128,24 @@ block body
                         things and use the core ct.js library.
                 .clear
                 .center
-                    a.button.big(href="/madeWithCtjs") Made with ct.js
+                    a.button.big(href="/madeWithCtjs")
+                        svg.feather
+                            use(xlink:href=`/icons.svg#gamepad`)
+                        span Made with ct.js
     section#essencials.blue
         .inner
             h2.center.nmt ct.js has everything you need to build a game
             -
                 var essencials = {
-                    'drag-n-drop2': 'Room / Level editor with tile support',
-                    'code': 'Integrated code editor with error handling',
-                    'layers': 'Collision handling, and other libraries',
-                    'photos': 'Framed & skeletal animations',
+                    'room-editor': 'Room / Level editor with tile support',
+                    'error-handling': 'Integrated code editor with error handling',
+                    'copy': 'Collision handling, and other libraries',
+                    'film': 'Framed & skeletal animations',
                     'music': 'Music & sound manager',
-                    'change-style': 'Styles to reuse GUI settings',
-                    'file': 'Notes & docs in a side panel, on every screen',
-                    'magic-stick': 'Ability to use custom JavaScript',
-                    'rocket': 'Easy packing and deploying'
+                    'type': 'Styles to reuse GUI settings',
+                    'book-open': 'Notes & docs in a side panel, on every screen',
+                    'code': 'Ability to use custom JavaScript',
+                    'package': 'Easy packing and deploying'
                 }
             .anEssencialsList
                 - var i = 0;
@@ -154,21 +157,23 @@ block body
                     - i++;
                     if (i % 3 === 0 && i !== 0)
                         .clear
+                .clear
     section#SOON
         .inner
             h2.center.nmt Coming SOON
             -
                 var essencials = {
-                    'drag-n-drop2': 'New room editor, with live preview and layers',
-                    'image-gallery': 'Basic in-editor image maipulation tools: flipping, resizing, etc.',
-                    'features': 'Custom parameters and copy transforms in the room editor',
-                    'cursor-click': 'UI editor'
+                    'simulation': 'New room editor, with live preview and layers',
+                    'image': 'Basic in-editor image maipulation tools: flipping, resizing, etc.',
+                    'edit': 'Custom parameters and copy transforms in the room editor',
+                    'mouse-pointer': 'UI editor'
                 }
             .anEssencialsList
                 - var i = 0;
                 each val, key in essencials
                     .anEssencial.c6.breakon640
-                        i(class=`icon-${key}`)
+                        svg.feather
+                            use(xlink:href=`/icons.svg#${key}`)
                         p= val
                     - i++;
                     if ((i % 2 === 0 && i !== 0) || i === Object.keys(essencials).length)
@@ -176,7 +181,7 @@ block body
                 .center
                     a.button(href="https://github.com/ct-js/ct-js/projects/1" target="_blank")
                         svg.feather
-                            use(xlink:href="/icons.svg#calendar")
+                            use(xlink:href="/icons.svg#map")
                         span See our roadmap
     section#downloadCTA.blue.gradient
         .inner
@@ -188,7 +193,7 @@ block body
                 a.button(href="/download")
                     svg.feather
                         use(xlink:href="/icons.svg#download")
-                    span   Download
+                    span Download
             .clear
     section#partners.grey
         .c3.breakon960
@@ -220,7 +225,7 @@ block body
                     a.button.nml(href=item.link[0])
                         svg.feather
                             use(xlink:href="/icons.svg#arrow-right")
-                        span   Read more…
+                        span Read more…
             p
                 a(href="https://comigo.itch.io/ct/devlog") More posts
     section#share.grey
