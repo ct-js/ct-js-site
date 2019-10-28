@@ -26,18 +26,27 @@ footer#footer
                 a(href="/br") Em Português
         .c4.npr.right.breakon800
             a(href="https://github.com/ct-js/ct-js" title=footer[site.locale].forkUs)
-                i.icon-github
+                svg.icon
+                    use(xlink:href="/icons.svg#github")
+            span &nbsp; &nbsp;
+            a(href="https://comigo.itch.io/ct" title=footer[site.locale].itch)
+                svg.icon
+                    use(xlink:href="/icons.svg#itch-dot-io")
             span &nbsp; &nbsp;
             a(href="https://discord.gg/CggbPkb" title=footer[site.locale].joinServer)
-                i.icon-discord
+                svg.icon
+                    use(xlink:href="/icons.svg#discord")
             span &nbsp; &nbsp;
             a(href="https://t.me/comigogames" title=footer[site.locale].joinTelegram)
-                i.icon-telegram
+                svg.icon
+                    use(xlink:href="/icons.svg#telegram")
             span &nbsp; &nbsp;
             a(href="https://twitter.com/ctjsrocks" title=footer[site.locale].twitter)
-                i.icon-twitter
+                svg.icon
+                    use(xlink:href="/icons.svg#twitter")
             span &nbsp; &nbsp;
             a(href="https://www.patreon.com/comigo" title=footer[site.locale].patreon)
-                i.icon-patreon
+                svg.icon
+                    use(xlink:href="/icons.svg#patreon")
             p
                 a(href=nContact)=footer[site.locale].contact

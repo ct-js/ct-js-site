@@ -9,14 +9,18 @@ nav#theNavBar
         img(src="/img/logoWhiteSmall.png")
     .toright
         a(href=nChangelog)
-            i.icon-bookmark
+            svg.feather
+                use(xlink:href="/icons.svg#file-text")
             span #{header[site.locale].changelog}
         a(href=nDocs)
-            i.icon-file
+            svg.feather
+                use(xlink:href="/icons.svg#book-open")
             span #{header[site.locale].docs}
         a(href="https://comigo.itch.io/ct/community")
-            i.icon-help
+            svg.feather
+                use(xlink:href="/icons.svg#message-square")
             span #{header[site.locale].forum}
         a(href=nDownload)
-            i.icon-save
+            svg.feather
+                use(xlink:href="/icons.svg#download")
             span #{header[site.locale].download}

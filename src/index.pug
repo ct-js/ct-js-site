@@ -17,13 +17,16 @@ block body
                     for Windows, Linux, and Mac.
                 div
                     a.button.nml(href="/download")
-                        i.icon-save
+                        svg.feather
+                            use(xlink:href="/icons.svg#download")
                         span=`Download ${downloads.version}`
                     a.button.dim(href="https://discord.gg/CggbPkb" target="_blank")
-                        i.icon-discord
+                        svg.icon
+                            use(xlink:href="/icons.svg#discord")
                         span   Discord
                     a.button.dim(href="https://github.com/ct-js/ct-js" target="_blank")
-                        i.icon-github
+                        svg.icon
+                            use(xlink:href="/icons.svg#github")
                         span   GitHub
             .clear
     section#features
@@ -31,7 +34,8 @@ block body
             .aFeatureList
                 .aFeature.c4.center.breakon800
                     div
-                        i.icon-features.huge
+                        svg.feather.huge
+                            use(xlink:href="/icons.svg#module")
                     h3 Highly extensible
                     p.
                         The core library of ct.js is small but powerful
@@ -39,7 +43,8 @@ block body
                         You can write your own modules, too!
                 .aFeature.c4.center.breakon800
                     div
-                        i.icon-smile-face.huge
+                        svg.feather.huge
+                            use(xlink:href="/icons.svg#smile")
                     h3 Easy to learn
                     p.
                         ct.js is accessible and ready-to-use for both
@@ -47,7 +52,8 @@ block body
                         tutorials, and docs.
                 .aFeature.c4.center.breakon800
                     div
-                        i.icon-responsive.huge
+                        svg.feather.huge
+                            use(xlink:href="/icons.svg#crossplatform")
                     h3 Games that run everywhere
                     p.
                         Games created with ct.js run in any modern browser,
@@ -142,7 +148,8 @@ block body
                 - var i = 0;
                 each val, key in essencials
                     .anEssencial.c4.breakon800
-                        i(class=`icon-${key}`)
+                        svg.feather
+                            use(xlink:href=`/icons.svg#${key}`)
                         p= val
                     - i++;
                     if (i % 3 === 0 && i !== 0)
@@ -167,7 +174,10 @@ block body
                     if ((i % 2 === 0 && i !== 0) || i === Object.keys(essencials).length)
                         .clear
                 .center
-                    a.button(href="https://github.com/ct-js/ct-js/projects/1" target="_blank") See our roadmap
+                    a.button(href="https://github.com/ct-js/ct-js/projects/1" target="_blank")
+                        svg.feather
+                            use(xlink:href="/icons.svg#calendar")
+                        span See our roadmap
     section#downloadCTA.blue.gradient
         .inner
             .fifty.npl
@@ -176,7 +186,8 @@ block body
                     b It's free!
             .fifty.npr.right
                 a.button(href="/download")
-                    i.icon-save
+                    svg.feather
+                        use(xlink:href="/icons.svg#download")
                     span   Download
             .clear
     section#partners.grey
@@ -207,7 +218,8 @@ block body
                     p.nmt.meta=`Published on ${item.pubDate}`
                     .aPostImage!=item.image
                     a.button.nml(href=item.link[0])
-                        i.icon-file
+                        svg.feather
+                            use(xlink:href="/icons.svg#arrow-right")
                         span   Read more…
             p
                 a(href="https://comigo.itch.io/ct/devlog") More posts
@@ -244,8 +256,9 @@ mixin aCard(title, image, link)
                 img(src=image)
                 .aCardButton
                     a.button(href=link target="_blank")
-                        i.icon-play
-                        span   Play
+                        svg.feather
+                            use(xlink:href="/icons.svg#play")
+                        span Play
             h4.nmt= title
             if block
                 block

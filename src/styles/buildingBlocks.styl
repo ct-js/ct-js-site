@@ -150,23 +150,17 @@ nav
     margin 0.5rem 0.5rem 0 0
     color white
 
-.anIssue
-    background white
-    border-radius brsmall
-    border 1px solid bd
-    margin 0 0 1rem
-    padding 1rem
-    cursor pointer
-    {trans}
-    h4
-        {trans}
-    .anIssueDescription
-        display none
-    &.active .anIssueDescription
-        display block
-    &:hover
-        {shad}
-    &.active
-        border-color act
-        h4
-            @extends h3
+.icon, .feather
+    width 1.5rem
+    height 1.5rem
+    vertical-align middle
+    margin-right 0.5rem
+    fill currentColor
+    &:last-child
+        margin-right 0
+.feather
+    stroke currentColor
+    stroke-width 2
+    stroke-linecap round
+    stroke-linejoin round
+    fill none

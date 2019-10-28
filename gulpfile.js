@@ -1,10 +1,11 @@
-var gulp  = require('gulp');
-var shell = require('gulp-shell');
-var uglify  = require('gulp-uglify');
-var concat  = require('gulp-concat');
-var pump = require('pump');
-var stylus = require('gulp-stylus');
-var sourcemaps = require('gulp-sourcemaps');
+const gulp  = require('gulp'),
+      shell = require('gulp-shell'),
+      uglify  = require('gulp-uglify'),
+      concat  = require('gulp-concat'),
+      pump = require('pump'),
+      stylus = require('gulp-stylus'),
+      sourcemaps = require('gulp-sourcemaps'),
+      sprite = require('gulp-svgstore');
 
 const project = {
     buildDest: './dist',
@@ -38,11 +39,19 @@ gulp.task('styles', function() {
 gulp.task('watch', function () {
   gulp.watch(project.buildSrc + '/js/**/*', gulp.parallel('scripts'));
   gulp.watch(project.buildSrc + '/styles/**/*', gulp.parallel('styles'));
+  gulp.watch(project.buildSrc + '/icons/**/*.svg', gulp.parallel('icons'));
 });
+
+gulp.task('icons', () =>
+    gulp.src(project.buildSrc + '/icons/**/*.svg')
+    .pipe(sprite())
+    .pipe(gulp.dest(project.buildDest + '/'))
+);
 
 gulp.task('assets', gulp.parallel(
   'styles',
-  'scripts'
+  'scripts',
+  'icons'
 ));
 gulp.task('generate', shell.task('eleventy'));
 gulp.task('build', gulp.series(
