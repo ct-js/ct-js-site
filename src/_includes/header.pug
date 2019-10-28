@@ -1,14 +1,14 @@
-- var nDownload     = site.locale != 'en' ? '/' + site.locale + '/download'  : '/download'
-- var nChangelog    = site.locale != 'en' ? '/' + site.locale + '/changelog' : '/changelog'
-- var nIndex        = site.locale != 'en' ? '/' + site.locale + '/'          : '/'
-- var sLocale       = site.locale == 'br' ? 'pt_br' : site.locale;
-- var nDocs         = site.locale != 'en' ? 'https://docs.ctjs.rocks/' + sLocale : 'https://docs.ctjs.rocks/'
+-
+    var nDownload = site.links && site.links.download || '/download',
+        nChangelog = site.links && site.links.changelog || '/changelog',
+        nDocs = site.links && site.links.docs || 'https://docs.ctjs.rocks/',
+        nIndex = site.locale !== 'en' ? `/${site.locale}/` : '/';
 
 nav#theNavBar
     a(href=nIndex title=header[site.locale].gotoHomepage).hide640
         img(src="/img/logoWhiteSmall.png")
     .toright
-        a(href=nChangelog) 
+        a(href=nChangelog)
             i.icon-bookmark
             span #{header[site.locale].changelog}
         a(href=nDocs)
