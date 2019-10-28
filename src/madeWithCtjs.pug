@@ -1,11 +1,11 @@
 extends pugTemplates/basic.pug
 block head
-    title Games made with ct.js — Ct.js
-    meta(name="description" content="Games created with ct.js, a free 2D game editor based on web technologies.")
+    title=i18n.madeWithCtjs[site.locale].pageTitle
+    meta(name="description" content=i18n.madeWithCtjs[site.locale].pageDescription)
 block body
     section.blue.gradient
         .inner.center
-            h1 Made with ct.js
+            h1=i18n.madeWithCtjs[site.locale].madeWithCths
     section
         .inner
             each game, ind in madeWithCtjs.games
@@ -15,17 +15,17 @@ block body
                     .clear
             .clear
             .center
-                a.button.big(href="/contact") Submit Your Project
+                a.button.big(href="/contact")=i18n.madeWithCtjs[site.locale].submitProject
     section#downloadCTA.blue.gradient
         .inner
             .fifty.npl
-                .hSub Join the world of game development
+                .hSub=i18n.madeWithCtjs[site.locale].joinGamedev
                 h2.nmt
-                    b It's free!
+                    b=i18n.madeWithCtjs[site.locale].gamedevIsFree
             .fifty.npr.right
                 a.button(href="/download")
                     i.icon-save
-                    span Download
+                    span=i18n.madeWithCtjs[site.locale].download
             .clear
 mixin aCard(title, image, link)
     .c4
@@ -35,7 +35,7 @@ mixin aCard(title, image, link)
                 .aCardButton
                     a.button(href=link target="_blank")
                         i.icon-play
-                        span Play
+                        span=i18n.madeWithCtjs[site.locale].play
             h4.nmt= title
             if block
                 block
