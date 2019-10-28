@@ -7,13 +7,13 @@ footer#footer
                 span
                     =`© Copyright ${(new Date()).getFullYear()}`
                     |
-                    | #{footer[site.locale].comigo}
+                    | #{i18n.footer[site.locale].comigo}
                     |
                     | —
                     |
-                    | #{footer[site.locale].siteLicense} #[a(href="https://github.com/ct-js/ct-js-site/raw/master/LICENSE" target="_blank") GPL-3].
+                    | #{i18n.footer[site.locale].siteLicense} #[a(href="https://github.com/ct-js/ct-js-site/raw/master/LICENSE" target="_blank") GPL-3].
                     |
-                    | #{footer[site.locale].appLicense}
+                    | #{i18n.footer[site.locale].appLicense}
             p
                 a(href="/") In English
                 |
@@ -25,28 +25,28 @@ footer#footer
                 |
                 a(href="/br") Em Português
         .c4.npr.right.breakon800
-            a(href="https://github.com/ct-js/ct-js" title=footer[site.locale].forkUs)
+            a(href="https://github.com/ct-js/ct-js" title=i18n.footer[site.locale].forkUs)
                 svg.icon
                     use(xlink:href="/icons.svg#github")
             span &nbsp; &nbsp;
-            a(href="https://comigo.itch.io/ct" title=footer[site.locale].itch)
+            a(href="https://comigo.itch.io/ct" title=i18n.footer[site.locale].itch)
                 svg.icon
                     use(xlink:href="/icons.svg#itch-dot-io")
             span &nbsp; &nbsp;
-            a(href="https://discord.gg/CggbPkb" title=footer[site.locale].joinServer)
+            a(href="https://discord.gg/CggbPkb" title=i18n.footer[site.locale].joinServer)
                 svg.icon
                     use(xlink:href="/icons.svg#discord")
             span &nbsp; &nbsp;
-            a(href="https://t.me/comigogames" title=footer[site.locale].joinTelegram)
+            a(href="https://t.me/comigogames" title=i18n.footer[site.locale].joinTelegram)
                 svg.icon
                     use(xlink:href="/icons.svg#telegram")
             span &nbsp; &nbsp;
-            a(href="https://twitter.com/ctjsrocks" title=footer[site.locale].twitter)
+            a(href="https://twitter.com/ctjsrocks" title=i18n.footer[site.locale].twitter)
                 svg.icon
                     use(xlink:href="/icons.svg#twitter")
             span &nbsp; &nbsp;
-            a(href="https://www.patreon.com/comigo" title=footer[site.locale].patreon)
+            a(href="https://www.patreon.com/comigo" title=i18n.footer[site.locale].patreon)
                 svg.icon
                     use(xlink:href="/icons.svg#patreon")
             p
-                a(href=nContact)=footer[site.locale].contact
+                a(href=nContact)=i18n.footer[site.locale].contact

@@ -20,11 +20,12 @@ block body
                         i.icon-save
                         span=`Скачать ${downloads.version}`
                     a.button.dim(href="https://discord.gg/CggbPkb" target="_blank")
-                        i.icon-discord
-                        span   Discord
+                        svg.icon
+                            use(xlink:href=`/icons.svg#discord`)
+                        span Discord
                     a.button.dim(href="https://github.com/ct-js/ct-js" target="_blank")
                         i.icon-github
-                        span   GitHub
+                        span GitHub
             .clear
     section#features
         .inner
@@ -178,7 +179,7 @@ block body
             .fifty.npr.right
                 a.button(href="/ru/download")
                     i.icon-save
-                    span   Скачать
+                    span Скачать
             .clear
     section#partners.grey
         .c3.breakon960
@@ -208,8 +209,9 @@ block body
                     p.nmt.meta=`Published on ${item.pubDate}`
                     .aPostImage!=item.image
                     a.button.nml(href=item.link[0])
-                        i.icon-file
-                        span   Читать дальше…
+                        svg.feather
+                            use(xlink:href=`/icons.svg#arrow-right`)
+                        span Читать дальше…
             p
                 a(href="https://comigo.itch.io/ct/devlog") Все посты
     section#share.grey
@@ -246,7 +248,7 @@ mixin aCard(title, image, link)
                 .aCardButton
                     a.button(href=link target="_blank")
                         i.icon-play
-                        span   Играть
+                        span Играть
             h4.nmt= title
             if block
                 block

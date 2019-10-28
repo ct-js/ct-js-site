@@ -1,35 +1,38 @@
 extends pugTemplates/basic.pug
 block head
-    title Download ct.js
-    meta(name="description" content="Download a free 2D game editor from its official site.")
+    title=i18n.downloadPage[site.locale].pageTitle
+    meta(name="description" content=i18n.downloadPage[site.locale].pageDescription)
 block body
     section.blue#downloads
         .inner
             h2.center
-                b Welcome aboard!
+                b=i18n.downloadPage[site.locale].welcomeAboard
             .aCardList.white
                 .c4.breakon800
                     .aCard.center
-                        i.icon-windows.huge
-                        h3 Windows
-                        p Windows 7 and higher. Unzip and run ctjs.exe
-                        a.button(href=downloads.win64) Download x64
-                        a.button.small(href=downloads.win32) Download x32
+                        svg.feather.huge
+                            use(xlink:href=`/icons.svg#windows`)
+                        h3=i18n.downloadPage[site.locale].windows
+                        p=i18n.downloadPage[site.locale].windowsInstructions
+                        a.button(href=downloads.win64)=i18n.downloadPage[site.locale].downloadx64
+                        a.button.small(href=downloads.win32)=i18n.downloadPage[site.locale].downloadx32
                 .c4.breakon800
                     .aCard.center
-                        i.icon-laptop.huge
-                        h3 Linux
-                        p Unpack, mark 'ctjs' as an executable and run ./ctjs
-                        a.button(href=downloads.linux64) Download x64
-                        a.button.small(href=downloads.linux32) Download x32
+                        svg.feather.huge
+                            use(xlink:href=`/icons.svg#monitor`)
+                        h3=i18n.downloadPage[site.locale].linux
+                        p=i18n.downloadPage[site.locale].linuxInstructions
+                        a.button(href=downloads.linux64)=i18n.downloadPage[site.locale].downloadx64
+                        a.button.small(href=downloads.linux32)=i18n.downloadPage[site.locale].downloadx32
                 .c4.breakon800
                     .aCard.center
-                        i.icon-apple.huge
-                        h3 Mac
-                        p Untested, but should work. Use at your own risk!
-                        a.button(href=downloads.mac64) Download x64
+                        svg.feather.huge
+                            use(xlink:href=`/icons.svg#apple`)
+                        h3=i18n.downloadPage[site.locale].mac
+                        p=i18n.downloadPage[site.locale].macInstructions
+                        a.button(href=downloads.mac64)=i18n.downloadPage[site.locale].downloadx64
             .clear
             .center
-                p.hSub or get ct.js now on itch.io
+                p.hSub=i18n.downloadPage[site.locale].getFromItch
                 iframe(src="https://itch.io/embed/238348?bg_color=ffffff&fg_color=222222&link_color=446adb&border_color=cccccc" width="552" height="167" frameborder="0")
     include /whatsnext.pug

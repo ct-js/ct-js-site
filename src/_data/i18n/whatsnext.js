@@ -44,7 +44,7 @@ module.exports = {
         readTheDocs: 'Посети сайт документации',
         completeTutorials: 'Пройди туториалы и изучи основную библиотеку ct.js',
 
-        joinCommunity: 'Присоединяйся к сообществу',
+        joinCommunity: 'Присоединяйся к сообществу',
         getHelp: 'В нём можно получить поддержку и познакомиться с другими разработчиками',
         discordButton: 'Discord-сервер',
         forumButton: 'Форум',

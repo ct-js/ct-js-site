@@ -5,22 +5,22 @@
         nIndex = site.locale !== 'en' ? `/${site.locale}/` : '/';
 
 nav#theNavBar
-    a(href=nIndex title=header[site.locale].gotoHomepage).hide640
+    a(href=nIndex title=i18n.header[site.locale].gotoHomepage).hide640
         img(src="/img/logoWhiteSmall.png")
     .toright
         a(href=nChangelog)
             svg.feather
                 use(xlink:href="/icons.svg#file-text")
-            span #{header[site.locale].changelog}
+            span #{i18n.header[site.locale].changelog}
         a(href=nDocs)
             svg.feather
                 use(xlink:href="/icons.svg#book-open")
-            span #{header[site.locale].docs}
+            span #{i18n.header[site.locale].docs}
         a(href="https://comigo.itch.io/ct/community")
             svg.feather
                 use(xlink:href="/icons.svg#message-square")
-            span #{header[site.locale].forum}
+            span #{i18n.header[site.locale].forum}
         a(href=nDownload)
             svg.feather
                 use(xlink:href="/icons.svg#download")
-            span #{header[site.locale].download}
+            span #{i18n.header[site.locale].download}
