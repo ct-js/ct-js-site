@@ -1,0 +1,41 @@
+extends pugTemplates/basic.pug
+block head
+    title Jogos feitos com ct.js — Ct.js
+    meta(name="description" content="Jogos criados com o ct.js, um editor de jogos 2D grátis baseado em tecnologias de web.")
+block body
+    section.blue.gradient
+        .inner.center
+            h1 Feito com ct.js
+    section
+        .inner
+            each game, ind in madeWithCtjs.games
+                +aCard(game.plainTitle, game.imageurl[0], game.link[0])
+                    p=game.description
+                if ind % 3 === 2
+                    .clear
+            .clear
+            .center
+                a.button.big(href="/contact") Envie seu projeto
+    section#downloadCTA.blue.gradient
+        .inner
+            .fifty.npl
+                .hSub Entre no mundo de desenvolvimentos de jogos
+                h2.nmt
+                    b é grátis!
+            .fifty.npr.right
+                a.button(href="/download")
+                    i.icon-save
+                    span   Baixar
+            .clear
+mixin aCard(title, image, link)
+    .c4
+        .aCard
+            .aCardMedia
+                img(src=image)
+                .aCardButton
+                    a.button(href=link target="_blank")
+                        i.icon-play
+                        span   Jogar
+            h4.nmt= title
+            if block
+                block

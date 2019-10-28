@@ -1,3 +1,5 @@
+- var nContact = site.links && site.links.contact || '/contact';
+
 footer#footer
     .inner
         .c8.npl.breakon800
@@ -18,6 +20,10 @@ footer#footer
                 | |
                 |
                 a(href="/ru") На русском
+                |
+                | |
+                |
+                a(href="/br") Em Português
         .c4.npr.right.breakon800
             a(href="https://github.com/ct-js/ct-js" title=footer[site.locale].forkUs)
                 i.icon-github
@@ -34,4 +40,4 @@ footer#footer
             a(href="https://www.patreon.com/comigo" title=footer[site.locale].patreon)
                 i.icon-patreon
             p
-                a(href="/contact")=footer[site.locale].contact
+                a(href=nContact)=footer[site.locale].contact
