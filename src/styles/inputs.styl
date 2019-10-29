@@ -52,3 +52,35 @@ button, .button
             color white
             i
                 color white
+
+.aSelect
+    position relative
+    opacity 1 !important
+    & > .feather.small
+        margin 0 0 0 0.25rem
+    .Options
+        opacity 0
+        position absolute
+        left 3rem
+        top 100%
+        padding 1rem 0.5rem
+        background white
+        box-shadow 0 1rem 2rem rgba(black, 0.25)
+        visibility hidden
+        border-radius 0.5rem
+        transform translate(-50%, 0)
+        transition 0.3s 0.3s ease all
+        width max-content
+        text-align center
+    &:hover .Options
+        visibility visible
+        opacity 1
+        transform translate(-50%, 0.5rem)
+        {trans}
+    .anOption, .anOption a
+        color act
+        display block
+        &:hover
+            color accent1
+    .anOption
+        padding 0.75rem 0.5rem

@@ -8,6 +8,20 @@ nav#theNavBar
     a(href=nIndex title=i18n.header[site.locale].gotoHomepage).hide640
         img(src="/img/logoWhiteSmall.png")
     .toright
+        .a.aSelect
+            svg.icon
+                use(xlink:href="/icons.svg#translate")
+            span=i18n.header[site.locale].language
+            svg.feather.small.thin
+                use(xlink:href=`/icons.svg#chevron-down`)
+            .Options
+                .anOption
+                    a(href="/") In English
+                .anOption
+                    a(href="/ru") На русском
+                .anOption
+                    a(href="/br") Em Português
+
         a(href=nChangelog)
             svg.feather
                 use(xlink:href="/icons.svg#file-text")
