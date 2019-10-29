@@ -15,7 +15,11 @@ block body
                     .clear
             .clear
             .center
-                a.button.big(href="/contact")=i18n.madeWithCtjs[site.locale].submitProject
+                - var nContact = site.links && site.links.contact || '/contact';
+                a.button.big(href=nContact)
+                    svg.feather
+                        use(xlink:href="/icons.svg#send")
+                    span=i18n.madeWithCtjs[site.locale].submitProject
     include /joinGamedev.pug
 mixin aCard(title, image, link)
     .c4
@@ -24,7 +28,8 @@ mixin aCard(title, image, link)
                 img(src=image)
                 .aCardButton
                     a.button(href=link target="_blank")
-                        i.icon-play
+                        svg.feather
+                            use(xlink:href="/icons.svg#play")
                         span=i18n.madeWithCtjs[site.locale].play
             h4.nmt= title
             if block

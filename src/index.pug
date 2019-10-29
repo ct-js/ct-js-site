@@ -3,6 +3,7 @@ block head
     title=i18n.homepage[site.locale].pageTitle
     meta(name="description" content=i18n.homepage[site.locale].pageDescription)
 block body
+    - var nDownload = site.links && site.links.download || '/download'
     section.intro#intro.blue.gradient
         .inner
             .c5.breakon640
@@ -12,7 +13,7 @@ block body
                     em=i18n.homepage[site.locale].yourNewEditor
                 p.big=i18n.homepage[site.locale].punchline
                 div
-                    a.button.nml(href="/download")
+                    a.button.nml(href=nDownload)
                         svg.feather
                             use(xlink:href="/icons.svg#download")
                         span=`${i18n.homepage[site.locale].download} ${downloads.version}`
@@ -102,7 +103,8 @@ block body
                     p.nmb=i18n.homepage[site.locale].memocatsP2
                 .clear
                 .center
-                    a.button.big(href="/madeWithCtjs")
+                    - var nMadeWithCt = site.links && site.links.madeWithCtjs || '/madeWithCtjs'
+                    a.button.big(href=nMadeWithCt)
                         svg.feather
                             use(xlink:href=`/icons.svg#gamepad`)
                         span=i18n.homepage[site.locale].madeWithCtjs
