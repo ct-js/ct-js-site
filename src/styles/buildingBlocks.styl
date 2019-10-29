@@ -29,7 +29,7 @@ section
     @extends section
     padding 1rem 0
     background dark
-    color bl
+    color lighten(dark, 60%)
 .inner
     max-width 1140px
     margin 0 auto
@@ -62,19 +62,23 @@ nav
         .toright a
             padding 0.25rem 0
 nav, #footer
-    a
+    a, .a
         text-decoration none
+        cursor pointer
         display inline-block
-        span
-            margin-left 0.5rem
-        i
+        .icon, .feather
             color white
         &:hover
             color white
             opacity 0.65
 nav
-    a + a
-        margin-left 2rem
+    a, .a
+        margin-right 2rem
+        &:last-child
+            margin-right 0
+#footer
+    a, .a
+        color white
 .aCard
     background white
     {shad}

@@ -25,5 +25,8 @@ block body
                             span Message:
                             textarea.wide(name="message")
                     p.center
-                        button(type="submit") Send
+                        button(type="submit").nmr
+                            svg.feather
+                                use(xlink:href="/icons.svg#send")
+                            span Send
             .clear

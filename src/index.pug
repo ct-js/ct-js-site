@@ -9,9 +9,9 @@ block body
             .c5.breakon640
                 img(src="/img/logoWhite.png" title=i18n.homepage[site.locale].logoAlt)
             .c7.breakon640
-                h1.nmt.npb
+                h1.nm.npt
                     em=i18n.homepage[site.locale].yourNewEditor
-                p.big=i18n.homepage[site.locale].punchline
+                p.big.nmt=i18n.homepage[site.locale].punchline
                 div
                     a.button.nml(href=nDownload)
                         svg.feather
@@ -115,7 +115,7 @@ block body
                 var essencials = {
                     'room-editor': i18n.homepage[site.locale].essentials.roomEditor,
                     'error-handling': i18n.homepage[site.locale].essentials.codeEditor,
-                    'copy': i18n.homepage[site.locale].essentials.collisionHandling,
+                    'collision': i18n.homepage[site.locale].essentials.collisionHandling,
                     'film': i18n.homepage[site.locale].essentials.animations,
                     'music': i18n.homepage[site.locale].essentials.sounds,
                     'type': i18n.homepage[site.locale].essentials.styles,
@@ -185,7 +185,7 @@ block body
                 .aDevlogPost
                     h3.nmb
                         a(href=item.link[0])=item.title
-                    p.nmt.meta=`Published on ${item.pubDate}`
+                    p.nmt.meta=`${item.pubDate}`
                     .aPostImage!=item.image
                     a.button.nml(href=item.link[0])
                         svg.feather
