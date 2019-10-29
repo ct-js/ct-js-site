@@ -313,13 +313,17 @@ for size in 960 800 640 480
             display initial
         .lefton{size}
             text-align left
-        .breakon{size}
+        .centeron{size}
+            text-align center
+        .breakon{size}.breakon{size}
             display block !important
             float none
             width 100%
             box-sizing border-box
             padding-left 0
             padding-right 0
+            margin-left 0
+            margin-right 0
 
 /* Placeholder unification and input font inheritance */
 input

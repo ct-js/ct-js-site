@@ -126,10 +126,10 @@ block body
             .anEssencialsList
                 - var i = 0;
                 each val, key in essencials
-                    .anEssencial.c4.breakon800
+                    .anEssencial.c4.breakon960.centeron960
                         svg.feather
                             use(xlink:href=`/icons.svg#${key}`)
-                        p= val
+                        p.breakon960= val
                     - i++;
                     if (i % 3 === 0 && i !== 0)
                         .clear
@@ -147,10 +147,10 @@ block body
             .anEssencialsList
                 - var i = 0;
                 each val, key in soon
-                    .anEssencial.c6.breakon640
+                    .anEssencial.c6.breakon800.centeron800
                         svg.feather
                             use(xlink:href=`/icons.svg#${key}`)
-                        p= val
+                        p.breakon800= val
                     - i++;
                     if ((i % 2 === 0 && i !== 0) || i === Object.keys(soon).length)
                         .clear
