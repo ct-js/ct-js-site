@@ -16,17 +16,7 @@ block body
             .clear
             .center
                 a.button.big(href="/contact")=i18n.madeWithCtjs[site.locale].submitProject
-    section#downloadCTA.blue.gradient
-        .inner
-            .fifty.npl
-                .hSub=i18n.madeWithCtjs[site.locale].joinGamedev
-                h2.nmt
-                    b=i18n.madeWithCtjs[site.locale].gamedevIsFree
-            .fifty.npr.right
-                a.button(href="/download")
-                    i.icon-save
-                    span=i18n.madeWithCtjs[site.locale].download
-            .clear
+    include /joinGamedev.pug
 mixin aCard(title, image, link)
     .c4
         .aCard
