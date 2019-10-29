@@ -1,33 +1,29 @@
 extends pugTemplates/basic.pug
 block head
-    title Ct.js — a free game editor
-    meta(name="description" content="A free 2D game editor based on web technologies.")
+    title=i18n.homepage[site.locale].pageTitle
+    meta(name="description" content=i18n.homepage[site.locale].pageDescription)
 block body
     section.intro#intro.blue.gradient
         .inner
             .c5.breakon640
-                img(src="/img/logoWhite.png" title="A ct.js logo. Ct.js is a free alternative to Game Maker, Construct and others")
+                img(src="/img/logoWhite.png" title=i18n.homepage[site.locale].logoAlt)
             .c7.breakon640
                 h1.nmt.npb
-                    em Your new 2D game editor
-                p.big.
-                    ct.js aims to make learning programming fun
-                    and game development easy by its visual editors
-                    and well-documented code library. It is available
-                    for Windows, Linux, and Mac.
+                    em=i18n.homepage[site.locale].yourNewEditor
+                p.big=i18n.homepage[site.locale].punchline
                 div
                     a.button.nml(href="/download")
                         svg.feather
                             use(xlink:href="/icons.svg#download")
-                        span=`Download ${downloads.version}`
+                        span=`${i18n.homepage[site.locale].download} ${downloads.version}`
                     a.button.dim(href="https://discord.gg/CggbPkb" target="_blank")
                         svg.icon
                             use(xlink:href="/icons.svg#discord")
-                        span Discord
+                        span=i18n.homepage[site.locale].discord
                     a.button.dim(href="https://github.com/ct-js/ct-js" target="_blank")
                         svg.icon
                             use(xlink:href="/icons.svg#github")
-                        span GitHub
+                        span=i18n.homepage[site.locale].github
             .clear
     section#features
         .inner
@@ -36,36 +32,27 @@ block body
                     div
                         svg.feather.huge
                             use(xlink:href="/icons.svg#module")
-                    h3 Highly extensible
-                    p.
-                        The core library of ct.js is small but powerful
-                        and can be easily extended in one click by modules.
-                        You can write your own modules, too!
+                    h3=i18n.homepage[site.locale].extensible
+                    p=i18n.homepage[site.locale].paragraphExtensible
                 .aFeature.c4.center.breakon800
                     div
                         svg.feather.huge
                             use(xlink:href="/icons.svg#smile")
-                    h3 Easy to learn
-                    p.
-                        ct.js is accessible and ready-to-use for both
-                        newbies and pros. It is bundled with examples,
-                        tutorials, and docs.
+                    h3=i18n.homepage[site.locale].easyToLearn
+                    p=i18n.homepage[site.locale].paragraphEasyToLearn
                 .aFeature.c4.center.breakon800
                     div
                         svg.feather.huge
                             use(xlink:href="/icons.svg#crossplatform")
-                    h3 Games that run everywhere
-                    p.
-                        Games created with ct.js run in any modern browser,
-                        including mobile ones. You can also pack your game
-                        as an executable for Windows, Mac, and Linux!
+                    h3=i18n.homepage[site.locale].runsEverywhere
+                    p=i18n.homepage[site.locale].paragraphRunsEverywhere
                 .clear
     section#slider.blue
         .inner
             h2.center.nmt
-                | ct.js is an extensible library
+                | #{i18n.homepage[site.locale].extensiveLibrary}
                 br
-                | coupled with a visual workflow
+                | #{i18n.homepage[site.locale].visualWorkflow}
             p
         .aSlider
             each val in [1, 2, 3, 4, 5, 6, 7]
@@ -101,51 +88,38 @@ block body
     section.grey#demos
         .inner
             .center
-                h2.nmt Our demos
-                .hSub Each demo is open-source and is bundled with ct.js
+                h2.nmt=i18n.homepage[site.locale].demos
+                .hSub=i18n.homepage[site.locale].demosSubheading
             .aCardList
-                +aCard("Greed — a small silly platformer", "/img/demoCatformer.png", "https://comigo.itch.io/catformer")
-                    p.
-                        Collect all the coins on the map!
-                    p.nmb.
-                        This demo shows how to create a side-view world
-                        by playing sprite animations, transforming copies,
-                        creating simple enemies, handling player's
-                        keyboard input and detecting collisions.
-                +aCard("Catsteroids — a space shooter", "/img/demoCatsteroids.png", "https://comigo.itch.io/catsteroids")
-                    p.
-                        Fly through space, collect bonuses, earn score points
-                        and destroy asteroids and enemy ships!
-                    p.nmb.
-                        This demo shows how to handle keyboard input,
-                        create basic menus, handle collisions
-                        and create new objects during the playtime.
-                +aCard("Memocats — a memory puzzle", "/img/demoMemocats.png", "https://comigo.itch.io/memocats")
-                    p.
-                        Find identical cards to clear the board.
-                    p.nmb.
-                        This demo shows how to play sounds, animate
-                        things and use the core ct.js library.
+                +aCard(i18n.homepage[site.locale].greed, "/img/demoCatformer.png", "https://comigo.itch.io/catformer")
+                    p=i18n.homepage[site.locale].greedP1
+                    p.nmb=i18n.homepage[site.locale].greedP2
+                +aCard(i18n.homepage[site.locale].catsteroids, "/img/demoCatsteroids.png", "https://comigo.itch.io/catsteroids")
+                    p=i18n.homepage[site.locale].catsteroidsP1
+                    p.nmb=i18n.homepage[site.locale].catsteroidsP2
+                +aCard(i18n.homepage[site.locale].memocats, "/img/demoMemocats.png", "https://comigo.itch.io/memocats")
+                    p=i18n.homepage[site.locale].memocatsP1
+                    p.nmb=i18n.homepage[site.locale].memocatsP2
                 .clear
                 .center
                     a.button.big(href="/madeWithCtjs")
                         svg.feather
                             use(xlink:href=`/icons.svg#gamepad`)
-                        span Made with ct.js
+                        span=i18n.homepage[site.locale].madeWithCtjs
     section#essencials.blue
         .inner
-            h2.center.nmt ct.js has everything you need to build a game
+            h2.center.nmt=i18n.homepage[site.locale].everythingYouNeedHeader
             -
                 var essencials = {
-                    'room-editor': 'Room / Level editor with tile support',
-                    'error-handling': 'Integrated code editor with error handling',
-                    'copy': 'Collision handling, and other libraries',
-                    'film': 'Framed & skeletal animations',
-                    'music': 'Music & sound manager',
-                    'type': 'Styles to reuse GUI settings',
-                    'book-open': 'Notes & docs in a side panel, on every screen',
-                    'code': 'Ability to use custom JavaScript',
-                    'package': 'Easy packing and deploying'
+                    'room-editor': i18n.homepage[site.locale].essentials.roomEditor,
+                    'error-handling': i18n.homepage[site.locale].essentials.codeEditor,
+                    'copy': i18n.homepage[site.locale].essentials.collisionHandling,
+                    'film': i18n.homepage[site.locale].essentials.animations,
+                    'music': i18n.homepage[site.locale].essentials.sounds,
+                    'type': i18n.homepage[site.locale].essentials.styles,
+                    'book-open': i18n.homepage[site.locale].essentials.docs,
+                    'code': i18n.homepage[site.locale].essentials.customJS,
+                    'package': i18n.homepage[site.locale].essentials.easyPacking
                 }
             .anEssencialsList
                 - var i = 0;
@@ -160,62 +134,51 @@ block body
                 .clear
     section#SOON
         .inner
-            h2.center.nmt Coming SOON
+            h2.center.nmt=i18n.homepage[site.locale].essentials.comingSoon
             -
-                var essencials = {
-                    'simulation': 'New room editor, with live preview and layers',
-                    'image': 'Basic in-editor image maipulation tools: flipping, resizing, etc.',
-                    'edit': 'Custom parameters and copy transforms in the room editor',
-                    'mouse-pointer': 'UI editor'
+                var soon = {
+                    'simulation': i18n.homepage[site.locale].soon.newRoomEditor,
+                    'image': i18n.homepage[site.locale].soon.imageEditing,
+                    'edit': i18n.homepage[site.locale].soon.customParameters,
+                    'mouse-pointer': i18n.homepage[site.locale].soon.uiEditor
                 }
             .anEssencialsList
                 - var i = 0;
-                each val, key in essencials
+                each val, key in soon
                     .anEssencial.c6.breakon640
                         svg.feather
                             use(xlink:href=`/icons.svg#${key}`)
                         p= val
                     - i++;
-                    if ((i % 2 === 0 && i !== 0) || i === Object.keys(essencials).length)
+                    if ((i % 2 === 0 && i !== 0) || i === Object.keys(soon).length)
                         .clear
                 .center
-                    a.button(href="https://github.com/ct-js/ct-js/projects/1" target="_blank")
+                    a.button(href="https://github.com/orgs/ct-js/projects/1" target="_blank")
                         svg.feather
                             use(xlink:href="/icons.svg#map")
-                        span See our roadmap
-    section#downloadCTA.blue.gradient
-        .inner
-            .fifty.npl
-                .hSub Join the world of game development
-                h2.nmt
-                    b It's free!
-            .fifty.npr.right
-                a.button(href="/download")
-                    svg.feather
-                        use(xlink:href="/icons.svg#download")
-                    span Download
-            .clear
+                        span=i18n.homepage[site.locale].seeRoadmap
+    include /joinGamedev.pug
     section#partners.grey
         .c3.breakon960
         .c6.center.breakon960
-            h2.nmt Our Partner
+            h2.nmt=i18n.homepage[site.locale].partners
 
             img#theMiniJamLogo(src="/img/minijamlogo.png")
 
             p.big.nmb
-                | Mini Jam is an open recurring game jam that is held every two weeks on itch.io.
+                | #{i18n.homepage[site.locale].miniJam.description}
                 |
                 |
-                a(href="https://discord.gg/kgzG645" target="_blank") Join their Discord server
+                a(href="https://discord.gg/kgzG645" target="_blank")=i18n.homepage[site.locale].miniJam.joinServer
                 |
-                | or
+                | #{i18n.homepage[site.locale].miniJam.or}
                 |
-                a(href="http://minijamofficial.com/" target="_blank") visit their official site
+                a(href="http://minijamofficial.com/" target="_blank")=i18n.homepage[site.locale].miniJam.visitSite
                 |!
         .clear
     section#devlog
         .inner.limited
-            h2 Latest in the Devlog
+            h2=i18n.homepage[site.locale].devlog.latest
             each item in devlog.posts
                 .aDevlogPost
                     h3.nmb
@@ -225,35 +188,10 @@ block body
                     a.button.nml(href=item.link[0])
                         svg.feather
                             use(xlink:href="/icons.svg#arrow-right")
-                        span Read more…
+                        span=i18n.homepage[site.locale].devlog.readMore
             p
-                a(href="https://comigo.itch.io/ct/devlog") More posts
-    section#share.grey
-        -
-            var url = 'https%3A%2F%2Fctjs.rocks%2F',
-                title = 'ct.js%20%E2%80%94%20a%20free%20game%20editor';
-        .inner.center
-            h2.nmt Help ct.js grow!
-            .hSub Tell your friends about it
-            .ShareButtons
-                a(href=`http://www.facebook.com/sharer.php?u=${url}` target="_blank")
-                    img(src="/img/facebook.svg")
-                a(href=`http://vk.com/share.php?url=${url}` target="_blank")
-                    img(src="/img/vk.svg")
-                a(href=`https://telegram.me/share/url?url=${url}&text=${title}` target="_blank")
-                    img(src="/img/telegram.svg")
-                a(href=`https://twitter.com/share?url=${url}&text=${title}` target="_blank")
-                    img(src="/img/twitter.svg")
-                a(href=`whatsapp://send?text=${url}%20${title}` target="_blank" data-action="share/whatsapp/share")
-                    img(src="/img/whatsapp.svg")
-                a(href=`http://reddit.com/submit?url=${url}&title=${title}` target="_blank")
-                    img(src="/img/reddit.svg")
-                a(href=`https://plus.google.com/share?url=${url}` target="_blank")
-                    img(src="/img/google_plus.svg")
-            br
-            a(href="https://www.patreon.com/comigo" target="_blank")
-                img(src="/img/become_a_patron_button@2x.png" alt="Support the project on Patreon" title="Support ct.js on Patreon")
-
+                a(href="https://comigo.itch.io/ct/devlog")=i18n.homepage[site.locale].devlog.morePosts
+    include /shareBlock.pug
 mixin aCard(title, image, link)
     .c4.breakon800
         .aCard
@@ -263,7 +201,7 @@ mixin aCard(title, image, link)
                     a.button(href=link target="_blank")
                         svg.feather
                             use(xlink:href="/icons.svg#play")
-                        span Play
+                        span=i18n.homepage[site.locale].play
             h4.nmt= title
             if block
                 block

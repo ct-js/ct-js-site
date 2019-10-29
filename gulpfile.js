@@ -61,4 +61,7 @@ gulp.task('build', gulp.series(
 
 gulp.task('serve', shell.task('eleventy --serve'));
 
+gulp.task('serveDebug', shell.task('DEBUG=* && eleventy --serve'));
+
 gulp.task('default', gulp.parallel('serve', 'assets', 'watch'));
+gulp.task('debug', gulp.parallel('serveDebug', 'assets', 'watch'));
