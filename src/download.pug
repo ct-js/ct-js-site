@@ -18,8 +18,9 @@ block body
                         a.button.small(href=downloads.win32)=i18n.downloadPage[site.locale].downloadx32
                 .c4.breakon800
                     .aCard.center
-                        svg.feather.huge
-                            use(xlink:href=`/icons.svg#monitor`)
+                        span(title="Don't laugh at this icon! I tried my best XD")
+                            svg.feather.huge
+                                use(xlink:href=`/icons.svg#linux-linear`)
                         h3=i18n.downloadPage[site.locale].linux
                         p=i18n.downloadPage[site.locale].linuxInstructions
                         a.button(href=downloads.linux64)=i18n.downloadPage[site.locale].downloadx64

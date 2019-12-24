@@ -27,12 +27,12 @@ gulp.task('scripts', function(done) {
 });
 gulp.task('styles', function() {
   return gulp.src(project.buildSrc + '/styles/index.styl')
-    .pipe(sourcemaps.init())
+    //.pipe(sourcemaps.init())
     .pipe(stylus({
         compress: true
     }))
     .pipe(concat('bundle.css'))
-    .pipe(sourcemaps.write())
+    //.pipe(sourcemaps.write())
     .pipe(gulp.dest(project.buildDest + '/'));
 });
 

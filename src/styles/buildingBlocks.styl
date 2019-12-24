@@ -22,9 +22,13 @@ section
             background linear-gradient(45deg, act 0, accent1 100%)
     &.grey
         background bl
-    padding 3rem 1rem
+    padding 3rem 2rem
     &.intro
-        padding 6rem 1rem
+        padding 6rem 2rem
+    @media (max-width: 640px)
+        padding 3rem 1rem
+        &.intro
+            padding 6rem 1rem
 #footer
     @extends section
     padding 1rem
@@ -124,7 +128,7 @@ nav
     .feather
         flex 0 0 auto
         font-size 4rem
-        stroke-width 4
+        stroke-width 1
         color accent1
         margin-right 0
         .blue &

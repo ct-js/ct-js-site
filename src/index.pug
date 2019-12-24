@@ -5,18 +5,28 @@ block head
 block body
     - var nDownload = site.links && site.links.download || '/download'
     section.intro#intro.blue.gradient
-        .inner
-            .c5.breakon640
-                img(src="/img/logoWhite.png" title=i18n.homepage[site.locale].logoAlt)
-            .c7.breakon640
-                h1.nm.npt
-                    em=i18n.homepage[site.locale].yourNewEditor
+        .wideinner.flexrow
+            .c4.breakon1400.np#thePunchText
+                h1.nm
+                    em=i18n.homepage[site.locale].meetCtjs
+                    span=i18n.homepage[site.locale].yourNewEditor
                 p.big.nmt=i18n.homepage[site.locale].punchline
-                div
-                    a.button.nml(href=nDownload)
-                        svg.feather
-                            use(xlink:href="/icons.svg#download")
-                        span=`${i18n.homepage[site.locale].download} ${downloads.version}`
+                p.big=i18n.homepage[site.locale].lovedBy
+                a.button.nml(href=nDownload)
+                    svg.feather
+                        use(xlink:href="/icons.svg#download")
+                    span=`${i18n.homepage[site.locale].download} ${downloads.version}`
+                div.showon1400
+                svg.icon.platformIcon
+                    use(xlink:href="/icons.svg#windows")
+                svg.icon.platformIcon
+                    use(xlink:href="/icons.svg#apple")
+                svg.icon.platformIcon
+                    use(xlink:href="/icons.svg#linux")
+                a(href="https://github.com/ct-js/ct-js" target="_blank")
+                    svg.icon.platformIcon
+                        use(xlink:href="/icons.svg#github")
+                //-
                     a.button.dim(href="https://discord.gg/CggbPkb" target="_blank")
                         svg.icon
                             use(xlink:href="/icons.svg#discord")
@@ -25,90 +35,61 @@ block body
                         svg.icon
                             use(xlink:href="/icons.svg#github")
                         span=i18n.homepage[site.locale].github
+            img(src="/img/Planet.svg")#theLittlePlanet
+            img(src="/img/Planet.svg")#theBiggerPlanet
+            .c8.breakon1400#theIllustration
+                img(src="/img/Rocket.svg" style="animation-delay: -3s;")#theRocket.floating
+                img(src="/img/HomepageScreenshot.jpg")#theHomepageScreenshot
+            img(src="/img/HammerCat.svg" style="animation-delay: -1.2s;")#theHammerCat.floating
+            img(src="/img/GamepadCat.svg")#theGamepadCat.floating
             .clear
-    section#features
-        .inner
+        svg.icon.aScrollDownIcon
+            use(xlink:href="/icons.svg#scrollDown")
+    section#features.npt
+        .wideinner
             .aFeatureList
-                .aFeature.c4.center.breakon800
-                    div
-                        svg.feather.huge
-                            use(xlink:href="/icons.svg#module")
-                    h3=i18n.homepage[site.locale].extensible
-                    p=i18n.homepage[site.locale].paragraphExtensible
-                .aFeature.c4.center.breakon800
-                    div
-                        svg.feather.huge
-                            use(xlink:href="/icons.svg#smile")
-                    h3=i18n.homepage[site.locale].easyToLearn
-                    p=i18n.homepage[site.locale].paragraphEasyToLearn
-                .aFeature.c4.center.breakon800
-                    div
-                        svg.feather.huge
-                            use(xlink:href="/icons.svg#crossplatform")
-                    h3=i18n.homepage[site.locale].runsEverywhere
-                    p=i18n.homepage[site.locale].paragraphRunsEverywhere
-                .clear
-    section#slider.blue
-        .inner
-            h2.center.nmt
-                | #{i18n.homepage[site.locale].extensiveLibrary}
-                br
-                | #{i18n.homepage[site.locale].visualWorkflow}
-            p
-        .aSlider
-            each val in [1, 2, 3, 4, 5, 6, 7]
-                img(src=`/img/indexScreenshots/screenshot${val}.png`)
-        script(type="text/javascript").
-            var opts = {
-                controls: false,
-                nav: false,
+                .c7.breakon1400
+                    .container-video
+                        iframe#theVideoPlayer(
+                            src="https://player.vimeo.com/video/381063386"
+                            width="640" height="360" frameborder="0"
+                            allow="autoplay"
+                        )
 
-                container: '.aSlider',
-                autoplay: true,
-                autoplayTimeout: 5000,
-                autoplayButton: false,
-                autoplayButtonOutput: false,
-                mouseDrag: true,
-                arrowKeys: true,
-                items: 1,
-                controls: false,
-                gutter: 20,
-                edgePadding: 20,
-                responsive: {
-                    500: {
-                        items: 2
-                    },
-                    1023: {
-                        items: 3
-                    }
-                },
-                swipeAngle: false,
-                speed: 400
-            };
-            var slider = tns(opts);
-    section.grey#demos
-        .inner
-            .center
-                h2.nmt=i18n.homepage[site.locale].demos
-                .hSub=i18n.homepage[site.locale].demosSubheading
-            .aCardList
-                +aCard(i18n.homepage[site.locale].greed, "/img/demoCatformer.png", "https://comigo.itch.io/catformer")
-                    p=i18n.homepage[site.locale].greedP1
-                    p.nmb=i18n.homepage[site.locale].greedP2
-                +aCard(i18n.homepage[site.locale].catsteroids, "/img/demoCatsteroids.png", "https://comigo.itch.io/catsteroids")
-                    p=i18n.homepage[site.locale].catsteroidsP1
-                    p.nmb=i18n.homepage[site.locale].catsteroidsP2
-                +aCard(i18n.homepage[site.locale].memocats, "/img/demoMemocats.png", "https://comigo.itch.io/memocats")
-                    p=i18n.homepage[site.locale].memocatsP1
-                    p.nmb=i18n.homepage[site.locale].memocatsP2
+                    // img(src="/img/HomepageScreenshot.jpg")
+                .c5.breakon1400
+                    .aFeature.active(data-video-id="381063386")
+                        .aFeature-aPlaybackThumb
+                        h3=i18n.homepage[site.locale].smoothWorkflowHeader
+                        p=i18n.homepage[site.locale].smoothWorkflowParagraph
+                    .aFeature(data-video-id="381251535")
+                        .aFeature-aPlaybackThumb
+                        h3=i18n.homepage[site.locale].beginnerFriendlyHeader
+                        p=i18n.homepage[site.locale].beginnerFriendlyParagraph
+                    .aFeature(data-video-id="381254631")
+                        .aFeature-aPlaybackThumb
+                        h3=i18n.homepage[site.locale].powerfulHeader
+                        p=i18n.homepage[site.locale].powerfulParagraph
                 .clear
+    section.blue#demos
+        .wideinner
+            .center
+                h2.nmt=i18n.homepage[site.locale].gamesOfAnyGenre
+                .hSub=i18n.homepage[site.locale].gamesOfAnyGenreSub
+            .aGameList
+                +aGame("StromCross", "/img/stormCross.png", "https://comigo.itch.io/stormcross")
+                    p=i18n.homepage[site.locale].stormCrossParagraph
+                +aGame("Among the wolves", "/img/amongTheWolves.png", "https://comigo.itch.io/among-the-wolves")
+                    p=i18n.homepage[site.locale].amongTheWolvesParagraph
+                +aGame("Welcome to the VOID", "/img/welcomeToTheVOID.png", "https://comigo.itch.io/welcome-to-the-void")
+                    p=i18n.homepage[site.locale].welcomeToTheVOIDParagraph
                 .center
                     - var nMadeWithCt = site.links && site.links.madeWithCtjs || '/madeWithCtjs'
                     a.button.big(href=nMadeWithCt)
                         svg.feather
                             use(xlink:href=`/icons.svg#gamepad`)
                         span=i18n.homepage[site.locale].madeWithCtjs
-    section#essencials.blue
+    section#essencials
         .inner
             h2.center.nmt=i18n.homepage[site.locale].everythingYouNeedHeader
             -
@@ -134,31 +115,6 @@ block body
                     if (i % 3 === 0 && i !== 0)
                         .clear
                 .clear
-    section#SOON
-        .inner
-            h2.center.nmt=i18n.homepage[site.locale].essentials.comingSoon
-            -
-                var soon = {
-                    'simulation': i18n.homepage[site.locale].soon.newRoomEditor,
-                    'image': i18n.homepage[site.locale].soon.imageEditing,
-                    'edit': i18n.homepage[site.locale].soon.customParameters,
-                    'mouse-pointer': i18n.homepage[site.locale].soon.uiEditor
-                }
-            .anEssencialsList
-                - var i = 0;
-                each val, key in soon
-                    .anEssencial.c6.breakon800.centeron800
-                        svg.feather
-                            use(xlink:href=`/icons.svg#${key}`)
-                        p.breakon800= val
-                    - i++;
-                    if ((i % 2 === 0 && i !== 0) || i === Object.keys(soon).length)
-                        .clear
-                .center
-                    a.button(href="https://github.com/orgs/ct-js/projects/1" target="_blank")
-                        svg.feather
-                            use(xlink:href="/icons.svg#map")
-                        span=i18n.homepage[site.locale].seeRoadmap
     include /joinGamedev.pug
     section#partners.grey
         .c3.breakon960
@@ -194,12 +150,64 @@ block body
             p
                 a(href="https://comigo.itch.io/ct/devlog")=i18n.homepage[site.locale].devlog.morePosts
     include /shareBlock.pug
-mixin aCard(title, image, link)
-    .c4.breakon800
-        .aCard
-            .aCardMedia
+    script(src="https://player.vimeo.com/api/player.js")
+    script.
+        var iframe = document.getElementById('theVideoPlayer');
+        var player = new Vimeo.Player(iframe);
+        var thumb = document.querySelector('.aFeature.active .aFeature-aPlaybackThumb');
+        var duration;
+
+        player.setAutopause(false);
+        player.setLoop(true);
+        player.setColor('#5779df');
+        player.play();
+        player.getDuration()
+        .then(function (dur) {
+            duration = dur;
+        });
+
+        var featureLists = document.querySelectorAll('.aFeatureList');
+        for (var i = 0; i < featureLists.length; i++) {
+            featureLists[i].addEventListener('click', function (event) {
+                var feature = event.target.closest('.aFeature');
+                if (feature) {
+                    var id = feature.getAttribute('data-video-id');
+                    player.loadVideo(id)
+                    .then(function () {
+                        player.play();
+                        player.setColor('#5779df');
+                        player.getDuration()
+                        .then(function (dur) {
+                            duration = dur;
+                        });
+                    });
+                    var features = feature.closest('.aFeatureList').querySelectorAll('.aFeature');
+                    for (var j = 0; j < features.length; j++) {
+                        features[j].classList.remove('active');
+                    }
+                    feature.classList.add('active');
+                    thumb.style.top = 0;
+                    thumb = feature.querySelector('.aFeature-aPlaybackThumb');
+                    thumb.style.top = 0;
+                }
+            });
+        }
+
+        setInterval(function() {
+            if (duration) {
+                player.getCurrentTime()
+                .then(function (secs) {
+                    thumb.style.top = thumb.parentElement.getBoundingClientRect().height / duration * secs + 'px';
+                });
+            }
+        }, 500);
+
+mixin aGame(title, image, link)
+    .c4.breakon960
+        .aGame
+            .aGameMedia
                 img(src=image)
-                .aCardButton
+                .aGameButton
                     a.button(href=link target="_blank")
                         svg.feather
                             use(xlink:href="/icons.svg#play")

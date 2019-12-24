@@ -1,11 +1,11 @@
 - var nDownload = site.links && site.links.download || '/download'
 section#downloadCTA.blue.gradient
     .inner
-        .fifty.npl
+        .fifty.npl.centeron640
             .hSub=i18n.joinGamedev[site.locale].joinGamedev
             h2.nmt
                 b=i18n.joinGamedev[site.locale].gamedevIsFree
-        .fifty.npr.right
+        .fifty.npr.right.centeron640
             a.button(href=nDownload)
                 svg.feather
                     use(xlink:href="/icons.svg#download")
