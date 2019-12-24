@@ -6,7 +6,14 @@ block body
     section.intro.blue.gradient
         .inner.center
             h1 The Changelog
-    +changelogEntry("v1.2.0 — Latest release", "26 November 2019. A new code editor, support for legacy devices, and other improvements")
+    +changelogEntry("v1.2.1 — Latest release", "26 November 2019. Hotfix: enable legacy renderer inside ct.IDE so that style editor does not break everything")
+        :markdown-it
+            If ct.js works with WebGL for you, then you can safely skip this hotfix. It fixes a problem with those PCs that don’t support WebGL.
+
+            ### 🐛 Bug fixes
+
+            * ct.IDE should use pixi.js-legacy internally as well, otherwise, style editor breaks everything
+    +changelogEntry("v1.2.0", "26 November 2019. A new code editor, support for legacy devices, and other improvements")
         :markdown-it
             ### ✨ New Features
 
