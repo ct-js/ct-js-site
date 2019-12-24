@@ -71,7 +71,7 @@ block body
                         h3=i18n.homepage[site.locale].powerfulHeader
                         p=i18n.homepage[site.locale].powerfulParagraph
                 .clear
-    section.blue#demos
+    section.blue.gradient.waves#demos
         .wideinner
             .center
                 h2.nmt=i18n.homepage[site.locale].gamesOfAnyGenre
@@ -149,7 +149,8 @@ block body
                         span=i18n.homepage[site.locale].devlog.readMore
             p
                 a(href="https://comigo.itch.io/ct/devlog")=i18n.homepage[site.locale].devlog.morePosts
-    include /shareBlock.pug
+    section.grey#share
+        include /shareBlock.pug
     script(src="https://player.vimeo.com/api/player.js")
     script.
         var iframe = document.getElementById('theVideoPlayer');

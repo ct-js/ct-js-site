@@ -1,54 +1,51 @@
-section#whatsnext
+section#whatsnext.npt
     .inner.center
         h2.nmt #{i18n.whatsnext[site.locale].whatsnext}
-section#docs.blue.gradient
+section.grey
     .inner
-        .c1.breakon800
-        .c3.npl.breakon800
-            a.button.nml(href="https://docs.ctjs.rocks/")
-                svg.feather
+        .c6.breakon800
+            .aCard.center
+                svg.feather.huge
                     use(xlink:href=`/icons.svg#book-open`)
-                span #{i18n.whatsnext[site.locale].docsButton}
-        .c7.npr.right.breakon800.lefton800
-            h2.nmt.npt
-                b #{i18n.whatsnext[site.locale].readTheDocs}
-            .hSub #{i18n.whatsnext[site.locale].completeTutorials}
-        .c1.breakon800
-        .clear
-section#docs.blue.gradAlt
-    .inner
-        .c1.breakon800
-        .c7.npl.breakon800
-            h2.nmt.npt
-                b #{i18n.whatsnext[site.locale].joinCommunity}
-            .hSub #{i18n.whatsnext[site.locale].getHelp}
-        .c3.npr.right.breakon800.lefton800
-            a.button.nmr.nml(href="https://discord.gg/CggbPkb")
-                svg.icon
-                    use(xlink:href=`/icons.svg#discord`)
-                span #{i18n.whatsnext[site.locale].discordButton}
-            a.button.nmr(href="https://comigo.itch.io/ct/community")
-                svg.feather
+                h3.nmt.npt=i18n.whatsnext[site.locale].readTheDocs
+                p #{i18n.whatsnext[site.locale].completeTutorials}
+                a.button.nmr(href="https://docs.ctjs.rocks/")
+                    span #{i18n.whatsnext[site.locale].docsButton}
+
+        .c6.breakon800
+            .aCard.center
+                svg.feather.huge
                     use(xlink:href=`/icons.svg#message-square`)
-                span #{i18n.whatsnext[site.locale].forumButton}
-        .c1.breakon800
+                h3.nmt.npt=i18n.whatsnext[site.locale].joinCommunity
+                p #{i18n.whatsnext[site.locale].getHelp}
+                a.button.nml(href="https://discord.gg/CggbPkb")
+                    svg.icon
+                        use(xlink:href=`/icons.svg#discord`)
+                    span #{i18n.whatsnext[site.locale].discordButton}
+                a.button.nmr(href="https://comigo.itch.io/ct/community")
+                    svg.feather
+                        use(xlink:href=`/icons.svg#message-square`)
+                    span #{i18n.whatsnext[site.locale].forumButton}
+
         .clear
-section#docs.blue.gradient
-    .inner
-        .c1.breakon800
-        .c3.npl.breakon800
-            a.button.nml(href="http://eepurl.com/c1iEH1")
-                svg.feather
+
+        .c6.breakon800
+            .aCard.center
+                svg.feather.huge
                     use(xlink:href=`/icons.svg#mail`)
-                span #{i18n.whatsnext[site.locale].subscribeButton}
-        .c7.npr.right.breakon800.lefton800
-            h2.nmt.npt
-                b #{i18n.whatsnext[site.locale].subscribeToNewsletter}
-            .hSub #{i18n.whatsnext[site.locale].beTheFirst}
-        .c1.breakon800
+                h3.nmt.npt=i18n.whatsnext[site.locale].subscribeToNewsletter
+                p #{i18n.whatsnext[site.locale].beTheFirst}
+                a.button.nmr(href="http://eepurl.com/c1iEH1" target="_blank")
+                    span #{i18n.whatsnext[site.locale].subscribeButton}
+
+        .c6.breakon800
+            .aCard.center
+                svg.feather.huge
+                    use(xlink:href=`/icons.svg#heart`)
+                h3.nmt.npt=i18n.whatsnext[site.locale].patreonAlt
+                p=i18n.whatsnext[site.locale].patreonRewards
+                a.button.nmr(href="https://www.patreon.com/comigo" target="_blank")
+                    svg.icon
+                        use(xlink:href=`/icons.svg#patreon`)
+                    span Patreon
         .clear
-section#support
-    .center
-        a(href="https://www.patreon.com/comigo" target="_blank")
-            img(src="/img/become_a_patron_button@2x.png" alt=i18n.whatsnext[site.locale].patreonAlt title=i18n.whatsnext[site.locale].patreonAlt)
-        p=i18n.whatsnext[site.locale].patreonRewards
