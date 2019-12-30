@@ -15,7 +15,7 @@ const voc = {
         smoothWorkflowHeader: 'Smooth workflow',
         smoothWorkflowParagraph: 'Bad tools hinder your performance. Ct.js is designed to be like a brush with which you create games, not to be an enemy you will fight with.',
         beginnerFriendlyHeader: 'Beginner friendly',
-        beginnerFriendlyParagraph: 'ct.js bundles come with offline docs, tutorials, and editable examples and demos. The code editor highlights errors and provides documentation right while writing your code',
+        beginnerFriendlyParagraph: 'ct.js bundles come with offline docs, tutorials, and editable examples and demos. The code editor highlights errors and provides documentation right while writing your code.',
         powerfulHeader: 'Powerful',
         powerfulParagraph: 'ct.js is based on Pixi.js, works on WebGL and provides great performance in browsers and desktop environments. Modules add new powers, and when ct.js is not enough, you can add any JS code or library.',
 
@@ -113,16 +113,26 @@ const voc = {
         pageDescription: 'Бесплатный редактор, построенный на веб-технологиях и выпускающий игры на ПК и веб',
 
         logoAlt: 'Логотип ct.js. Ct.js — бесплатная альтернатива Game Maker, Construct и другим',
-        meetCtjs: 'ct.js',
-        yourNewEditor: 'Твой новый редактор игр',
+        meetCtjs: 'Это ct.js,',
+        yourNewEditor: 'твой новый редактор игр',
         lovedBy: ' Котэ бесплатен и опен-сорсный, а любят его профессионалы, любители геймдева, учителя и их студенты.',
         punchline: 'С ct.js обучаться программированию легко, а разработка игр становится увлекательным занятием — в нём множество визуальных редакторов, хорошая документация и гибкая модульная библиотека.',
         download: 'Скачать',
         discord: 'Discord',
         github: 'GitHub',
 
-        extensiveLibrary: 'Расширяемая библиотека',
-        visualWorkflow: 'с единым визуальным интерфейсом',
+        smoothWorkflowHeader: 'Плавная разработка',
+        smoothWorkflowParagraph: 'Плохие инструменты снижают качество работы. Ct.js же — как кисть, с которой создаются игры мановением руки, а не противник или череда препятствий.',
+        beginnerFriendlyHeader: 'Подходит новичкам',
+        beginnerFriendlyParagraph: 'ct.js содержит документацию, гайды и редактируемые демки и примеры. Редактор кода подсвечивает ошибки, а также даёт подсказки с документацией по мере ввода.',
+        powerfulHeader: 'Мощный',
+        powerfulParagraph: 'ct.js основан на Pixi.js, работает на WebGL и шустр в браузерах и на десктопе. Модули дают новые силы, а если вдруг ct.js оказалось недостаточно, закиньте любой JS-код или внешнюю библиотеку.',
+
+        gamesOfAnyGenre: 'Создавайте игры любого жанра',
+        gamesOfAnyGenreSub: 'Шутеры, аркады, адвенчуры, выживание, паззлы, визуальные новеллы — всё, что угодно!',
+        stormCrossParagraph: 'Небольшое стилизованное приключение с морскими баталиями с ИИ, жестокой природой и паззлами. Отправляйтесь в плаванье, чтобы спасти далёкую колонию от болезни!',
+        amongTheWolvesParagraph: 'Лес, озеро, выживший, монстр в темноте. Эта игра — "одномерный сурвайвал" с циклом дня и ночи, фермерскими механиками и живым диким лесом.',
+        welcomeToTheVOIDParagraph: 'История о перезагрузке вселенной. Плывите сквозь безграничную тьму космоса, сражайтесь в космических баталиях, проводите экспедиции на поверхности планет и изучайте древние технологии.',
 
         madeWithCtjs: 'Сделано с ct.js',
 
