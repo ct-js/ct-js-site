@@ -1,4 +1,4 @@
-module.exports = {
+const voc = {
     en: {
         helpCtGrow: 'Help ct.js grow!',
         tellFriends: 'Tell your friends about it'
@@ -12,3 +12,10 @@ module.exports = {
         tellFriends: 'Расскажи о нём своим друзьям:'
     }
 }
+for (const i in voc) {
+    if (i === 'en') {
+        continue;
+    }
+    voc[i] = Object.assign(Object.assign({}, voc.en), voc[i]);
+}
+module.exports = voc;

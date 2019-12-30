@@ -1,4 +1,4 @@
-module.exports = {
+const voc = {
     en: {
         joinGamedev: 'Join the world of game development',
         gamedevIsFree: 'It\'s free!',
@@ -15,3 +15,11 @@ module.exports = {
         download: 'Скачать',
     }
 };
+
+for (const i in voc) {
+    if (i === 'en') {
+        continue;
+    }
+    voc[i] = Object.assign(Object.assign({}, voc.en), voc[i]);
+}
+module.exports = voc;

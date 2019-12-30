@@ -1,4 +1,4 @@
-module.exports = {
+const voc = {
     en: {
         pageTitle: 'Download ct.js',
         pageDescription: 'Download a free 2D game editor from its official site.',
@@ -51,3 +51,10 @@ module.exports = {
         getFromItch: 'или скачайте ct.js на itch.io'
     }
 }
+for (const i in voc) {
+    if (i === 'en') {
+        continue;
+    }
+    voc[i] = Object.assign(Object.assign({}, voc.en), voc[i]);
+}
+module.exports = voc;

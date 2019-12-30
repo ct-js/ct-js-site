@@ -1,4 +1,4 @@
-module.exports = {
+const voc = {
     en: {
         whatsnext: 'What\'s next?',
 
@@ -57,3 +57,11 @@ module.exports = {
         patreonRewards: 'Приоритетная поддержка, исходники игр и ваше имя в ct.js!'
     }
 };
+
+for (const i in voc) {
+    if (i === 'en') {
+        continue;
+    }
+    voc[i] = Object.assign(Object.assign({}, voc.en), voc[i]);
+}
+module.exports = voc;

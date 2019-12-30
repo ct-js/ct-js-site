@@ -1,4 +1,4 @@
-module.exports = {
+const voc = {
     en: {
         pageTitle: 'Ct.js — a free game editor',
         pageDescription: 'A free 2D game editor based on web technologies.',
@@ -58,6 +58,7 @@ module.exports = {
         supportOnPatreon: 'Support the project on Patreon',
         play: 'Play',
     },
+
     br: {
         pageTitle: 'Ct.js — um editor de jogos grátis',
         pageDescription: 'Um editor de jogos 2D grátis baseado em tecnologias de Web.',
@@ -72,17 +73,6 @@ module.exports = {
         extensiveLibrary: 'ct.js é uma biblioteca extensível',
         visualWorkflow: 'juntamente com um fluxo de trabalho visual',
 
-        demos: 'Nossas demos',
-        demosSubheading: 'Cada demo é open-source e vem junto com o ct.js',
-        greed: 'Greed — um pequeno jogo de plataformas bobo',
-        greedP1: 'Colete todas as moedas no mapa!',
-        greedP2: 'Esta demonstração mostra como criar um mundo de visão lateral jogando animações de sprite, transformando cópias, criando inimigos simples, lidando com os entrada do teclado e detecção de colisões.',
-        catsteroids: 'Catsteroids — um atirador espacial',
-        catsteroidsP1: 'Voe pelo espaço, colete bônus, ganhe pontos e destruir asteróides e navios inimigos!',
-        catsteroidsP2: 'Esta demonstração mostra como lidar com a entrada do teclado, criar menus básicos, lidar com colisões e crie novos objetos durante o tempo de reprodução.',
-        memocats: 'Memocats — um quebra-cabeça',
-        memocatsP1: 'Encontre cartas idênticas para limpar o tabuleiro.',
-        memocatsP2: 'Esta demonstração mostra como reproduzir sons, animar coisas e use a biblioteca principal do ct.js.',
         madeWithCtjs: 'Feito com ct.js',
 
         everythingYouNeedHeader: 'ct.js tem tudo que você precisa para fazer um jogo',
@@ -98,13 +88,6 @@ module.exports = {
             easyPacking: 'Embalagem e implantação fáceis'
         },
 
-        comingSoon: 'Em breve',
-        soon: {
-            newRoomEditor: 'Novo editor de sala, com pré visualização ao vivo e camadas',
-            imageEditing : 'Ferramentas de manipulação de imagem básica: girar, tamanho, etc.',
-            customParameters: 'Parâmetro customizados e transformações copiadas no editor de sala',
-            uiEditor: 'Editor UI'
-        },
         seeRoadmap: 'Veja nosso roteiro',
 
         partners: 'Nosso parceiro',
@@ -124,6 +107,7 @@ module.exports = {
         supportOnPatreon: 'De seu suporte nesse projeto pelo Patreon',
         play: 'Jogar',
     },
+
     ru: {
         pageTitle: 'Ct.js — полноценный редактор игр. Ещё и бесплатный!',
         pageDescription: 'Бесплатный редактор, построенный на веб-технологиях и выпускающий игры на ПК и веб',
@@ -140,17 +124,6 @@ module.exports = {
         extensiveLibrary: 'Расширяемая библиотека',
         visualWorkflow: 'с единым визуальным интерфейсом',
 
-        demos: 'Демки',
-        demosSubheading: 'Каждая демка опен-сорсная и поставляется с ct.js.',
-        greed: 'Greed — маленький несерьёзный платформер',
-        greedP1: 'Собери все монетки на карте. Но это непросто!',
-        greedP2: 'Демка показывает, как создать мир с видом сбоку с кадровыми анимациями, трансформациями копий, созданием простых противников, обработкой столкновений и работой с вводом с клавиатуры.',
-        catsteroids: 'Catsteroids — космический шутер',
-        catsteroidsP1: 'Пронзайте космос, собирайте бонусы, побейте счёт и разрушьте летящие астероиды и корабли противников!',
-        catsteroidsP2: 'В демке реализовано управление с клавиатуры, созданы несложные меню, обрабатываются столкновения, генерируются новые объекты в ходе игры.',
-        memocats: 'Memocats — головоломка на запоминание',
-        memocatsP1: 'Найди парные карточки, чтобы очистить доску.',
-        memocatsP2: 'Показывает, как воспроизводить звуки, анимировать копии и использовать основную библиотеку ct.js.',
         madeWithCtjs: 'Сделано с ct.js',
 
         everythingYouNeedHeader: 'В ct.js есть всё, что нужно для создания игры',
@@ -166,13 +139,6 @@ module.exports = {
             easyPacking: 'Простые инструменты упаковки и релиза'
         },
 
-        comingSoon: 'СКОРО',
-        soon: {
-            newRoomEditor: 'Новый редактор комнат, с живым предпросмотром и слоями',
-            imageEditing : 'Базовые инструменты редактирования изображений: изменение размера, отражение и т.п.',
-            customParameters: 'Пользовательские параметры и трансформация копий в редакторе комнат',
-            uiEditor: 'Редактор интерфейса'
-        },
         seeRoadmap: 'Наш план разработки',
 
         partners: 'Партнёр',
@@ -193,3 +159,11 @@ module.exports = {
         play: 'Играть'
     }
 };
+
+for (const i in voc) {
+    if (i === 'en') {
+        continue;
+    }
+    voc[i] = Object.assign(Object.assign({}, voc.en), voc[i]);
+}
+module.exports = voc;

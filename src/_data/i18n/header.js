@@ -1,4 +1,4 @@
-module.exports = {
+const voc = {
     en: {
         changelog: 'Changelog',
         docs: 'Docs',
@@ -24,3 +24,11 @@ module.exports = {
         language: 'Ru'
     }
 };
+
+for (const i in voc) {
+    if (i === 'en') {
+        continue;
+    }
+    voc[i] = Object.assign(Object.assign({}, voc.en), voc[i]);
+}
+module.exports = voc;

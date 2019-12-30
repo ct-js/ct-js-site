@@ -1,4 +1,4 @@
-module.exports = {
+const voc = {
     en: {
         comigo: 'Cosmo Myzrail Gorynych',
         siteLicense: 'the site is licensed under',
@@ -33,3 +33,11 @@ module.exports = {
         joinTelegram: 'Подпишись на новости ComigoGames в Telegram!'
     }
 };
+
+for (const i in voc) {
+    if (i === 'en') {
+        continue;
+    }
+    voc[i] = Object.assign(Object.assign({}, voc.en), voc[i]);
+}
+module.exports = voc;

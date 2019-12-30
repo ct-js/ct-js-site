@@ -1,4 +1,4 @@
-module.exports = {
+const voc = {
     en: {
         pageTitle: 'Games made with ct.js — Ct.js',
         pageDescription: 'Games created with ct.js, a free 2D game editor based on web technologies.',
@@ -21,3 +21,11 @@ module.exports = {
         play: 'Играть',
     }
 };
+
+for (const i in voc) {
+    if (i === 'en') {
+        continue;
+    }
+    voc[i] = Object.assign(Object.assign({}, voc.en), voc[i]);
+}
+module.exports = voc;
