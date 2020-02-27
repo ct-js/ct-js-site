@@ -64,11 +64,26 @@ const voc = {
         pageDescription: 'Um editor de jogos 2D grátis baseado em tecnologias de Web.',
 
         logoAlt: 'Um logotipo ct.js. O Ct.js é uma alternativa gratuita ao Game Maker, Construct e outros',
+        meetCtjs: 'Conheça ct.js,',
         yourNewEditor: 'o seu novo editor de jogos 2D',
         punchline: 'O ct.js visa tornar a aprendizagem da programação divertida e desenvolvimento de jogos fácil por seus editores visuais e biblioteca de códigos bem documentada. Está disponível para Windows, Linux e Mac.',
+        lovedBy: 'É gratuito, open-source, e amado por amadores, profissionais, professores, e seus alunos.',
         download: 'Baixar',
         discord: 'Discord',
         github: 'GitHub',
+
+        smoothWorkflowHeader: 'Fluxo de trabalho suave',
+        smoothWorkflowParagraph: 'Ferramentas ruins dificultam sua performance. O Ct.js é projetado para ser como um pincel com o qual você criará seus jogos, e não para ser um inimigo com quem você lutará.',
+        beginnerFriendlyHeader: 'Amigável para iniciantes',
+        beginnerFriendlyParagraph: 'Os pacotes do ct.js vem com uma documentação offline, tutoriais, exemplos editáveis e demontrações. O editor realça os erros e disponibiliza a documentação correta enquanto você escreve seu código.',
+        powerfulHeader: 'Poderoso',
+        powerfulParagraph: 'ct.js é baseado no Pixi.js, funciona no WebGL e fornece excelente desempenho em navegadores e ambientes de desktop. Modules adicionam novos poderes, e quando ct.js não é o bastante, você pode adicionar qualquer código Javascript ou biblioteca.',
+
+        gamesOfAnyGenre: 'Crie jogos de qualquer genêro',
+        gamesOfAnyGenreSub: 'Shooters, arcades, adventures, survivals, puzzles, visual novels — o que você quiser!',
+        stormCrossParagraph: 'Uma pequena aventura estilizada com batalhas marítimas com IA, ambientes violentos, e pequenas seções de puzzle. Junte-se a viagem para salvar uma colônia de uma doença mortal!',
+        amongTheWolvesParagraph: 'Uma floresta, um lago, um sobrevivente solitário, e monstros na escuridão. O jogo é uma sobrevivência "unidimensional" com um ciclo dia/noite, mecânicas de crescimento e uma floresta selvagem.',
+        welcomeToTheVOIDParagraph: 'Uma história sobre reiniciar o universo. Nade pela infinidade da escuridão do cosmos, se envolva em combates espaciais, aterrise em planetas para missões de expedição land e explore tecnologias perdidas.',
 
         extensiveLibrary: 'ct.js é uma biblioteca extensível',
         visualWorkflow: 'juntamente com um fluxo de trabalho visual',
@@ -92,7 +107,7 @@ const voc = {
 
         partners: 'Nosso parceiro',
         miniJam: {
-            description: 'Mini Jam é uma game jame aberta recorrente que é realizada a cada duas semanas no itch.io.',
+            description: 'Mini Jam é um game jam aberto recorrente que é realizada a cada duas semanas no itch.io.',
             joinServer: 'Entre no discord deles',
             or: 'ou',
             visitSite: 'visite o site deles'
