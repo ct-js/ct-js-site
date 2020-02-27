@@ -25,6 +25,7 @@ gulp.task('scripts', function(done) {
       done()
     );
 });
+
 gulp.task('styles', function() {
   return gulp.src(project.buildSrc + '/styles/index.styl')
     //.pipe(sourcemaps.init())
@@ -53,7 +54,9 @@ gulp.task('assets', gulp.parallel(
   'scripts',
   'icons'
 ));
+
 gulp.task('generate', shell.task('eleventy'));
+
 gulp.task('build', gulp.series(
   'generate',
   'assets'
@@ -64,4 +67,5 @@ gulp.task('serve', shell.task('eleventy --serve'));
 gulp.task('serveDebug', shell.task('DEBUG=* && eleventy --serve'));
 
 gulp.task('default', gulp.parallel('serve', 'assets', 'watch'));
+
 gulp.task('debug', gulp.parallel('serveDebug', 'assets', 'watch'));
