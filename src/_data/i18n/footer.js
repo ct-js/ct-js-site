@@ -21,6 +21,17 @@ const voc = {
         patreon: 'De seu suporte nesse projeto pelo Patreon',
         joinTelegram: 'Siga as noticias pelo ComigoGames\' Canal do Telegram!'
     },
+        de: {
+        comigo: 'Cosmo Myzrail Gorynych',
+        siteLicense: 'die Website ist lizensiert unter',
+        appLicense: 'Die ct.js App ist lizensiert unter der MIT Lizens.',
+        contact: 'Kontakt',
+        forkUs: 'Fork uns auf GitHub!',
+        joinServer: 'Tritt unserem Discord Server bei!',
+        twitter: 'Folg ct.js auf Twitter!',
+        patreon: 'Unterstütze das Projekt auf Patreon',
+        joinTelegram: 'Folge den Neuigkeiten in ComigoGames Telegram Kanal!'
+    },
     ru: {
         comigo: 'Космо Мизраил Горыныч',
         siteLicense: 'сайт выпущен под лицензией',
