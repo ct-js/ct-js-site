@@ -122,6 +122,66 @@ const voc = {
         supportOnPatreon: 'De seu suporte nesse projeto pelo Patreon',
         play: 'Jogar',
     },
+    
+        de: {
+        pageTitle: 'Ct.js — ein gratis Spiele Editor',
+        pageDescription: 'Ein gratis 2D Spiele Editor basierend auf Webtechnologien.',
+
+        logoAlt: 'Ein ct.js Logo. Ct.js ist eine gratis Alternative zu Game Maker, Construct und anderen',
+        meetCtjs: 'Triff ct.js,',
+        yourNewEditor: 'dein neuen 2D Spiele Editor',
+        punchline: 'ct.js macht Programmieren lernen spaßig und Spiele Entwickeln einfacher dank seinen visuellen Werkzeugen, gute Dokumente und flexible, modulare Bibliothek.',
+        lovedBy: ' Es ist gratis, open-source, und beliebt bei Hobby- und Professionellen Entwicklern, Lehrern, und deren Schülern.',
+        download: 'Herunterladen',
+        discord: 'Discord',
+        github: 'GitHub',
+
+        smoothWorkflowHeader: 'Reibungsloser Workflow',
+        smoothWorkflowParagraph: 'Schlechte Werkzeuge behindern deine Leistung. Ct.js ist entwickelt wie ein Pinsel mit dem du Spiele erstellst, nicht um ein Feind zu sein mit dem du dich rumplagen musst.',
+        beginnerFriendlyHeader: 'Beginner freundlich',
+        beginnerFriendlyParagraph: 'ct.js ist ein Bündel mit offline Dokumenten, Tutorials, und veränderbaren Beispielen und Demos. Der Code Editor zeigt Fehler und stellt eine Dokumentation bereit während du deinen Code schreibst.',
+        powerfulHeader: 'Stark',
+        powerfulParagraph: 'ct.js basiert auf Pixi.js, funktioniert mit WebGL und stellt super Leistungen in Browser und Desktop Umgebungen. Module bringen neue Leistung hinzu, und wenn ct.js dir nicht genug ist, kannst du einfach jeden beliebigen JS Code oder jede beliebige Bibliothek hinzufügen.',
+
+        gamesOfAnyGenre: 'Erstelle Spiele jedes Genres',
+        gamesOfAnyGenreSub: 'Shooters, Arcade, Abenteuer, Überleben, Puzzel, visuelle Romane — du sagst es!',
+        stormCrossParagraph: 'Ein Abenteuer Spiel in simplen Stil mit AI-betrieben Meeres Kämpfen, heftiger Umgebung, und einer kleinen Puzzel Sektion. Schließ dich der Reise an um eine Kolonie vor einer tötlichen Krankheit zu retten!',
+        amongTheWolvesParagraph: 'Ein Wald, ein See, ein einsamer Uberlebender und Monster in der Dunkelheit. Das Spiel ist ein "eindimensionales" Überlebens Spiel mit einem Tag/Nacht Zyklus, wachsenden Mechaniken und einem Wald mit wildem Leben.',
+        welcomeToTheVOIDParagraph: 'Eine Geschichte über den Neustart des Universums. Schwimme durch den endlosen schwarzen Kosmus, nimm and Weltraumkämpfen teil, lande auf Planeten für Expeditions Missionen und erkunde die verschollenen Technologien.',
+
+        madeWithCtjs: 'Erstellt mit ct.js',
+
+        everythingYouNeedHeader: 'ct.js verfügt über alles was du brauchst um ein Spiel zu erstellen',
+        essentials: {
+            roomEditor: 'Raum / Level Editor mit Tile Unterstützung',
+            codeEditor: 'Intigrierter Code Editor mit Fehler behandlung',
+            collisionHandling: 'Komplexe Kollisionsbehandlung und andere Bibliotheken',
+            animations: 'Gerahmte & Skelettartige Animationen',
+            sounds: 'Musik & Sound Manager',
+            styles: 'Styles zum wiederverwenden der GUI Einstellungen',
+            docs: 'Notizen & Dokumente in einem Seiten Panel, auf jedem Bildschirm',
+            customJS: 'Möglichkeit zur Verwendung von eigenen JavaScript Datein',
+            easyPacking: 'Einfaches Verpacken und Bereitstellen',
+        },
+
+
+        partners: 'Unser Partner',
+        miniJam: {
+            description: 'Mini Jam ist ein wiederkehrend öffnender Game Jam der alle zwei Wochen auf itch.io gehalten wird.',
+            joinServer: 'Tritt ihrem Discord Server bei',
+            or: 'oder',
+            visitSite: 'besuche ihre offizielle Website'
+        },
+
+        devlog: {
+            latest: 'Zuletzt im Devlog',
+            readMore: 'Lies mehr…',
+            morePosts: 'Mehr Beiträge',
+        },
+
+        supportOnPatreon: 'Unterstütze das Projekt auf Patreon',
+        play: 'Abspielen',
+    },
 
     ru: {
         pageTitle: 'Ct.js — полноценный редактор игр. Ещё и бесплатный!',
