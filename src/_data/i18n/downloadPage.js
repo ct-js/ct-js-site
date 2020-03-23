@@ -33,6 +33,23 @@ const voc = {
 
         getFromItch: 'ou obtenha o ct.js agora no itch.io'
     },
+        de: {
+        pageTitle: 'Lade herunter ct.js',
+        pageDescription: 'Lade ein gratis 2D Spiele Editor herunter von seiner offiziellen Website.',
+        welcomeAboard: 'Willkommen an Bord!',
+
+        downloadx64: 'Herunterladen x64',
+        downloadx32: 'Herunterladen x32',
+
+        windows: 'Windows',
+        windowsInstructions: 'Windows 7 und höher. Entpacke und führe ctjs.exe aus',
+        linux: 'Linux',
+        linuxInstructions: 'Entpacke, markiere \'ctjs\' als eine ausführbare Datein und führe ./ctjs aus',
+        mac: 'Mac',
+        macInstructions: 'Nicht getested, aber es sollte funktionieren. Benutzung auf eigene Gefahr!',
+
+        getFromItch: 'oder hohle dir ct.js jezt auf itch.io',
+    },
     ru: {
         pageTitle: 'Скачать ct.js',
         pageDescription: 'Скачайте бесплатный редактор 2D игр ct.js с его официального сайта.',
