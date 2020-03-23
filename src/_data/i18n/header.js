@@ -15,6 +15,14 @@ const voc = {
         gotoHomepage: 'Ir para o inicio',
         language: 'Pt-Br'
     },
+        de: {
+        changelog: 'Changelog',
+        docs: 'Dokumente',
+        forum: 'Forum',
+        download: 'Lade herunter',
+        gotoHomepage: 'Gehe zurück zu\'r Homepage',
+        language: 'De'
+    },
     ru: {
         changelog: 'Лог изменений',
         docs: 'Документация',
