@@ -9,6 +9,11 @@ const voc = {
         gamedevIsFree: 'é grátis!',
         download: 'Baixar',
     },
+    de: {
+        joinGamedev: 'Tritt der Welt der Spiele Entwicklung bei',
+        gamedevIsFree: 'Es ist gratis!',
+        download: 'Herunterladen',
+    },
     ru: {
         joinGamedev: 'Присоединись к миру геймдева',
         gamedevIsFree: 'Это бесплатно!',

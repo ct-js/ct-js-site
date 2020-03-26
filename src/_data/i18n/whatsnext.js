@@ -37,6 +37,25 @@ const voc = {
         patreonAlt: 'De seu suporte ao projeto no Patreon',
         patreonRewards: 'Tenha suporte priorizado, source codes dos jogos e seu nome incluso no aplicativo!'
     },
+    de: {
+        whatsnext: 'Was kommt als nächstes?',
+
+        docsButton: 'Dokumente',
+        readTheDocs: 'Lies die Dokumente',
+        completeTutorials: 'Beende unsere Tutorials und lerne die ct.js Coding Bibliothek',
+
+        joinCommunity: 'Tritt unserer Community bei',
+        getHelp: 'Erhalte Hilfe und komme in Kontakt mit anderen Entwicklern',
+        discordButton: 'Discord',
+        forumButton: 'Forum',
+
+        subscribeButton: 'Abbonieren',
+        subscribeToNewsletter: 'Abboniere unseren Newsletter',
+        beTheFirst: 'Sei der/die erste um Updates über ct.js zu erhalten',
+
+        patreonAlt: 'Unterstütze ct.js auf Patreon',
+        patreonRewards: 'Bekomme besondere Unterstützung, Source Codes von Spielen und dein Name inbegriffen in der App!'
+    },
     ru: {
         whatsnext: 'Что дальше?',
 
