@@ -1,0 +1,224 @@
+extends pugTemplates/basic.pug
+block head
+    title Presskit — Ct.js
+    meta(name="description" content="Official logos and illustrations ready for download, style guides, and a list of features.")
+block body
+    section.blue.gradient
+        .inner.center
+            h1 Press kit
+    section
+        .inner
+            .c8.breakon960
+                h2.nmt Short information
+                p
+                    b General info
+                    br
+                    .
+                        Ct.js is a 2D game-making engine with high-quality documentation,
+                        visual tools for asset management, and a smart code editor,
+                        all integrated into one IDE. It has a smooth workflow
+                        and excellent user experience.
+                        The engine can be used at programming courses and is good for beginners
+                        in game development. Ct.js also fits more seasoned developers
+                        as one can make and publish a game for web and desktop entirely in ct.js.
+                p
+                    b Distribution
+                    br
+                    .
+                        Ct.js is free, open-source software released under the MIT license.
+                        Its prebuilt bundles are available on its website, Github, and itch.io.
+                p
+                    b Lifecycle
+                    br
+                    .
+                        Ct.js is a project with a long history (since approximately 2013),
+                        but it has been publicly available on itch.io since summer 2018.
+                        It is actively maintained, bringing bug fixes, improvements,
+                        and new features.
+                p
+                    b Similarities to other products
+                    br
+                    .
+                        Ct.js is inspired by YoYo Game Maker and Tululoo Game Maker and
+                        has a similar API and workflow. Under the hood, ct.js uses pixi.js
+                        graphics engine, which defines an object-oriented drawing process.
+                p
+                    b Community
+                    br
+                    .
+                        The ct.js community is active in the official ct.js Discord server. People
+                        can help each other, share their projects, make suggestions for ct.js
+                        development, directly talk with developers, and listen to synthwave there.
+            .c4.breakon960
+                h2.nmt Meta
+                dl
+                    dd: b Author
+                    dt Cosmo Myzrail Gorynych (also known as CoMiGo Games) and contributors
+                    dd: b Released
+                    dt July 31, 2018
+                    dd: b License
+                    dt MIT
+
+                h2 Links
+                ul
+                    li: a(href="https://discord.gg/CggbPkb" target="_blank") Discord server
+                    li: a(href="https://docs.ctjs.rocks/" target="_blank") Docs and tutorials
+                    li: a(href="https://github.com/ct-js/ct-js/releases" target="_blank") Github releases
+                    li: a(href="https://github.com/ct-js/ct-js" target="_blank") Github repository
+                    li: a(href="https://comigo.itch.io/ct/" target="_blank") itch.io store page
+                    li: a(href="/" target="_blank") Website
+                    li: a(href="/download" target="_blank") Website (downloads)
+            .clear
+    section.grey
+        .inner
+            h2.nmt Assets
+            .AssetCards.breakon960
+                .anAssetCard
+                    .center
+                        img(src="/img/presskit/FullColor.svg")
+                    h3 The standard logo's variant
+                    span Download in format:
+                    .aButtonGroup
+                        a.button(href="/img/presskit/FullColor.png") PNG
+                        a.button(href="/img/presskit/FullColor.svg") SVG
+                .anAssetCard
+                    .center
+                        img(src="/img/presskit/WhiteOnBlack.svg" style="background-color: #b9bbbe;")
+                    h3 White logo for darker backgrounds
+                    span Download in format:
+                    .aButtonGroup
+                        a.button(href="/img/presskit/WhiteOnBlack.png") PNG
+                        a.button(href="/img/presskit/WhiteOnBlack.svg") SVG
+                .clear
+                .anAssetCard
+                    .center
+                        img(src="/img/presskit/BlackOnWhite.svg")
+                    h3 Black logo for prints
+                    span Download in format:
+                    .aButtonGroup
+                        a.button(href="/img/presskit/BlackOnWhite.png") PNG
+                        a.button(href="/img/presskit/BlackOnWhite.svg") SVG
+                .anAssetCard
+                    .center
+                        img(src="/img/presskit/CircledIcon.png")
+                    h3 The app icon
+                    span Download in format:
+                    .aButtonGroup
+                        a.button(href="/img/presskit/CircledIcon.png") PNG
+                        a.button(href="/img/presskit/CircledIcon.svg") SVG
+    section.blue
+        .inner
+            h2.nmt Colors
+            .ColorCards.breakon960
+                .aColorCard
+                    .aColor(style="background-color: #446adb")
+                    h3 #446ADB
+                    p Sky blue, the color of active elements.
+                .aColorCard
+                    .aColor(style="background-color: #5144db")
+                    h3 #5144DB
+                    p Purple, the ink and blood of headers.
+                .aColorCard
+                    .aColor(style="background-color: #fafafa")
+                    h3 #FAFAFA
+                    p Snow, the backgrounds in shadows.
+                .aColorCard
+                    .aColor(style="background-color: #fff")
+                    h3 #FFFFFF
+                    p White, the manifestation of a pure background.
+            p.
+                We don't provide CMYK colors as ct.js is a digital app,
+                but if you need something for print, printing houses usually know
+                how to handle RGB colors. If they don't, choose a better printing house.
+    section
+        .inner
+            h2.nmt Feature list (WIP)
+            .c4.breakon960
+                h3 Animation
+                ul
+                    li Support for framed animations from sprite sheets.
+                    li Ability to turn one sprite sheet into several animations with ct.sprite module.
+                    li Support for DragonBones skeletal animations.
+                    li Smooth value animations with ct.tween.
+                h3 Branding
+                ul
+                    li Configurable loading screen.
+                    li Configurable icon for web and desktop builds.
+                h3 Camera
+                ul
+                    li Automatic support for multiple resolutions.
+                    li Screen shake effects.
+                    li Smooth movement from point to point.
+                    li Viewport rotation.
+                    li Zooming.
+                h3 Coding
+                ul
+                    li Code folding.
+                    li Multi-cursor editing.
+                    li Real-time type checks with errors, warnings, and hints.
+                    li String and RegExp search.
+                    li Suggestions with embedded documentation.
+                h3 Custom fonts
+                ul
+                    li Import TTF fonts and use them in canvas-based text labels.
+                    li Produce bitmap fonts from TTF fonts.
+            .c4.breakon960
+                h3 Documentation
+                ul
+                    li Documentation provided with modules integrates into IDE interface.
+                    li Offline docs and examples bundled with ct.js.
+                h3 Exporting
+                ul
+                    li Export for web in one click.
+                    li Export for Windows, Mac, and Linux (supports #[a(href="https://github.com/electron/electron/releases") everything electron does]).
+                    li Fast desktop builds after downloading electron binaries (under a minute).
+                    li Support for older browsers that don't support WebGL.
+                h3 Interface
+                ul
+                    li Configurable font for code.
+                    li Configurable panels for asset lists.
+                    li Numerous dark and light themes.
+                    li Search and sort assets.
+                h3 Modding
+                ul
+                    li Add new fields to objects and rooms.
+                    li Custom settings pages.
+                h3 Motion & collisions
+                ul
+                    li Ability to code a movement system for platformers. (Examples and tutorials are included.)
+                    li Arcade movement system.
+                    li Circled, rectangular, polygon collision shapes with support for transforms.
+                    li Collision checks with other objects and tile sets.
+                    li Collision groups for objects and tiles to check collisions against a specified subset of entities.
+                    li Continuous movement.
+                    li Environment querying system.
+            .c4.breakon960
+                h3 Object transformations
+                ul
+                    li Movement.
+                    li Rotation.
+                    li Scaling.
+                    li Tint.
+                    li Transforming with a 3x3 transform matrix.
+                h3 Room editor
+                ul
+                    li Boundless levels — you can expand your level anytime at any direction without extra steps.
+                    li Multiple selection.
+                    li Pan and zoom a level.
+                    li Placing objects individually and as a brush.
+                    li Tilemap support.
+                h3 Special effects
+                ul
+                    li Particle systems with real-time modelling.
+                    li Transitions between levels.
+                h3 Textures
+                ul
+                    li Bitmap fonts.
+                    li Support for most popular image formats.
+                    li Textures get packaged into PNG atlases for faster load and better performance.
+                h3 UI
+                ul
+                    li Design UI in separate rooms and add them to viewport in gameplay levels.
+                    li Dynamic text labels.
+                    li Virtual keys. (Aka on-screen keys and joysticks.)
+            .clear
