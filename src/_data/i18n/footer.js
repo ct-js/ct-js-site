@@ -3,6 +3,7 @@ const voc = {
         comigo: 'Cosmo Myzrail Gorynych',
         siteLicense: 'the site is licensed under',
         appLicense: 'The ct.js app is licensed under MIT license.',
+        presskit: 'Presskit',
         contact: 'Contact',
         forkUs: 'Fork us on GitHub!',
         joinServer: 'Join our Discord server!',

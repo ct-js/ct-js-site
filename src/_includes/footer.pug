@@ -1,4 +1,5 @@
 - var nContact = site.links && site.links.contact || '/contact';
+- var nPresskit = site.links && site.links.presskit || '/presskit';
 
 footer#footer
     .inner
@@ -49,4 +50,8 @@ footer#footer
                 svg.icon
                     use(xlink:href="/icons.svg#patreon")
             p
+                a(href=nPresskit)=i18n.footer[site.locale].presskit
+                |
+                | |
+                |
                 a(href=nContact)=i18n.footer[site.locale].contact
