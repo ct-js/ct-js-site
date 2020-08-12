@@ -110,6 +110,11 @@ block body
                     .aButtonGroup
                         a.button(download href="/img/presskit/CircledIcon.png") PNG
                         a.button(download href="/img/presskit/CircledIcon.svg") SVG
+            .center
+                a.button(href="/img/presskit/Ct.js assets.zip" download)
+                    svg.feather
+                        use(xlink:href="/icons.svg#download")
+                    span Download all logos and screenshots
     section.blue
         .inner
             h2.nmt Colors
@@ -121,15 +126,11 @@ block body
                 .aColorCard
                     .aColor(style="background-color: #5144db")
                     h3 #5144DB
-                    p Purple, the ink and blood of headers.
-                .aColorCard
-                    .aColor(style="background-color: #fafafa")
-                    h3 #FAFAFA
-                    p Snow, the backgrounds in shadows.
+                    p Purple, the ink and blood.
                 .aColorCard
                     .aColor(style="background-color: #fff")
                     h3 #FFFFFF
-                    p White, the manifestation of a pure background.
+                    p White, the one you can't see.
             p.
                 We don't provide CMYK colors as ct.js is a digital app,
                 but if you need something for print, printing houses usually know
@@ -176,11 +177,11 @@ block body
                     li Pause and resume your game.
                     li Restart the current level, or the whole game.
                     li Take a screenshot of your game while in debug mode.
-            .c4.breakon960
                 h3 Documentation
                 ul
                     li Documentation provided with modules integrates into IDE interface.
                     li Offline docs and examples bundled with ct.js.
+            .c4.breakon960
                 h3 Exporting
                 ul
                     li Add custom HTML and CSS to your builds with ct.akatemplate.
@@ -188,6 +189,13 @@ block body
                     li Export for Windows, Mac, and Linux (supports #[a(href="https://github.com/electron/electron/releases") everything electron does]).
                     li Fast desktop builds after downloading electron binaries (under a minute).
                     li Support for older browsers that don't support WebGL.
+                h3 Inputs
+                ul
+                    li Full layout-agnostic keyboard support
+                    li Mouse support
+                    li Gamepad support
+                    li Touch screen support
+                    li Virtual keys and joysticks
                 h3 Interface
                 ul
                     li Configurable font for code.
@@ -259,3 +267,38 @@ block body
                     li Dynamic text labels.
                     li Virtual keys. (Aka on-screen keys and joysticks.)
             .clear
+    section.grey
+        .inner
+            h2.nmt Assets
+            .AssetCards.breakon960
+                +aScreenshot("Code editor 1", "CodeEditor_01")
+                +aScreenshot("Code editor 2", "CodeEditor_02")
+                .clear
+                +aScreenshot("Room editor 1", "RoomEditor_01")
+                +aScreenshot("Room editor 2", "RoomEditor_02")
+                .clear
+                +aScreenshot("Particle systems 1", "ParticleSystems_01")
+                +aScreenshot("Particle systems 2", "ParticleSystems_02")
+                .clear
+                +aScreenshot("Texture editor 1", "TextureEditor_01")
+                +aScreenshot("Texture editor 2", "TextureEditor_02")
+                .clear
+                +aScreenshot("Asset panel", "AssetViewer")
+                +aScreenshot("Font viewer", "FontViewer")
+    section.blue
+        .inner.center
+            a.button(href="/img/presskit/Ct.js assets.zip" download)
+                svg.feather
+                    use(xlink:href="/icons.svg#download")
+                span Download all logos and screenshots
+
+
+mixin aScreenshot(title, baseName)
+    .anAssetCard.aScreenshot
+        .center
+            img(src=`/img/presskit/${baseName}_thumbnail.jpg`)
+        a.button.toright(download href=`/img/presskit/${baseName}.png`)
+            svg.feather
+                use(xlink:href="/icons.svg#download")
+            span Download
+        h3=title
