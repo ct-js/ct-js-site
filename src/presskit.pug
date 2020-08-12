@@ -5,7 +5,7 @@ block head
 block body
     section.blue.gradient
         .inner.center
-            h1 Press kit
+            h1 Presskit
     section
         .inner
             .c8.breakon960
@@ -36,7 +36,7 @@ block body
                         It is actively maintained, bringing bug fixes, improvements,
                         and new features.
                 p
-                    b Similarities to other products
+                    b Similarities with other products
                     br
                     .
                         Ct.js is inspired by YoYo Game Maker and Tululoo Game Maker and
@@ -148,7 +148,7 @@ block body
                 ul
                     li Configurable loading screen.
                     li Configurable icon for web and desktop builds.
-                h3 Camera
+                h3 Camera & Viewport
                 ul
                     li Automatic support for multiple resolutions.
                     li Screen shake effects.
@@ -158,14 +158,24 @@ block body
                 h3 Coding
                 ul
                     li Code folding.
+                    li Code highlighting.
                     li Multi-cursor editing.
                     li Real-time type checks with errors, warnings, and hints.
                     li String and RegExp search.
                     li Suggestions with embedded documentation.
+                    li Support for ligatures. (Can be toggled in settings.)
                 h3 Custom fonts
                 ul
                     li Import TTF fonts and use them in canvas-based text labels.
                     li Produce bitmap fonts from TTF fonts.
+                    li Set a range of characters to include in bitmap fonts by choosing charsets or manually typing the needed symbols.
+                h3 Debugging
+                ul
+                    li Integrated Chrome debugger with all its tools.
+                    li Jump to any level in your game at click.
+                    li Pause and resume your game.
+                    li Restart the current level, or the whole game.
+                    li Take a screenshot of your game while in debug mode.
             .c4.breakon960
                 h3 Documentation
                 ul
@@ -173,6 +183,7 @@ block body
                     li Offline docs and examples bundled with ct.js.
                 h3 Exporting
                 ul
+                    li Add custom HTML and CSS to your builds with ct.akatemplate.
                     li Export for web in one click.
                     li Export for Windows, Mac, and Linux (supports #[a(href="https://github.com/electron/electron/releases") everything electron does]).
                     li Fast desktop builds after downloading electron binaries (under a minute).
@@ -183,10 +194,19 @@ block body
                     li Configurable panels for asset lists.
                     li Numerous dark and light themes.
                     li Search and sort assets.
-                h3 Modding
+                h3 Translations
+                ul
+                    li Ability to add new language files and modify them.
+                    li.
+                        Brazilian Portuguese, Chinese Simplified, Dutch, English,
+                        French, German, Polish, Romanian, Russian, Spanish UI translations
+                        authored by ct.js community.
+                h3 Modding ct.js
                 ul
                     li Add new fields to objects and rooms.
                     li Custom settings pages.
+                    li Dozens of open-source modules come bundled with ct.js.
+                    li Integrate module's documentation into ct.js with markdown files and TypeScript definition files.
                 h3 Motion & collisions
                 ul
                     li Ability to code a movement system for platformers. (Examples and tutorials are included.)
@@ -211,6 +231,19 @@ block body
                     li Pan and zoom a level.
                     li Placing objects individually and as a brush.
                     li Tilemap support.
+                h3 Savegames
+                ul
+                    li Automatic handling of paths and conversions for desktop builds at ct.fs module.
+                    li Create, read, write and delete files with ct.js module for desktop builds.
+                    li Save strings into browser with localStorage; available for web and desktop builds.
+                h3 Sounds
+                ul
+                    li Simple HTML5Audio and a more advanced WebAudio systems.
+                    li Support for mp3, wav, ogg formats.
+                    li 3D audio.
+                    li Stereo panning.
+                    li Fade in/fade out transitions.
+                    li Preloading music files on demand.
                 h3 Special effects
                 ul
                     li Particle systems with real-time modelling.
