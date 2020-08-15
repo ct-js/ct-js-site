@@ -2,8 +2,10 @@ const voc = {
     en: {
         pageTitle: 'Download ct.js',
         pageDescription: 'Download a free 2D game editor from its official site.',
-        welcomeAboard: 'Welcome aboard!',
+        installerDownload: 'Welcome aboard!',
+        manualDownload: 'Issues? Try the manual download:',
 
+        download: 'Download',
         downloadx64: 'Download x64',
         downloadx32: 'Download x32',
 
@@ -19,8 +21,10 @@ const voc = {
     br: {
         pageTitle: 'Baixe ct.js',
         pageDescription: 'Faça o download de um editor de jogos 2D gratuito em seu site oficial.',
-        welcomeAboard: 'Bem vindo a bordo, marujo!',
+        installerDownload: 'Bem vindo a bordo!',
+        manualDownload: 'Problemas? Experimente o download manual:',
 
+        download: 'Baixar',
         downloadx64: 'Baixar x64',
         downloadx32: 'Baixar x32',
 
@@ -36,8 +40,10 @@ const voc = {
     de: {
         pageTitle: 'Lade herunter ct.js',
         pageDescription: 'Lade ein gratis 2D Spiele Editor herunter von seiner offiziellen Website.',
-        welcomeAboard: 'Willkommen an Bord!',
+        installerDownload: 'Willkommen an Bord!',
+        manualDownload: 'Probleme? Probieren Sie den manuellen Download aus:',
 
+        download: 'Herunterladen',
         downloadx64: 'Herunterladen x64',
         downloadx32: 'Herunterladen x32',
 
@@ -53,8 +59,10 @@ const voc = {
     ru: {
         pageTitle: 'Скачать ct.js',
         pageDescription: 'Скачайте бесплатный редактор 2D игр ct.js с его официального сайта.',
-        welcomeAboard: 'Добро пожаловать на борт!',
+        installerDownload: 'Добро пожаловать на борт!',
+        manualDownload: 'Вопросы? Попробуйте загрузить вручную:',
 
+        download: 'Скачать',
         downloadx64: 'Скачать x64',
         downloadx32: 'Скачать x32',
 

@@ -6,7 +6,38 @@ block body
     section.blue.gradient.wavesbottom#downloads
         .inner
             h2.center
-                b=i18n.downloadPage[site.locale].welcomeAboard
+                b=i18n.downloadPage[site.locale].installerDownload
+            .aCardList.white
+                .c4.breakon800
+                    .aCard.center
+                        svg.feather.huge
+                            use(xlink:href=`/icons.svg#windows`)
+                        h3=i18n.downloadPage[site.locale].windows
+                        a.button(href=downloadsInstaller.windows)=i18n.downloadPage[site.locale].download
+                .c4.breakon800
+                    .aCard.center
+                        span(title="Don't laugh at this icon! I tried my best XD")
+                            svg.feather.huge
+                                use(xlink:href=`/icons.svg#linux-linear`)
+                        h3=i18n.downloadPage[site.locale].linux
+                        a.button(href=downloadsInstaller.linux)=i18n.downloadPage[site.locale].download
+                .c4.breakon800
+                    .aCard.center
+                        svg.feather.huge
+                            use(xlink:href=`/icons.svg#apple`)
+                        h3=i18n.downloadPage[site.locale].mac
+                        a.button(href=downloadsInstaller.mac)=i18n.downloadPage[site.locale].download
+            .clear
+            .center
+                p.hSub=i18n.downloadPage[site.locale].getFromItch
+                iframe(
+                    src="https://itch.io/embed/238348?bg_color=ffffff&fg_color=222222&link_color=446adb&border_color=cccccc"
+                    width="552" height="167" frameborder="0"
+                    style=style="border-radius: 0.35rem;"
+                )
+            .clear
+            h2.center
+                b=i18n.downloadPage[site.locale].manualDownload
             .aCardList.white
                 .c4.breakon800
                     .aCard.center
@@ -33,13 +64,6 @@ block body
                         p=i18n.downloadPage[site.locale].macInstructions
                         a.button(href=downloads.mac64)=i18n.downloadPage[site.locale].downloadx64
             .clear
-            .center
-                p.hSub=i18n.downloadPage[site.locale].getFromItch
-                iframe(
-                    src="https://itch.io/embed/238348?bg_color=ffffff&fg_color=222222&link_color=446adb&border_color=cccccc"
-                    width="552" height="167" frameborder="0"
-                    style=style="border-radius: 0.35rem;"
-                )
     include /whatsnext.pug
     section#share
         include /shareBlock.pug
