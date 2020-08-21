@@ -15,7 +15,7 @@ button, .button
     font-weight 500
     letter-spacing 1px
     margin 0.4rem 0.8rem 0.4rem 0
-    padding 1rem 3rem
+    padding 1em 2em
     {trans}
     border-radius br
     color white
@@ -36,6 +36,14 @@ button, .button
     &:hover
         background accent1
         color white
+    .white &, .blue .white &
+        border @border
+        background @background
+        &:hover
+            background accent1
+            color white
+            i
+                color white
     .blue &
         border 2px solid white
         background transparent
@@ -44,11 +52,12 @@ button, .button
             color act
             i
                 color act
-    .white &
-        border @border
-        background @background
+    &.outline, .white &.outlinee, .blue .white &.outline
+        color act
+        border 2px solid act
+        background transparent
         &:hover
-            background accent1
+            background act
             color white
             i
                 color white

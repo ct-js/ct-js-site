@@ -3,11 +3,12 @@ const voc = {
         pageTitle: 'Download ct.js',
         pageDescription: 'Download a free 2D game editor from its official site.',
         installerDownload: 'Welcome aboard!',
-        manualDownload: 'Issues? Try the manual download:',
 
         download: 'Download',
-        downloadx64: 'Download x64',
-        downloadx32: 'Download x32',
+        downloadWebInstaller: 'Download Installer',
+        downloadx64: 'x64',
+        downloadx32: 'x32',
+        alternateVersion: 'Alternate version:',
 
         windows: 'Windows',
         windowsInstructions: 'Windows 7 and higher. Unzip and run ctjs.exe',
@@ -22,11 +23,10 @@ const voc = {
         pageTitle: 'Baixe ct.js',
         pageDescription: 'Faça o download de um editor de jogos 2D gratuito em seu site oficial.',
         installerDownload: 'Bem vindo a bordo!',
-        manualDownload: 'Problemas? Experimente o download manual:',
 
         download: 'Baixar',
-        downloadx64: 'Baixar x64',
-        downloadx32: 'Baixar x32',
+        downloadx64: 'x64',
+        downloadx32: 'x32',
 
         windows: 'Windows',
         windowsInstructions: 'Windows 7 e maiores. descompacte e abra ctjs.exe',
@@ -41,11 +41,10 @@ const voc = {
         pageTitle: 'Lade herunter ct.js',
         pageDescription: 'Lade ein gratis 2D Spiele Editor herunter von seiner offiziellen Website.',
         installerDownload: 'Willkommen an Bord!',
-        manualDownload: 'Probleme? Probieren Sie den manuellen Download aus:',
 
         download: 'Herunterladen',
-        downloadx64: 'Herunterladen x64',
-        downloadx32: 'Herunterladen x32',
+        downloadx64: 'x64',
+        downloadx32: 'x32',
 
         windows: 'Windows',
         windowsInstructions: 'Windows 7 und höher. Entpacke und führe ctjs.exe aus',
@@ -60,11 +59,10 @@ const voc = {
         pageTitle: 'Скачать ct.js',
         pageDescription: 'Скачайте бесплатный редактор 2D игр ct.js с его официального сайта.',
         installerDownload: 'Добро пожаловать на борт!',
-        manualDownload: 'Вопросы? Попробуйте загрузить вручную:',
 
         download: 'Скачать',
-        downloadx64: 'Скачать x64',
-        downloadx32: 'Скачать x32',
+        downloadx64: 'x64',
+        downloadx32: 'x32',
 
         windows: 'Windows',
         windowsInstructions: 'Windows 7 или выше. Распаковать архив и запустить ctjs.exe',

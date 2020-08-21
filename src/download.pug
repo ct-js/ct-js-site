@@ -5,28 +5,56 @@ block head
 block body
     section.blue.gradient.wavesbottom#downloads
         .inner
-            h2.center
+            h1.center
                 b=i18n.downloadPage[site.locale].installerDownload
             .aCardList.white
                 .c4.breakon800
                     .aCard.center
                         svg.feather.huge
                             use(xlink:href=`/icons.svg#windows`)
-                        h3=i18n.downloadPage[site.locale].windows
-                        a.button(href=downloadsInstaller.windows)=i18n.downloadPage[site.locale].download
+                        h2.nmt=i18n.downloadPage[site.locale].windows
+                        a.button(href=downloadsInstaller.windows)
+                            svg.feather
+                                use(xlink:href="/icons.svg#download")
+                            span=i18n.downloadPage[site.locale].downloadWebInstaller
+                        p
+                            span=i18n.downloadPage[site.locale].alternateVersion
+                            .aButtonGroup
+                                a.button.outline.small(href=downloads.win64)=i18n.downloadPage[site.locale].downloadx64
+                                a.button.outline.small(href=downloads.win32)=i18n.downloadPage[site.locale].downloadx32
+                            span=i18n.downloadPage[site.locale].windowsInstructions
                 .c4.breakon800
                     .aCard.center
                         span(title="Don't laugh at this icon! I tried my best XD")
                             svg.feather.huge
                                 use(xlink:href=`/icons.svg#linux-linear`)
-                        h3=i18n.downloadPage[site.locale].linux
-                        a.button(href=downloadsInstaller.linux)=i18n.downloadPage[site.locale].download
+                        h2.nmt=i18n.downloadPage[site.locale].linux
+                        a.button(href=downloadsInstaller.linux)
+                            svg.feather
+                                use(xlink:href="/icons.svg#download")
+                            span=i18n.downloadPage[site.locale].downloadWebInstaller
+                        br
+                        p
+                            span=i18n.downloadPage[site.locale].alternateVersion
+                            .aButtonGroup
+                                a.button.outline.small(href=downloads.linux64)=i18n.downloadPage[site.locale].downloadx64
+                                a.button.outline.small(href=downloads.linux32)=i18n.downloadPage[site.locale].downloadx32
+                            span=i18n.downloadPage[site.locale].linuxInstructions
                 .c4.breakon800
                     .aCard.center
                         svg.feather.huge
                             use(xlink:href=`/icons.svg#apple`)
-                        h3=i18n.downloadPage[site.locale].mac
-                        a.button(href=downloadsInstaller.mac)=i18n.downloadPage[site.locale].download
+                        h2.nmt=i18n.downloadPage[site.locale].mac
+                        a.button(href=downloadsInstaller.mac)
+                            svg.feather
+                                use(xlink:href="/icons.svg#download")
+                            span=i18n.downloadPage[site.locale].downloadWebInstaller
+                        br
+                        p
+                            span=i18n.downloadPage[site.locale].alternateVersion
+                            .aButtonGroup
+                                a.button.outline.small(href=downloads.mac64)=i18n.downloadPage[site.locale].downloadx64
+                            span=i18n.downloadPage[site.locale].macInstructions
             .clear
             .center
                 p.hSub=i18n.downloadPage[site.locale].getFromItch
@@ -35,34 +63,6 @@ block body
                     width="552" height="167" frameborder="0"
                     style=style="border-radius: 0.35rem;"
                 )
-            .clear
-            h2.center
-                b=i18n.downloadPage[site.locale].manualDownload
-            .aCardList.white
-                .c4.breakon800
-                    .aCard.center
-                        svg.feather.huge
-                            use(xlink:href=`/icons.svg#windows`)
-                        h3=i18n.downloadPage[site.locale].windows
-                        p=i18n.downloadPage[site.locale].windowsInstructions
-                        a.button(href=downloads.win64)=i18n.downloadPage[site.locale].downloadx64
-                        a.button.small(href=downloads.win32)=i18n.downloadPage[site.locale].downloadx32
-                .c4.breakon800
-                    .aCard.center
-                        span(title="Don't laugh at this icon! I tried my best XD")
-                            svg.feather.huge
-                                use(xlink:href=`/icons.svg#linux-linear`)
-                        h3=i18n.downloadPage[site.locale].linux
-                        p=i18n.downloadPage[site.locale].linuxInstructions
-                        a.button(href=downloads.linux64)=i18n.downloadPage[site.locale].downloadx64
-                        a.button.small(href=downloads.linux32)=i18n.downloadPage[site.locale].downloadx32
-                .c4.breakon800
-                    .aCard.center
-                        svg.feather.huge
-                            use(xlink:href=`/icons.svg#apple`)
-                        h3=i18n.downloadPage[site.locale].mac
-                        p=i18n.downloadPage[site.locale].macInstructions
-                        a.button(href=downloads.mac64)=i18n.downloadPage[site.locale].downloadx64
             .clear
     include /whatsnext.pug
     section#share
