@@ -8,7 +8,7 @@ const voc = {
         downloadWebInstaller: 'Download Installer',
         downloadx64: 'x64',
         downloadx32: 'x32',
-        alternateVersion: 'Alternate version:',
+        alternateVersion: 'Offline downloads:',
 
         windows: 'Windows',
         windowsInstructions: 'Windows 7 and higher. Unzip and run ctjs.exe',

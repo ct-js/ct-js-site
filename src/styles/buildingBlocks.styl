@@ -54,7 +54,9 @@ section
         &.gradAlt
             background linear-gradient(45deg, act 0, accent1 100%)
     &.grey
-        background bl
+        background backgroundDeeper
+        border-top 1px solid bd
+        border-bottom 1px solid bd
     padding 3rem 2rem
     &.intro
         padding 6rem 2rem
@@ -157,6 +159,14 @@ nav
     position absolute
     button, .button
         opacity 0
+
+.anInsetPanel
+    margin 1.5rem -1.5rem -1rem
+    padding 1rem 1.5rem
+    background backgroundDeeper
+    border-top 1px solid bd
+    .aCard &
+        border-radius 0 0 brsmall brsmall
 
 .anEssencial
     display flex
