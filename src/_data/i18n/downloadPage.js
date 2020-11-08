@@ -2,10 +2,13 @@ const voc = {
     en: {
         pageTitle: 'Download ct.js',
         pageDescription: 'Download a free 2D game editor from its official site.',
-        welcomeAboard: 'Welcome aboard!',
+        installerDownload: 'Welcome aboard!',
 
-        downloadx64: 'Download x64',
-        downloadx32: 'Download x32',
+        download: 'Download',
+        downloadWebInstaller: 'Download Installer',
+        downloadx64: 'x64',
+        downloadx32: 'x32',
+        alternateVersion: 'Offline downloads:',
 
         windows: 'Windows',
         windowsInstructions: 'Windows 7 and higher. Unzip and run ctjs.exe',
@@ -19,10 +22,11 @@ const voc = {
     br: {
         pageTitle: 'Baixe ct.js',
         pageDescription: 'Faça o download de um editor de jogos 2D gratuito em seu site oficial.',
-        welcomeAboard: 'Bem vindo a bordo, marujo!',
+        installerDownload: 'Bem vindo a bordo!',
 
-        downloadx64: 'Baixar x64',
-        downloadx32: 'Baixar x32',
+        download: 'Baixar',
+        downloadx64: 'x64',
+        downloadx32: 'x32',
 
         windows: 'Windows',
         windowsInstructions: 'Windows 7 e maiores. descompacte e abra ctjs.exe',
@@ -36,10 +40,11 @@ const voc = {
     de: {
         pageTitle: 'Lade herunter ct.js',
         pageDescription: 'Lade ein gratis 2D Spiele Editor herunter von seiner offiziellen Website.',
-        welcomeAboard: 'Willkommen an Bord!',
+        installerDownload: 'Willkommen an Bord!',
 
-        downloadx64: 'Herunterladen x64',
-        downloadx32: 'Herunterladen x32',
+        download: 'Herunterladen',
+        downloadx64: 'x64',
+        downloadx32: 'x32',
 
         windows: 'Windows',
         windowsInstructions: 'Windows 7 und höher. Entpacke und führe ctjs.exe aus',
@@ -53,10 +58,11 @@ const voc = {
     ru: {
         pageTitle: 'Скачать ct.js',
         pageDescription: 'Скачайте бесплатный редактор 2D игр ct.js с его официального сайта.',
-        welcomeAboard: 'Добро пожаловать на борт!',
+        installerDownload: 'Добро пожаловать на борт!',
 
-        downloadx64: 'Скачать x64',
-        downloadx32: 'Скачать x32',
+        download: 'Скачать',
+        downloadx64: 'x64',
+        downloadx32: 'x32',
 
         windows: 'Windows',
         windowsInstructions: 'Windows 7 или выше. Распаковать архив и запустить ctjs.exe',
