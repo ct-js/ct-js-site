@@ -10,7 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "@11ty/eleventy": "^0.5.4",
-    "axios": "^0.18.1",
+    "axios": "^0.21.1",
     "gulp": "^4.0.0",
     "gulp-concat": "^2.6.1",
     "gulp-shell": "^0.6.5",
