@@ -39,6 +39,7 @@ const voc = {
             customJS: 'Ability to use custom JavaScript',
             easyPacking: 'Easy packing and deploying',
         },
+        allFeatures: 'All the features',
 
 
         partners: 'Our Partner',
@@ -223,6 +224,7 @@ const voc = {
             customJS: 'Возможность использовать любой JavaScript-код',
             easyPacking: 'Простые инструменты упаковки и релиза'
         },
+        allFeatures: 'Все фичи',
 
         seeRoadmap: 'Наш план разработки',
 
