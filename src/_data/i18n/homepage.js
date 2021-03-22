@@ -31,10 +31,10 @@ const voc = {
         essentials: {
             roomEditor: 'Room / Level editor with tile support',
             codeEditor: 'Integrated code editor with error handling',
-            collisionHandling: 'Complex collision handling and other libraries',
+            collisionHandling: 'Arcade collisions and 2D physics libraries',
             animations: 'Framed & skeletal animations',
             sounds: 'Music & sound manager',
-            styles: 'Styles to reuse GUI settings',
+            fx: 'Particle system, shaders, and lighting system',
             docs: 'Notes & docs in a side panel, on every screen',
             customJS: 'Ability to use custom JavaScript',
             easyPacking: 'Easy packing and deploying',
@@ -218,7 +218,7 @@ const voc = {
             collisionHandling: 'Обработка столкновений и другие модули',
             animations: 'Покадровые и скелетные анимации',
             sounds: 'Фоновая музыка и менеджер звуков',
-            styles: 'Стили для текстов в интерфейсе',
+            fx: 'Шейдеры, системы частиц и система освещения',
             docs: 'Заметки и документация в выдвижной панеле, на каждой форме',
             customJS: 'Возможность использовать любой JavaScript-код',
             easyPacking: 'Простые инструменты упаковки и релиза'
