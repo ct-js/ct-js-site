@@ -6,6 +6,55 @@ block body
     section.intro.blue.gradient
         .inner.center
             h1 The Changelog
+    +changelogEntry("v1.6.0", "28 March 2021. Modules for FX, Multiplayer, and 2D physics, and sprinkles of minor improvements.")
+        :markdown-it
+            ### ✨ New Features
+
+            * Add `ct.filters` module by SN from our Discord server. The module allows creating special visual effects with filters or custom shaders, applied to your copies or a whole viewport
+            * Add `ct.light` module for adding ambient lighting and textured lights
+            * Add `ct.matter` module for 2D physics. See the new example!
+            * Bundle `ct.nakama` module by @alexandargyurov — you can now create online games with ct.js!
+            * Group modded fields into collapsible sections with a new field type
+            * Nano ID catmod of the same-named tiny library by Andrei Sitnik
+            * Optionally make a camera stay inside a specific rectangle with new rooms' settings.
+
+            ### ⚡️ General Improvements
+
+            * 🍱 Update Electron used in desktop builds to v11.1.1
+            * Allow Background class to accept a pixi.js texture
+            * Modify emitter tandems to use `PIXI.ParticleContainer`. Provides better performance, and also fixes issue with un-tintable emitters.
+            * Renovate `ct.desktop` -> quit method
+            * Select only the needed Nw.js version for debugging
+
+            ### 🐛 Bug Fixes
+
+            * Allow resetting values in type and texture inputs at modded fields
+            * Fix "}" at the end of some texture files' names
+            * Fix bitmap font's XML ("kerings" typo")
+            * Fix broken context menu entry for textures to create a type from them
+            * Fix crashes of the built-in debugger; disable nw and node in the devtools
+            * Fix `ct.place.meet` returning duplicated references to copies if querying for multiple obstacles
+            * Fix icons for nightly and regular releases
+            * Fix Point2D initialization for modded fields
+            * In rooms' copy spawning code, check for scaling extensions separately
+            * Remove the old main-menu tag
+
+            ### 🍱 Demos, Dependencies and Stuff
+
+            * Update  nw.js to v0.51.1
+
+            ### 📝 Docs
+
+            *  Add "Dragging Copies Around" tutorial by @qewer33
+            * 🐛 Add missing methods `ct.types.isCopy`, `ct.u.hexToPixi`, `ct.u.pixiToHex`
+            * 🐛 Add `moveTo` and `teleportTo` methods in `ct.camera` (#49 by @firecakes)
+            * ✨ Add a list of gamedev resources
+            * ⚡️ Add categories to ct.u methods list
+            * ⚡️ Minor edits for JS intro, pt. 1
+            * ⚡️ Refurbish the home page. Move most old content to "Basic concepts". Add links to tutorials and the cheatsheet.
+            * 🐛 remove duplicate instruction to draw `scoreLabel`.
+            * Add a memo about `ct.desktop.isNw` and `ct.desktop.isElectron`
+            * Fixed typos in the Space Shooter tutorial by @sarturodev
     +changelogEntry("v1.5.1", "24 December 2020. 100% Chinese translation, nw.js update, and minor improvements.")
         :markdown-it
             ### ✨ New Features
