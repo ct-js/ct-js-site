@@ -5,7 +5,7 @@ const url = 'https://comigo.itch.io/ct/devlog.rss';
 
 module.exports = () => {
     return Cache(url, {
-        duration: '1d', // save for 1 day
+        duration: '1h', // save for 1 hour
         type: 'xml'
     })
     .then(data => new Promise(resolve => {

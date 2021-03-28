@@ -7,7 +7,7 @@ const getUrlForPlatform = (data, name) => {
 
 module.exports = () => new Promise((resolve, reject) => {
     return Cache(url, {
-        duration: '1d', // save for 1 day
+        duration: '1h', // save for 1 hour
         type: 'json'    // we’ll parse JSON for you
     })
     .then(data => {

@@ -6,7 +6,7 @@ const url = 'https://itch.io/games/made-with-ctjs.xml';
 module.exports = () => {
     return new Promise((resolve, reject) => {
         return Cache(url, {
-            duration: '1d', // save for 1 day
+            duration: '1h', // save for 1 hour
             type: 'xml'
         })
         .then(data => {
