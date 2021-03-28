@@ -99,7 +99,7 @@ block body
                     'collision': i18n.homepage[site.locale].essentials.collisionHandling,
                     'film': i18n.homepage[site.locale].essentials.animations,
                     'music': i18n.homepage[site.locale].essentials.sounds,
-                    'type': i18n.homepage[site.locale].essentials.styles,
+                    'sparkles': i18n.homepage[site.locale].essentials.fx,
                     'book-open': i18n.homepage[site.locale].essentials.docs,
                     'code': i18n.homepage[site.locale].essentials.customJS,
                     'package': i18n.homepage[site.locale].essentials.easyPacking
@@ -115,6 +115,12 @@ block body
                     if (i % 3 === 0 && i !== 0)
                         .clear
                 .clear
+            .center
+                - var nAllFeatures = site.links && site.links.allFeatures || '/presskit#features'
+                a.button.big(href=nAllFeatures)
+                    svg.feather
+                        use(xlink:href=`/icons.svg#sparkles`)
+                    span=i18n.homepage[site.locale].allFeatures
     include /joinGamedev.pug
     section#partners.grey
         .c3.breakon960

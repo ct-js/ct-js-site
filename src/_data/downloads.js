@@ -1,4 +1,4 @@
-const axios  = require('axios');
+const Cache = require('@11ty/eleventy-cache-assets');
 const url = 'https://api.github.com/repos/ct-js/ct-js/releases/latest';
 
 const getUrlForPlatform = (data, name) => {
@@ -6,9 +6,11 @@ const getUrlForPlatform = (data, name) => {
 };
 
 module.exports = () => new Promise((resolve, reject) => {
-    axios.get(url)
-    .then(response => {
-        const data = response.data;
+    return Cache(url, {
+        duration: '1d', // save for 1 day
+        type: 'json'    // we’ll parse JSON for you
+    })
+    .then(data => {
         resolve({
             "version": data.tag_name,
             "win64": getUrlForPlatform(data, 'win64'),

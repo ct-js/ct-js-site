@@ -1,14 +1,17 @@
-const axios  = require('axios'),
-      toJSON = require('xml2js').parseString;
+const toJSON = require('xml2js').parseString;
+const Cache = require('@11ty/eleventy-cache-assets');
 
 const url = 'https://itch.io/games/made-with-ctjs.xml';
 
 module.exports = () => {
     return new Promise((resolve, reject) => {
-        axios.get(url)
-        .then((response) => {
+        return Cache(url, {
+            duration: '1d', // save for 1 day
+            type: 'xml'
+        })
+        .then(data => {
             // turn the feed XML into JSON
-            toJSON(response.data, function (err, result) {
+            toJSON(data, function (err, result) {
                 const games = result.rss.channel[0].item;
                 for (const game of games) {
                     game.description = String(game.description).split('<img alt="')[0];
