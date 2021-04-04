@@ -1,7 +1,7 @@
 const voc = {
     en: {
         changelog: 'Changelog',
-        docs: 'Docs',
+        docs: 'Learn',
         forum: 'Forum',
         download: 'Download',
         gotoHomepage: 'Go to the homepage',
@@ -25,7 +25,7 @@ const voc = {
     },
     ru: {
         changelog: 'Лог изменений',
-        docs: 'Документация',
+        docs: 'Доки и обучение',
         forum: 'Форум',
         download: 'Скачать',
         gotoHomepage: 'На главную',
