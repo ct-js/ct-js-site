@@ -6,6 +6,26 @@ block body
     section.intro.blue.gradient
         .inner.center
             h1 The Changelog
+    +changelogEntry("v1.6.2", "31 March 2021.")
+        :markdown-it
+            ### ⚡️ General Improvements
+
+            * Add JS map files for pixi.js
+            * Update pixi.js to v5.3.8
+
+            ### 🐛 Bug Fixes
+
+            * :bento: Fix 2DPhysics example
+
+            ### 🐉 Misc
+
+            * Revert "Modify emitter tandems to use ParticleContainer"
+            This reverts commit b8a47f4273fb08e8377c5489ef8e30464bf41845.
+    +changelogEntry("v1.6.1", "29 March 2021.")
+        :markdown-it
+            ### 🐛 Bug Fixes
+
+            * Fix teleport, spin, rotate, and rotateBy methods in ct.matter module
     +changelogEntry("v1.6.0", "28 March 2021. Modules for FX, Multiplayer, and 2D physics, and sprinkles of minor improvements.")
         :markdown-it
             ### ✨ New Features
