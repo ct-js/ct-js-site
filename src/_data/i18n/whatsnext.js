@@ -67,6 +67,7 @@ const voc = {
         getHelp: 'В нём можно получить поддержку и познакомиться с другими разработчиками',
         discordButton: 'Discord-сервер',
         forumButton: 'Форум',
+        vkButton: 'Вконтакте',
 
         subscribeButton: 'Подписаться',
         subscribeToNewsletter: 'Подпишись на новости',

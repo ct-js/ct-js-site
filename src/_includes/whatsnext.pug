@@ -10,6 +10,8 @@ section.grey
                 h3.nmt.npt=i18n.whatsnext[site.locale].readTheDocs
                 p #{i18n.whatsnext[site.locale].completeTutorials}
                 a.button.nmr(href="https://docs.ctjs.rocks/")
+                    svg.feather
+                        use(xlink:href=`/icons.svg#book-open`)
                     span #{i18n.whatsnext[site.locale].docsButton}
 
         .c6.breakon800
@@ -22,10 +24,14 @@ section.grey
                     svg.icon
                         use(xlink:href=`/icons.svg#discord`)
                     span #{i18n.whatsnext[site.locale].discordButton}
-                a.button.nmr(href="https://comigo.itch.io/ct/community")
+                a.button.nmr(href="https://forum.ctjs.rocks/")
                     svg.feather
                         use(xlink:href=`/icons.svg#message-square`)
                     span #{i18n.whatsnext[site.locale].forumButton}
+                a.button.nmr(href="https://vk.com/ctjsrocks")
+                    svg.icon
+                        use(xlink:href=`/icons.svg#vk`)
+                    span #{i18n.whatsnext[site.locale].vkButton || 'Vkontakte'}
 
         .clear
 
@@ -36,6 +42,8 @@ section.grey
                 h3.nmt.npt=i18n.whatsnext[site.locale].subscribeToNewsletter
                 p #{i18n.whatsnext[site.locale].beTheFirst}
                 a.button.nmr(href="http://eepurl.com/c1iEH1" target="_blank")
+                    svg.feather
+                        use(xlink:href=`/icons.svg#mail`)
                     span #{i18n.whatsnext[site.locale].subscribeButton}
 
         .c6.breakon800
