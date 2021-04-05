@@ -9,7 +9,8 @@ const voc = {
         joinServer: 'Join our Discord server!',
         twitter: 'Follow ct.js on Twitter!',
         patreon: 'Support the project on Patreon',
-        joinTelegram: 'Follow the news in ComigoGames\' Telegram channel!'
+        joinTelegram: 'Follow the news in ComigoGames\' Telegram channel!',
+        vkontakte: 'Follow news in Vkontakte'
     },
     br: {
         comigo: 'Cosmo Myzrail Gorynych',
@@ -42,7 +43,8 @@ const voc = {
         joinServer: 'Вступи в сервер Discord!',
         twitter: 'Следуй за нами на Twitter!',
         patreon: 'Поддержи проект на Patreon',
-        joinTelegram: 'Подпишись на новости ComigoGames в Telegram!'
+        joinTelegram: 'Подпишись на новости ComigoGames в Telegram!',
+        vkontakte: 'Следите за новостями во Вконтакте!'
     }
 };
 
