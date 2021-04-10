@@ -6,6 +6,33 @@ block body
     section.intro.blue.gradient
         .inner.center
             h1 The Changelog
+    +changelogEntry("v1.7.0", "10 April 2021. A smaller update with custom copies' properties, project cloning feature, and Russian i18n update")
+        :markdown-it
+            ### ✨ New Features
+
+            * Add custom properties modal for copies (#275 by @firecakes)
+            * Added map() function to ct.u (#274 by @qewer33)
+            * Clone projects from the starting screen
+
+            ### ⚡️ General Improvements
+
+            * 🌐 Update Russian i18n file
+            * Add an optional "Made with ct.js" logo shown while a game is loading. Can be turned off in Project tab -> Branding section
+            * Add more social icons to the starting screen
+
+            ### 🐛 Bug Fixes
+
+            * Fix `emitterTandem.pause()` stopping completely if called several times before calling `emitterTandem.resume()`
+            * Fix game's icon not being reset when its texture is deleted
+            * Fix page name and app color for exported games
+            * Fix targetX and targetY handling for cameras' boundary restrictions
+
+            ### 🌐 Website
+
+            * 🐛 Add the missing link to the German translation to the footer
+            * ⚡️ Add a link to Vkontakte to the footer
+            * ⚡️ Update "What's next" block
+            * ⚡️ Update navigation bar
     +changelogEntry("v1.6.2", "31 March 2021.")
         :markdown-it
             ### ⚡️ General Improvements
