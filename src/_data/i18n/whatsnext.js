@@ -4,7 +4,7 @@ const voc = {
 
         docsButton: 'Docs',
         readTheDocs: 'Read the docs',
-        completeTutorials: 'Complete our tutorials and learn how to work with ct.js. Our tutorials demonstrate how to create complete games, explaining what is done and why in details.',
+        completeTutorials: 'Complete tutorials to learn how to work with ct.js. Our tutorials demonstrate how to create complete games, explaining what is done and why in details.',
 
         joinCommunity: 'Join our community',
         getHelp: 'Our public communities are comfy places where you can chat, learn, make games, send cat memes, and help each other.',
@@ -51,7 +51,7 @@ const voc = {
 
         docsButton: 'Доки',
         readTheDocs: 'Посети сайт документации',
-        completeTutorials: 'Пройди туториалы и научись работать с ct.js. Наши туториалы сконструированы так, что по их завершению у тебя получается готовая игра, а в ходе работы детально объясняется, что и почему используется.',
+        completeTutorials: 'Пройди туториалы, чтобы научиться работать с ct.js. Наши туториалы сконструированы так, что по их завершению у тебя получается готовая игра, а в ходе работы детально объясняется, что и почему используется.',
 
         joinCommunity: 'Присоединяйся к сообществу',
         getHelp: 'Наши сервера — это всегда уютные пространства, где можно поболтать, вместе разрабатывать игры, делиться своими достижениями и кошачими мемасиками, а также помогать друг другу на пути разработки.',
