@@ -59,3 +59,39 @@ code
         text-shadow 0 1px 0 white
         border-radius brsmall
         padding 0 0.25rem
+
+.aNiceOl
+    margin 2rem auto
+    padding 0
+    list-style none
+    counter-reset niceOl
+    max-width 50em
+    li
+        counter-increment niceOl
+        position relative
+        padding 1rem 0 0 6rem
+        margin 3rem 0
+        &::after
+            content counter(niceOl)
+            border-radius 10rem
+            padding 0
+            text-align center
+            height 4rem
+            width 4rem
+            line-height 4rem
+            position absolute
+            left 0
+            top 0
+            font-size 150%
+            font-weight 400
+            background act
+            color white
+    li + li::before
+        content ""
+        background bd
+        height 1px
+        position absolute
+        top -1.5rem
+        display block
+        left 6rem
+        right 6rem

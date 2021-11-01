@@ -1,59 +1,38 @@
 section#whatsnext.npt
-    .inner.center
-        h2.nmt #{i18n.whatsnext[site.locale].whatsnext}
-section.grey
     .inner
-        .c6.breakon800
-            .aCard.center
-                svg.feather.huge
-                    use(xlink:href=`/icons.svg#book-open`)
-                h3.nmt.npt=i18n.whatsnext[site.locale].readTheDocs
-                p #{i18n.whatsnext[site.locale].completeTutorials}
-                a.button.nmr(href="https://docs.ctjs.rocks/")
-                    svg.feather
-                        use(xlink:href=`/icons.svg#book-open`)
-                    span #{i18n.whatsnext[site.locale].docsButton}
-
-        .c6.breakon800
-            .aCard.center
-                svg.feather.huge
-                    use(xlink:href=`/icons.svg#message-square`)
+        h2.nmt.center #{i18n.whatsnext[site.locale].whatsnext}
+        ol.aNiceOl
+            li
                 h3.nmt.npt=i18n.whatsnext[site.locale].joinCommunity
                 p #{i18n.whatsnext[site.locale].getHelp}
-                a.button.nml(href="https://discord.gg/CggbPkb")
+                a.button.nml(href=i18n.whatsnext[site.locale].discordLink)
                     svg.icon
                         use(xlink:href=`/icons.svg#discord`)
                     span #{i18n.whatsnext[site.locale].discordButton}
-                a.button.nmr(href="https://forum.ctjs.rocks/")
+                a.button(href="https://forum.ctjs.rocks/")
                     svg.feather
                         use(xlink:href=`/icons.svg#message-square`)
                     span #{i18n.whatsnext[site.locale].forumButton}
-                a.button.nmr(href="https://vk.com/ctjsrocks")
+                a.button(href="https://vk.com/ctjsrocks")
                     svg.icon
                         use(xlink:href=`/icons.svg#vk`)
                     span #{i18n.whatsnext[site.locale].vkButton || 'Vkontakte'}
-
-        .clear
-
-        .c6.breakon800
-            .aCard.center
-                svg.feather.huge
-                    use(xlink:href=`/icons.svg#mail`)
-                h3.nmt.npt=i18n.whatsnext[site.locale].subscribeToNewsletter
-                p #{i18n.whatsnext[site.locale].beTheFirst}
-                a.button.nmr(href="http://eepurl.com/c1iEH1" target="_blank")
+            li
+                h3.nmt.npt=i18n.whatsnext[site.locale].readTheDocs
+                p #{i18n.whatsnext[site.locale].completeTutorials}
+                a.button.nml(href="https://docs.ctjs.rocks/")
                     svg.feather
-                        use(xlink:href=`/icons.svg#mail`)
-                    span #{i18n.whatsnext[site.locale].subscribeButton}
-
-        .c6.breakon800
-            .aCard.center
-                svg.feather.huge
-                    use(xlink:href=`/icons.svg#heart`)
+                        use(xlink:href=`/icons.svg#book-open`)
+                    span #{i18n.whatsnext[site.locale].docsButton}
+            li
                 h3.nmt.npt=i18n.whatsnext[site.locale].patreonAlt
                 p=i18n.whatsnext[site.locale].patreonRewards
-                a.button.nmr(href="https://www.patreon.com/comigo" target="_blank")
+                a.button.nml(href="https://www.patreon.com/comigo" target="_blank")
                     svg.icon
                         use(xlink:href=`/icons.svg#patreon`)
                     span Patreon
+                a.button(href="https://comigo.itch.io/ct/purchase" target="_blank")
+                    svg.icon
+                        use(xlink:href=`/icons.svg#itch-dot-io`)
+                    span #{i18n.whatsnext[site.locale].buyOnItchIo}
         .clear

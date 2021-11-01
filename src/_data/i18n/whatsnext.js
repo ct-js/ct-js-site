@@ -4,35 +4,29 @@ const voc = {
 
         docsButton: 'Docs',
         readTheDocs: 'Read the docs',
-        completeTutorials: 'Complete our tutorials and learn the ct.js coding library',
+        completeTutorials: 'Complete our tutorials and learn how to work with ct.js. Our tutorials demonstrate how to create complete games, explaining what is done and why in details.',
 
         joinCommunity: 'Join our community',
-        getHelp: 'Get help and reach out to other creators',
+        getHelp: 'Our public communities are comfy places where you can chat, learn, make games, send cat memes, and help each other.',
         discordButton: 'Discord',
+        discordLink: 'https://discord.gg/CggbPkb', // Russian locale has a link to a different (Russian) Discord server
         forumButton: 'Forum',
 
-        subscribeButton: 'Subscribe',
-        subscribeToNewsletter: 'Subscribe to our newsletter',
-        beTheFirst: 'Be the first to get updates to ct.js',
-
-        patreonAlt: 'Support ct.js on Patreon',
-        patreonRewards: 'Get priority support, source codes of games and your name included in the app!'
+        patreonAlt: 'Support ct.js on Patreon or by purchasing it',
+        patreonRewards: 'Ct.js is free for everyone, but if you want to say more than "Thank you" and support the future of this project, you can donate on itch.io or become a patron. Patrons get priority support, and their name included in the app!',
+        buyOnItchIo: 'Buy on itch.io'
     },
     br: {
         whatsnext: 'O que vem por ai?',
 
         docsButton: 'Documentação',
         readTheDocs: 'Leia a Documentação',
-        completeTutorials: 'Complete nossos tutoriais e aprenda a biblioteca do ct.js',
+        completeTutorials: 'Complete nossos tutoriais e aprenda a biblioteca do ct.js.',
 
         joinCommunity: 'Entre em nossa comunidade',
-        getHelp: 'Tenha ajuda e fale com outros criadores',
+        getHelp: 'Tenha ajuda e fale com outros criadores.',
         discordButton: 'Discord',
         forumButton: 'Forum',
-
-        subscribeButton: 'Inscreva-se',
-        subscribeToNewsletter: 'Inscreva-se em nosso Newsletters',
-        beTheFirst: 'Seja o primeiro a saber as noticias do ct.js',
 
         patreonAlt: 'De seu suporte ao projeto no Patreon',
         patreonRewards: 'Tenha suporte priorizado, source codes dos jogos e seu nome incluso no aplicativo!'
@@ -42,16 +36,12 @@ const voc = {
 
         docsButton: 'Dokumente',
         readTheDocs: 'Lies die Dokumente',
-        completeTutorials: 'Beende unsere Tutorials und lerne die ct.js Coding Bibliothek',
+        completeTutorials: 'Beende unsere Tutorials und lerne die ct.js Coding Bibliothek.',
 
         joinCommunity: 'Tritt unserer Community bei',
-        getHelp: 'Erhalte Hilfe und komme in Kontakt mit anderen Entwicklern',
+        getHelp: 'Erhalte Hilfe und komme in Kontakt mit anderen Entwicklern.',
         discordButton: 'Discord',
         forumButton: 'Forum',
-
-        subscribeButton: 'Abbonieren',
-        subscribeToNewsletter: 'Abboniere unseren Newsletter',
-        beTheFirst: 'Sei der/die erste um Updates über ct.js zu erhalten',
 
         patreonAlt: 'Unterstütze ct.js auf Patreon',
         patreonRewards: 'Bekomme besondere Unterstützung, Source Codes von Spielen und dein Name inbegriffen in der App!'
@@ -61,20 +51,18 @@ const voc = {
 
         docsButton: 'Доки',
         readTheDocs: 'Посети сайт документации',
-        completeTutorials: 'Пройди туториалы и изучи основную библиотеку ct.js',
+        completeTutorials: 'Пройди туториалы и научись работать с ct.js. Наши туториалы сконструированы так, что по их завершению у тебя получается готовая игра, а в ходе работы детально объясняется, что и почему используется.',
 
         joinCommunity: 'Присоединяйся к сообществу',
-        getHelp: 'В нём можно получить поддержку и познакомиться с другими разработчиками',
+        getHelp: 'Наши сервера — это всегда уютные пространства, где можно поболтать, вместе разрабатывать игры, делиться своими достижениями и кошачими мемасиками, а также помогать друг другу на пути разработки.',
         discordButton: 'Discord-сервер',
+        discordLink: 'https://discord.gg/pvhhE2xQ',
         forumButton: 'Форум',
         vkButton: 'Вконтакте',
 
-        subscribeButton: 'Подписаться',
-        subscribeToNewsletter: 'Подпишись на новости',
-        beTheFirst: 'Чтобы первым узнавать о новых релизах и новостях ct.js',
-
-        patreonAlt: 'Поддержать проект на Patreon',
-        patreonRewards: 'Приоритетная поддержка, исходники игр и ваше имя в ct.js!'
+        patreonAlt: 'Поддержи проект с Patreon или донатом на itch.io',
+        patreonRewards: 'Ct.js бесплатен для всех, но если ты хочешь сделать вклад в его будущее, можешь задонатить на itch.io или стать подписчиком на Patreon. Подписчики получают приоритетную поддержку и показываются в ct.js в специальной вкладке.',
+        buyOnItchIo: 'Задонатить на itch.io'
     }
 };
 
