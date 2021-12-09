@@ -56,7 +56,7 @@ const voc = {
         joinCommunity: 'Присоединяйся к сообществу',
         getHelp: 'Наши сервера — это всегда уютные пространства, где можно поболтать, вместе разрабатывать игры, делиться своими достижениями и кошачими мемасиками, а также помогать друг другу на пути разработки.',
         discordButton: 'Discord-сервер',
-        discordLink: 'https://discord.gg/pvhhE2xQ',
+        discordLink: 'https://discord.gg/HGbzZw4Prt',
         forumButton: 'Форум',
         vkButton: 'Вконтакте',
 

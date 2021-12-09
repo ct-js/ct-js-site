@@ -42,7 +42,7 @@ const voc = {
         contact: 'Написать письмо',
         forkUs: 'Форкни нас на GitHub!',
         joinServer: 'Вступи в сервер Discord!',
-        discordLink: 'https://discord.gg/pvhhE2xQ',
+        discordLink: 'https://discord.gg/HGbzZw4Prt',
         twitter: 'Следуй за нами на Twitter!',
         patreon: 'Поддержи проект на Patreon',
         joinTelegram: 'Подпишись на новости ComigoGames в Telegram!',
