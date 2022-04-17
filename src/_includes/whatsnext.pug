@@ -18,13 +18,20 @@ section#whatsnext.npt
                         use(xlink:href=`/icons.svg#vk`)
                     span #{i18n.whatsnext[site.locale].vkButton || 'Vkontakte'}
             li
+                h3.nmt.npt=i18n.whatsnext[site.locale].getCheatsheet
+                p #{i18n.whatsnext[site.locale].cheatsheetBlurb}
+                a.button.nml(href="https://comigo.itch.io/ct-cheat-sheet")
+                    svg.feather
+                        use(xlink:href=`/icons.svg#download`)
+                    span #{i18n.whatsnext[site.locale].download}
+            li
                 h3.nmt.npt=i18n.whatsnext[site.locale].readTheDocs
                 p #{i18n.whatsnext[site.locale].completeTutorials}
                 a.button.nml(href="https://docs.ctjs.rocks/")
                     svg.feather
                         use(xlink:href=`/icons.svg#book-open`)
                     span #{i18n.whatsnext[site.locale].docsButton}
-            li
+            li.heartmarker
                 h3.nmt.npt=i18n.whatsnext[site.locale].patreonAlt
                 p=i18n.whatsnext[site.locale].patreonRewards
                 a.button.nml(href="https://www.patreon.com/comigo" target="_blank")

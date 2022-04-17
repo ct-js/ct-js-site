@@ -12,6 +12,10 @@ const voc = {
         discordLink: 'https://discord.gg/CggbPkb', // Russian locale has a link to a different (Russian) Discord server
         forumButton: 'Forum',
 
+        getCheatsheet: 'Get the cheatsheet',
+        cheatsheetBlurb: 'Grab the list of the frequently used functions with their examples, ready for print.',
+        download: 'Download',
+
         patreonAlt: 'Support ct.js on Patreon or by purchasing it',
         patreonRewards: 'Ct.js is free for everyone, but if you want to say more than "Thank you" and support the future of this project, you can donate on itch.io or become a patron. Patrons get priority support, and their name included in the app!',
         buyOnItchIo: 'Buy on itch.io'
@@ -59,6 +63,10 @@ const voc = {
         discordLink: 'https://discord.gg/HGbzZw4Prt',
         forumButton: 'Форум',
         vkButton: 'Вконтакте',
+
+        getCheatsheet: 'Скачай шпаргалку по ct.js',
+        cheatsheetBlurb: 'Получи табличку с часто используемыми функциями и примерами для них. Шпаргалки готовы для печати!',
+        download: 'Скачать',
 
         patreonAlt: 'Поддержи проект с Patreon или донатом на itch.io',
         patreonRewards: 'Ct.js бесплатен для всех, но если ты хочешь сделать вклад в его будущее, можешь задонатить на itch.io или стать подписчиком на Patreon. Подписчики получают приоритетную поддержку и показываются в ct.js в специальной вкладке.',
