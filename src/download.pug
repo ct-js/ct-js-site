@@ -22,9 +22,11 @@ block body
                             svg.feather.huge
                                 use(xlink:href=`/icons.svg#linux-linear`)
                         h3=i18n.downloadPage[site.locale].linux
-                        p=i18n.downloadPage[site.locale].linuxInstructions
+                        a.button(href=linuxWebInstaller.appImage)=`${i18n.downloadPage[site.locale].webInstaller} (x64)`
+                        p.nmt=i18n.downloadPage[site.locale].appImageInstructions
                         a.button(href=downloads.linux64)=i18n.downloadPage[site.locale].downloadx64
                         a.button.small(href=downloads.linux32)=i18n.downloadPage[site.locale].downloadx32
+                        p.nmt=i18n.downloadPage[site.locale].linuxInstructions
                 .c4.breakon800
                     .aCard.center
                         svg.feather.huge

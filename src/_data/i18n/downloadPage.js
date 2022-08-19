@@ -4,6 +4,7 @@ const voc = {
         pageDescription: 'Download a free 2D game editor from its official site.',
         welcomeAboard: 'Welcome aboard!',
 
+        webInstaller: 'Web installer',
         downloadx64: 'Download x64',
         downloadx32: 'Download x32',
 
@@ -11,6 +12,7 @@ const voc = {
         windowsInstructions: 'Windows 7 and higher. Unzip and run ctjs.exe',
         linux: 'Linux',
         linuxInstructions: 'Unpack, mark \'ctjs\' as an executable and run ./ctjs',
+        appImageInstructions: 'Run chmod +x for this file (mark as executable) and run the file. Can be used for updates, too!',
         mac: 'Mac',
         macInstructions: 'Untested, but should work. Use at your own risk!',
 
@@ -21,6 +23,7 @@ const voc = {
         pageDescription: 'Faça o download de um editor de jogos 2D gratuito em seu site oficial.',
         welcomeAboard: 'Bem vindo a bordo, marujo!',
 
+        webInstaller: 'Instalador Web',
         downloadx64: 'Baixar x64',
         downloadx32: 'Baixar x32',
 
@@ -28,6 +31,7 @@ const voc = {
         windowsInstructions: 'Windows 7 e maiores. descompacte e abra ctjs.exe',
         linux: 'Linux',
         linuxInstructions: 'Descompacte, marque \'ctjs\' como um executável e rode ./ctjs',
+        appImageInstructions: 'Execute o chmod +x nesse arquivo (o tornará um executável) e execute o mesmo. Pode ser utilizado para fazer atualizações também!',
         mac: 'Mac',
         macInstructions: 'Não testado, mas deve funcionar. Use por sua conta e risco!',
 
@@ -57,11 +61,13 @@ const voc = {
 
         downloadx64: 'Скачать x64',
         downloadx32: 'Скачать x32',
+        webInstaller: 'Онлайн-установщик',
 
         windows: 'Windows',
         windowsInstructions: 'Windows 7 или выше. Распаковать архив и запустить ctjs.exe',
         linux: 'Linux',
-        linuxInstructions: 'Распаковать, пометить \'ctjs\' исполняемым файлом и запустить ./ctjs',
+        linuxInstructions: 'Распакуй, пометь \'ctjs\' исполняемым файлом и запусти ./ctjs',
+        appImageInstructions: 'Пометь как исполняемый файл с chmod +x, а потом запусти. Можно использовать для обновлений!',
         mac: 'Mac',
         macInstructions: 'Не тестируется, но работать должно. Используйте на свой страх и риск!',
 
