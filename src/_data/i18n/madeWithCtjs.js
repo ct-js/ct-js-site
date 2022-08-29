@@ -23,7 +23,7 @@ const voc = {
     it: {
         pageTitle: 'Giochi realizzati con ct.js — Ct.js',
         pageDescription: 'Giochi realizzati con ct.js, un editor per giochi 2D libero e gratuito basato sulla tecnologia web.',
-        madeWithCths: 'Realizzato con ct.js',
+        madeWithCths: 'Made with ct.js',
         submitProject: 'Invia il tuo progetto',
         play: 'Gioca',
     },
