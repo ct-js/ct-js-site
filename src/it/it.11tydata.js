@@ -6,7 +6,7 @@ module.exports = {
             changelog: '/it/changelog',
             madeWithCtjs: '/it/madeWithCtjs',
             contact: '/it/contact',
-            docs: 'https://docs.ctjs.rocks/pt_br/'
+            docs: 'https://docs.ctjs.rocks/it/'
         }
     }
 };
