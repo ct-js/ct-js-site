@@ -68,7 +68,7 @@ const voc = {
         download: 'Download',
 
         patreonAlt: 'Sostieni ct.js su Patreon o acquistalo',
-        patreonRewards: 'Ct.js è libero e gratuito per tutti, ma se vuoi dire di più di un semplice "Grazie" e sostenere il futuro di questo progetto, puoi donare su itch.io o diventare un patron. I patrons ottengono un supporto privilegiato e il loro nome viene incluso nell\'app!',
+        patreonRewards: 'Ct.js è libero e gratuito per tutti, ma se vuoi dire di più di un semplice "Grazie" e sostenere il futuro di questo progetto, puoi donare su itch.io o diventare un patron. I patron ottengono un supporto privilegiato e il loro nome viene incluso nell\'app!',
         buyOnItchIo: 'Acquista su itch.io'
     },
     ru: {
