@@ -20,6 +20,13 @@ const voc = {
         submitProject: 'Reiche dein Projekt ein',
         play: 'Abspielen',
     },
+    it: {
+        pageTitle: 'Giochi realizzati con ct.js — Ct.js',
+        pageDescription: 'Giochi realizzati con ct.js, un editor per giochi 2D libero e gratuito basato sulla tecnologia web.',
+        madeWithCths: 'Realizzato con ct.js',
+        submitProject: 'Invia il tuo progetto',
+        play: 'Gioca',
+    },
     ru: {
         pageTitle: 'Игры, сделанные на коте — ct.js',
         pageDescription: 'Игры, написанные на ct.js, бесплатном редакторе 2D игр на веб-технологиях.',

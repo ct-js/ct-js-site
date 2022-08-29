@@ -50,6 +50,27 @@ const voc = {
         patreonAlt: 'Unterstütze ct.js auf Patreon',
         patreonRewards: 'Bekomme besondere Unterstützung, Source Codes von Spielen und dein Name inbegriffen in der App!'
     },
+    it: {
+        whatsnext: 'Cos\'altro?',
+
+        docsButton: 'Documentazione',
+        readTheDocs: 'Leggi il manuale',
+        completeTutorials: 'Segui i tutorial per imparare a lavorare con ct.js. I nostri tutorial spiegano come creare giochi completi, spiegando ogni passaggio e comando in dettaglio.',
+
+        joinCommunity: 'Unisciti alla nostra comunità',
+        getHelp: 'I nostri gruppi sono piacevoli luoghi in cui puoi chattare, imparare, creare giochi, inviare meme di micini e aiutarsi a vicenda.',
+        discordButton: 'Discord',
+        discordLink: 'https://discord.gg/CggbPkb', // Russian locale has a link to a different (Russian) Discord server
+        forumButton: 'Forum',
+
+        getCheatsheet: 'Scarica i cheatsheet',
+        cheatsheetBlurb: 'Guarda le schede informative e riassuntive delle funzioni usate più di frequente, con  gli esempi, pronte per la stampa.',
+        download: 'Download',
+
+        patreonAlt: 'Sostieni ct.js su Patreon o acquistalo',
+        patreonRewards: 'Ct.js è libero e gratuito per tutti, ma se vuoi dire di più di un semplice "Grazie" e sostenere il futuro di questo progetto, puoi donare su itch.io o diventare un patron. I patrons ottengono un supporto privilegiato e il loro nome viene incluso nell\'app!',
+        buyOnItchIo: 'Acquista su itch.io'
+    },
     ru: {
         whatsnext: 'Что дальше?',
 

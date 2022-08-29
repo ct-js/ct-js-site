@@ -184,6 +184,67 @@ const voc = {
         play: 'Abspielen',
     },
 
+    it: {
+        pageTitle: 'Ct.js — un editor per giochi  libero',
+        pageDescription: 'Un editor di giochi 2D libero e gratuito basato su tecnologie web.',
+
+        logoAlt: 'Logo di ct.js. Ct.js è un\' alternativa libera e gratuira a Game Maker, Construct e altri',
+        meetCtjs: 'Prova ct.js,',
+        yourNewEditor: 'il tuo nuovo editor per giochi 2D',
+        punchline: 'con ct.js impari la programmazione divertendoti e sviluppare giochi diventa semplice grazie a strumenti grafici, buona documentazione e librerie modulari e flessibili.',
+        lovedBy: ' È libero e gratuito, open-source ed è amato da hobbisti, professionisti, insegnanti e dai loro studenti.',
+        download: 'Download',
+        discord: 'Discord',
+        github: 'GitHub',
+
+        smoothWorkflowHeader: 'Procedure scorrevoli',
+        smoothWorkflowParagraph: 'Gli strumenti mal progettati ostacolano le prestazioni. Ct.js è progettato per essere come un pennello con cui creare giochi, non per essere un nemico con cui combattere.',
+        beginnerFriendlyHeader: 'Principiante amichevole',
+        beginnerFriendlyParagraph: 'Ct.js contiene documenti offline, tutorial ed esempi e demo modificabili. L\'editor di codice evidenzia gli errori e fornisce la documentazione necessaria durante la scrittura del codice.',
+        powerfulHeader: 'Potente',
+        powerfulParagraph: 'Ct.js si basa su Pixi.js, funziona con WebGL e offre grandi prestazioni in browser e ambienti desktop. I moduli aggiungono nuove funzionalità e quando ct.js non basta, è possibile aggiungere qualsiasi codice o libreria JavaScript.',
+
+        gamesOfAnyGenre: 'Crea giochi di qualsiasi genere',
+        gamesOfAnyGenreSub: 'Sparatutto, arcade, avventure, sopravvivenza, rompicapi, visual novel — chi più ne ha più ne metta!',
+        stormCrossParagraph: 'Una piccola avventura con grafica stilizzata, battaglie marine con l\'impiego di IA, un\'ambiente violento e sezioni di rompicapi. Unisciti al viaggio per salvare una colonia da una malattia mortale!',
+        amongTheWolvesParagraph: 'Una foresta, un lago, un sopravvissuto solitario e mostri al buio. Il gioco è un gioco di sopravvivenza "uni-dimensionale" con un ciclo di giorno/notte, meccaniche di crescita e una foresta vivente selvaggia.',
+        welcomeToTheVOIDParagraph: 'Una storia sul riavvio dell\'universo. Nuota attraverso l\'infinito cosmo scuro, impegnati in combattimenti spaziali, atterra su pianeti per completare missioni di spedizione ed esplorazione di tecnologie perdute.',
+
+        madeWithCtjs: 'Realizzato con ct.js',
+
+        everythingYouNeedHeader: 'ct.js ha tutto ciò di cui hai bisogno per realizzare un gioco',
+        essentials: {
+            roomEditor: 'Editor di mappe / livelli con supporto per le tile',
+            codeEditor: 'Editor di codice integrato con segnalazione degli errori',
+            collisionHandling: 'Collisioni arcade e librerie per la fisica di gioco 2D',
+            animations: 'Animazioni a frame e scheletro',
+            sounds: 'Manager per musica ed effetti sonori',
+            fx: 'Sistema di particelle, shader e illuminazione',
+            docs: 'Note e documenti in un pannello laterale, accessibile da ogni schermata',
+            customJS: 'Possibilità di usare codice JavaScript personale',
+            easyPacking: 'Facile da compilare e distribuire',
+        },
+        allFeatures: 'Tutte le caratteristiche',
+
+
+        partners: 'Il nostro partner',
+        miniJam: {
+            description: 'Mini Jam è una gara di sviluppo giochi che si tiene ogni due settimane su itch.io.',
+            joinServer: 'Unisciti al loro Discord Server',
+            or: 'or',
+            visitSite: 'visita il loro sito ufficiale'
+        },
+
+        devlog: {
+            latest: 'Ultimi aggiornamento dal Devlog',
+            readMore: 'Approfondisci…',
+            morePosts: 'Altri post',
+        },
+
+        supportOnPatreon: 'Supporta il progetto su Patreon',
+        play: 'Gioca',
+    },
+
     ru: {
         pageTitle: 'Ct.js — полноценный редактор игр. Ещё и бесплатный!',
         pageDescription: 'Бесплатный редактор, построенный на веб-технологиях и выпускающий игры на ПК и веб',

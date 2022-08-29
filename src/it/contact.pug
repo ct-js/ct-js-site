@@ -1,0 +1,31 @@
+extends ../pugTemplates/basic.pug
+block head
+    title Contatto — Ct.js
+    meta(name="description" content="Invia un'e-mail allo sviluppatore.")
+block body
+    section.blue.gradient
+        .inner.center
+            h1 Contatto
+        .inner.center
+            h4 Si prega di inviare solo messaggi in inglese
+    section#contact
+        .inner
+            .c2
+            .c8
+                form(name="contact" method="POST" netlify)
+                    p.fifty.npl
+                        label
+                            span Il tuo nome:
+                            input.wide(type="text" name="name")
+                    p.fifty.npr
+                        label
+                            span La tua Email:
+                            input.wide(type="email" name="email")
+                    .clear
+                    p.nmt
+                        label
+                            span Messaggio:
+                            textarea.wide(name="message")
+                    p.center
+                        button(type="submit") Invia
+            .clear
