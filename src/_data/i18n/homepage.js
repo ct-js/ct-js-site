@@ -190,17 +190,17 @@ const voc = {
 
         logoAlt: 'Logo di ct.js. Ct.js è un\' alternativa libera e gratuira a Game Maker, Construct e altri',
         meetCtjs: 'Prova ct.js,',
-        yourNewEditor: 'il tuo nuovo editor per giochi 2D',
-        punchline: 'con ct.js impari la programmazione divertendoti e sviluppare giochi diventa semplice grazie a strumenti grafici, buona documentazione e librerie modulari e flessibili.',
+        yourNewEditor: 'il nuovo IDE per giochi 2D',
+        punchline: 'con ct.js impari a programmare divertendoti e sviluppare giochi diventa semplice grazie a strumenti grafici, ottima documentazione e librerie modulari flessibili.',
         lovedBy: ' È libero e gratuito, open-source ed è amato da hobbisti, professionisti, insegnanti e dai loro studenti.',
         download: 'Download',
         discord: 'Discord',
         github: 'GitHub',
 
         smoothWorkflowHeader: 'Procedure scorrevoli',
-        smoothWorkflowParagraph: 'Gli strumenti mal progettati ostacolano le prestazioni. Ct.js è progettato per essere come un pennello con cui creare giochi, non per essere un nemico con cui combattere.',
-        beginnerFriendlyHeader: 'Principiante amichevole',
-        beginnerFriendlyParagraph: 'Ct.js contiene documenti offline, tutorial ed esempi e demo modificabili. L\'editor di codice evidenzia gli errori e fornisce la documentazione necessaria durante la scrittura del codice.',
+        smoothWorkflowParagraph: 'Gli strumenti mal progettati ti rallentano? Ct.js è progettato per essere come un pennello con cui creare giochi, non per essere un nemico con cui combattere.',
+        beginnerFriendlyHeader: 'Semplice per tutti',
+        beginnerFriendlyParagraph: 'Ct.js contiene documenti offline, tutorial, esempi e demo modificabili. L\'editor evidenzia automaticamente gli errori e fornisce la documentazione necessaria durante la scrittura del codice.',
         powerfulHeader: 'Potente',
         powerfulParagraph: 'Ct.js si basa su Pixi.js, funziona con WebGL e offre grandi prestazioni in browser e ambienti desktop. I moduli aggiungono nuove funzionalità e quando ct.js non basta, è possibile aggiungere qualsiasi codice o libreria JavaScript.',
 
@@ -210,9 +210,9 @@ const voc = {
         amongTheWolvesParagraph: 'Una foresta, un lago, un sopravvissuto solitario e mostri al buio. Il gioco è un gioco di sopravvivenza "uni-dimensionale" con un ciclo di giorno/notte, meccaniche di crescita e una foresta vivente selvaggia.',
         welcomeToTheVOIDParagraph: 'Una storia sul riavvio dell\'universo. Nuota attraverso l\'infinito cosmo scuro, impegnati in combattimenti spaziali, atterra su pianeti per completare missioni di spedizione ed esplorazione di tecnologie perdute.',
 
-        madeWithCtjs: 'Realizzato con ct.js',
+        madeWithCtjs: 'Made with ct.js',
 
-        everythingYouNeedHeader: 'ct.js ha tutto ciò di cui hai bisogno per realizzare un gioco',
+        everythingYouNeedHeader: 'ct.js ha tutto ciò che serve per il tuo gioco',
         essentials: {
             roomEditor: 'Editor di mappe / livelli con supporto per le tile',
             codeEditor: 'Editor di codice integrato con segnalazione degli errori',
