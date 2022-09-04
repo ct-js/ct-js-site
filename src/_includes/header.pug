@@ -1,6 +1,5 @@
 -
     var nDownload = site.links && site.links.download || '/download',
-        nChangelog = site.links && site.links.changelog || '/changelog',
         nDocs = site.links && site.links.docs || 'https://docs.ctjs.rocks/',
         nIndex = site.locale !== 'en' ? `/${site.locale}/` : '/';
 
@@ -24,7 +23,7 @@ nav#theNavBar
                 .anOption
                     a(href="/de") Auf Deutsch
 
-        a(href=nChangelog)
+        a(href="/changelog")
             svg.feather
                 use(xlink:href="/icons.svg#file-text")
             span #{i18n.header[site.locale].changelog}
