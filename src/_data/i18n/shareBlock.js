@@ -11,6 +11,10 @@ const voc = {
         helpCtGrow: 'Hilf ct.js zu wachsen!',
         tellFriends: 'Erzähl deinen Freunden davon'
     },
+    it: {
+        helpCtGrow: 'Aiuta ct.js a crescere!',
+        tellFriends: 'Fallo conoscere ai tuoi amici'
+    },
     ru: {
         helpCtGrow: 'Помоги коту!',
         tellFriends: 'Расскажи о нём своим друзьям:'

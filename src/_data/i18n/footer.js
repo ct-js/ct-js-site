@@ -35,6 +35,20 @@ const voc = {
         patreon: 'Unterstütze das Projekt auf Patreon',
         joinTelegram: 'Folge den Neuigkeiten in ComigoGames Telegram Kanal!'
     },
+    it: {
+        comigo: 'Cosmo Myzrail Gorynych',
+        siteLicense: 'il sito è pubblicato con licenza',
+        appLicense: 'L\'applicazione Ct.js è pubblicata con licenza MIT',
+        presskit: 'Presskit',
+        contact: 'Contatto',
+        forkUs: 'Fork da GitHub!',
+        joinServer: 'Unisciti al nostro Discord Server!',
+        discordLink: 'https://discord.gg/CggbPkb',
+        twitter: 'Segui ct.js su Twitter!',
+        patreon: 'Supporta il progetto su Patreon',
+        joinTelegram: 'Segui le notizie nel canale Telegram di ComigoGames!',
+        vkontakte: 'Segui le notizie in Vkontakte'
+    },
     ru: {
         comigo: 'Космо Мизраил Горыныч',
         siteLicense: 'сайт выпущен под лицензией',
