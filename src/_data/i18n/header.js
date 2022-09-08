@@ -23,6 +23,14 @@ const voc = {
         gotoHomepage: 'Gehe zurück zu\'r Homepage',
         language: 'De'
     },
+    it: {
+        changelog: 'Changelog',
+        docs: 'Impara',
+        forum: 'Forum',
+        download: 'Download',
+        gotoHomepage: 'Vai alla home page',
+        language: 'It'
+    },
     ru: {
         changelog: 'Лог изменений',
         docs: 'Доки и обучение',
