@@ -18,7 +18,12 @@ const voc = {
 
         patreonAlt: 'Support ct.js on Patreon or by purchasing it',
         patreonRewards: 'Ct.js is free for everyone, but if you want to say more than "Thank you" and support the future of this project, you can donate on itch.io or become a patron. Patrons get priority support, and their name included in the app!',
-        buyOnItchIo: 'Buy on itch.io'
+        buyOnItchIo: 'Buy on itch.io',
+
+        boostyTitle: 'Support ct.js by subscribing on Boosty',
+        boostyRewards: 'Boosty is like Patreon — you can say more than just "Thank you" there and support the future of this project. Patrons on Boosty get priority support, and their name get included in the app!',
+        patreonSadness: 'Previously there were a Patreon page and donations on itch.io — but due to political situation, I can no longer accept donations from those sources.',
+        becomePatron: 'Become a patron'
     },
     br: {
         whatsnext: 'O que vem por ai?',
@@ -91,7 +96,12 @@ const voc = {
 
         patreonAlt: 'Поддержи проект с Patreon или донатом на itch.io',
         patreonRewards: 'Ct.js бесплатен для всех, но если ты хочешь сделать вклад в его будущее, можешь задонатить на itch.io или стать подписчиком на Patreon. Подписчики получают приоритетную поддержку и показываются в ct.js в специальной вкладке.',
-        buyOnItchIo: 'Задонатить на itch.io'
+        buyOnItchIo: 'Задонатить на itch.io',
+
+        boostyTitle: 'Поддержи ct.js денюжкой на Boosty',
+        boostyRewards: 'Boosty похож на Patreon — там можно тоже подписываться за плюшки. За финансовую помощь от меня вы получите приоритетную поддержку и попадёте в список саппортеров в приложении!',
+        patreonSadness: 'Раньше у меня была страница Patreon и донаты на itch.io, но из-за политической ситуации от них пришлось отказаться.',
+        becomePatron: 'Подписаться на Boosty'
     }
 };
 

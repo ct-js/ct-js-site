@@ -32,14 +32,22 @@ section#whatsnext.npt
                         use(xlink:href=`/icons.svg#book-open`)
                     span #{i18n.whatsnext[site.locale].docsButton}
             li.heartmarker
-                h3.nmt.npt=i18n.whatsnext[site.locale].patreonAlt
-                p=i18n.whatsnext[site.locale].patreonRewards
-                a.button.nml(href="https://www.patreon.com/comigo" target="_blank")
+                h3.nmt.npt=i18n.whatsnext[site.locale].boostyTitle
+                p=i18n.whatsnext[site.locale].boostyRewards
+                a.button.nml(href="https://boosty.to/comigo" target="_blank")
                     svg.icon
-                        use(xlink:href=`/icons.svg#patreon`)
-                    span Patreon
-                a.button(href="https://comigo.itch.io/ct/purchase" target="_blank")
-                    svg.icon
-                        use(xlink:href=`/icons.svg#itch-dot-io`)
-                    span #{i18n.whatsnext[site.locale].buyOnItchIo}
+                        use(xlink:href=`/icons.svg#boosty`)
+                    span=i18n.whatsnext[site.locale].becomePatron
+                p=i18n.whatsnext[site.locale].patreonSadness
+                //
+                    h3.nmt.npt=i18n.whatsnext[site.locale].patreonAlt
+                    p=i18n.whatsnext[site.locale].patreonRewards
+                    a.button.nml(href="https://www.patreon.com/comigo" target="_blank")
+                        svg.icon
+                            use(xlink:href=`/icons.svg#patreon`)
+                        span Patreon
+                    a.button(href="https://comigo.itch.io/ct/purchase" target="_blank")
+                        svg.icon
+                            use(xlink:href=`/icons.svg#itch-dot-io`)
+                        span #{i18n.whatsnext[site.locale].buyOnItchIo}
         .clear
