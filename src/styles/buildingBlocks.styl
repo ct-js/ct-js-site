@@ -115,10 +115,14 @@ nav
 #footer
     a, .a
         color white
+.aCardList
+    display flex
+    flex-flow row
+    align-items center
 .aCard
     background white
     {shad}
-    padding 1rem 1.5rem
+    padding 2rem 1.5rem
     margin 1rem 0
     border-radius brsmall
     {trans}
@@ -225,3 +229,35 @@ nav
     border-radius 1rem
     margin 0.5rem 0.5rem 0 0
     color white
+
+.aNiceTable
+    background white
+    border-radius 1rem
+    color text
+    border-spacing 0
+    width 100%
+    {shadamb}
+    tr
+        td, th
+            border-bottom 1px solid bl
+        &:last-child
+            td, th
+                border-bottom 0 none
+    td, th
+        border-right 1px solid bl
+        vertical-align baseline
+        &:last-child
+            border-right 0 none
+            padding 0.5rem 1.5rem 0.5rem 1rem
+        &:first-child
+            padding 0.5rem 1rem 0.5rem 1.5rem
+        padding 0.5rem 1rem
+    th
+        padding-top 0.75rem
+        padding-bottom 0.75rem
+        color accent1
+        font-size 85%
+        text-transform uppercase
+        letter-spacing 1.5px
+        svg
+            vertical-align -4px

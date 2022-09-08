@@ -7,16 +7,22 @@ const voc = {
         webInstaller: 'Web installer',
         downloadx64: 'Download x64',
         downloadx32: 'Download x32',
+        otherDownloads: 'Other downloads',
+        option: 'Option',
+        zipArchive: '.zip archive',
 
         windows: 'Windows',
-        windowsInstructions: 'Windows 7 and higher. Unzip and run ctjs.exe',
+        windows7orHigher: 'Supports windows 7 and higher.',
+        windowsInstructions: 'Unzip and run ctjs.exe',
         linux: 'Linux',
         linuxInstructions: 'Unpack, mark \'ctjs\' as an executable and run ./ctjs',
         appImageInstructions: 'Run chmod +x for this file (mark as executable) and run the file. Can be used for updates, too!',
         mac: 'Mac',
         macInstructions: 'Untested, but should work. Use at your own risk!',
 
-        getFromItch: 'or get ct.js now on itch.io',
+        getFromItch: 'Get ct.js on itch.io',
+        olderVersions: 'Older versions',
+        getOlderReleasesGithub: 'Get previous releases on Github'
     },
     br: {
         pageTitle: 'Baixe ct.js',
@@ -62,16 +68,21 @@ const voc = {
         downloadx64: 'Скачать x64',
         downloadx32: 'Скачать x32',
         webInstaller: 'Онлайн-установщик',
+        otherDownloads: 'Другие загрузки',
+        option: 'Опция',
+        zipArchive: 'Zip-архив',
 
-        windows: 'Windows',
-        windowsInstructions: 'Windows 7 или выше. Распаковать архив и запустить ctjs.exe',
+        windows7orHigher: 'Поддерживает Windows 7 и выше.',
+        windowsInstructions: 'Распакуй архив и запусти ctjs.exe',
         linux: 'Linux',
         linuxInstructions: 'Распакуй, пометь \'ctjs\' исполняемым файлом и запусти ./ctjs',
         appImageInstructions: 'Пометь как исполняемый файл с chmod +x, а потом запусти. Можно использовать для обновлений!',
         mac: 'Mac',
         macInstructions: 'Не тестируется, но работать должно. Используйте на свой страх и риск!',
 
-        getFromItch: 'или скачайте ct.js на itch.io'
+        getFromItch: 'Скачайте на itch.io',
+        olderVersions: 'Старые версии',
+        getOlderReleasesGithub: 'Скачайте предыдущие релизы на Github'
     }
 }
 for (const i in voc) {
