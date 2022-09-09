@@ -13,10 +13,13 @@ block body
                         svg.feather.huge
                             use(xlink:href=`/icons.svg#windows`)
                         h3=i18n.downloadPage[site.locale].windows
-                        a.button(href=windowsWebInstaller.exe)
-                            svg.feather
-                                use(xlink:href="/icons.svg#download")
-                            span=i18n.downloadPage[site.locale].webInstaller
+                        //a.button(href=windowsWebInstaller.exe)
+                        //    svg.feather
+                        //        use(xlink:href="/icons.svg#download")
+                        //    span=i18n.downloadPage[site.locale].webInstaller
+                        a.button(href=downloads.win64)=i18n.downloadPage[site.locale].downloadx64
+                        a.button(href=downloads.win32)=i18n.downloadPage[site.locale].downloadx32
+                        p.nm=i18n.downloadPage[site.locale].windowsInstructions
                         p.nm.small=i18n.downloadPage[site.locale].windows7orHigher
                 .c4.breakon800
                     .aCard.center
