@@ -74,7 +74,13 @@ const voc = {
 
         patreonAlt: 'Sostieni ct.js su Patreon o acquistalo',
         patreonRewards: 'Ct.js è libero e gratuito per tutti, ma se vuoi dire di più di un semplice "Grazie" e sostenere il futuro di questo progetto, puoi donare su itch.io o diventare un patron. I patron ottengono un supporto privilegiato e il loro nome viene incluso nell\'app!',
-        buyOnItchIo: 'Acquista su itch.io'
+        buyOnItchIo: 'Acquista su itch.io',
+        
+        boostyTitle: 'Sostieni ct.js su Boosty',
+        boostyRewards: 'Boosty è come Patreon — puoi dire più di un semplice "Grazie" e garantire il futuro di questo progetto. I sostenitori su Boosty ricevono supporto immoediato ed il loro nome viene incluso nell\'app!',
+        patreonSadness: 'In precedenza c\'era una pagina Patreon e per le donazioni su itch.io — ma a causa della situazione politica non posso più accettare donazioni da quelle fonti',
+        becomePatron: 'Diventa un patron'
+        
     },
     ru: {
         whatsnext: 'Что дальше?',
