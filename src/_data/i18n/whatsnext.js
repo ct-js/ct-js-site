@@ -77,7 +77,7 @@ const voc = {
         buyOnItchIo: 'Acquista su itch.io',
         
         boostyTitle: 'Sostieni ct.js su Boosty',
-        boostyRewards: 'Boosty è come Patreon — puoi dire più di un semplice "Grazie" e garantire il futuro di questo progetto. I sostenitori su Boosty ricevono supporto immoediato ed il loro nome viene incluso nell\'app!',
+        boostyRewards: 'Boosty è come Patreon — puoi dire più di un semplice "Grazie" e garantire il futuro di questo progetto. I sostenitori su Boosty ricevono supporto immediato ed il loro nome viene incluso nell\'app!',
         patreonSadness: 'In precedenza c\'era una pagina Patreon e per le donazioni su itch.io — ma a causa della situazione politica non posso più accettare donazioni da quelle fonti',
         becomePatron: 'Diventa un patron'
         
