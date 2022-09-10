@@ -70,7 +70,7 @@ const voc = {
         downloadx32: 'Download x32',
 
         windows: 'Windows',
-        windowsInstructions: 'Windows 7 e seccessivi. Decomprimi e avvia ctjs.exe',
+        windowsInstructions: 'Windows 7 e successivi. Decomprimi e avvia ctjs.exe',
         linux: 'Linux',
         linuxInstructions: 'Decomprimi, rendi \'ctjs\' eseguibile e avvia ./ctjs',
         appImageInstructions: 'Esegui chmod +x sul file (impostalo come eseguibile) e avvia il file. Può essere usato anche per gli aggiornamenti!',
