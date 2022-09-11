@@ -14,7 +14,7 @@ module.exports = () => {
             toJSON(data, function (err, result) {
                 const games = result.rss.channel[0].item;
                 for (const game of games) {
-                    game.description = String(game.description).split('<img alt="')[0];
+                    game.description = String(game.description).split('<img')[0];
                 }
                 resolve({'url': url, 'games': games});
             });
