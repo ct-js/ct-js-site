@@ -63,21 +63,23 @@ const voc = {
     it: {
         pageTitle: 'Download ct.js',
         pageDescription: 'Scarica l\'editor di giochi 2D libero e gratuito dal suo sito ufficiale.',
-        welcomeAboard: 'Benvenuto a bordo!do!',
+        welcomeAboard: 'Benvenuto a bordo!',
 
         webInstaller: 'Installer web',
         downloadx64: 'Download x64',
         downloadx32: 'Download x32',
 
         windows: 'Windows',
-        windowsInstructions: 'Windows 7 e più recenti. Decomprimi e avvia ctjs.exe',
+        windowsInstructions: 'Windows 7 e successivi. Decomprimi e avvia ctjs.exe',
         linux: 'Linux',
-        linuxInstructions: 'Decomprimi, rendi \'ctjs\' eseguibile and avvia ./ctjs',
-        appImageInstructions: 'Esegui chmod +x sul file (impostalo com eseguibile) e avvia il file. Può essere usato anche per gli aggiornamenti!',
+        linuxInstructions: 'Decomprimi, rendi \'ctjs\' eseguibile e avvia ./ctjs',
+        appImageInstructions: 'Esegui chmod +x sul file (impostalo come eseguibile) e avvia il file. Può essere usato anche per gli aggiornamenti!',
         mac: 'Mac',
         macInstructions: 'Non testato, ma potrebbe funzionare. Utilizzare a proprio rischio!',
 
         getFromItch: 'o scarica ct.js adesso da itch.io',
+        olderVersions: 'Versioni precedenti',
+        getOlderReleasesGithub: 'Scarica le versioni precedenti da Github'
     },
     ru: {
         pageTitle: 'Скачать ct.js',
