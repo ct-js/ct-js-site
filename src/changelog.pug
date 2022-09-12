@@ -6,6 +6,44 @@ block body
     section.intro.blue.gradient
         .inner.center
             h1 The Changelog
+    +changelogEntry("v3.0.1", "12 September 2022. Bug fixes for v3.0 and more translations by community!")
+        :markdown-it
+            ### ⚡️ General Improvements
+
+            * 🌐 Update French translation (#366 by @rtauziac)
+            * 🌐 Update Japanese translation (#367 by @taxi13245)
+            * Drop precision on position and scale of objects in the room editor. Reasonably rounds their values to more logical numbers.
+
+            ### 🐛 Bug Fixes
+
+            * Add support for template and texture arrays to the Context subsystem
+            * Escape single quotes while stringifying certain properties. This allows, among other things, use of ' in custom properties (room editor) and template names
+            * Fix `ct.place` crashing game if a collision check is made on a disproportionately squished circle
+            * Room editor shortcuts must work only if the Rooms tab is active
+
+            ### 🍱 Demos, Dependencies and Stuff
+
+            * Update nw.js to v0.67.1
+
+            ### 📝 Docs
+
+            * ⚡️ Fix old terminology in skeletal-animation.md (by @omartek)
+            * Italian translation for the working-with-editor section (by @omartek)
+
+            ### 🌐 Website
+
+            * 🐛 Fix img tag appearing in games' descriptions on the Made With page
+            * 🐛 Remove .DS_Store
+            * ✏️ Update changelog
+            * ⚡️ Add a working version of web installer for windows
+            * ⚡️ Italian documentation translation is now public; add a proper link in the header!
+            * ⚡️ Temporarily replace web installer for windows with zip archives
+            * ⚡️  Update italian translation (@omartek)
+
+            ### 🤖 Misc
+
+            * 🔥 Remove now useless twoPi var in ct.place
+
     +changelogEntry("v3.0.0", "9 September 2022. New room editor and events framework!")
         :markdown-it
             ### ✨ New Features
