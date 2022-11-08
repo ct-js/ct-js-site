@@ -4,6 +4,9 @@ block head
     meta(name="description" content=i18n.downloadPage[site.locale].pageDescription)
 block body
     section.blue.gradient.wavesbottom#downloads
+        a.aDiscordBadge(href=i18n.footer[site.locale].discordLink target="_blank" title=i18n.footer[site.locale].joinServer)
+            svg.icon
+                use(xlink:href="/icons.svg#discord")
         .inner
             h2.center
                 b=i18n.downloadPage[site.locale].welcomeAboard

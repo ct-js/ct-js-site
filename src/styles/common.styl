@@ -70,3 +70,21 @@ body
 
 dt + dd
     margin-top 1rem
+
+.aDiscordBadge
+    position absolute
+    right 1rem
+    right calc(1rem + 1vw)
+    top 14%
+    animation 3s spun infinite
+    border-radius 100%
+    font-size 1.5rem
+    padding 1rem
+    background accent1
+    background linear-gradient(to bottom, mix(act, accent1, 75%), accent1)
+    box-shadow 0 0.25rem 0.5rem rgba(0, 0, 0, 0.35)
+@keyframes spun
+    0%, 20%
+        transform rotate(0deg)
+    40%, 100%
+        transform rotate(360deg)
