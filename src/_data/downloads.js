@@ -17,7 +17,8 @@ module.exports = () => new Promise((resolve, reject) => {
             "win32": getUrlForPlatform(data, 'win32'),
             "linux64": getUrlForPlatform(data, 'linux64'),
             "linux32": getUrlForPlatform(data, 'linux32'),
-            "mac64": getUrlForPlatform(data, 'osx64')
+            "mac64": getUrlForPlatform(data, 'osx64'),
+            "macarm": getUrlForPlatform(data, 'osxarm')
         });
     })
     .catch(reject);

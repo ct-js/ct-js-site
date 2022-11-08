@@ -7,6 +7,7 @@ const voc = {
         webInstaller: 'Web installer',
         downloadx64: 'Download x64',
         downloadx32: 'Download x32',
+        downloadarm: 'Download for ARM',
         otherDownloads: 'Other downloads',
         option: 'Option',
         zipArchive: '.zip archive',
@@ -88,6 +89,7 @@ const voc = {
 
         downloadx64: 'Скачать x64',
         downloadx32: 'Скачать x32',
+        downloadarm: 'Скачать для ARM',
         webInstaller: 'Онлайн-установщик',
         otherDownloads: 'Другие загрузки',
         option: 'Опция',
