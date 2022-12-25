@@ -16,19 +16,19 @@ block body
                         svg.feather.huge
                             use(xlink:href=`/icons.svg#windows`)
                         h3=i18n.downloadPage[site.locale].windows
-                        //a.button(href="/ctjsWebInstaller.exe")
+                        a.button.nmr(href="/ctjsWebInstaller.exe")
+                            svg.feather
+                                use(xlink:href="/icons.svg#download")
+                            span=i18n.downloadPage[site.locale].webInstaller
+                        //a.button.small(href=downloads.win64)
                         //    svg.feather
                         //        use(xlink:href="/icons.svg#download")
-                        //    span=i18n.downloadPage[site.locale].webInstaller
-                        a.button(href=downloads.win64)
-                            svg.feather
-                                use(xlink:href="/icons.svg#download")
-                            span=i18n.downloadPage[site.locale].downloadx64
-                        a.button(href=downloads.win32)
-                            svg.feather
-                                use(xlink:href="/icons.svg#download")
-                            span=i18n.downloadPage[site.locale].downloadx32
-                        p.nm=i18n.downloadPage[site.locale].windowsInstructions
+                        //    span=i18n.downloadPage[site.locale].downloadx64
+                        //a.button.small(href=downloads.win32)
+                        //    svg.feather
+                        //        use(xlink:href="/icons.svg#download")
+                        //    span=i18n.downloadPage[site.locale].downloadx32
+                        //p.nm=i18n.downloadPage[site.locale].windowsInstructions
                         p.nm.small=i18n.downloadPage[site.locale].windows7orHigher
                 .c4.breakon800
                     .aCard.center
@@ -36,30 +36,30 @@ block body
                             svg.feather.huge
                                 use(xlink:href=`/icons.svg#linux-linear`)
                         h3=i18n.downloadPage[site.locale].linux
-                        //a.button(href=linuxWebInstaller.appImage)
-                        //    svg.feather
-                        //        use(xlink:href="/icons.svg#download")
-                        //    span=`${i18n.downloadPage[site.locale].webInstaller} (x64)`
-                        //p.small.nm=i18n.downloadPage[site.locale].appImageInstructions
-                        a.button(href=downloads.linux64)
+                        a.button.nmr(href=linuxWebInstaller.appImage)
                             svg.feather
                                 use(xlink:href="/icons.svg#download")
+                            span=`${i18n.downloadPage[site.locale].webInstaller} (x64)`
+                        p.small.nm=i18n.downloadPage[site.locale].appImageInstructions
+                        a.button.small(href=downloads.linux64)
+                            //svg.feather
+                            //    use(xlink:href="/icons.svg#download")
                             span=i18n.downloadPage[site.locale].downloadx64
-                        a.button(href=downloads.linux32)
-                            svg.feather
-                                use(xlink:href="/icons.svg#download")
+                        a.button.small.nmr(href=downloads.linux32)
+                            //svg.feather
+                            //    use(xlink:href="/icons.svg#download")
                             span=i18n.downloadPage[site.locale].downloadx32
-                        p.nm=i18n.downloadPage[site.locale].linuxInstructions
+                        p.small.nm=i18n.downloadPage[site.locale].linuxInstructions
                 .c4.breakon800
                     .aCard.center
                         svg.feather.huge
                             use(xlink:href=`/icons.svg#apple`)
                         h3=i18n.downloadPage[site.locale].mac
-                        a.button(href=downloads.mac64)
+                        a.button.nmr(href=downloads.mac64)
                             svg.feather
                                 use(xlink:href="/icons.svg#download")
                             span=i18n.downloadPage[site.locale].downloadx64
-                        a.button(href=downloads.macarm)
+                        a.button.nmr(href=downloads.macarm)
                             svg.feather
                                 use(xlink:href="/icons.svg#download")
                             span=i18n.downloadPage[site.locale].downloadarm
@@ -95,14 +95,14 @@ block body
                     td
                         a.button.small(href=downloads.mac64)=i18n.downloadPage[site.locale].downloadx64
                         a.button.small(href=downloads.macarm)=i18n.downloadPage[site.locale].downloadarm
-                //tr
-                //    td=i18n.downloadPage[site.locale].webInstaller
-                //    td
-                //        //a.button.small(href=windowsWebInstaller.exe)=i18n.downloadPage[site.locale].webInstaller
-                //        a.button.small(href="/ctjsWebInstaller.exe")=i18n.downloadPage[site.locale].webInstaller
-                //    td
-                //        a.button.small(href=linuxWebInstaller.appImage)=`${i18n.downloadPage[site.locale].webInstaller} (x64)`
-                //    td.center —
+                tr
+                    td=i18n.downloadPage[site.locale].webInstaller
+                    td
+                        //a.button.small(href=windowsWebInstaller.exe)=i18n.downloadPage[site.locale].webInstaller
+                        a.button.small(href="/ctjsWebInstaller.exe")=i18n.downloadPage[site.locale].webInstaller
+                    td
+                        a.button.small(href=linuxWebInstaller.appImage)=`${i18n.downloadPage[site.locale].webInstaller} (x64)`
+                    td.center —
                 tr
                     td itch.io
                     td(colspan=3)

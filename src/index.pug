@@ -66,6 +66,7 @@ block body
                         .aFeature-aPlaybackThumb
                         h3=i18n.homepage[site.locale].beginnerFriendlyHeader
                         p=i18n.homepage[site.locale].beginnerFriendlyParagraph
+                        p=i18n.homepage[site.locale].chooseLanguageParagraph
                     .aFeature(data-video-id="381254631")
                         .aFeature-aPlaybackThumb
                         h3=i18n.homepage[site.locale].powerfulHeader
@@ -77,13 +78,13 @@ block body
                 h2.nmt=i18n.homepage[site.locale].gamesOfAnyGenre
                 .hSub=i18n.homepage[site.locale].gamesOfAnyGenreSub
             .aGameList
-                +aGame("StormCross", "/img/stormCross.png", "https://comigo.itch.io/stormcross")
-                    p=i18n.homepage[site.locale].stormCrossParagraph
-                +aGame("Among the wolves", "/img/amongTheWolves.png", "https://comigo.itch.io/among-the-wolves")
-                    p=i18n.homepage[site.locale].amongTheWolvesParagraph
+                +aGame("Ill Fated", "/img/illFated.png", "https://wadizdaz.itch.io/ill-fated")
+                    p=i18n.homepage[site.locale].illFatedParagraph
+                +aGame("Vacation of Fusion", "/img/vacationOfFusion.png", "https://comigo.itch.io/vacation-of-fusion")
+                    p=i18n.homepage[site.locale].vacationOfFusionParagraph
                 +aGame("Welcome to the VOID", "/img/welcomeToTheVOID.png", "https://comigo.itch.io/welcome-to-the-void")
                     p=i18n.homepage[site.locale].welcomeToTheVOIDParagraph
-                .center
+                .center.clear
                     - var nMadeWithCt = site.links && site.links.madeWithCtjs || '/madeWithCtjs'
                     a.button.big(href=nMadeWithCt)
                         svg.feather

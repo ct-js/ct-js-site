@@ -16,6 +16,7 @@ const voc = {
         smoothWorkflowParagraph: 'Bad tools hinder your performance. Ct.js is designed to be like a brush with which you create games, not to be an enemy you will fight with.',
         beginnerFriendlyHeader: 'Beginner friendly',
         beginnerFriendlyParagraph: 'ct.js bundles come with offline docs, tutorials, and editable examples and demos. The code editor highlights errors and provides documentation right while writing your code.',
+        chooseLanguageParagraph: 'Write in beginner-friendly CoffeeScript, in JavaScript, the web standard, or even in TypeScript — depending on your skills and needs.',
         powerfulHeader: 'Powerful',
         powerfulParagraph: 'ct.js is based on Pixi.js, works on WebGL and provides great performance in browsers and desktop environments. Modules add new powers, and when ct.js is not enough, you can add any JS code or library.',
 
@@ -24,6 +25,8 @@ const voc = {
         stormCrossParagraph: 'A small stylized adventure with AI-powered sea battles, violent environment, and little puzzle sections. Join the voyage to save a colony from a deadly disease!',
         amongTheWolvesParagraph: 'A forest, a lake, a lone survivor, and monsters in the dark. The game is a "one-dimentional" survival with a day/night cycle, growing mechanics, and a wild living forest.',
         welcomeToTheVOIDParagraph: 'A story about rebooting the universe. Swim through the endless dark cosmos, engage in space combat, land on planets for expedition missions and explore the lost technologies.',
+        illFatedParagraph: 'A vampire-survivor-esque shooter where your character only grows weaker through time. Fend off endless monsters and see how many curses you can get before you succumb to the foes.',
+        vacationOfFusionParagraph: 'A light-hearted island-building game where you mix elements to create new tiles. Features creative mode, cartoony graphics, and a selfie mode!',
 
         madeWithCtjs: 'Made with ct.js',
 
@@ -262,6 +265,7 @@ const voc = {
         smoothWorkflowParagraph: 'Плохие инструменты снижают качество работы. Ct.js же — как кисть, с которой создаются игры мановением руки, а не противник или череда препятствий.',
         beginnerFriendlyHeader: 'Подходит новичкам',
         beginnerFriendlyParagraph: 'ct.js содержит документацию, гайды и редактируемые демки и примеры. Редактор кода подсвечивает ошибки, а также даёт подсказки с документацией по мере ввода.',
+        chooseLanguageParagraph: 'Программируй на простом языке CoffeeScript, на JavaScript — стандарте веб-разработки —, или же на TypeScript — в зависимости от своих навыков и потребностей.',
         powerfulHeader: 'Мощный',
         powerfulParagraph: 'ct.js основан на Pixi.js, работает на WebGL и шустр в браузерах и на десктопе. Модули дают новые силы, а если вдруг ct.js оказалось недостаточно, закиньте любой JS-код или внешнюю библиотеку.',
 
@@ -270,6 +274,8 @@ const voc = {
         stormCrossParagraph: 'Небольшое стилизованное приключение с морскими баталиями с ИИ, жестокой природой и паззлами. Отправляйтесь в плаванье, чтобы спасти далёкую колонию от болезни!',
         amongTheWolvesParagraph: 'Лес, озеро, выживший, монстр в темноте. Эта игра — "одномерный сурвайвал" с циклом дня и ночи, фермерскими механиками и живым диким лесом.',
         welcomeToTheVOIDParagraph: 'История о перезагрузке вселенной. Плывите сквозь безграничную тьму космоса, сражайтесь в космических баталиях, проводите экспедиции на поверхности планет и изучайте древние технологии.',
+        illFatedParagraph: 'Шутер в духе Vampire Survivors, в котором твой герой со временем становится только слабее. Отбивайся от бесчисленных врагов и узнай, сколько проклятий ты вынесешь, прежде чем падёшь перед противниками.',
+        vacationOfFusionParagraph: 'Добродушная игра, в которой ты строишь свой остров, смешивая природные элементы. В игре милая мультяшная графика, творческий режим, и функция создания селфи!',
 
         madeWithCtjs: 'Сделано с ct.js',
 
