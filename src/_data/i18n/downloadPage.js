@@ -20,6 +20,8 @@ const voc = {
         appImageInstructions: 'Run chmod +x for this file (mark as executable) and run the file. Can be used for updates, too!',
         mac: 'Mac',
         macInstructions: 'Untested, but should work. Use at your own risk!',
+        macDamagedWarning: 'MacOS on ARM processors may tell that ct.js file is broken, when it\'s not.',
+        macDamagedLink: 'See this page on how to fix it.',
 
         getFromItch: 'Get ct.js on itch.io',
         olderVersions: 'Older versions',
@@ -102,6 +104,8 @@ const voc = {
         appImageInstructions: 'Пометь как исполняемый файл с chmod +x, а потом запусти. Можно использовать для обновлений!',
         mac: 'Mac',
         macInstructions: 'Не тестируется, но работать должно. Используйте на свой страх и риск!',
+        macDamagedWarning: 'MacOS на ARM-процессорах может говорить, что файл повреждён, но это не так.',
+        macDamagedLink: 'Как исправить — читай здесь.',
 
         getFromItch: 'Скачайте на itch.io',
         olderVersions: 'Старые версии',

@@ -3,72 +3,77 @@ block head
     title=i18n.downloadPage[site.locale].pageTitle
     meta(name="description" content=i18n.downloadPage[site.locale].pageDescription)
 block body
+    - var voc = i18n.downloadPage[site.locale]
     section.blue.gradient.wavesbottom#downloads
         a.aDiscordBadge(href=i18n.footer[site.locale].discordLink target="_blank" title=i18n.footer[site.locale].joinServer)
             svg.icon
                 use(xlink:href="/icons.svg#discord")
         .inner
             h2.center
-                b=i18n.downloadPage[site.locale].welcomeAboard
+                b=voc.welcomeAboard
             .aCardList.white
                 .c4.breakon800
                     .aCard.center
                         svg.feather.huge
                             use(xlink:href=`/icons.svg#windows`)
-                        h3=i18n.downloadPage[site.locale].windows
+                        h3=voc.windows
                         a.button.nmr(href="/ctjsWebInstaller.exe")
                             svg.feather
                                 use(xlink:href="/icons.svg#download")
-                            span=i18n.downloadPage[site.locale].webInstaller
+                            span=voc.webInstaller
                         //a.button.small(href=downloads.win64)
                         //    svg.feather
                         //        use(xlink:href="/icons.svg#download")
-                        //    span=i18n.downloadPage[site.locale].downloadx64
+                        //    span=voc.downloadx64
                         //a.button.small(href=downloads.win32)
                         //    svg.feather
                         //        use(xlink:href="/icons.svg#download")
-                        //    span=i18n.downloadPage[site.locale].downloadx32
-                        //p.nm=i18n.downloadPage[site.locale].windowsInstructions
-                        p.nm.small=i18n.downloadPage[site.locale].windows7orHigher
+                        //    span=voc.downloadx32
+                        //p.nm=voc.windowsInstructions
+                        p.nm.small=voc.windows7orHigher
                 .c4.breakon800
                     .aCard.center
                         span(title="Don't laugh at this icon! I tried my best XD")
                             svg.feather.huge
                                 use(xlink:href=`/icons.svg#linux-linear`)
-                        h3=i18n.downloadPage[site.locale].linux
+                        h3=voc.linux
                         a.button.nmr(href=linuxWebInstaller.appImage)
                             svg.feather
                                 use(xlink:href="/icons.svg#download")
-                            span=`${i18n.downloadPage[site.locale].webInstaller} (x64)`
-                        p.small.nm=i18n.downloadPage[site.locale].appImageInstructions
+                            span=`${voc.webInstaller} (x64)`
+                        p.small.nm=voc.appImageInstructions
                         a.button.small(href=downloads.linux64)
                             //svg.feather
                             //    use(xlink:href="/icons.svg#download")
-                            span=i18n.downloadPage[site.locale].downloadx64
+                            span=voc.downloadx64
                         a.button.small.nmr(href=downloads.linux32)
                             //svg.feather
                             //    use(xlink:href="/icons.svg#download")
-                            span=i18n.downloadPage[site.locale].downloadx32
-                        p.small.nm=i18n.downloadPage[site.locale].linuxInstructions
+                            span=voc.downloadx32
+                        p.small.nm=voc.linuxInstructions
                 .c4.breakon800
                     .aCard.center
                         svg.feather.huge
                             use(xlink:href=`/icons.svg#apple`)
-                        h3=i18n.downloadPage[site.locale].mac
+                        h3=voc.mac
                         a.button.nmr(href=downloads.mac64)
                             svg.feather
                                 use(xlink:href="/icons.svg#download")
-                            span=i18n.downloadPage[site.locale].downloadx64
+                            span=voc.downloadx64
                         a.button.nmr(href=downloads.macarm)
                             svg.feather
                                 use(xlink:href="/icons.svg#download")
-                            span=i18n.downloadPage[site.locale].downloadarm
-                        p.small.nm=i18n.downloadPage[site.locale].macInstructions
+                            span=voc.downloadarm
+                        p.small.nm
+                            span=voc.macDamagedWarning
+                            |
+                            |
+                            a.blue(target="_blank" href="https://www.howtogeek.com/803598/app-is-damaged-and-cant-be-opened/" rel="noopener noreferrer nofollow")=voc.macDamagedLink
             .clear
-            h2.center.nmt=i18n.downloadPage[site.locale].otherDownloads
+            h2.center.nmt=voc.otherDownloads
             table.aNiceTable.white
                 tr
-                    th=i18n.downloadPage[site.locale].option
+                    th=voc.option
                     th
                         svg.feather
                             use(xlink:href=`/icons.svg#windows`)
@@ -83,25 +88,25 @@ block body
                             use(xlink:href=`/icons.svg#apple`)
                         span Mac
                 tr
-                    td=i18n.downloadPage[site.locale].zipArchive
+                    td=voc.zipArchive
                     td
-                        a.button.small(href=downloads.win64)=i18n.downloadPage[site.locale].downloadx64
-                        a.button.small(href=downloads.win32)=i18n.downloadPage[site.locale].downloadx32
-                        p.nm=i18n.downloadPage[site.locale].windowsInstructions
+                        a.button.small(href=downloads.win64)=voc.downloadx64
+                        a.button.small(href=downloads.win32)=voc.downloadx32
+                        p.nm=voc.windowsInstructions
                     td
-                        a.button.small(href=downloads.linux64)=i18n.downloadPage[site.locale].downloadx64
-                        a.button.small(href=downloads.linux32)=i18n.downloadPage[site.locale].downloadx32
-                        p.nm=i18n.downloadPage[site.locale].linuxInstructions
+                        a.button.small(href=downloads.linux64)=voc.downloadx64
+                        a.button.small(href=downloads.linux32)=voc.downloadx32
+                        p.nm=voc.linuxInstructions
                     td
-                        a.button.small(href=downloads.mac64)=i18n.downloadPage[site.locale].downloadx64
-                        a.button.small(href=downloads.macarm)=i18n.downloadPage[site.locale].downloadarm
+                        a.button.small(href=downloads.mac64)=voc.downloadx64
+                        a.button.small(href=downloads.macarm)=voc.downloadarm
                 tr
-                    td=i18n.downloadPage[site.locale].webInstaller
+                    td=voc.webInstaller
                     td
-                        //a.button.small(href=windowsWebInstaller.exe)=i18n.downloadPage[site.locale].webInstaller
-                        a.button.small(href="/ctjsWebInstaller.exe")=i18n.downloadPage[site.locale].webInstaller
+                        //a.button.small(href=windowsWebInstaller.exe)=voc.webInstaller
+                        a.button.small(href="/ctjsWebInstaller.exe")=voc.webInstaller
                     td
-                        a.button.small(href=linuxWebInstaller.appImage)=`${i18n.downloadPage[site.locale].webInstaller} (x64)`
+                        a.button.small(href=linuxWebInstaller.appImage)=`${voc.webInstaller} (x64)`
                     td.center —
                 tr
                     td itch.io
@@ -109,14 +114,14 @@ block body
                         a.button.small(href="https://comigo.itch.io/ct" target="_blank")
                             svg.icon
                                 use(xlink:href="/icons.svg#itch-dot-io")
-                            span=i18n.downloadPage[site.locale].getFromItch
+                            span=voc.getFromItch
                 tr
-                    td=i18n.downloadPage[site.locale].olderVersions
+                    td=voc.olderVersions
                     td(colspan=3)
                         a.button.small(href="https://github.com/ct-js/ct-js/releases" target="_blank")
                             svg.icon
                                 use(xlink:href="/icons.svg#github")
-                            span=i18n.downloadPage[site.locale].getOlderReleasesGithub
+                            span=voc.getOlderReleasesGithub
             p
     include /whatsnext.pug
     section#share
