@@ -247,6 +247,70 @@ const voc = {
         supportOnPatreon: 'Supporta il progetto su Patreon',
         play: 'Gioca',
     },
+    
+    en: {
+        pageTitle: 'Ct.js — een gratis game-editor',
+        pageDescription: 'Een gratis 2D game-editor gebaseerd op technologieën van het web.',
+
+        logoAlt: 'Een ct.js logo. Ct.js is een gratis alternatief voor Game Maker, Construct en andere',
+        meetCtjs: 'Leer ct.js kennen,',
+        yourNewEditor: 'jouw nieuwe 2D game-editor',
+        punchline: 'ct.js maakt leren programmeren leuk en games ontwikkelen gemakkelijk door zijn visuele tools, goede documentatie en flexibele, modulaire bibliotheek.',
+        lovedBy: ' Het is gratis, open-source, en is geliefd bij hobbyisten, professionals, leerkrachten, en hun leerlingen.',
+        download: 'Downloaden',
+        discord: 'Discord',
+        github: 'GitHub',
+
+        smoothWorkflowHeader: 'Soepele workflow',
+        smoothWorkflowParagraph: 'Slechte tools staan jouw werk in de weg. Ct.js is ontworpen als een penseel waarmee je jouw games kunt maken, niet als een vijand waarmee je het gevecht zal moeten aangaan.',
+        beginnerFriendlyHeader: 'Beginner-friendly',
+        beginnerFriendlyParagraph: 'ct.js-bundels komen met offline documentatie, tutorials, en aanpasbare voorbeelden en demos. De code-editor duidt fouten aan en is voorzien van documentatie tijdens dat je je code schrijft.',
+        chooseLanguageParagraph: 'Schrijf in het beginnersvriendelijke CoffeeScript, in JavaScript, de standaard van het web, of zelfs in TypeScript — afhankelijk van je vaardigheden en noden.',
+        powerfulHeader: 'Krachtig',
+        powerfulParagraph: 'ct.js is gebaseerd op Pixi.js, werkt op WebGL en zorgt voor uitstekende prestaties in browsers en desktop-omgevingen. Modules zorgen voor nieuwe mogelijkheden, en wanneer ct.js tekortschiet, kan je iedere JS-code of bibliotheek toevoegen.',
+
+        gamesOfAnyGenre: 'Ontwerp games van elk genre',
+        gamesOfAnyGenreSub: 'Shooters, arcades, avonturen, survivals, puzzels, visuele romans — noem maar op!',
+        stormCrossParagraph: 'Een klein gestyliseerd avontuur met AI-gestuurde zeeslagen, een gewelddadige omgeving, en mini-puzzelgedeeltes. Ga mee op reis om een kolonie van een dodelijke ziekte te redden!',
+        amongTheWolvesParagraph: 'Een woud, een meer, een enkele overlevende, en monsters in het donker. Deze game is een "een-dimensionele" survival met een dag/nacht-cyclus, groei-mechanics, en een losgeslagen levend bos.',
+        welcomeToTheVOIDParagraph: 'Een verhaal over het rebooten van het universum. Zwem door de eindeloze, donkere kosmos, ga ruimtegevechten aan, land op planeten voor expeditiemissies en ontdek de verloren technologieën.',
+        illFatedParagraph: 'Een vampier-overleving-achtige shooter waar je karakter enkel zwakker wordt doorheen de tijd. Weer eindeloze monsters af en zoe hoeveel vloeken je kunt krijgen voor je bezwijkt aan de vijand.',
+        vacationOfFusionParagraph: 'Een luchtige eiland-opbouw game waar je elementen vermengt om nieuwe tegels te verkrijgen. Bevat creative-modus, cartoon-graphics, en een selfie-modus!',
+
+        madeWithCtjs: 'Gemaakt met ct.js',
+
+        everythingYouNeedHeader: 'ct.js heeft alles wat je nodig hebt om een game te bouwen',
+        essentials: {
+            roomEditor: 'Kamer / Level editor met tegel-support',
+            codeEditor: 'Geïntegreerde code-editor met error handling',
+            collisionHandling: 'Arcade botsingen en 2D physics-libraries',
+            animations: 'Animaties op basis van frames en skeletten',
+            sounds: 'Muziek & geluid manager',
+            fx: 'Particle systemen, shaders, en lichtsysteem',
+            docs: 'Notities & documentatie in een zijpaneel, op elk scherm',
+            customJS: 'Optie om custom JavaScript te gebruiken',
+            easyPacking: 'Gemakkelijk packen en uitbrengen',
+        },
+        allFeatures: 'Alle features',
+
+
+        partners: 'Onze Partner',
+        miniJam: {
+            description: 'Mini Jam is een open, zich herhalende game jam die iedere twee weken op itch.io wordt gehouden.',
+            joinServer: 'Kom in hun Discord server',
+            or: 'of',
+            visitSite: 'bezoek hun officiële site'
+        },
+
+        devlog: {
+            latest: 'Het laatste in de Devlog',
+            readMore: 'Meer lezen…',
+            morePosts: 'Meer posts',
+        },
+
+        supportOnPatreon: 'Steun het project op Patreon',
+        play: 'Spelen',
+    },
 
     ru: {
         pageTitle: 'Ct.js — полноценный редактор игр. Ещё и бесплатный!',
