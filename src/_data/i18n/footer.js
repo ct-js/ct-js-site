@@ -49,6 +49,20 @@ const voc = {
         joinTelegram: 'Segui le notizie nel canale Telegram di ComigoGames!',
         vkontakte: 'Segui le notizie in Vkontakte'
     },
+    ne: {
+        comigo: 'Cosmo Myzrail Gorynych',
+        siteLicense: 'de site is gelicentieerd onder',
+        appLicense: 'De ct.js app is gelicentieerd onder de MIT-licentie.',
+        presskit: 'Presskit',
+        contact: 'Contact',
+        forkUs: 'Fork ons op GitHub!',
+        joinServer: 'Kom in Discord server!',
+        discordLink: 'https://discord.gg/CggbPkb', // Russian locale has a link to a different (Russian) Discord server
+        twitter: 'Volg ct.js op Twitter!',
+        patreon: 'Steun het project op Patreon',
+        joinTelegram: 'Volg het nieuws in ComigoGames\' Telegram-kanaal!',
+        vkontakte: 'Volg nieuws op Vkontakte'
+    },
     ru: {
         comigo: 'Космо Мизраил Горыныч',
         siteLicense: 'сайт выпущен под лицензией',
