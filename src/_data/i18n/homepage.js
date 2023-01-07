@@ -248,7 +248,7 @@ const voc = {
         play: 'Gioca',
     },
     
-    en: {
+    ne: {
         pageTitle: 'Ct.js — een gratis game-editor',
         pageDescription: 'Een gratis 2D game-editor gebaseerd op technologieën van het web.',
 
