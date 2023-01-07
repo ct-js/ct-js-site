@@ -82,6 +82,32 @@ const voc = {
         becomePatron: 'Diventa un patron'
         
     },
+    ne: {
+        whatsnext: 'Wat nu?',
+
+        docsButton: 'Docs',
+        readTheDocs: 'Lees de docs',
+        completeTutorials: 'Volledige tutorials om te leren hoe je moet werken met ct.js. Onze tutorials demonstreren hoe je hele games maakt, die tot in de details uitleggen wat er gedaan wordt en hoe.',
+
+        joinCommunity: 'Voeg je bij onze community',
+        getHelp: 'Onze openbare communities zijn aangename plekjes waar je kan chatten, leren, games maken, cat memes sturen, en elkaar helpen.',
+        discordButton: 'Discord',
+        discordLink: 'https://discord.gg/CggbPkb',
+        forumButton: 'Forum',
+
+        getCheatsheet: 'De cheatsheet krijgen',
+        cheatsheetBlurb: 'Krijg de lijst van de frequent gebruikte functies met hun voorbeelden, klaar om af te printen.',
+        download: 'Downloaden',
+
+        patreonAlt: 'Steun ct.js op Patreon of door het te kopen',
+        patreonRewards: 'Ct.js is gratis voor iedereen, maar als je meer dan een simpel bedankje wil zeggen en de toekomst van dit project wil steunen, kan je op itch.io doneren of een patron worden. Patrons krijgen priority support, en hun naam wordt opgenomen in de app!',
+        buyOnItchIo: 'Kopen op itch.io',
+
+        boostyTitle: 'Ct.js steunen door je te abonneren op Boosty',
+        boostyRewards: 'Boosty is net als Patreon — je kunt er meer zeggen dan een simpel bedankje en de toekomst van dit project steunen. Patrons op Boosty krijgen priority support, en hun naam wordt opgenomen in de app!',
+        patreonSadness: 'Eerder waren er donaties op itch.io en een pagina op Patreon — maar omwille van de huidige politieke situatie kan ik niet langer via die wegen donaties ontvangen.',
+        becomePatron: 'Een patron worden'
+    },
     ru: {
         whatsnext: 'Что дальше?',
 
