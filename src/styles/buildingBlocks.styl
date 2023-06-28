@@ -157,16 +157,24 @@ nav
     button, .button
         opacity 0
 
+.anEssencialsList
+    display flex
+    flex-flow row wrap
+
 .anEssencial
     display flex
     flex-flow row nowrap
+    .anEssencialsList.split &
+        flex-flow column nowrap
+        text-align center
+        align-items center
     align-items top
     padding 2rem 1rem
     p
         font-size 1.5rem
         line-height 1.5
         margin 0 0 0 1.5rem
-    .feather
+    .feather, .icon
         flex 0 0 auto
         font-size 4rem
         stroke-width 1

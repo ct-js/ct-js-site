@@ -1,0 +1,15 @@
+- var nDownload = site.links && site.links.download || '/download'
+a.button.nml(href=nDownload)
+    svg.feather
+        use(xlink:href="/icons.svg#download")
+    span=`${i18n.homepage[site.locale].download} ${downloads.version}`
+div.showon1400
+svg.icon.platformIcon
+    use(xlink:href="/icons.svg#windows")
+svg.icon.platformIcon
+    use(xlink:href="/icons.svg#apple")
+svg.icon.platformIcon
+    use(xlink:href="/icons.svg#linux")
+a(href="https://github.com/ct-js/ct-js" target="_blank")
+    svg.icon.platformIcon
+        use(xlink:href="/icons.svg#github")
