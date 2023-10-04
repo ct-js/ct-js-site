@@ -7,7 +7,7 @@ const voc = {
         meetCtjs: 'Meet ct.js,',
         yourNewEditor: 'your new 2D game editor',
         punchline: 'ct.js makes learning programming fun and game development easy by its visual tools, good docs and flexible, modular library.',
-        lovedBy: ' It is free, open-source, and is loved by hobbyists, professionals, teachers, and their students.',
+        lovedBy: ' It is free, open-source, and loved by hobbyists, professionals, teachers, and their students.',
         download: 'Download',
         discord: 'Discord',
         github: 'GitHub',
