@@ -2,7 +2,7 @@ const voc = {
     en: {
         comigo: 'Cosmo Myzrail Gorynych',
         siteLicense: 'the site is licensed under',
-        appLicense: 'The ct.js app is licensed under MIT license.',
+        appLicense: 'The ct.js app is licensed under the MIT license.',
         presskit: 'Presskit',
         contact: 'Contact',
         forkUs: 'Fork us on GitHub!',
