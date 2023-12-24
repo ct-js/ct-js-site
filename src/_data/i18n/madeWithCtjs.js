@@ -6,6 +6,13 @@ const voc = {
         submitProject: 'Submit Your Project',
         play: 'Play',
     },
+    ar: {
+        pageTitle: 'Games made with ct.js — Ct.js',
+        pageDescription: 'Games created with ct.js, a free 2D game editor based on web technologies.',
+        madeWithCths: 'Made with ct.js',
+        submitProject: 'Submit Your Project',
+        play: 'Play',
+    },
     br: {
         pageTitle: 'Jogos feitos com ct.js — Ct.js',
         pageDescription: 'Jogos criados com o ct.js, um editor de jogos 2D grátis baseado em tecnologias de web.',

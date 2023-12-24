@@ -7,6 +7,14 @@ const voc = {
         gotoHomepage: 'Go to the homepage',
         language: 'En'
     },
+    ar: {
+        changelog: 'Changelog',
+        docs: 'Learn',
+        forum: 'Forum',
+        download: 'Download',
+        gotoHomepage: 'Go to the homepage',
+        language: 'En'
+    },
     br: {
         changelog: 'Notas de Atualizações',
         docs: 'Documentação',

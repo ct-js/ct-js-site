@@ -25,6 +25,32 @@ const voc = {
         patreonSadness: 'Previously there were a Patreon page and donations on itch.io — but due to political situation, I can no longer accept donations from those sources.',
         becomePatron: 'Become a patron'
     },
+    ar: {
+        whatsnext: 'What\'s next?',
+
+        docsButton: 'Docs',
+        readTheDocs: 'Read the docs',
+        completeTutorials: 'Complete tutorials to learn how to work with ct.js. Our tutorials demonstrate how to create complete games, explaining what is done and why in details.',
+
+        joinCommunity: 'Join our community',
+        getHelp: 'Our public communities are comfy places where you can chat, learn, make games, send cat memes, and help each other.',
+        discordButton: 'Discord',
+        discordLink: 'https://discord.gg/yuvuDW5', // Russian locale has a link to a different (Russian) Discord server
+        forumButton: 'Forum',
+
+        getCheatsheet: 'Get the cheatsheet',
+        cheatsheetBlurb: 'Grab the list of the frequently used functions with their examples, ready for print.',
+        download: 'Download',
+
+        patreonAlt: 'Support ct.js on Patreon or by purchasing it',
+        patreonRewards: 'Ct.js is free for everyone, but if you want to say more than "Thank you" and support the future of this project, you can donate on itch.io or become a patron. Patrons get priority support, and their name included in the app!',
+        buyOnItchIo: 'Buy on itch.io',
+
+        boostyTitle: 'Support ct.js by subscribing on Boosty',
+        boostyRewards: 'Boosty is like Patreon — you can say more than just "Thank you" there and support the future of this project. Patrons on Boosty get priority support, and their name get included in the app!',
+        patreonSadness: 'Previously there were a Patreon page and donations on itch.io — but due to political situation, I can no longer accept donations from those sources.',
+        becomePatron: 'Become a patron'
+    },
     br: {
         whatsnext: 'O que vem por ai?',
 

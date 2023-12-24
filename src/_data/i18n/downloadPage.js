@@ -28,6 +28,35 @@ const voc = {
         olderVersions: 'Older versions',
         getOlderReleasesGithub: 'Get previous releases on Github'
     },
+    ar: {
+        pageTitle: 'تحميل ct.js',
+        pageDescription: 'حمل محرك الالعاب من موقعه الرسمي.',
+        welcomeAboard: 'مرحبا بعودتك!',
+
+        webInstaller: ' مثبت الويب',
+        downloadx64: 'تنزيل x64',
+        downloadx32: 'تنزيل x32',
+        downloadarm: 'تنزيل for ARM',
+        otherDownloads: 'التنزيلات الاخرى',
+        option: 'خيار',
+        zipArchive: '.zip ارشيف',
+
+        windows: 'ويندوز',
+        windows7orHigher: 'يدعم ويندوز 7 وأكثر.',
+        windowsInstructions: 'اسبق التنزيل وتشغيل ctjs.exe',
+        linux: 'لينكس',
+        linuxInstructions: 'استخرج وضعه \'ctjs\' كمفعل وتشغيل ./ctjs',
+        appImageInstructions: 'Run chmod +x for this file (mark as an executable) and run the file. Can be used for updates, too!',
+        shInstructions: 'Unzip, run chmod +x for this file (mark as an executable) and run the file. Can be used for updates, too!',
+        mac: 'ماك',
+        macInstructions: 'غير مجرب استخدمة على مسؤوليتك!',
+        macDamagedWarning: 'MacOS on ARM processors may tell that ct.js file is broken, when it\'s not.',
+        macDamagedLink: 'شوف هذه الصفحة للحل.',
+
+        getFromItch: 'Get ct.js on itch.io',
+        olderVersions: 'الاصارات السابقة ',
+        getOlderReleasesGithub: 'احصل على الاصدالرات السابقة على جيت هب'
+    },
     br: {
         pageTitle: 'Baixe ct.js',
         pageDescription: 'Faça o download de um editor de jogos 2D gratuito em seu site oficial.',

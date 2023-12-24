@@ -3,6 +3,10 @@ const voc = {
         helpCtGrow: 'Help ct.js grow!',
         tellFriends: 'Tell your friends about it'
     },
+    ar: {
+        helpCtGrow: 'Help ct.js grow!',
+        tellFriends: 'Tell your friends about it'
+    },
     br: {
         helpCtGrow: 'Ajude ct.js crescer!',
         tellFriends: 'Conte para seus amigos ;)'
