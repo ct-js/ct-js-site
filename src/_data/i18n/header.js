@@ -9,11 +9,11 @@ const voc = {
     },
     ar: {
         changelog: 'التغيرات',
-        docs: 'Learn',
-        forum: 'Forum',
+        docs: 'تعلم',
+        forum: 'المجتمع',
         download: 'تنزيل',
-        gotoHomepage: 'Go to the homepage',
-        language: 'ar'
+        gotoHomepage: 'اذهب الى الصفحة الرئيسية',
+        language: 'عربي'
     },
     br: {
         changelog: 'Notas de Atualizações',
