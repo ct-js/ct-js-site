@@ -63,7 +63,7 @@ const voc = {
         play: 'Play',
     },
     ar: {
-        pageTitle: 'Ct.js — a free game editor',
+        pageTitle: 'Ct.js — محرك العاب مجاني',
         pageDescription: 'A free 2D game editor based on web technologies.',
 
         logoAlt: 'A ct.js logo. Ct.js is a free alternative to Game Maker, Construct and others',

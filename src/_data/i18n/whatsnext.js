@@ -32,11 +32,11 @@ const voc = {
         readTheDocs: 'Read the docs',
         completeTutorials: 'Complete tutorials to learn how to work with ct.js. Our tutorials demonstrate how to create complete games, explaining what is done and why in details.',
 
-        joinCommunity: 'Join our community',
+        joinCommunity: 'انضم الى المجتمع',
         getHelp: 'Our public communities are comfy places where you can chat, learn, make games, send cat memes, and help each other.',
         discordButton: 'Discord',
         discordLink: 'https://discord.gg/yuvuDW5', // Russian locale has a link to a different (Russian) Discord server
-        forumButton: 'Forum',
+        forumButton: 'المجتمع',
 
         getCheatsheet: 'Get the cheatsheet',
         cheatsheetBlurb: 'Grab the list of the frequently used functions with their examples, ready for print.',
