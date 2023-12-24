@@ -67,8 +67,8 @@ const voc = {
         pageDescription: 'A free 2D game editor based on web technologies.',
 
         logoAlt: 'A ct.js logo. Ct.js is a free alternative to Game Maker, Construct and others',
-        meetCtjs: 'Meet ct.js,',
-        yourNewEditor: 'your new 2D game editor',
+        meetCtjs: 'CT.JS',
+        yourNewEditor: 'محرك العابك الجديد',
         punchline: 'ct.js makes learning programming fun and game development easy by its visual tools, good docs and flexible, modular library.',
         lovedBy: ' It is free, open-source, and is loved by hobbyists, professionals, teachers, and their students.',
         download: 'Download',

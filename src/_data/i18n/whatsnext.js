@@ -26,15 +26,15 @@ const voc = {
         becomePatron: 'Become a patron'
     },
     ar: {
-        whatsnext: 'What\'s next?',
+        whatsnext: 'ماذا بعد؟',
 
-        docsButton: 'Docs',
-        readTheDocs: 'Read the docs',
-        completeTutorials: 'Complete tutorials to learn how to work with ct.js. Our tutorials demonstrate how to create complete games, explaining what is done and why in details.',
+        docsButton: 'الوثائق',
+        readTheDocs: 'اقرا الوثائق',
+        completeTutorials: 'دروس كاملة لتعلم كيفية العمل مع التصوير المقطعي المحوسب.شبيبة. توضح دروسنا التعليمية كيفية إنشاء ألعاب كاملة ، وشرح ما يتم فعله ولماذا بالتفصيل.',
 
         joinCommunity: 'انضم الى المجتمع',
-        getHelp: 'Our public communities are comfy places where you can chat, learn, make games, send cat memes, and help each other.',
-        discordButton: 'Discord',
+        getHelp: 'المجتمع مكان للمطورين لمشاركة العابهم ومساعده بعضهم البعض',
+        discordButton: 'ديسكورد',
         discordLink: 'https://discord.gg/yuvuDW5', // Russian locale has a link to a different (Russian) Discord server
         forumButton: 'المجتمع',
 
