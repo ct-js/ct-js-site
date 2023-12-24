@@ -5,9 +5,9 @@ const voc = {
         download: 'Download',
     },
     ar: {
-        joinGamedev: 'Join the world of game development',
-        gamedevIsFree: 'It\'s free!',
-        download: 'Download',
+        joinGamedev: 'انضم الي العالم من تطوير اللعب',
+        gamedevIsFree: 'انه مجانا!',
+        download: 'تنزيل',
     },
     br: {
         joinGamedev: 'Entre no mundo de desenvolvimentos de jogos',

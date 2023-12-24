@@ -18,12 +18,12 @@ const voc = {
         siteLicense: 'the site is licensed under',
         appLicense: 'The ct.js app is licensed under MIT license.',
         presskit: 'Presskit',
-        contact: 'Contact',
+        contact: 'تواصل',
         forkUs: 'Fork us on GitHub!',
-        joinServer: 'Join our Discord server!',
-        discordLink: 'https://discord.gg/yuvuDW5', // Russian locale has a link to a different (Russian) Discord server
-        twitter: 'Follow ct.js on Twitter!',
-        patreon: 'Support the project on Patreon',
+        joinServer: 'انضم الى سيرفير الديسكورد!',
+        discordLink: 'https://discord.gg/yuvuDW5',
+        twitter: 'تابعنا على تويتر!',
+        patreon: 'ادعم المشروع على Patreon',
         joinTelegram: 'Follow the news in ComigoGames\' Telegram channel!',
         vkontakte: 'Follow news in Vkontakte'
     },
