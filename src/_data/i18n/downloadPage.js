@@ -54,8 +54,8 @@ const voc = {
         macDamagedLink: 'شوف هذه الصفحة للحل.',
 
         getFromItch: 'Get ct.js on itch.io',
-        olderVersions: 'الاصارات السابقة ',
-        getOlderReleasesGithub: 'احصل على الاصدالرات السابقة على جيت هب'
+        olderVersions: 'الاصدارات السابقة ',
+        getOlderReleasesGithub: 'احصل على الاصدارات السابقة على جيت هب'
     },
     br: {
         pageTitle: 'Baixe ct.js',
