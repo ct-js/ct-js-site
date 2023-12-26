@@ -79,7 +79,7 @@ const voc = {
         smoothWorkflowParagraph: 'Bad tools hinder your performance. Ct.js is designed to be like a brush with which you create games, not to be an enemy you will fight with.',
         beginnerFriendlyHeader: 'مناسب للمتبدئين',
         beginnerFriendlyParagraph: 'يمكنك تحرير الاكواد بشكل مبسط ومناسب للمتبدئين.',
-        chooseLanguageParagraph: 'كتابة الاكواد بشكل بسيط ومناسب للمتبدئين.',
+        chooseLanguageParagraph: '',
         powerfulHeader: 'مميز',
         powerfulParagraph: 'ct.js  مبني ب Pixi.js,يعمل على المتصفحات الويب .',
 
