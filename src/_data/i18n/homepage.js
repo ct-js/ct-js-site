@@ -112,18 +112,18 @@ const voc = {
         miniJam: {
             description: 'Mini Jam is an open recurring game jam that is held every two weeks on itch.io.',
             joinServer: 'Join their Discord server',
-            or: 'or',
-            visitSite: 'visit their official site'
+            or: 'او',
+            visitSite: 'زر الموقع الرسمي',
         },
 
         devlog: {
             latest: 'Latest in the Devlog',
-            readMore: 'Read more…',
-            morePosts: 'More posts',
+            readMore: 'اقرا المزيد…',
+            morePosts: 'المزيد من المنشورات',
         },
 
-        supportOnPatreon: 'Support the project on Patreon',
-        play: 'Play',
+        supportOnPatreon: 'ادعم المشروع عن طريق Patreon',
+        play: 'العب',
     },
 
     
