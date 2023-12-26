@@ -7,11 +7,11 @@ const voc = {
         play: 'Play',
     },
     ar: {
-        pageTitle: 'Games made with ct.js — Ct.js',
-        pageDescription: 'Games created with ct.js, a free 2D game editor based on web technologies.',
-        madeWithCths: 'Made with ct.js',
-        submitProject: 'Submit Your Project',
-        play: 'Play',
+        pageTitle: 'العاب صنعت ب ct.js — Ct.js',
+        pageDescription: 'العاب صنعت ب ct.js, محرك العاب مجاني 2دي معتمد على تكنولوجيا الويب.',
+        madeWithCths: 'صنع ب ct.js',
+        submitProject: 'ارسل مشروعك',
+        play: 'العب',
     },
     br: {
         pageTitle: 'Jogos feitos com ct.js — Ct.js',

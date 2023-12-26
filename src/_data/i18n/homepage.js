@@ -71,11 +71,11 @@ const voc = {
         yourNewEditor: 'محرك العابك الجديد',
         punchline: 'ct.js makes learning programming fun and game development easy by its visual tools, good docs and flexible, modular library.',
         lovedBy: ' It is free, open-source, and is loved by hobbyists, professionals, teachers, and their students.',
-        download: 'Download',
-        discord: 'Discord',
-        github: 'GitHub',
+        download: 'تنزيل',
+        discord: 'ديسكورد',
+        github: 'جيت هب',
 
-        smoothWorkflowHeader: 'Smooth workflow',
+        smoothWorkflowHeader: 'بيئة عمل سلسه',
         smoothWorkflowParagraph: 'Bad tools hinder your performance. Ct.js is designed to be like a brush with which you create games, not to be an enemy you will fight with.',
         beginnerFriendlyHeader: 'Beginner friendly',
         beginnerFriendlyParagraph: 'ct.js bundles come with offline docs, tutorials, and editable examples and demos. The code editor highlights errors and provides documentation right while writing your code.',
@@ -91,9 +91,9 @@ const voc = {
         illFatedParagraph: 'A vampire-survivor-esque shooter where your character only grows weaker through time. Fend off endless monsters and see how many curses you can get before you succumb to the foes.',
         vacationOfFusionParagraph: 'A light-hearted island-building game where you mix elements to create new tiles. Features creative mode, cartoony graphics, and a selfie mode!',
 
-        madeWithCtjs: 'Made with ct.js',
+        madeWithCtjs: 'صنع ب ct.js',
 
-        everythingYouNeedHeader: 'ct.js has everything you need to build a game',
+        everythingYouNeedHeader: 'ct.js لدية كل شي لبناء لعبة',
         essentials: {
             roomEditor: 'Room / Level editor with tile support',
             codeEditor: 'Integrated code editor with error handling',
