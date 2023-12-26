@@ -77,7 +77,7 @@ const voc = {
 
         smoothWorkflowHeader: 'بيئة عمل سلسه',
         smoothWorkflowParagraph: 'Bad tools hinder your performance. Ct.js is designed to be like a brush with which you create games, not to be an enemy you will fight with.',
-        beginnerFriendlyHeader: 'Beginner friendly',
+        beginnerFriendlyHeader: 'مناسب للمتبدئين',
         beginnerFriendlyParagraph: 'ct.js bundles come with offline docs, tutorials, and editable examples and demos. The code editor highlights errors and provides documentation right while writing your code.',
         chooseLanguageParagraph: 'Write in beginner-friendly CoffeeScript, in JavaScript, the web standard, or even in TypeScript — depending on your skills and needs.',
         powerfulHeader: 'Powerful',
@@ -108,7 +108,7 @@ const voc = {
         allFeatures: 'All the features',
 
 
-        partners: 'Our Partner',
+        partners: 'شريكنا',
         miniJam: {
             description: 'Mini Jam is an open recurring game jam that is held every two weeks on itch.io.',
             joinServer: 'Join their Discord server',
