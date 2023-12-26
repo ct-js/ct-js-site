@@ -95,15 +95,15 @@ const voc = {
 
         everythingYouNeedHeader: 'ct.js لدية كل شي لبناء لعبة',
         essentials: {
-            roomEditor: 'Room / Level editor with tile support',
-            codeEditor: 'Integrated code editor with error handling',
+            roomEditor: 'محرر المراحل',
+            codeEditor: 'محرر اكواد',
             collisionHandling: 'Arcade collisions and 2D physics libraries',
-            animations: 'Framed & skeletal animations',
-            sounds: 'Music & sound manager',
-            fx: 'Particle system, shaders, and lighting system',
+            animations: 'انميشن',
+            sounds: 'متحكم الصوت',
+            fx: 'نظام تاثيرات و اضواء',
             docs: 'Notes & docs in a side panel, on every screen',
-            customJS: 'Ability to use custom JavaScript',
-            easyPacking: 'Easy packing and deploying',
+            customJS: 'امكانية تخصيص JS',
+            easyPacking: 'سهل التصدير',
         },
         allFeatures: 'All the features',
 
