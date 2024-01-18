@@ -20,7 +20,7 @@ const voc = {
         presskit: 'Presskit',
         contact: 'تواصل',
         forkUs: 'GitHub فورك المشروع على',
-        joinServer: 'انضم الى سيرفير الديسكورد!',
+        joinServer: '!انضم الى سيرفير الديسكورد',
         discordLink: 'https://discord.gg/yuvuDW5',
         twitter: '!تابعنا على تويتر',
         patreon: 'Patreon ادعم المشروع على',
