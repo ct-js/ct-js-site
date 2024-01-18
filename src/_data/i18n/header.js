@@ -13,7 +13,7 @@ const voc = {
         forum: 'المنتدى',
         download: 'تنزيل',
         gotoHomepage: 'اذهب الى الصفحة الرئيسية',
-        language: 'عربي'
+        language: 'عربية'
     },
     br: {
         changelog: 'Notas de Atualizações',
