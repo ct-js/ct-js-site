@@ -47,7 +47,7 @@ const voc = {
         linux: 'لينكس',
         linuxInstructions: './ctjs' كمفعل وشغل \'ctjs\' استخرج و ضع'
         appImageInstructions: 'لتشغيله. يمكن استعمال الملف للتحديث ايضا chmod +x شغل',
-        shInstructions: 'Unzip, run chmod +x for this file (mark as an executable) and run the file. Can be used for updates, too!',
+        shInstructions: 'لتشغيله. يمكن استعمال الملف للتحديث ايضا chmod +x استخرج الملفات و شغل',
         mac: 'ماك',
         macInstructions: 'غير مجرب استخدمة على مسؤوليتك!',
         macDamagedWarning: 'MacOS on ARM processors may tell that ct.js file is broken, when it\'s not.',
