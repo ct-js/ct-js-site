@@ -36,7 +36,7 @@ const voc = {
         webInstaller: 'مثبت الويب',
         downloadx64: 'x64 تنزيل',
         downloadx32: 'تنزيل x32',
-        downloadarm: 'تنزيل for ARM',
+        downloadarm: 'ARM تنزيل',
         otherDownloads: 'التنزيلات الاخرى',
         option: 'خيار',
         zipArchive: '.zip ارشيف',
