@@ -50,7 +50,7 @@ const voc = {
         shInstructions: 'لتشغيله. يمكن استعمال الملف للتحديث ايضا chmod +x استخرج الملفات و شغل',
         mac: 'ماك',
         macInstructions: 'غير مجرب لكنه يشتغل, استخدمه على مسؤوليتك',
-        macDamagedWarning: 'MacOS on ARM processors may tell that ct.js file is broken, when it\'s not.',
+        macDamagedWarning: 'لا يشتغل لكن ذلك غير صحيح بالمرة ct.js قد يخبرك ان ARMل MacOs',
         macDamagedLink: 'شوف هذه الصفحة للحل.',
 
         getFromItch: 'Get ct.js on itch.io',
