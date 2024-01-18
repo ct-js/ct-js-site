@@ -6,7 +6,7 @@ const voc = {
     },
     ar: {
         joinGamedev: 'انضم الى عالم تطوير الألعاب',
-        gamedevIsFree: 'انه مجانا!',
+        gamedevIsFree: '!انه مجاني',
         download: 'تنزيل',
     },
     br: {
