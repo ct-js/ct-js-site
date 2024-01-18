@@ -71,7 +71,7 @@ const voc = {
         yourNewEditor: 'محرك العابك الجديد',
         punchline: 'ct.js makes learning programming fun and game development easy by its visual tools, good docs and flexible, modular library.',
         lovedBy: ' انه مجاني محبوب من قبل المتبدئين و الطلاب و المبرمجين المستقلين.',
-        download: 'تنزيل',
+        download: 'تحميل',
         discord: 'ديسكورد',
         github: 'جيت هب',
 
