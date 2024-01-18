@@ -51,7 +51,7 @@ const voc = {
         mac: 'ماك',
         macInstructions: 'غير مجرب لكنه يشتغل, استخدمه على مسؤوليتك',
         macDamagedWarning: 'لا يشتغل لكن ذلك غير صحيح بالمرة ct.js قد يخبرك ان ARMل MacOs',
-        macDamagedLink: 'شوف هذه الصفحة للحل.',
+        macDamagedLink: 'افتح الصفحة لمعرفة كيفية حل الخطأ',
 
         getFromItch: 'Get ct.js on itch.io',
         olderVersions: 'الاصدارات السابقة ',
