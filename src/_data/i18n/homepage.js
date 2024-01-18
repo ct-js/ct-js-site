@@ -105,7 +105,7 @@ const voc = {
             customJS: 'JavaScript امكانية تخصيص',
             easyPacking: 'سهل التصدير و الاستعمال',
         },
-        allFeatures: 'All the features',
+        allFeatures: 'كل الخاصيات',
 
 
         partners: 'شريكنا',
