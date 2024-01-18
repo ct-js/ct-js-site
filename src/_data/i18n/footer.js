@@ -24,7 +24,7 @@ const voc = {
         discordLink: 'https://discord.gg/yuvuDW5',
         twitter: 'تابعنا على تويتر!',
         patreon: 'ادعم المشروع على Patreon',
-        joinTelegram: 'Follow the news in ComigoGames\' Telegram channel!',
+        joinTelegram: 'ComigoGames تابع الأخبار على قناة التيليغرام',
         vkontakte: 'Follow news in Vkontakte'
     },
     br: {
