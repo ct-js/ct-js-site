@@ -31,7 +31,7 @@ const voc = {
     ar: {
         pageTitle: 'تحميل ct.js',
         pageDescription: 'حمل محرك الالعاب من موقعه الرسمي.',
-        welcomeAboard: 'مرحبا بعودتك!',
+        welcomeAboard: '!مرحبا بك',
 
         webInstaller: ' مثبت الويب',
         downloadx64: 'تنزيل x64',
