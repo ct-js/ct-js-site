@@ -100,7 +100,7 @@ const voc = {
             collisionHandling: 'Arcade collisions and 2D physics libraries',
             animations: 'انميشن',
             sounds: 'متحكم الصوت',
-            fx: 'نظام تاثيرات و اضواء',
+            fx: 'نظام تأثيرات و أضواء',
             docs: 'Notes & docs in a side panel, on every screen',
             customJS: 'امكانية تخصيص JS',
             easyPacking: 'سهل التصدير',
