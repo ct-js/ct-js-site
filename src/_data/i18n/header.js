@@ -9,7 +9,7 @@ const voc = {
     },
     ar: {
         changelog: 'التغييرات',
-        docs: 'تعلم',
+        docs: 'الوثائق',
         forum: 'المنتدى',
         download: 'تنزيل',
         gotoHomepage: 'اذهب الى الصفحة الرئيسية',
