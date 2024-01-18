@@ -93,7 +93,7 @@ const voc = {
 
         madeWithCtjs: 'صنع ب ct.js',
 
-        everythingYouNeedHeader: 'ct.js لدية كل شي لبناء لعبة',
+        everythingYouNeedHeader: 'لديه كل شيئ لبناء لعبة ct.js',
         essentials: {
             roomEditor: 'محرر المراحل',
             codeEditor: 'محرر اكواد',
