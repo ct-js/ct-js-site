@@ -42,7 +42,7 @@ const voc = {
         zipArchive: '.zip ارشيف',
 
         windows: 'ويندوز',
-        windows7orHigher: 'يدعم ويندوز 7 وأكثر.',
+        windows7orHigher: 'يدعم ويندوز 7 وأكثر',
         windowsInstructions: 'ctjs.exe استخرج و شغل'
         linux: 'لينكس',
         linuxInstructions: 'استخرج وضعه \'ctjs\' كمفعل وتشغيل ./ctjs',
