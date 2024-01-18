@@ -97,7 +97,7 @@ const voc = {
         essentials: {
             roomEditor: 'محرر المراحل',
             codeEditor: 'محرر اكواد',
-            collisionHandling: 'Arcade collisions and 2D physics libraries',
+            collisionHandling: 'تصادمات اركايد و مكتبات فيزياء ثنائية الابعاد',
             animations: 'انميشن',
             sounds: 'متحكم الصوت',
             fx: 'نظام تأثيرات و أضواء',
