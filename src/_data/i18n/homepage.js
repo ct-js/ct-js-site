@@ -102,7 +102,7 @@ const voc = {
             sounds: 'متحكم الصوت',
             fx: 'نظام تأثيرات و أضواء',
             docs: 'ملاحظات وثائق في نافذة جانبية في كل شاشة',
-            customJS: 'امكانية تخصيص JS',
+            customJS: 'JavaScript امكانية تخصيص',
             easyPacking: 'سهل التصدير',
         },
         allFeatures: 'All the features',
