@@ -33,7 +33,7 @@ const voc = {
         pageDescription: 'حمل محرك الالعاب من موقعه الرسمي',
         welcomeAboard: '!مرحبا بك',
 
-        webInstaller: ' مثبت الويب',
+        webInstaller: 'مثبت الويب',
         downloadx64: 'تنزيل x64',
         downloadx32: 'تنزيل x32',
         downloadarm: 'تنزيل for ARM',
