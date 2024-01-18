@@ -29,7 +29,7 @@ const voc = {
         getOlderReleasesGithub: 'Get previous releases on Github'
     },
     ar: {
-        pageTitle: 'تحميل ct.js',
+        pageTitle: 'ct.js تحميل',
         pageDescription: 'حمل محرك الالعاب من موقعه الرسمي',
         welcomeAboard: '!مرحبا بك',
 
