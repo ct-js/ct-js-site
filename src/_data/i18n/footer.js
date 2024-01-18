@@ -23,7 +23,7 @@ const voc = {
         joinServer: 'انضم الى سيرفير الديسكورد!',
         discordLink: 'https://discord.gg/yuvuDW5',
         twitter: '!تابعنا على تويتر',
-        patreon: 'ادعم المشروع على Patreon',
+        patreon: 'Patreon ادعم المشروع على',
         joinTelegram: 'ComigoGames تابع الأخبار على قناة التيليغرام',
         vkontakte: 'Vkontakte تابع الأخبار على'
     },
