@@ -64,7 +64,7 @@ const voc = {
     },
     ar: {
         pageTitle: 'Ct.js — محرك العاب مجاني',
-        pageDescription: 'محرك العاب مجاني 2دي معتمد على تكنولوجيا الويب.',
+        pageDescription: 'محرك العاب مجاني ثنائي الأبعاد معتمد على تكنولوجيا الويب',
 
         logoAlt: 'و غيرهم Construct و Gamer Maker هو بديل مجاني ل Ct.js ,ct.js لوجو',
         meetCtjs: 'CT.JS',
