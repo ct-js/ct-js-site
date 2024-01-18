@@ -70,7 +70,7 @@ const voc = {
         meetCtjs: 'CT.JS',
         yourNewEditor: 'محرك العابك الجديد',
         punchline: 'ct.js makes learning programming fun and game development easy by its visual tools, good docs and flexible, modular library.',
-        lovedBy: ' انه مجاني محبوب من قبل المتبدئين و الطلاب و المبرمجين المستقلين.',
+        lovedBy: 'انه مجاني محبوب من قبل المبتدئين و الطلاب و المبرمجين المستقلين',
         download: 'تحميل',
         discord: 'ديسكورد',
         github: 'جيت هب',
