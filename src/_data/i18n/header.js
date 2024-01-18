@@ -11,7 +11,7 @@ const voc = {
         changelog: 'التغييرات',
         docs: 'الوثائق',
         forum: 'المنتدى',
-        download: 'تنزيل',
+        download: 'تحميل',
         gotoHomepage: 'اذهب الى الصفحة الرئيسية',
         language: 'عربية'
     },
