@@ -101,7 +101,7 @@ const voc = {
             animations: 'انميشن',
             sounds: 'متحكم الصوت',
             fx: 'نظام تأثيرات و أضواء',
-            docs: 'Notes & docs in a side panel, on every screen',
+            docs: 'ملاحظات وثائق في نافذة جانبية في كل شاشة',
             customJS: 'امكانية تخصيص JS',
             easyPacking: 'سهل التصدير',
         },
