@@ -69,7 +69,7 @@ const voc = {
         logoAlt: 'و غيرهم Construct و Gamer Maker هو بديل مجاني ل Ct.js ,ct.js لوجو',
         meetCtjs: 'CT.JS',
         yourNewEditor: 'محرك ألعابك الجديد',
-        punchline: 'ct.js makes learning programming fun and game development easy by its visual tools, good docs and flexible, modular library.',
+        punchline: 'يجعل تعلم البرمجة ممتعا و  تطوير الألعاب سهلا بأدواته المرئية، وثائقه الجيدة و مكتبة الوحدات. ct.js',
         lovedBy: 'انه مجاني محبوب من قبل المبتدئين و الطلاب و المبرمجين المستقلين',
         download: 'تحميل',
         discord: 'ديسكورد',
