@@ -66,7 +66,7 @@ const voc = {
         pageTitle: 'Ct.js — محرك العاب مجاني',
         pageDescription: 'محرك العاب مجاني 2دي معتمد على تكنولوجيا الويب.',
 
-        logoAlt: 'A ct.js logo. Ct.js is a free alternative to Game Maker, Construct and others',
+        logoAlt: 'و غيرهم Construct و Gamer Maker هو بديل مجاني ل Ct.js ,ct.js لوجو',
         meetCtjs: 'CT.JS',
         yourNewEditor: 'محرك العابك الجديد',
         punchline: 'ct.js makes learning programming fun and game development easy by its visual tools, good docs and flexible, modular library.',
