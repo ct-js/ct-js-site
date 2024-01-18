@@ -43,7 +43,7 @@ const voc = {
 
         windows: 'ويندوز',
         windows7orHigher: 'يدعم ويندوز 7 وأكثر.',
-        windowsInstructions: 'اسبق التنزيل وتشغيل ctjs.exe',
+        windowsInstructions: 'ctjs.exe استخرج و شغل'
         linux: 'لينكس',
         linuxInstructions: 'استخرج وضعه \'ctjs\' كمفعل وتشغيل ./ctjs',
         appImageInstructions: 'Run chmod +x for this file (mark as an executable) and run the file. Can be used for updates, too!',
