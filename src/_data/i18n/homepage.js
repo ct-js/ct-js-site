@@ -103,7 +103,7 @@ const voc = {
             fx: 'نظام تأثيرات و أضواء',
             docs: 'ملاحظات وثائق في نافذة جانبية في كل شاشة',
             customJS: 'JavaScript امكانية تخصيص',
-            easyPacking: 'سهل التصدير',
+            easyPacking: 'سهل التصدير و الاستعمال',
         },
         allFeatures: 'All the features',
 
