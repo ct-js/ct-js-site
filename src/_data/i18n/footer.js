@@ -25,7 +25,7 @@ const voc = {
         twitter: '!تابعنا على تويتر',
         patreon: 'ادعم المشروع على Patreon',
         joinTelegram: 'ComigoGames تابع الأخبار على قناة التيليغرام',
-        vkontakte: 'Follow news in Vkontakte'
+        vkontakte: 'Vkontakte تابع الأخبار على'
     },
     br: {
         comigo: 'Cosmo Myzrail Gorynych',
