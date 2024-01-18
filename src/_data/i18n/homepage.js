@@ -113,7 +113,7 @@ const voc = {
             description: 'Mini Jam is an open recurring game jam that is held every two weeks on itch.io.',
             joinServer: 'Join their Discord server',
             or: 'أو',
-            visitSite: 'زر الموقع الرسمي',
+            visitSite: 'زيارة الموقع الرسمي',
         },
 
         devlog: {
