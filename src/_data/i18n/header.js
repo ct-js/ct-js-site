@@ -10,7 +10,7 @@ const voc = {
     ar: {
         changelog: 'التغيرات',
         docs: 'تعلم',
-        forum: 'المجتمع',
+        forum: 'المنتدى',
         download: 'تنزيل',
         gotoHomepage: 'اذهب الى الصفحة الرئيسية',
         language: 'عربي'
