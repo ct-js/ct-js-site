@@ -15,7 +15,7 @@ const voc = {
     },
     ar: {
         comigo: 'Cosmo Myzrail Gorynych',
-        siteLicense: 'the site is licensed under',
+        siteLicense: 'هذا المشروع مرخص تحت',
         appLicense: 'The ct.js app is licensed under MIT license.',
         presskit: 'Presskit',
         contact: 'تواصل',
