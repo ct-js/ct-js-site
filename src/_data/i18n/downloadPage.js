@@ -34,7 +34,7 @@ const voc = {
         welcomeAboard: '!مرحبا بك',
 
         webInstaller: 'مثبت الويب',
-        downloadx64: 'تنزيل x64',
+        downloadx64: 'x64 تنزيل',
         downloadx32: 'تنزيل x32',
         downloadarm: 'تنزيل for ARM',
         otherDownloads: 'التنزيلات الاخرى',
