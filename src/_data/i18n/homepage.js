@@ -91,7 +91,7 @@ const voc = {
         illFatedParagraph: 'A vampire-survivor-esque shooter where your character only grows weaker through time. Fend off endless monsters and see how many curses you can get before you succumb to the foes.',
         vacationOfFusionParagraph: 'A light-hearted island-building game where you mix elements to create new tiles. Features creative mode, cartoony graphics, and a selfie mode!',
 
-        madeWithCtjs: 'صنع ب ct.js',
+        madeWithCtjs: 'ct.js صنع ب',
 
         everythingYouNeedHeader: 'لديه كل شيئ لبناء لعبة ct.js',
         essentials: {
