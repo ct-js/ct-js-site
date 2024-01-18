@@ -19,7 +19,7 @@ const voc = {
         appLicense: 'MIT مرخص تحت رخصة  ct.js تطبيق',
         presskit: 'Presskit',
         contact: 'تواصل',
-        forkUs: 'Fork us on GitHub!',
+        forkUs: 'GitHub فورك المشروع على',
         joinServer: 'انضم الى سيرفير الديسكورد!',
         discordLink: 'https://discord.gg/yuvuDW5',
         twitter: '!تابعنا على تويتر',
