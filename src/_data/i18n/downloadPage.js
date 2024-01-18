@@ -30,7 +30,7 @@ const voc = {
     },
     ar: {
         pageTitle: 'تحميل ct.js',
-        pageDescription: 'حمل محرك الالعاب من موقعه الرسمي.',
+        pageDescription: 'حمل محرك الالعاب من موقعه الرسمي',
         welcomeAboard: '!مرحبا بك',
 
         webInstaller: ' مثبت الويب',
