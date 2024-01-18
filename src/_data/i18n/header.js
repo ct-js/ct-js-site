@@ -8,7 +8,7 @@ const voc = {
         language: 'En'
     },
     ar: {
-        changelog: 'التغيرات',
+        changelog: 'التغييرات',
         docs: 'تعلم',
         forum: 'المنتدى',
         download: 'تنزيل',
