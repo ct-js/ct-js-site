@@ -46,7 +46,7 @@ const voc = {
         windowsInstructions: 'ctjs.exe استخرج و شغل'
         linux: 'لينكس',
         linuxInstructions: './ctjs' كمفعل وشغل \'ctjs\' استخرج و ضع'
-        appImageInstructions: 'Run chmod +x for this file (mark as an executable) and run the file. Can be used for updates, too!',
+        appImageInstructions: 'لتشغيله. يمكن استعمال الملف للتحديث ايضا chmod +x شغل',
         shInstructions: 'Unzip, run chmod +x for this file (mark as an executable) and run the file. Can be used for updates, too!',
         mac: 'ماك',
         macInstructions: 'غير مجرب استخدمة على مسؤوليتك!',
