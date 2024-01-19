@@ -36,7 +36,7 @@ const voc = {
         getHelp: 'المنتدى مكان للمطورين لمشاركة العابهم ومساعدة بعضهم البعض',
         discordButton: 'ديسكورد',
         discordLink: 'https://discord.gg/yuvuDW5', // Russian locale has a link to a different (Russian) Discord server
-        forumButton: 'المجتمع',
+        forumButton: 'المنتدى',
 
         getCheatsheet: 'احصل على تلخيص لكيفية الاستعمال (cheatsheet)',
         cheatsheetBlurb: 'Grab the list of the frequently used functions with their examples, ready for print.',
