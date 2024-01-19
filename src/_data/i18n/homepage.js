@@ -111,7 +111,7 @@ const voc = {
         partners: 'شريكنا',
         miniJam: {
             description: 'Mini Jam is an open recurring game jam that is held every two weeks on itch.io.',
-            joinServer: 'Join their Discord server',
+            joinServer: 'Discord انضم لسيرفير',
             or: 'أو',
             visitSite: 'زيارة الموقع الرسمي',
         },
