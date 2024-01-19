@@ -45,7 +45,7 @@ const voc = {
         windows7orHigher: 'يدعم ويندوز 7 وأكثر',
         windowsInstructions: 'ctjs.exe استخرج و شغل',
         linux: 'لينكس',
-        linuxInstructions: './ctjs' كمفعل وشغل \'ctjs\' استخرج و ضع',
+        linuxInstructions: './ctjs كمفعل وشغل "ctjs\" استخرج و ضع',
         appImageInstructions: 'لتشغيله. يمكن استعمال الملف للتحديث ايضا chmod +x شغل',
         shInstructions: 'لتشغيله. يمكن استعمال الملف للتحديث ايضا chmod +x استخرج الملفات و شغل',
         mac: 'ماك',
