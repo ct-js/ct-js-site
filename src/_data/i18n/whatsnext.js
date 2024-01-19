@@ -47,7 +47,7 @@ const voc = {
         buyOnItchIo: 'Buy on itch.io',
 
         boostyTitle: 'Support ct.js by subscribing on Boosty',
-        boostyRewards: 'Boosty is like Patreon — you can say more than just "Thank you" there and support the future of this project. Patrons on Boosty get priority support, and their name get included in the app!',
+        boostyRewards: 'بامكانك قول أكثر من شكرا هناك و تدعم مستقبل المشروع ،باترونس على بووستي لهم أولوية الدعم و أسماءهم تدرج في التطبيق ،Patreon مثل Boosty',
         patreonSadness: 'لكن لأسباب سياسية لم أعد أقبل التبرعات هناك itch.io و تبرعات على Patreon سابقا كان هنالك صفحة',
         becomePatron: 'Patron اصبح'
     },
