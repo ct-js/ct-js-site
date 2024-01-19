@@ -117,7 +117,7 @@ const voc = {
         },
 
         devlog: {
-            latest: 'Latest in the Devlog',
+            latest: 'مستجدات البرمجة',
             readMore: 'اقرا المزيد…',
             morePosts: 'المزيد من المنشورات',
         },
