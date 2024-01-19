@@ -44,7 +44,7 @@ const voc = {
 
         patreonAlt: 'أو عبر شرائه Patreon على ct.js ادعم',
         patreonRewards: 'مجاني للجميع لكن ان اردت قول اكثر من شكرا و تدعم مستقبل المشروع، يمكنك دعمنا على الموقع أو باتريون اين يكون الدعم ذو أولوية و يتم ادراج اسمك في التطبيق Ct.js',
-        buyOnItchIo: 'Buy on itch.io',
+        buyOnItchIo: 'itch.io الشراء على',
 
         boostyTitle: 'Support ct.js by subscribing on Boosty',
         boostyRewards: 'بامكانك قول أكثر من شكرا هناك و تدعم مستقبل المشروع ،باترونس على بووستي لهم أولوية الدعم و أسماءهم تدرج في التطبيق ،Patreon مثل Boosty',
