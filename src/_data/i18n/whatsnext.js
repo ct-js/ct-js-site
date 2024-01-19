@@ -38,7 +38,7 @@ const voc = {
         discordLink: 'https://discord.gg/yuvuDW5', // Russian locale has a link to a different (Russian) Discord server
         forumButton: 'المجتمع',
 
-        getCheatsheet: 'Get the cheatsheet',
+        getCheatsheet: 'احصل على تلخيص لكيفية الاستعمال (cheatsheet)',
         cheatsheetBlurb: 'Grab the list of the frequently used functions with their examples, ready for print.',
         download: 'Download',
 
