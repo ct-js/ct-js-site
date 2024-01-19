@@ -39,7 +39,7 @@ const voc = {
         forumButton: 'المنتدى',
 
         getCheatsheet: 'احصل على تلخيص لكيفية الاستعمال (cheatsheet)',
-        cheatsheetBlurb: 'Grab the list of the frequently used functions with their examples, ready for print.',
+        cheatsheetBlurb: 'احصل على قائمة الوظائف الأكثر استعمالا مع أمثلة جاهزة للطبع',
         download: 'Download',
 
         patreonAlt: 'Support ct.js on Patreon or by purchasing it',
