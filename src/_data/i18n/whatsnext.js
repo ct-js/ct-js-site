@@ -40,7 +40,7 @@ const voc = {
 
         getCheatsheet: 'احصل على تلخيص لكيفية الاستعمال (cheatsheet)',
         cheatsheetBlurb: 'احصل على قائمة الوظائف الأكثر استعمالا مع أمثلة جاهزة للطبع',
-        download: 'Download',
+        download: 'تحميل',
 
         patreonAlt: 'Support ct.js on Patreon or by purchasing it',
         patreonRewards: 'مجاني للجميع لكن ان اردت قول اكثر من شكرا و تدعم مستقبل المشروع، يمكنك دعمنا على الموقع أو باتريون اين يكون الدعم ذو أولوية و يتم ادراج اسمك في التطبيق Ct.js',
