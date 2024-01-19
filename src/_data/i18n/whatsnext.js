@@ -32,7 +32,7 @@ const voc = {
         readTheDocs: 'اقرا الوثائق',
         completeTutorials: 'دروس كاملة لتعلم كيفية العمل. توضح دروسنا التعليمية كيفية إنشاء ألعاب كاملة ، وشرح ما يتم فعله ولماذا بالتفصيل.',
 
-        joinCommunity: 'انضم الى المجتمع',
+        joinCommunity: 'انضم الى المنتدى',
         getHelp: 'المنتدى مكان للمطورين لمشاركة العابهم ومساعدة بعضهم البعض',
         discordButton: 'ديسكورد',
         discordLink: 'https://discord.gg/yuvuDW5', // Russian locale has a link to a different (Russian) Discord server
