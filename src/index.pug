@@ -12,29 +12,7 @@ block body
                     span=i18n.homepage[site.locale].yourNewEditor
                 p.big.nmt=i18n.homepage[site.locale].punchline
                 p.big=i18n.homepage[site.locale].lovedBy
-                a.button.nml(href=nDownload)
-                    svg.feather
-                        use(xlink:href="/icons.svg#download")
-                    span=`${i18n.homepage[site.locale].download} ${downloads.version}`
-                div.showon1400
-                svg.icon.platformIcon
-                    use(xlink:href="/icons.svg#windows")
-                svg.icon.platformIcon
-                    use(xlink:href="/icons.svg#apple")
-                svg.icon.platformIcon
-                    use(xlink:href="/icons.svg#linux")
-                a(href="https://github.com/ct-js/ct-js" target="_blank")
-                    svg.icon.platformIcon
-                        use(xlink:href="/icons.svg#github")
-                //-
-                    a.button.dim(href="https://discord.gg/CggbPkb" target="_blank")
-                        svg.icon
-                            use(xlink:href="/icons.svg#discord")
-                        span=i18n.homepage[site.locale].discord
-                    a.button.dim(href="https://github.com/ct-js/ct-js" target="_blank")
-                        svg.icon
-                            use(xlink:href="/icons.svg#github")
-                        span=i18n.homepage[site.locale].github
+                include /homepageDownload.pug
             img(src="/img/Planet.svg")#theLittlePlanet
             img(src="/img/Planet.svg")#theBiggerPlanet
             .c8.breakon1400#theIllustration
@@ -123,24 +101,7 @@ block body
                         use(xlink:href=`/icons.svg#sparkles`)
                     span=i18n.homepage[site.locale].allFeatures
     include /joinGamedev.pug
-    section#partners.grey
-        .c3.breakon960
-        .c6.center.breakon960
-            h2.nmt=i18n.homepage[site.locale].partners
-
-            img#theMiniJamLogo(src="/img/minijamlogo.png")
-
-            p.big.nmb
-                | #{i18n.homepage[site.locale].miniJam.description}
-                |
-                |
-                a(href="https://discord.gg/kgzG645" target="_blank")=i18n.homepage[site.locale].miniJam.joinServer
-                |
-                | #{i18n.homepage[site.locale].miniJam.or}
-                |
-                a(href="http://minijamofficial.com/" target="_blank")=i18n.homepage[site.locale].miniJam.visitSite
-                |!
-        .clear
+    include /partnersSection.pug
     section#devlog
         .inner.limited
             h2=i18n.homepage[site.locale].devlog.latest

@@ -37,11 +37,11 @@ block body
                             svg.feather.huge
                                 use(xlink:href=`/icons.svg#linux-linear`)
                         h3=voc.linux
-                        a.button.nmr(href=linuxWebInstaller.appImage)
+                        a.button.nmr(href=linuxWebInstaller.sh)
                             svg.feather
                                 use(xlink:href="/icons.svg#download")
                             span=`${voc.webInstaller} (x64)`
-                        p.small.nm=voc.appImageInstructions
+                        p.small.nm=voc.shInstructions
                         a.button.small(href=downloads.linux64)
                             //svg.feather
                             //    use(xlink:href="/icons.svg#download")
@@ -106,7 +106,7 @@ block body
                         //a.button.small(href=windowsWebInstaller.exe)=voc.webInstaller
                         a.button.small(href="/ctjsWebInstaller.exe")=voc.webInstaller
                     td
-                        a.button.small(href=linuxWebInstaller.appImage)=`${voc.webInstaller} (x64)`
+                        a.button.small(href=linuxWebInstaller.sh)=`${voc.webInstaller} (x64)`
                     td.center —
                 tr
                     td itch.io

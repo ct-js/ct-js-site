@@ -7,7 +7,7 @@ const voc = {
         contact: 'Contact',
         forkUs: 'Fork us on GitHub!',
         joinServer: 'Join our Discord server!',
-        discordLink: 'https://discord.gg/CggbPkb', // Russian locale has a link to a different (Russian) Discord server
+        discordLink: 'https://discord.gg/yuvuDW5', // Russian locale has a link to a different (Russian) Discord server
         twitter: 'Follow ct.js on Twitter!',
         patreon: 'Support the project on Patreon',
         joinTelegram: 'Follow the news in ComigoGames\' Telegram channel!',
@@ -43,7 +43,7 @@ const voc = {
         contact: 'Contatto',
         forkUs: 'Fork da GitHub!',
         joinServer: 'Unisciti al nostro Discord Server!',
-        discordLink: 'https://discord.gg/CggbPkb',
+        discordLink: 'https://discord.gg/yuvuDW5',
         twitter: 'Segui ct.js su Twitter!',
         patreon: 'Supporta il progetto su Patreon',
         joinTelegram: 'Segui le notizie nel canale Telegram di ComigoGames!',

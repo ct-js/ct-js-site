@@ -9,7 +9,7 @@ const voc = {
         joinCommunity: 'Join our community',
         getHelp: 'Our public communities are comfy places where you can chat, learn, make games, send cat memes, and help each other.',
         discordButton: 'Discord',
-        discordLink: 'https://discord.gg/CggbPkb', // Russian locale has a link to a different (Russian) Discord server
+        discordLink: 'https://discord.gg/yuvuDW5', // Russian locale has a link to a different (Russian) Discord server
         forumButton: 'Forum',
 
         getCheatsheet: 'Get the cheatsheet',
@@ -65,7 +65,7 @@ const voc = {
         joinCommunity: 'Unisciti alla nostra comunità',
         getHelp: 'I nostri gruppi sono piacevoli luoghi in cui puoi chattare, imparare, creare giochi, inviare meme di micini e aiutarsi a vicenda.',
         discordButton: 'Discord',
-        discordLink: 'https://discord.gg/CggbPkb', // Russian locale has a link to a different (Russian) Discord server
+        discordLink: 'https://discord.gg/yuvuDW5', // Russian locale has a link to a different (Russian) Discord server
         forumButton: 'Forum',
 
         getCheatsheet: 'Scarica i cheatsheet',
