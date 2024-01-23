@@ -7,7 +7,7 @@ const voc = {
         play: 'Play',
     },
     ar: {
-        pageTitle: 'العاب صنعت ب ct.js — Ct.js',
+        pageTitle: 'ct.js - Ct.js العاب صنعت ب',
         pageDescription: 'العاب صنعت ب ct.js, محرك العاب مجاني 2دي معتمد على تكنولوجيا الويب.',
         madeWithCths: 'صنع ب ct.js',
         submitProject: 'ارسل مشروعك',
