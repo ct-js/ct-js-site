@@ -122,7 +122,7 @@ const voc = {
             morePosts: 'المزيد من المنشورات',
         },
 
-        supportOnPatreon: 'ادعم المشروع عن طريق Patreon',
+        supportOnPatreon: 'Patreon ادعم المشروع عن طريق',
         play: 'العب',
     },
 
