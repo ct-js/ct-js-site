@@ -88,7 +88,7 @@ const voc = {
         stormCrossParagraph: 'مغامرة صغيرة مرسومة مع معارك بحرية، بيئة عنيفة، و ألغاز صغيرة مشغلة بواسطة الذكاء الاصطناعي، انضم لرحلة انقاذ المستعمرة من الوباء القاتل',
         amongTheWolvesParagraph: 'غابة، بحيرة، ناج وحيد، و وحوش في الظلام، هذه لعبة نجاة أحادية الأبعاد مع طور النهار و الليل، ميكانكية في نمو و غابة وحشية',
         welcomeToTheVOIDParagraph: 'قصة حول إعادة إحياء للكون، عم في الظلمات الكونية اللامتناهية، شارك في معارك الفضاء و اذهب للكواكب في حملة مهام و اكتشف التكنولوجيات الضائعة',
-        illFatedParagraph: 'A vampire-survivor-esque shooter where your character only grows weaker through time. Fend off endless monsters and see how many curses you can get before you succumb to the foes.',
+        illFatedParagraph: 'لعبة رمي للأسلحة و نجاة مصاص دماء أين تضعف شخصيتك بالوقت، صد الوحوش اللامتناهية و اجمع اللعنات حتى تخضع للأعداء',
         vacationOfFusionParagraph: 'A light-hearted island-building game where you mix elements to create new tiles. Features creative mode, cartoony graphics, and a selfie mode!',
 
         madeWithCtjs: 'ct.js صنع ب',
