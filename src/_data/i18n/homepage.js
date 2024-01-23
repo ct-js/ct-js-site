@@ -83,7 +83,7 @@ const voc = {
         powerfulHeader: 'فعال',
         powerfulParagraph: 'ضامنا لعطاء جيد على المتصفح WebGl و يشتغل على Pixi.js مبني ب ct.js',
 
-        gamesOfAnyGenre: 'Create games of any genre',
+        gamesOfAnyGenre: 'اصنع ألعاب من أي نوع',
         gamesOfAnyGenreSub: 'Shooters, arcades, adventures, survivals, puzzles, visual novels — you name it!',
         stormCrossParagraph: 'A small stylized adventure with AI-powered sea battles, violent environment, and little puzzle sections. Join the voyage to save a colony from a deadly disease!',
         amongTheWolvesParagraph: 'غابة، بحيرة، ناج وحيد، و وحوش في الظلام، هذه لعبة نجاة أحادية الأبعاد مع طور النهار و الليل، ميكانكية في نمو و غابة وحشية',
