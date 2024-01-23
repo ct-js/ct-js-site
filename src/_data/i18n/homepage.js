@@ -84,7 +84,7 @@ const voc = {
         powerfulParagraph: 'ضامنا لعطاء جيد على المتصفح WebGl و يشتغل على Pixi.js مبني ب ct.js',
 
         gamesOfAnyGenre: 'اصنع ألعاب من أي نوع',
-        gamesOfAnyGenreSub: 'Shooters, arcades, adventures, survivals, puzzles, visual novels — you name it!',
+        gamesOfAnyGenreSub: 'ألعاب الأسلحة، الأركايد، المغامرات، سرفايفل، الألغاز، الروايات المرئية - أيا كان ما تريد',
         stormCrossParagraph: 'مغامرة صغيرة مرسومة مع معارك بحرية، بيئة عنيفة، و ألغاز صغيرة مشغلة بواسطة الذكاء الاصطناعي، انضم لرحلة انقاذ المستعمرة من الوباء القاتل',
         amongTheWolvesParagraph: 'غابة، بحيرة، ناج وحيد، و وحوش في الظلام، هذه لعبة نجاة أحادية الأبعاد مع طور النهار و الليل، ميكانكية في نمو و غابة وحشية',
         welcomeToTheVOIDParagraph: 'A story about rebooting the universe. Swim through the endless dark cosmos, engage in space combat, land on planets for expedition missions and explore the lost technologies.',
