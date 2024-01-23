@@ -87,7 +87,7 @@ const voc = {
         gamesOfAnyGenreSub: 'ألعاب الأسلحة، الأركايد، المغامرات، سرفايفل، الألغاز، الروايات المرئية - أيا كان ما تريد',
         stormCrossParagraph: 'مغامرة صغيرة مرسومة مع معارك بحرية، بيئة عنيفة، و ألغاز صغيرة مشغلة بواسطة الذكاء الاصطناعي، انضم لرحلة انقاذ المستعمرة من الوباء القاتل',
         amongTheWolvesParagraph: 'غابة، بحيرة، ناج وحيد، و وحوش في الظلام، هذه لعبة نجاة أحادية الأبعاد مع طور النهار و الليل، ميكانكية في نمو و غابة وحشية',
-        welcomeToTheVOIDParagraph: 'A story about rebooting the universe. Swim through the endless dark cosmos, engage in space combat, land on planets for expedition missions and explore the lost technologies.',
+        welcomeToTheVOIDParagraph: 'قصة حول إعادة إحياء للكون، عم في الظلمات الكونية اللامتناهية، شارك في معارك الفضاء و اذهب للكواكب في حملة مهام و اكتشف التكنولوجيات الضائعة',
         illFatedParagraph: 'A vampire-survivor-esque shooter where your character only grows weaker through time. Fend off endless monsters and see how many curses you can get before you succumb to the foes.',
         vacationOfFusionParagraph: 'A light-hearted island-building game where you mix elements to create new tiles. Features creative mode, cartoony graphics, and a selfie mode!',
 
