@@ -126,11 +126,13 @@ borderShad =
     box-shadow -50px 50px 75px rgba(0, 0, 0, 0.3)
     animation homepageFloat cubic-bezier(0.3, 0, 0.7, 1) 7s infinite
     will-change transform
-    [lang="ar"] &
-        animation homepageFloatFlipped cubic-bezier(0.3, 0, 0.7, 1) 7s infinite
     @media (max-width 1400px)
         transform rotate3d(0, 1, 0, 0)
         animation homepageFloatAlt cubic-bezier(0.3, 0, 0.7, 1) 7s infinite
+    [lang="ar"] &
+        animation homepageFloatFlipped cubic-bezier(0.3, 0, 0.7, 1) 7s infinite
+        @media (max-width 1400px)
+            animation homepageFloatAlt cubic-bezier(0.3, 0, 0.7, 1) 7s infinite
 
 @keyframes homepageFloat
     0%, 100%
@@ -167,7 +169,8 @@ borderShad =
 
 #theRocket
     width 25vw
-    left -2.5%
+    [lang="ar"] &
+        left 80%
     top -26%
 
 #theLittlePlanet
@@ -176,7 +179,8 @@ borderShad =
     width 10vw
     transform rotate(-13deg)
     [lang="ar"] &
-        right 25%
+        left 3%
+        right unset
 
 #theBiggerPlanet
     left 8vw
