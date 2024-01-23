@@ -86,7 +86,7 @@ const voc = {
         gamesOfAnyGenre: 'Create games of any genre',
         gamesOfAnyGenreSub: 'Shooters, arcades, adventures, survivals, puzzles, visual novels — you name it!',
         stormCrossParagraph: 'A small stylized adventure with AI-powered sea battles, violent environment, and little puzzle sections. Join the voyage to save a colony from a deadly disease!',
-        amongTheWolvesParagraph: 'A forest, a lake, a lone survivor, and monsters in the dark. The game is a "one-dimentional" survival with a day/night cycle, growing mechanics, and a wild living forest.',
+        amongTheWolvesParagraph: 'غابة، بحيرة، ناج وحيد، و وحوش في الظلام، هذه لعبة نجاة أحادية الأبعاد مع طور النهار و الليل، ميكانكية في نمو و غابة وحشية',
         welcomeToTheVOIDParagraph: 'A story about rebooting the universe. Swim through the endless dark cosmos, engage in space combat, land on planets for expedition missions and explore the lost technologies.',
         illFatedParagraph: 'A vampire-survivor-esque shooter where your character only grows weaker through time. Fend off endless monsters and see how many curses you can get before you succumb to the foes.',
         vacationOfFusionParagraph: 'A light-hearted island-building game where you mix elements to create new tiles. Features creative mode, cartoony graphics, and a selfie mode!',
