@@ -84,18 +84,24 @@ nav
     color white
     z-index 999
     line-height 0
+    display flex
+    flex-flow row nowrap
+    justify-content space-between
+    &:first-child
+        flex 0 0 auto
+        margin-inline-end 1rem
     {trans}
     &.above
         background transparent
     img
         height 2.75rem
         {trans}
-    .toright a
+    .navItems a
         padding 0.5rem 0
     &.below
         img
             height 2rem
-        .toright a
+        .navItems a
             padding 0.25rem 0
 nav, #footer
     a, .a
@@ -109,9 +115,9 @@ nav, #footer
             opacity 0.65
 nav
     a, .a
-        margin-right 2rem
+        margin-inline-end 2rem
         &:last-child
-            margin-right 0
+            margin-inline-end 0
 #footer
     a, .a
         color white
@@ -173,13 +179,14 @@ nav
     p
         font-size 1.5rem
         line-height 1.5
-        margin 0 0 0 1.5rem
+        margin 0
+        margin-inline-start 1.5rem
     .feather, .icon
         flex 0 0 auto
         font-size 4rem
         stroke-width 1
         color accent1
-        margin-right 0
+        margin-inline-end 0
         .blue &
             color white
 
@@ -217,7 +224,7 @@ nav
         border-radius br
         line-height 0
         & + a
-            margin-left 1rem
+            margin-inline-start 1rem
         {trans}
         &:hover
             opacity 0.65
@@ -252,13 +259,15 @@ nav
             td, th
                 border-bottom 0 none
     td, th
-        border-right 1px solid bl
+        border-inline-end 1px solid bl
         vertical-align baseline
         &:last-child
-            border-right 0 none
-            padding 0.5rem 1.5rem 0.5rem 1rem
+            border-inline-end 0 none
+            padding 0.5rem 1.5rem 0.5rem
+            padding-inline-start 1rem
         &:first-child
-            padding 0.5rem 1rem 0.5rem 1.5rem
+            padding 0.5rem 1.5rem 0.5rem
+            padding-inline-end 1rem
         padding 0.5rem 1rem
     th
         padding-top 0.75rem
