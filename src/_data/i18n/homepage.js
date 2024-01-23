@@ -85,7 +85,7 @@ const voc = {
 
         gamesOfAnyGenre: 'اصنع ألعاب من أي نوع',
         gamesOfAnyGenreSub: 'Shooters, arcades, adventures, survivals, puzzles, visual novels — you name it!',
-        stormCrossParagraph: 'A small stylized adventure with AI-powered sea battles, violent environment, and little puzzle sections. Join the voyage to save a colony from a deadly disease!',
+        stormCrossParagraph: 'مغامرة صغيرة مرسومة مع معارك بحرية، بيئة عنيفة، و ألغاز صغيرة مشغلة بواسطة الذكاء الاصطناعي، انضم لرحلة انقاذ المستعمرة من الوباء القاتل',
         amongTheWolvesParagraph: 'غابة، بحيرة، ناج وحيد، و وحوش في الظلام، هذه لعبة نجاة أحادية الأبعاد مع طور النهار و الليل، ميكانكية في نمو و غابة وحشية',
         welcomeToTheVOIDParagraph: 'A story about rebooting the universe. Swim through the endless dark cosmos, engage in space combat, land on planets for expedition missions and explore the lost technologies.',
         illFatedParagraph: 'A vampire-survivor-esque shooter where your character only grows weaker through time. Fend off endless monsters and see how many curses you can get before you succumb to the foes.',
