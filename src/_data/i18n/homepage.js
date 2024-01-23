@@ -76,7 +76,7 @@ const voc = {
         github: 'جيت هب',
 
         smoothWorkflowHeader: 'بيئة عمل سلسه',
-        smoothWorkflowParagraph: 'Bad tools hinder your performance. Ct.js is designed to be like a brush with which you create games, not to be an enemy you will fight with.',
+        smoothWorkflowParagraph: 'الأدوات السيئة تقلل من العطاء لذلك هذا المحرك مصمم ليكون كالفرشاة التي تصنع بها الألعاب، لا لكي يكون كالعدو الذي تعاركه',
         beginnerFriendlyHeader: 'مناسب للمتبدئين',
         beginnerFriendlyParagraph: 'يمكنك تحرير الاكواد بشكل مبسط ومناسب للمبتدئين',
         chooseLanguageParagraph: '',
