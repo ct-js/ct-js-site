@@ -81,7 +81,7 @@ const voc = {
         beginnerFriendlyParagraph: 'يمكنك تحرير الاكواد بشكل مبسط ومناسب للمبتدئين',
         chooseLanguageParagraph: '',
         powerfulHeader: 'فعال',
-        powerfulParagraph: 'ct.js  مبني ب Pixi.js,يعمل على المتصفحات الويب .',
+        powerfulParagraph: 'ضامنا لعطاء جيد على المتصفح WebGl و يشتغل على Pixi.js مبني ب ct.js',
 
         gamesOfAnyGenre: 'Create games of any genre',
         gamesOfAnyGenreSub: 'Shooters, arcades, adventures, survivals, puzzles, visual novels — you name it!',
