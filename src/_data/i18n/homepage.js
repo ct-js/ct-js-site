@@ -96,7 +96,7 @@ const voc = {
         everythingYouNeedHeader: 'لديه كل شيئ لبناء لعبة ct.js',
         essentials: {
             roomEditor: 'محرر المراحل',
-            codeEditor: 'محرر اكواد',
+            codeEditor: 'محرر أكواد',
             collisionHandling: 'تصادمات اركايد و مكتبات فيزياء ثنائية الابعاد',
             animations: 'انميشن',
             sounds: 'متحكم الصوت',
