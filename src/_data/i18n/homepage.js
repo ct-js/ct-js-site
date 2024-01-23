@@ -80,7 +80,7 @@ const voc = {
         beginnerFriendlyHeader: 'مناسب للمتبدئين',
         beginnerFriendlyParagraph: 'يمكنك تحرير الاكواد بشكل مبسط ومناسب للمبتدئين',
         chooseLanguageParagraph: '',
-        powerfulHeader: 'مميز',
+        powerfulHeader: 'فعال',
         powerfulParagraph: 'ct.js  مبني ب Pixi.js,يعمل على المتصفحات الويب .',
 
         gamesOfAnyGenre: 'Create games of any genre',
