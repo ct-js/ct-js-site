@@ -108,7 +108,7 @@ const voc = {
         allFeatures: 'كل الخاصيات',
 
 
-        partners: 'شريكنا',
+        partners: 'شركاؤنا',
         miniJam: {
             description: 'Mini Jam is an open recurring game jam that is held every two weeks on itch.io.',
             joinServer: 'Discord انضم لسيرفير',
