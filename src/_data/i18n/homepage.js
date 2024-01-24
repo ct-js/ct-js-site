@@ -89,7 +89,7 @@ const voc = {
         amongTheWolvesParagraph: 'غابة، بحيرة، ناج وحيد، و وحوش في الظلام، هذه لعبة نجاة أحادية الأبعاد مع طور النهار و الليل، ميكانكية في نمو و غابة وحشية',
         welcomeToTheVOIDParagraph: 'قصة حول إعادة إحياء للكون، عم في الظلمات الكونية اللامتناهية، شارك في معارك الفضاء و اذهب للكواكب في حملة مهام و اكتشف التكنولوجيات الضائعة',
         illFatedParagraph: 'لعبة رمي للأسلحة و نجاة مصاص دماء أين تضعف شخصيتك بالوقت، صد الوحوش اللامتناهية و اجمع اللعنات حتى تخضع للأعداء',
-        vacationOfFusionParagraph: 'A light-hearted island-building game where you mix elements to create new tiles. Features creative mode, cartoony graphics, and a selfie mode!',
+        vacationOfFusionParagraph: 'لعبة بناء جزيرة ممتعة أين تمزج العناصر لتكوين بلاط جديد، فيها وضع ابداعي، رسوم متحركة و وضع سيلفي',
 
         madeWithCtjs: 'ct.js صنع ب',
 
