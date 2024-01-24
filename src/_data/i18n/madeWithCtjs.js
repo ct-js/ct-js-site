@@ -8,7 +8,7 @@ const voc = {
     },
     ar: {
         pageTitle: 'ct.js - Ct.js العاب صنعت ب',
-        pageDescription: 'العاب صنعت ب ct.js, محرك العاب مجاني 2دي معتمد على تكنولوجيا الويب.',
+        pageDescription: 'محرك ألعاب ثنائي الأبعاد معتمد على تكنولوجيا الويب ،ct.js ألعاب صنعت ب',
         madeWithCths: 'صنع ب ct.js',
         submitProject: 'ارسل مشروعك',
         play: 'العب',
