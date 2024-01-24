@@ -16,7 +16,7 @@ const voc = {
     ar: {
         comigo: 'Cosmo Myzrail Gorynych',
         siteLicense: 'هذا المشروع مرخص تحت',
-        appLicense: 'MIT مرخص تحت رخصة  ct.js تطبيق',
+        appLicense: 'MIT مرخص تحت رخصة ct.js تطبيق',
         presskit: 'Presskit',
         contact: 'تواصل',
         forkUs: 'GitHub فورك المشروع على',
