@@ -75,7 +75,7 @@ const voc = {
         discord: 'ديسكورد',
         github: 'جيت هب',
 
-        smoothWorkflowHeader: 'بيئة عمل سلسه',
+        smoothWorkflowHeader: 'بيئة عمل سلسة',
         smoothWorkflowParagraph: 'الأدوات السيئة تقلل من العطاء لذلك هذا المحرك مصمم ليكون كالفرشاة التي تصنع بها الألعاب، لا لكي يكون كالعدو الذي تعاركه',
         beginnerFriendlyHeader: 'مناسب للمبتدئين',
         beginnerFriendlyParagraph: 'يمكنك تحرير الاكواد بشكل مبسط ومناسب للمبتدئين',
