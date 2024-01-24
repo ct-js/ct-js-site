@@ -57,7 +57,7 @@ const voc = {
         olderVersions: 'الاصدارات السابقة ',
         getOlderReleasesGithub: 'احصل على الاصدارات السابقة على جيت هب'
     },
-    br: {
+    'pt-BR': {
         pageTitle: 'Baixe ct.js',
         pageDescription: 'Faça o download de um editor de jogos 2D gratuito em seu site oficial.',
         welcomeAboard: 'Bem vindo a bordo, marujo!',

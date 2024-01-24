@@ -7,7 +7,7 @@ const voc = {
         helpCtGrow: 'على النمو ct.js ساعد',
         tellFriends: 'أخبر اصدقائك'
     },
-    br: {
+    'pt-BR': {
         helpCtGrow: 'Ajude ct.js crescer!',
         tellFriends: 'Conte para seus amigos ;)'
     },

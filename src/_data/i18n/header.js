@@ -15,7 +15,7 @@ const voc = {
         gotoHomepage: 'اذهب الى الصفحة الرئيسية',
         language: 'عربية'
     },
-    br: {
+    'pt-BR': {
         changelog: 'Notas de Atualizações',
         docs: 'Documentação',
         forum: 'Forum',

@@ -126,9 +126,7 @@ const voc = {
         play: 'العب',
     },
 
-    
-
-    br: {
+    'pt-BR': {
         pageTitle: 'Ct.js — um editor de jogos grátis',
         pageDescription: 'Um editor de jogos 2D grátis baseado em tecnologias de Web.',
 

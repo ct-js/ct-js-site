@@ -51,7 +51,7 @@ const voc = {
         patreonSadness: 'لكن لأسباب سياسية لم أعد أقبل التبرعات هناك itch.io و تبرعات على Patreon سابقا كان هنالك صفحة',
         becomePatron: 'Patron اصبح'
     },
-    br: {
+    'pt-BR': {
         whatsnext: 'O que vem por ai?',
 
         docsButton: 'Documentação',

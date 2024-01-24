@@ -27,7 +27,7 @@ const voc = {
         joinTelegram: 'ComigoGames تابع الأخبار على قناة التيليغرام',
         vkontakte: 'Vkontakte تابع الأخبار على'
     },
-    br: {
+    'pt-BR': {
         comigo: 'Cosmo Myzrail Gorynych',
         siteLicense: 'o site está sobre licença',
         appLicense: 'O aplicativo do ct.js está sobre a licença do MIT.',

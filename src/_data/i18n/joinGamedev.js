@@ -9,7 +9,7 @@ const voc = {
         gamedevIsFree: '!انه مجاني',
         download: 'تحميل',
     },
-    br: {
+    'pt-BR': {
         joinGamedev: 'Entre no mundo de desenvolvimentos de jogos',
         gamedevIsFree: 'é grátis!',
         download: 'Baixar',
