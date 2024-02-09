@@ -1,0 +1,34 @@
+extends ../pugTemplates/basic.pug
+block head
+    title Contact — Ct.js
+    meta(name="description" content="Stuur een e-mail naar de ontwikkelaar.")
+block body
+    section.blue.gradient
+        .inner.center
+            h1 Contact
+        .inner.center
+            h4 Gelieve enkel berichten in het Engels te sturen
+    section#contact
+        .inner
+            .c2
+            .c8
+                form(name="contact" method="POST" netlify)
+                    p.fifty.npl
+                        label
+                            span Jouw Naam:
+                            input.wide(type="text" name="name")
+                    p.fifty.npr
+                        label
+                            span Jouw E-mailadres:
+                            input.wide(type="email" name="email")
+                    .clear
+                    p.nmt
+                        label
+                            span Bericht:
+                            textarea.wide(name="message")
+                    p.center
+                        button(type="submit").nmr
+                            svg.feather
+                                use(xlink:href="/icons.svg#send")
+                            span Verzenden
+            .clear

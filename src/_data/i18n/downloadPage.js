@@ -21,7 +21,7 @@ const voc = {
         shInstructions: 'Unzip, run chmod +x for this file (mark as an executable) and run the file. Can be used for updates, too!',
         mac: 'Mac',
         macInstructions: 'Untested, but should work. Use at your own risk!',
-        macDamagedWarning: 'MacOS on ARM processors may tell that ct.js file is broken, when it\'s not.',
+        macDamagedWarning: 'MacOS on ARM processors may say that ct.js is broken, when it\'s not.',
         macDamagedLink: 'See this page on how to fix it.',
 
         getFromItch: 'Get ct.js on itch.io',
@@ -113,6 +113,34 @@ const voc = {
         getFromItch: 'o scarica ct.js adesso da itch.io',
         olderVersions: 'Versioni precedenti',
         getOlderReleasesGithub: 'Scarica le versioni precedenti da Github'
+    },
+    ne: {
+        pageTitle: 'Ct.js downloaden',
+        pageDescription: 'Een gratis 2D editor downloaden van zijn officiële site.',
+        welcomeAboard: 'Welkom aan boord!',
+
+        webInstaller: 'Web installer',
+        downloadx64: 'Download x64',
+        downloadx32: 'Download x32',
+        downloadarm: 'Voor ARM downloaden',
+        otherDownloads: 'Overige downloads',
+        option: 'Optie',
+        zipArchive: '.zip-archief',
+
+        windows: 'Windows',
+        windows7orHigher: 'Ondersteunt windows 7 en hoger.',
+        windowsInstructions: 'Uitpakken en ctjs.exe starten',
+        linux: 'Linux',
+        linuxInstructions: 'Uitpakken, \'ctjs\' als een toepassing (executable) aanduiden en ./ctjs uitvoeren',
+        appImageInstructions: 'Voer chmod +x uit voor dit bestand (als toepassing aanduiden) en het bestand starten. Kan ook voor updates gebruikt worden!',
+        mac: 'Mac',
+        macInstructions: 'Niet getest, maar zou moeten werken. Gebruik op eigen risico!',
+        macDamagedWarning: 'Het kan zijn dat MacOS op ARM-processors zegt dat het ct.js-bestand stuk is, hoewel het dat niet is.',
+        macDamagedLink: 'Zie deze pagina voor een oplossing.',
+
+        getFromItch: 'Vind ct.js op itch.io',
+        olderVersions: 'Oudere versies',
+        getOlderReleasesGithub: 'Vind eerdere releases op Github'
     },
     ru: {
         pageTitle: 'Скачать ct.js',

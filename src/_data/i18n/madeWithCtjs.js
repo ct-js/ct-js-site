@@ -34,6 +34,13 @@ const voc = {
         submitProject: 'Invia il tuo progetto',
         play: 'Gioca',
     },
+    ne: {
+        pageTitle: 'Games gemaakt met ct.js — Ct.js',
+        pageDescription: 'Games tot stand gebracht met ct.js, een gratis 2D game-editor gebased op technologieën van het web.',
+        madeWithCths: 'Gemaakt met ct.js',
+        submitProject: 'Jouw Project Indienen',
+        play: 'Spelen',
+    },
     ru: {
         pageTitle: 'Игры, сделанные на коте — ct.js',
         pageDescription: 'Игры, написанные на ct.js, бесплатном редакторе 2D игр на веб-технологиях.',
