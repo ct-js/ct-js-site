@@ -102,7 +102,7 @@ block body
                     span=i18n.homepage[site.locale].allFeatures
     include /joinGamedev.pug
     include /partnersSection.pug
-    section#devlog
+    section#devlog(dir="ltr" lang="en")
         .inner.limited
             h2=i18n.homepage[site.locale].devlog.latest
             each item in devlog.posts
@@ -115,7 +115,7 @@ block body
                         svg.feather
                             use(xlink:href="/icons.svg#arrow-right")
                         span=i18n.homepage[site.locale].devlog.readMore
-            p
+            p(dir=(site.locale === 'ar' ? 'rtl' : 'ltr') lang=site.locale)
                 a(href="https://comigo.itch.io/ct/devlog")=i18n.homepage[site.locale].devlog.morePosts
     section.grey#share
         include /shareBlock.pug

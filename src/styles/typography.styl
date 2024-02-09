@@ -71,7 +71,8 @@ code
     li
         counter-increment niceOl
         position relative
-        padding 1rem 0 0 6rem
+        padding 1rem 0 0
+        padding-inline-start 6rem
         margin 3rem 0
         &::after
             content counter(niceOl)
@@ -83,6 +84,9 @@ code
             line-height 4rem
             position absolute
             left 0
+            [lang="ar"] &
+                right 0
+                left unset
             top 0
             font-size 150%
             font-weight 400
