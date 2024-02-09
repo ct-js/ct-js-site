@@ -31,6 +31,14 @@ const voc = {
         gotoHomepage: 'Vai alla home page',
         language: 'It'
     },
+    ne: {
+        changelog: 'Changelog',
+        docs: 'Leren',
+        forum: 'Forum',
+        download: 'Downloaden',
+        gotoHomepage: 'Naar de startpagina',
+        language: 'Ne'
+    },
     ru: {
         changelog: 'Лог изменений',
         docs: 'Доки и обучение',
