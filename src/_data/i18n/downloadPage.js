@@ -21,7 +21,7 @@ const voc = {
         shInstructions: 'Unzip, run chmod +x for this file (mark as an executable) and run the file. Can be used for updates, too!',
         mac: 'Mac',
         macInstructions: 'Untested, but should work. Use at your own risk!',
-        macDamagedWarning: 'MacOS on ARM processors may tell that ct.js file is broken, when it\'s not.',
+        macDamagedWarning: 'MacOS on ARM processors may say that ct.js is broken, when it\'s not.',
         macDamagedLink: 'See this page on how to fix it.',
 
         getFromItch: 'Get ct.js on itch.io',
