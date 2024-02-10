@@ -6,7 +6,14 @@ const voc = {
         submitProject: 'Submit Your Project',
         play: 'Play',
     },
-    br: {
+    ar: {
+        pageTitle: 'ct.js - Ct.js العاب صنعت ب',
+        pageDescription: 'محرك ألعاب ثنائي الأبعاد معتمد على تكنولوجيا الويب ،ct.js ألعاب صنعت ب',
+        madeWithCths: 'صنع ب ct.js',
+        submitProject: 'ارسل مشروعك',
+        play: 'العب',
+    },
+    'pt-BR': {
         pageTitle: 'Jogos feitos com ct.js — Ct.js',
         pageDescription: 'Jogos criados com o ct.js, um editor de jogos 2D grátis baseado em tecnologias de web.',
         madeWithCths: 'Feito com ct.js',

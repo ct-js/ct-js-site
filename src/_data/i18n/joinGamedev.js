@@ -4,7 +4,12 @@ const voc = {
         gamedevIsFree: 'It\'s free!',
         download: 'Download',
     },
-    br: {
+    ar: {
+        joinGamedev: 'انضم الى عالم تطوير الألعاب',
+        gamedevIsFree: '!انه مجاني',
+        download: 'تحميل',
+    },
+    'pt-BR': {
         joinGamedev: 'Entre no mundo de desenvolvimentos de jogos',
         gamedevIsFree: 'é grátis!',
         download: 'Baixar',

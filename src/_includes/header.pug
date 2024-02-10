@@ -6,7 +6,7 @@
 nav#theNavBar
     a(href=nIndex title=i18n.header[site.locale].gotoHomepage).hide800
         img(src="/img/logoWhiteSmall.png")
-    .toright
+    .navItems
         .a.aSelect
             svg.icon
                 use(xlink:href="/icons.svg#translate")
@@ -19,11 +19,13 @@ nav#theNavBar
                 .anOption
                     a(href="/ru") На русском
                 .anOption
-                    a(href="/br") Em Português
+                    a(href="/pt-BR") Em Português
                 .anOption
                     a(href="/de") Auf Deutsch
                 .anOption
                     a(href="/it") Italiano
+                .anOption
+                    a(href="/ar") عربية
                 .anOption
                     a(href="/ne") In het Nederlands
 

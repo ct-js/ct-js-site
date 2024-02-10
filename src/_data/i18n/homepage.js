@@ -62,8 +62,71 @@ const voc = {
         supportOnPatreon: 'Support the project on Patreon',
         play: 'Play',
     },
+    ar: {
+        pageTitle: 'محرك ألعاب مجاني — Ct.js',
+        pageDescription: 'محرك العاب مجاني ثنائي الأبعاد معتمد على تكنولوجيا الويب',
 
-    br: {
+        logoAlt: 'و غيرهم Construct و Gamer Maker هو بديل مجاني ل Ct.js ,ct.js لوجو',
+        meetCtjs: 'ct.js',
+        yourNewEditor: 'محرك ألعابك الجديد',
+        punchline: 'يجعل تعلم البرمجة ممتعا و تطوير الألعاب سهلا بأدواته المرئية، وثائقه الجيدة و مكتبة الوحدات ct.js',
+        lovedBy: 'انه مجاني محبوب من قبل المبتدئين و الطلاب و المبرمجين المستقلين',
+        download: 'تحميل',
+        discord: 'ديسكورد',
+        github: 'جيت هب',
+
+        smoothWorkflowHeader: 'بيئة عمل سلسة',
+        smoothWorkflowParagraph: 'الأدوات السيئة تقلل من العطاء لذلك هذا المحرك مصمم ليكون كالفرشاة التي تصنع بها الألعاب، لا لكي يكون كالعدو الذي تعاركه',
+        beginnerFriendlyHeader: 'مناسب للمبتدئين',
+        beginnerFriendlyParagraph: 'يمكنك تحرير الاكواد بشكل مبسط ومناسب للمبتدئين',
+        chooseLanguageParagraph: '',
+        powerfulHeader: 'فعال',
+        powerfulParagraph: 'ضامنا لعطاء جيد على المتصفح WebGl و يشتغل على Pixi.js مبني ب ct.js',
+
+        gamesOfAnyGenre: 'اصنع ألعاب من أي نوع',
+        gamesOfAnyGenreSub: 'ألعاب الأسلحة، الأركايد، المغامرات، سرفايفل، الألغاز، الروايات المرئية - أيا كان ما تريد',
+        stormCrossParagraph: 'مغامرة صغيرة مرسومة مع معارك بحرية، بيئة عنيفة، و ألغاز صغيرة مشغلة بواسطة الذكاء الاصطناعي، انضم لرحلة انقاذ المستعمرة من الوباء القاتل',
+        amongTheWolvesParagraph: 'غابة، بحيرة، ناج وحيد، و وحوش في الظلام، هذه لعبة نجاة أحادية الأبعاد مع طور النهار و الليل، ميكانكية في نمو و غابة وحشية',
+        welcomeToTheVOIDParagraph: 'قصة حول إعادة إحياء للكون، عم في الظلمات الكونية اللامتناهية، شارك في معارك الفضاء و اذهب للكواكب في حملة مهام و اكتشف التكنولوجيات الضائعة',
+        illFatedParagraph: 'لعبة رمي للأسلحة و نجاة مصاص دماء أين تضعف شخصيتك بالوقت، صد الوحوش اللامتناهية و اجمع اللعنات حتى تخضع للأعداء',
+        vacationOfFusionParagraph: 'لعبة بناء جزيرة ممتعة أين تمزج العناصر لتكوين بلاط جديد، فيها وضع ابداعي، رسوم متحركة و وضع سيلفي',
+
+        madeWithCtjs: 'ct.js صنع ب',
+
+        everythingYouNeedHeader: 'لديه كل شيئ لبناء لعبة ct.js',
+        essentials: {
+            roomEditor: 'محرر المراحل',
+            codeEditor: 'محرر أكواد',
+            collisionHandling: 'تصادمات اركايد و مكتبات فيزياء ثنائية الابعاد',
+            animations: 'انميشن',
+            sounds: 'متحكم الصوت',
+            fx: 'نظام تأثيرات و أضواء',
+            docs: 'ملاحظات وثائق في نافذة جانبية في كل شاشة',
+            customJS: 'JavaScript امكانية تخصيص',
+            easyPacking: 'سهل التصدير و الاستعمال',
+        },
+        allFeatures: 'كل الخاصيات',
+
+
+        partners: 'شركاؤنا',
+        miniJam: {
+            description: 'itch.io لعبة مفتوحة كل أسبوعين على Mini Jam',
+            joinServer: 'Discord انضم لسيرفير',
+            or: 'أو',
+            visitSite: 'زيارة الموقع الرسمي',
+        },
+
+        devlog: {
+            latest: 'مستجدات البرمجة',
+            readMore: '...اقرأ المزيد',
+            morePosts: 'المزيد من المنشورات',
+        },
+
+        supportOnPatreon: 'Patreon ادعم المشروع عن طريق',
+        play: 'العب',
+    },
+
+    'pt-BR': {
         pageTitle: 'Ct.js — um editor de jogos grátis',
         pageDescription: 'Um editor de jogos 2D grátis baseado em tecnologias de Web.',
 

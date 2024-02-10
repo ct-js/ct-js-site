@@ -60,10 +60,11 @@ borderShad =
         font-size 1.25vw
         opacity 65%
         vertical-align middle
-        margin 1rem 0 0 0.5em
+        margin 1rem 0 0
+        margin-inline-start 0.5em
         @media (max-width 1400px)
             font-size 1rem
-            margin  1rem 0.25rem 0
+            margin 1rem 0.25rem 0
     .wideinner
         display flex
         align-items flex-start
@@ -97,8 +98,11 @@ borderShad =
 #theIllustration
     perspective 67vw
     perspective-origin 17% center
+    [lang="ar"] &
+        perspective-origin 83% center
     margin 14rem 0
-    padding 0 7% 0 3%
+    padding 0 7% 0
+    padding-inline-start 3%
     position relative
     @media (max-width 1400px)
         margin 1rem 0 3rem
@@ -125,11 +129,21 @@ borderShad =
     @media (max-width 1400px)
         transform rotate3d(0, 1, 0, 0)
         animation homepageFloatAlt cubic-bezier(0.3, 0, 0.7, 1) 7s infinite
+    [lang="ar"] &
+        animation homepageFloatFlipped cubic-bezier(0.3, 0, 0.7, 1) 7s infinite
+        @media (max-width 1400px)
+            animation homepageFloatAlt cubic-bezier(0.3, 0, 0.7, 1) 7s infinite
+
 @keyframes homepageFloat
     0%, 100%
         transform translate(-5%, 0) rotate3d(0.1, 1, 0, -30deg)
     50%
         transform translate(-5%, 0) rotate3d(-0.1, 1, 0, -30deg)
+@keyframes homepageFloatFlipped
+    0%, 100%
+        transform translate(5%, 0) rotate3d(0.1, 1, 0, 30deg)
+    50%
+        transform translate(5%, 0) rotate3d(-0.1, 1, 0, 30deg)
 @keyframes homepageFloatAlt
     0%, 100%
         transform rotate3d(0.5, 1, 0, 3deg)
@@ -140,6 +154,9 @@ borderShad =
     bottom -1%
     width 70vw
     right 3rem
+    [lang="ar"] &
+        right unset
+        left 3rem
 
 #theHammerCat
     left 25%
@@ -147,10 +164,13 @@ borderShad =
     width 12%
     @media (max-width 1400px)
         bottom 8%
+    [lang="ar"] &
+        left 3%
 
 #theRocket
     width 25vw
-    left -2.5%
+    [lang="ar"] &
+        left 80%
     top -26%
 
 #theLittlePlanet
@@ -158,12 +178,19 @@ borderShad =
     right 1%
     width 10vw
     transform rotate(-13deg)
+    [lang="ar"] &
+        left 3%
+        right unset
 
 #theBiggerPlanet
     left 8vw
     bottom 8%
     width 15vw
     transform rotate(15deg)
+    [lang="ar"] &
+        left unset
+        right 8vw
+        bottom 10%
 
 .aFeatureList
     padding 2rem 0
@@ -171,7 +198,8 @@ borderShad =
         {borderShad}
 .aFeature
     padding 1rem 2rem
-    margin 0 0 1rem 2rem
+    margin 0 0 1rem
+    margin-inline-start 2rem
     position relative
     cursor pointer
     border-radius 0.2rem 0.5rem 0.5rem 0.2rem

@@ -13,7 +13,21 @@ const voc = {
         joinTelegram: 'Follow the news in ComigoGames\' Telegram channel!',
         vkontakte: 'Follow news in Vkontakte'
     },
-    br: {
+    ar: {
+        comigo: 'Cosmo Myzrail Gorynych',
+        siteLicense: 'هذا المشروع مرخص تحت',
+        appLicense: 'MIT مرخص تحت رخصة ct.js تطبيق',
+        presskit: 'Presskit',
+        contact: 'تواصل',
+        forkUs: 'GitHub فورك المشروع على',
+        joinServer: '!انضم الى سيرفير الديسكورد',
+        discordLink: 'https://discord.gg/yuvuDW5',
+        twitter: '!تابعنا على تويتر',
+        patreon: 'Patreon ادعم المشروع على',
+        joinTelegram: 'ComigoGames تابع الأخبار على قناة التيليغرام',
+        vkontakte: 'Vkontakte تابع الأخبار على'
+    },
+    'pt-BR': {
         comigo: 'Cosmo Myzrail Gorynych',
         siteLicense: 'o site está sobre licença',
         appLicense: 'O aplicativo do ct.js está sobre a licença do MIT.',

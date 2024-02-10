@@ -7,7 +7,15 @@ const voc = {
         gotoHomepage: 'Go to the homepage',
         language: 'En'
     },
-    br: {
+    ar: {
+        changelog: 'التغييرات',
+        docs: 'الوثائق',
+        forum: 'المنتدى',
+        download: 'تحميل',
+        gotoHomepage: 'اذهب الى الصفحة الرئيسية',
+        language: 'عربية'
+    },
+    'pt-BR': {
         changelog: 'Notas de Atualizações',
         docs: 'Documentação',
         forum: 'Forum',

@@ -25,7 +25,33 @@ const voc = {
         patreonSadness: 'Previously there were a Patreon page and donations on itch.io — but due to political situation, I can no longer accept donations from those sources.',
         becomePatron: 'Become a patron'
     },
-    br: {
+    ar: {
+        whatsnext: 'ماذا بعد؟',
+
+        docsButton: 'الوثائق',
+        readTheDocs: 'اقرا الوثائق',
+        completeTutorials: 'دروس كاملة لتعلم كيفية العمل. توضح دروسنا التعليمية كيفية إنشاء ألعاب كاملة ، وشرح ما يتم فعله ولماذا بالتفصيل.',
+
+        joinCommunity: 'انضم الى المنتدى',
+        getHelp: 'المنتدى مكان للمطورين لمشاركة العابهم ومساعدة بعضهم البعض',
+        discordButton: 'ديسكورد',
+        discordLink: 'https://discord.gg/yuvuDW5', // Russian locale has a link to a different (Russian) Discord server
+        forumButton: 'المنتدى',
+
+        getCheatsheet: 'احصل على تلخيص لكيفية الاستعمال (cheatsheet)',
+        cheatsheetBlurb: 'احصل على قائمة الوظائف الأكثر استعمالا مع أمثلة جاهزة للطبع',
+        download: 'تحميل',
+
+        patreonAlt: 'أو عبر شرائه Patreon على ct.js ادعم',
+        patreonRewards: 'مجاني للجميع لكن ان اردت قول اكثر من شكرا و تدعم مستقبل المشروع، يمكنك دعمنا على الموقع أو باتريون اين يكون الدعم ذو أولوية و يتم ادراج اسمك في التطبيق Ct.js',
+        buyOnItchIo: 'itch.io الشراء على',
+
+        boostyTitle:  'Boosty بالاشتراك على ct.js ادعم',
+        boostyRewards: 'بامكانك قول أكثر من شكرا هناك و تدعم مستقبل المشروع ،باترونس على بووستي لهم أولوية الدعم و أسماءهم تدرج في التطبيق ،Patreon مثل Boosty',
+        patreonSadness: 'لكن لأسباب سياسية لم أعد أقبل التبرعات هناك itch.io و تبرعات على Patreon سابقا كان هنالك صفحة',
+        becomePatron: 'Patron اصبح'
+    },
+    'pt-BR': {
         whatsnext: 'O que vem por ai?',
 
         docsButton: 'Documentação',
