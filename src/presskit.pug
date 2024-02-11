@@ -65,7 +65,7 @@ block body
 
                 h2 Links
                 ul
-                    li: a(href="https://discord.gg/CggbPkb" target="_blank") Discord server
+                    li: a(href="https://discord.gg/yuvuDW5" target="_blank") Discord server
                     li: a(href="https://docs.ctjs.rocks/" target="_blank") Docs and tutorials
                     li: a(href="https://github.com/ct-js/ct-js/releases" target="_blank") Github releases
                     li: a(href="https://github.com/ct-js/ct-js" target="_blank") Github repository
@@ -143,7 +143,7 @@ block body
                 ul
                     li Support for framed animations from sprite sheets.
                     li Ability to turn one sprite sheet into several animations with ct.sprite module.
-                    li Support for DragonBones skeletal animations.
+                    li Scrolling backgrounds and tiled textures.
                     li Smooth value animations with ct.tween.
                 h3 Branding
                 ul
@@ -153,12 +153,14 @@ block body
                 h3 Camera & Viewport
                 ul
                     li Automatic support for multiple resolutions.
+                    li Autolayouts to adapt UI elements for different screen aspect ratios.
                     li Screen shake effects.
                     li Smooth movement from point to point.
                     li Viewport rotation.
                     li Zooming.
                 h3 Coding
                 ul
+                    li Editable behaviors for reusable composed gameplay logic.
                     li Code in CoffeeScript or JavaScript+TypeScript.
                     li Code folding.
                     li Code highlighting.
@@ -189,9 +191,8 @@ block body
                 ul
                     li Add custom HTML and CSS to your builds with ct.akatemplate.
                     li Export for web in one click.
-                    li Export for Windows, Mac, and Linux (supports #[a(href="https://github.com/electron/electron/releases") everything electron does]).
+                    li Export for Windows, Mac, and Linux with Neutralino.js framework.
                     li Export for Android with Capacitor framework.
-                    li Fast desktop builds after downloading electron binaries (under a minute).
                     li Support for older browsers that don't support WebGL.
                 h3 Inputs
                 ul
@@ -203,11 +204,11 @@ block body
                     li Virtual keys and joysticks.
                 h3 Interface
                 ul
+                    li Asset tree with customizable icons and colors for folders.
                     li Configurable font for code.
                     li Configurable panels for asset lists.
                     li Numerous dark and light themes.
                     li Search and sort assets.
-                    li Groups of assets with customizable icons.
                 h3 Translations
                 ul
                     li Ability to add new language files and modify them.
@@ -256,6 +257,7 @@ block body
                     li Pan and zoom a level.
                     li Placing objects individually, in lines, and as a brush.
                     li Undo/redo commands.
+                    li Sorting and reordering sprites.
                     li Tilemap support.
                 h3 Savegames
                 ul
@@ -266,11 +268,11 @@ block body
                 ul
                     li 3D audio.
                     li Built-in gallery of free game assets.
-                    li Simple HTML5Audio and a more advanced WebAudio systems.
                     li Support for mp3, wav, ogg formats.
                     li Stereo panning.
                     li Fade in/fade out transitions.
                     li Preloading music files on demand.
+                    li Randomized filters and picking sounds from a pool of variants.
                     li Sound recoder.
                 h3 Special effects
                 ul
@@ -282,13 +284,16 @@ block body
                 ul
                     li Bitmap fonts.
                     li Support for most popular image formats.
+                    li Support for 9-slice planes.
                     li Textures get packaged into PNG atlases for faster load and better performance.
                     li "Magic numbers" for streamlined import of sprite sheets.
                     li Built-in gallery of free game assets.
                 h3 UI
                 ul
                     li Design UI in separate rooms and add them to viewport in gameplay levels.
-                    li Dynamic text labels.
+                    li Dynamic text labels, buttons, and textboxes with live preview in a room editor.
+                    li Set alignment rules to make sure the UI works with different screen aspect ratios.
+                    li Tools to bind certain objects in a room to JS expressions.
                     li Virtual keys. (Aka on-screen keys and joysticks.)
             .clear
     section.grey
