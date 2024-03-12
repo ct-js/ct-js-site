@@ -89,6 +89,20 @@ const voc = {
         patreon: 'Поддержи проект на Patreon',
         joinTelegram: 'Подпишись на новости ComigoGames в Telegram!',
         vkontakte: 'Следите за новостями во Вконтакте!'
+    },
+    'zh-CN': {
+        comigo: 'Cosmo Myzrail Gorynych',
+        siteLicense: 'the site is licensed under',
+        appLicense: 'The ct.js app is licensed under the MIT license.',
+        presskit: '新闻发布',
+        contact: '联系我们',
+        forkUs: '在 GitHub 上 Fork 我们!',
+        joinServer: '加入我们的 Discord 服务器!',
+        discordLink: 'https://discord.gg/yuvuDW5',
+        twitter: '在 Twitter 上关注 ct.js!',
+        patreon: '在 Patreon 上支持这个项目',
+        joinTelegram: '关注 ComigoGames\' Telegram 频道动态!',
+        vkontakte: '关注 Vkontakte 新闻'
     }
 };
 

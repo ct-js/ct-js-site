@@ -47,6 +47,13 @@ const voc = {
         madeWithCths: 'Сделано в ct.js',
         submitProject: 'Добавить свой проект',
         play: 'Играть',
+    },
+    'zh-CN': {
+        pageTitle: '用 ct.js 制作的游戏 — Ct.js',
+        pageDescription: '使用 ct.js (基于web技术的免费 2D 游戏编辑器) 创建的游戏.',
+        madeWithCths: '使用 ct.js 制作',
+        submitProject: '提交你的项目',
+        play: 'Play',
     }
 };
 

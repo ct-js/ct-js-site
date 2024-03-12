@@ -54,6 +54,14 @@ const voc = {
         download: 'Скачать',
         gotoHomepage: 'На главную',
         language: 'Ru'
+    },
+    'zh-CN': {
+        changelog: '更新日志',
+        docs: '学习',
+        forum: '论坛',
+        download: '下载',
+        gotoHomepage: '进入主页',
+        language: 'Zh-Cn'
     }
 };
 
