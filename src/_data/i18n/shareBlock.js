@@ -26,6 +26,10 @@ const voc = {
     ru: {
         helpCtGrow: 'Помоги коту!',
         tellFriends: 'Расскажи о нём своим друзьям:'
+    },
+    'zh-CN': {
+        helpCtGrow: '帮助 ct.js 成长!',
+        tellFriends: '分享给你的朋友'
     }
 }
 for (const i in voc) {

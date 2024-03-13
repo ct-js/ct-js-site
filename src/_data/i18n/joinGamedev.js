@@ -33,6 +33,11 @@ const voc = {
         joinGamedev: 'Присоединись к миру геймдева',
         gamedevIsFree: 'Это бесплатно!',
         download: 'Скачать',
+    },
+    'zh-CN': {
+        joinGamedev: '加入游戏开发的世界',
+        gamedevIsFree: '完全免费!',
+        download: '下载',
     }
 };
 

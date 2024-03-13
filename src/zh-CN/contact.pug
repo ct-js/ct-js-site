@@ -1,0 +1,32 @@
+extends ../pugTemplates/basic.pug
+block head
+    title 联系我们 — Ct.js
+    meta(name="description" content="Send an email to the developer.")
+block body
+    section.blue.gradient
+        .inner.center
+            h1 联系我们
+    section#contact
+        .inner
+            .c2
+            .c8
+                form(name="contact" method="POST" netlify)
+                    p.fifty.npl
+                        label
+                            span 你的名字:
+                            input.wide(type="text" name="name")
+                    p.fifty.npr
+                        label
+                            span 你的邮箱:
+                            input.wide(type="email" name="email")
+                    .clear
+                    p.nmt
+                        label
+                            span 留言:
+                            textarea.wide(name="message")
+                    p.center
+                        button(type="submit").nmr
+                            svg.feather
+                                use(xlink:href="/icons.svg#send")
+                            span 发送
+            .clear

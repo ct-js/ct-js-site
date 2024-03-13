@@ -169,6 +169,35 @@ const voc = {
         getFromItch: 'Скачайте на itch.io',
         olderVersions: 'Старые версии',
         getOlderReleasesGithub: 'Скачайте предыдущие релизы на Github'
+    },
+    'zh-CN': {
+        pageTitle: '下载 ct.js',
+        pageDescription: '从官方网站下载免费的 2D 游戏编辑器.',
+        welcomeAboard: '欢迎加入!',
+
+        webInstaller: '网络安装包',
+        downloadx64: '下载 x64',
+        downloadx32: '下载 x32',
+        downloadarm: '下载 ARM',
+        otherDownloads: '其他下载',
+        option: '选项',
+        zipArchive: '.zip 归档文件',
+
+        windows: 'Windows',
+        windows7orHigher: '支持 windows 7 及更高版本.',
+        windowsInstructions: '解压并运行 ctjs.exe',
+        linux: 'Linux',
+        linuxInstructions: '解包, 将 \'ctjs\' 标记为可执行文件然后运行 ./ctjs',
+        appImageInstructions: '对该文件运行 chmod + x (标记为可执行文件) 并运行该文件. 更新后同样这样操作!',
+        shInstructions: '解压缩, 对该文件运行 chmod + x (标记为可执行文件) 并运行该文件. 更新后同样这样操作!',
+        mac: 'Mac',
+        macInstructions: '未经测试, 但应该可以工作, 注意需要承担风险!',
+        macDamagedWarning: 'ARM 处理器上的 MacOS 系统可能会说 ct.js 不工作了, 但事实并非如此.',
+        macDamagedLink: '关于如何修复它请参阅本页.',
+
+        getFromItch: '在 itch.io 上获取 ct.js',
+        olderVersions: '历史版本',
+        getOlderReleasesGithub: '在 Github 上获取以前的版本'
     }
 }
 for (const i in voc) {

@@ -438,6 +438,69 @@ const voc = {
 
         supportOnPatreon: 'Поддержи проект на патреоне',
         play: 'Играть'
+    },
+    'zh-CN': {
+        pageTitle: 'Ct.js — 免费游戏编辑器',
+        pageDescription: '基于web技术的免费 2D 游戏编辑器.',
+
+        logoAlt: 'ct.js 标识. Ct.js 是 Game Maker, Construct 等工具的免费替代品',
+        meetCtjs: '认识 ct.js,',
+        yourNewEditor: '全新 2D 游戏编辑器',
+        punchline: 'ct.js 通过其可视化工具, 良好的文档和灵活的模块化库, 使学习编程变得有趣, 游戏开发变得容易.',
+        lovedBy: ' 它是免费的, 开源的, 深受业余爱好者, 专业人士, 教师和他们的学生的喜爱.',
+        download: '下载',
+        discord: 'Discord',
+        github: 'GitHub',
+
+        smoothWorkflowHeader: '平滑创作流程',
+        smoothWorkflowParagraph: '糟糕的工具会阻碍你的表现. Ct.js 被设计成你创造游戏的刷子, 而不是你将与之战斗的敌人.',
+        beginnerFriendlyHeader: '初学者友好',
+        beginnerFriendlyParagraph: 'ct.js 包含离线文档, 教程以及可编辑的示例和演示. 代码编辑器在编写代码时突出显示错误并提供文档.',
+        chooseLanguageParagraph: '根据你的技能和需要, 用初学者友好的CoffeeScript, JavaScript, web标准, 甚至TypeScript来写.',
+        powerfulHeader: '功能强大',
+        powerfulParagraph: 'ct.js 基于 Pixi.js，在 WebGL 上工作, 并在浏览器和桌面环境中提供出色的性能. 模块添加了新的功能, 当 ct.js 还不够时, 你可以添加任何 JS 代码或库.',
+
+        gamesOfAnyGenre: '创造任何类型的游戏',
+        gamesOfAnyGenreSub: '射击游戏, 街机游戏, 冒险游戏, 生存游戏, 解谜游戏, 视觉小说 — 你来定义!',
+        stormCrossParagraph: '一个小型风格化的冒险与人工智能驱动的海战, 暴力的环境和少许的谜题部分. 加入航程, 以拯救殖民地从一种致命的疾病!',
+        amongTheWolvesParagraph: '一个森林, 一个湖泊, 一个孤独的幸存者, 还有黑暗中的怪物. 这款游戏是一款"一维"生存游戏, 拥有昼夜循环, 成长机制和野生森林.',
+        welcomeToTheVOIDParagraph: '一个关于重启宇宙的故事. 在无尽的黑暗宇宙中畅游, 参与太空战斗, 登陆行星进行探险任务, 探索失落的科技.',
+        illFatedParagraph: '这是一款吸血鬼-幸存者风格的射击游戏, 你的角色只会随着时间的推移而变得越来越弱. 抵挡无尽的怪物, 看看在你屈服于敌人之前你能得到多少诅咒.',
+        vacationOfFusionParagraph: '这是一款轻松的岛屿建造游戏, 你可以混合各种元素来创造新的贴图. 具有创意模式, 卡通图形和自拍模式!',
+
+        madeWithCtjs: '使用 ct.js 创造',
+
+        everythingYouNeedHeader: 'ct.js 拥有制作游戏所需的一切',
+        essentials: {
+            roomEditor: '具有贴图支持的房间/关卡编辑器',
+            codeEditor: '具有错误处理功能的集成代码编辑器',
+            collisionHandling: '街机碰撞和 2D 物理库',
+            animations: '帧动画, 滚动动画, 9-patch 支持以及更多',
+            sounds: '具有随机效果的音乐和声音管理器',
+            fx: '粒子系统, 着色器和照明系统',
+            docs: '侧面板笔记和文档, 随时随地',
+            customJS: '能够使用自定义JavaScript或TypeScript',
+            easyPacking: '易于打包和部署',
+        },
+        allFeatures: '所有功能',
+
+
+        partners: '我们的合作伙伴',
+        miniJam: {
+            description: 'Mini Jam 是在itch.io上每两周举办一次的开放式游戏jam.',
+            joinServer: '加入他们的Discord服务器',
+            or: '或',
+            visitSite: '访问他们的官方网站'
+        },
+
+        devlog: {
+            latest: '最新的Devlog',
+            readMore: '查看全文…',
+            morePosts: '更多文章',
+        },
+
+        supportOnPatreon: '在Patreon上支持这个项目',
+        play: 'Play',
     }
 };
 

@@ -160,6 +160,32 @@ const voc = {
         boostyRewards: 'Boosty похож на Patreon — там можно тоже подписываться за плюшки. За финансовую помощь от меня вы получите приоритетную поддержку и попадёте в список саппортеров в приложении!',
         patreonSadness: 'Раньше у меня была страница Patreon и донаты на itch.io, но из-за политической ситуации от них пришлось отказаться.',
         becomePatron: 'Подписаться на Boosty'
+    },
+    'zh-CN': {
+        whatsnext: '接下来是什么?',
+
+        docsButton: '文档',
+        readTheDocs: '阅读文档',
+        completeTutorials: '完整的教程, 学习如何使用 ct.js. 我们的教程演示了如何创建完整的游戏, 详细解释了做什么和为什么.',
+
+        joinCommunity: '加入我们的社区',
+        getHelp: '我们的公共社区是一个舒适的地方, 你可以在这里聊天, 学习, 制作游戏, 发送猫咪表情包, 互相帮助.',
+        discordButton: 'Discord',
+        discordLink: 'https://discord.gg/yuvuDW5',
+        forumButton: '论坛',
+
+        getCheatsheet: '获取速查表',
+        cheatsheetBlurb: '获取常用函数列表及其示例, 可用于打印.',
+        download: '下载',
+
+        patreonAlt: '在 Patreon 上支持或购买 ct.js',
+        patreonRewards: 'Ct.js 完全免费, 但如果你想说的不仅仅是"谢谢", 并支持这个项目的未来, 你可以在 itch.io 上捐赠或者成为赞助人. 顾客会得到优先支持, 他们的名字也会出现在应用程序中!',
+        buyOnItchIo: '在 itch.io 上购买',
+
+        boostyTitle: '通过订阅 Boosty 来支持 ct.js',
+        boostyRewards: 'Boosty 就像 Patreon 一样, 你可以在那里说"谢谢"以外的话, 支持这个项目的未来. Boosty 的用户会得到优先支持, 他们的名字也会出现在应用程序中!',
+        patreonSadness: '之前在 itch.io 上有一个 Patreon 页面和捐款. 但由于政治局势, 我不能再接受这些来源的捐款.',
+        becomePatron: '成为赞助人'
     }
 };
 
