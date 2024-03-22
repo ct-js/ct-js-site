@@ -38,6 +38,11 @@ const voc = {
         joinGamedev: '加入游戏开发的世界',
         gamedevIsFree: '完全免费!',
         download: '下载',
+    },
+    jp: {
+        joinGamedev: 'ゲーム開発の世界に参加しよう',
+        gamedevIsFree: '無料です！',
+        download: 'ダウンロード',
     }
 };
 
