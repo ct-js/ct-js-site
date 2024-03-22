@@ -501,6 +501,69 @@ const voc = {
 
         supportOnPatreon: '在Patreon上支持这个项目',
         play: 'Play',
+    },
+    jp: {
+        pageTitle: 'Ct.js — 無料のゲームエディター',
+        pageDescription: 'ウェブ技術をベースにした無料の2Dゲームエディター。',
+
+        logoAlt: 'ct.jsのロゴです。ct.jsは、Game Maker、Construct、その他の無料の代替ツールです。',
+        meetCtjs: 'ct.jsを知る',
+        yourNewEditor: '新しい2Dゲームエディタ',
+        punchline: 'ct.jsは視覚的で使いやすく、充実したドキュメントと柔軟性の高いライブラリにより、プログラミング学習とゲーム開発を容易にできます。',
+        lovedBy: '無料でオープンソースであり、趣味、仕事、教師、そして生徒に愛されています。',
+        download: 'ダウンロード',
+        discord: 'Discord',
+        github: 'GitHub',
+
+        smoothWorkflowHeader: '使いやすいワークフロー',
+        smoothWorkflowParagraph: '使いにくいツールは生産性を低下させます。ct.jsは開発を邪魔する敵ではなく、ゲームを作るための筆のようにデザインされています。',
+        beginnerFriendlyHeader: '初心者にも優しい',
+        beginnerFriendlyParagraph: 'ct.jsには、オフラインで参照できるドキュメント、チュートリアル、サンプルコード、デモが同梱されています。コードエディターには、リアルタイムでエラーを検出し、関連ドキュメントを表示する機能が備わっています。',
+        chooseLanguageParagraph: '初心者向けのCoffeeScriptから、ウェブ標準のJavaScript、上級者向けのTypeScriptまで、スキルレベルに合わせて使用できます。',
+        powerfulHeader: 'パワフル',
+        powerfulParagraph: 'ct.jsはPixi.jsをベースとしたWebGLで動作しており、ブラウザやデスクトップアプリでスムーズに実行できます。機能拡張が必要な場合は、独自のJSコードやライブラリを組み込めます。',
+
+        gamesOfAnyGenre: 'あらゆるジャンルのゲームを作成できます',
+        gamesOfAnyGenreSub: 'シューター、アーケード、アドベンチャー、サバイバル、パズル、ビジュアルノベルなど、何でも！',
+        stormCrossParagraph: 'AIによる海戦、厳しい環境、少しのパズルがある小規模なアドベンチャー。最悪の病からコロニーを救うため、航海に出よう！',
+        amongTheWolvesParagraph: '森、湖、孤独な生存者、そして暗闇の中の怪物たち。このゲームは、日夜サイクル、成長システム、生き生きとした森を備えた「1次元」のサバイバルゲームです。',
+        welcomeToTheVOIDParagraph: '宇宙の再起動を描いた物語です。果てしない暗黒の宇宙を泳ぎ、宇宙戦闘に従事し、惑星に着陸して探検ミッションを行い、失われた技術を探索しましょう。',
+        illFatedParagraph: '時間とともにキャラクターが弱くなっていく、ヴァンパイアサバイバー風のシューティングゲーム。無尽蔵にわいてくる怪物から身を守り、どれだけの呪いに耐えられるか挑戦しよう。',
+        vacationOfFusionParagraph: 'リラックスできる島づくりゲームで、様々な要素をミックスして新しいテクスチャを作ることができます。創造的なモード、漫画的なグラフィックと自撮りモードがあります。',
+
+        madeWithCtjs: 'ct.jsで製作',
+
+        everythingYouNeedHeader: 'ct.jsには、ゲーム作りで必要なものがすべて揃っています',
+        essentials: {
+            roomEditor: 'テクスチャ対応のルーム/レベルエディタ',
+            codeEditor: 'エラー対処機能を備えた統合コードエディタ',
+            collisionHandling: '衝突判定と2D物理ライブラリ',
+            animations: 'フレームアニメーション、スクロールアニメーション、9-patchのサポートなど',
+            sounds: 'ランダム効果付きの音楽と効果音管理プログラム',
+            fx: 'パーティクルシステム、シェーダー、ライトシステム',
+            docs: '画面ごとにサイドパネルに備わったメモとドキュメント',
+            customJS: 'カスタムJavaScriptまたはTypeScriptを使用可能',
+            easyPacking: 'パッケージ化と展開が簡単',
+        },
+        allFeatures: '全ての機能',
+
+
+        partners: 'パートナー',
+        miniJam: {
+            description: 'Mini Jamは、2週間ごとにitch.ioで開催されるオープンなゲームジャムです。',
+            joinServer: 'Discordサーバーに参加',
+            or: 'または',
+            visitSite: '公式サイトを訪問'
+        },
+
+        devlog: {
+            latest: '最新のDevlog',
+            readMore: 'もっと読む...',
+            morePosts: 'その他の投稿',
+        },
+
+        supportOnPatreon: 'Patreonでプロジェクトをサポートする',
+        play: 'プレイ',
     }
 };
 
