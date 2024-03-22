@@ -54,6 +54,13 @@ const voc = {
         madeWithCths: '使用 ct.js 制作',
         submitProject: '提交你的项目',
         play: 'Play',
+    },
+    jp: {
+        pageTitle: 'ct.jsで作られたゲーム — Ct.js',
+        pageDescription: 'Web技術に基づいた無料の2Dゲームエディタ、ct.jsで作成されたゲーム。',
+        madeWithCths: 'ct.jsで作成',
+        submitProject: 'プロジェクトを投稿',
+        play: '遊ぶ',
     }
 };
 
