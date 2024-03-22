@@ -1,0 +1,32 @@
+extends ../pugTemplates/basic.pug
+block head
+    title お問い合わせ — Ct.js
+    meta(name="description" content="Send an email to the developer.")
+block body
+    section.blue.gradient
+        .inner.center
+            h1 お問い合わせ
+    section#contact
+        .inner
+            .c2
+            .c8
+                form(name="contact" method="POST" netlify)
+                    p.fifty.npl
+                        label
+                            span 名前:
+                            input.wide(type="text" name="name")
+                    p.fifty.npr
+                        label
+                            span メールアドレス:
+                            input.wide(type="email" name="email")
+                    .clear
+                    p.nmt
+                        label
+                            span メッセージ:
+                            textarea.wide(name="message")
+                    p.center
+                        button(type="submit").nmr
+                            svg.feather
+                                use(xlink:href="/icons.svg#send")
+                            span 送信
+            .clear
