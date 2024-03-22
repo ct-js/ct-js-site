@@ -186,6 +186,32 @@ const voc = {
         boostyRewards: 'Boosty 就像 Patreon 一样, 你可以在那里说"谢谢"以外的话, 支持这个项目的未来. Boosty 的用户会得到优先支持, 他们的名字也会出现在应用程序中!',
         patreonSadness: '之前在 itch.io 上有一个 Patreon 页面和捐款. 但由于政治局势, 我不能再接受这些来源的捐款.',
         becomePatron: '成为赞助人'
+    },
+    jp: {
+        whatsnext: '次はどうする？',
+
+        docsButton: 'ドキュメント',
+        readTheDocs: 'ドキュメントを読む',
+        completeTutorials: 'チュートリアルを通して、ct.jsの使い方を学びましょう。チュートリアルは、完成したゲームができるようにデザインされており、チュートリアルでは、何がなぜ使われているのかが詳しく説明されています。',
+
+        joinCommunity: 'コミュニティに参加する',
+        getHelp: '私たちのサーバーは、おしゃべりしたり、一緒にゲームを開発したり、成果や猫のミームを共有したり、開発の道でお互いを助け合う居心地の良い場所です。',
+        discordButton: 'Discordサーバー',
+        discordLink: 'https://discord.gg/yuvuDW5', 
+        forumButton: 'フォーラム',
+
+        getCheatsheet: 'ct.jsのチートシートを入手する',
+        cheatsheetBlurb: 'よく使われる関数とそれらの例をまとめたシートを入手しましょう。チートシートは印刷用にまとめられています！',
+        download: 'ダウンロード',
+
+        patreonAlt: 'ct.jsをPatreonまたは購入でサポートする',
+        patreonRewards: 'Ct.jsは誰でも無料で利用できますが、「ありがとう」以上の言葉を伝えたい、このプロジェクトの未来をサポートしたいという方は、itch.ioで寄付をするか、パトロンになってください。パトロンになると優先的にサポートが受けられ、アプリに名前が掲載されます！',
+        buyOnItchIo: 'itch.io で購入する',
+
+        boostyTitle: 'Boostyでct.jsをサポートする',
+        boostyRewards: 'BoostyはPatreonのようなもので、そこでは「ありがとう」以上のことを言うことができ、このプロジェクトの未来をサポートすることができます。Boostyのパトロンには優先的なサポートが提供され、アプリに名前が掲載されます！',
+        patreonSadness: '以前はPatreonページとitch.ioへの寄付がありましたが、政治的な状況のためにそれらをやめることになりました。',
+        becomePatron: 'Boostyでパトロンになる'
     }
 };
 
