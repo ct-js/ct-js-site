@@ -30,6 +30,10 @@ const voc = {
     'zh-CN': {
         helpCtGrow: '帮助 ct.js 成长!',
         tellFriends: '分享给你的朋友'
+    },
+    jp: {
+        helpCtGrow: 'ct.jsの成長を支援してください！',
+        tellFriends: '友達に教えてあげよう。'
     }
 }
 for (const i in voc) {

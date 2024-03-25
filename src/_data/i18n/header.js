@@ -62,6 +62,14 @@ const voc = {
         download: '下载',
         gotoHomepage: '进入主页',
         language: 'Zh-Cn'
+    },
+    jp: {
+        changelog: '更新履歴',
+        docs: '学ぶ',
+        forum: 'フォーラム',
+        download: 'ダウンロード',
+        gotoHomepage: 'ホームページに移動',
+        language: 'Jp'
     }
 };
 

@@ -198,6 +198,35 @@ const voc = {
         getFromItch: '在 itch.io 上获取 ct.js',
         olderVersions: '历史版本',
         getOlderReleasesGithub: '在 Github 上获取以前的版本'
+    },
+    jp: {
+        pageTitle: 'ct.js をダウンロードする',
+        pageDescription: '公式サイトから無料の2Dゲームエディターをダウンロード',
+        welcomeAboard: 'ようこそ！',
+
+        webInstaller: 'Webインストーラー',
+        downloadx64: 'x64 用をダウンロード',
+        downloadx32: 'x32 用をダウンロード',
+        downloadarm: 'ARM 用をダウンロード',
+        otherDownloads: 'その他のダウンロード',
+        option: 'オプション',
+        zipArchive: '.zip アーカイブ',
+
+        windows: 'Windows',
+        windows7orHigher: 'Windows 7 以降に対応しています。',
+        windowsInstructions: '解凍して ctjs.exe を実行してください。',
+        linux: 'Linux',
+        linuxInstructions: '解凍し、\'ctjs\'を実行可能としてマークし、./ctjsを実行してください。',
+        appImageInstructions: 'このファイルに対してchmod +xを実行(実行可能にマーク)し、ファイルを実行してください。アップデートの際も同様です。',
+        shInstructions: '解凍し、このファイルに対してchmod +xを実行(実行可能にマーク)し、ファイルを実行してください。アップデートの際も同様です。',
+        mac: 'Mac',
+        macInstructions: 'テストされていませんが、動作するはずです。自己責任でご利用ください！',
+        macDamagedWarning: 'ARM プロセッサ上の MacOS では、ct.js が壊れていると表示される場合がありますが、実際は問題ありません。',
+        macDamagedLink: '修正方法については、このページを参照してください。',
+
+        getFromItch: 'ct.jsをitch.ioで入手',
+        olderVersions: '過去のバージョン',
+        getOlderReleasesGithub: 'GitHubで過去のリリースを入手'
     }
 }
 for (const i in voc) {
