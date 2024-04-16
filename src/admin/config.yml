@@ -1,0 +1,76 @@
+backend:
+  name: git-gateway
+  branch: master # Branch to update (optional; defaults to master)
+
+media_folder: src/img/uploads
+public_folder: /img/uploads
+
+collections:
+  - name: ctideHome
+    label: Ct.IDE homepage
+    files:
+    - label: Ct.IDE homepage
+      name: ctideHome
+      file: src/staticApis/ctHome.json
+      fields:
+      - name: announcement
+        label: Announcement
+        widget: object
+        fields:
+          - name: title
+            label: Title
+            widget: string
+          - name: description
+            label: Description
+            widget: text
+          - name: link
+            label: Link
+            widget: string
+          - name: image
+            label: Main image
+            widget: image
+            allow_multiple: false
+          - name: bgImage
+            label: Background image
+            widget: image
+            allow_multiple: false
+      - name: games
+        label: Games
+        widget: list
+        fields:
+          - { required: true, label: 'Title', name: 'title', widget: 'string' }
+          - { required: true, label: 'Author', name: 'author', widget: 'string' }
+          - { required: true, label: 'Description', name: 'description', widget: 'text' }
+          - required: true
+            label: 'Cover'
+            name: 'cover'
+            widget: 'image'
+            allow_multiple: false
+            media_library:
+              config:
+                multiple: false
+                max_file_size: 300000
+      - name: learn
+        label: Learning resources
+        widget: list
+        fields:
+          - { required: true, label: 'Title', name: 'title', widget: 'string' }
+          - { required: true, label: 'Author', name: 'author', widget: 'string' }
+          - { required: true, label: 'Description', name: 'description', widget: 'text' }
+          - required: true
+            label: 'Type'
+            name: 'type'
+            widget: 'select'
+            options:
+            - { label: 'Blog post', value: 'blog' }
+            - { label: 'Written tutorial', value: 'tutorial' }
+            - { label: 'Docs', value: 'docs' }
+            - { label: 'Video', value: 'video' }
+          - label: 'Cover'
+            name: 'cover'
+            widget: 'image'
+            allow_multiple: false
+            media_library:
+              config:
+                multiple: false
+                max_file_size: 300000
