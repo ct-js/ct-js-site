@@ -55,6 +55,7 @@ collections:
         widget: list
         fields:
           - { required: true, label: 'Title', name: 'title', widget: 'string' }
+          - { required: true, label: 'Link', name: 'link', widget: 'string' }
           - { required: true, label: 'Author', name: 'author', widget: 'string' }
           - { required: true, label: 'Description', name: 'description', widget: 'text' }
           - required: true
