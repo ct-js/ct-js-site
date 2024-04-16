@@ -26,6 +26,9 @@ collections:
           - name: link
             label: Link
             widget: string
+          - name: linkLabel
+            label: Button's label
+            widget: string
           - name: image
             label: Main image
             widget: image
