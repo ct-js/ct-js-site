@@ -20,23 +20,29 @@ collections:
           - name: title
             label: Title
             widget: string
+            required: true
           - name: description
             label: Description
             widget: text
+            required: true
           - name: link
             label: Link
             widget: string
+            required: true
           - name: linkLabel
-            label: Button's label
+            label: Button's label (can be left empty)
             widget: string
+            required: false
           - name: image
             label: Main image
             widget: image
             allow_multiple: false
+            required: false
           - name: bgImage
             label: Background image
             widget: image
             allow_multiple: false
+            required: false
       - name: games
         label: Games
         widget: list
@@ -75,6 +81,7 @@ collections:
             name: 'cover'
             widget: 'image'
             allow_multiple: false
+            required: false
             media_library:
               config:
                 multiple: false
