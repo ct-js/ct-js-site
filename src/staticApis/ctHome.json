@@ -4,6 +4,56 @@
     "description": "Get the Nightly build to test out the new visual programming language, made specially for ct.js. The language is available in the New project form, and can also be used in all projects with the Script asset type.",
     "link": "https://comigo.itch.io/ct-nightly",
     "image": "/img/uploads/catnip_emoji.png",
-    "bgImage": "/img/uploads/screenshot-2024-04-03-230443.png"
-  }
+    "bgImage": "/img/uploads/screenshot-2024-04-03-230443.png",
+    "linkLabel": "Download"
+  },
+  "games": [
+    {
+      "link": "https://atavismus.itch.io/triverse",
+      "title": "Triverse",
+      "cover": "https://img.itch.zone/aW1nLzE1NTM5NjI5LnBuZw==/315x250%23c/BoKvId.png",
+      "author": "Thomas",
+      "description": "🔺Triverse🔺 is a puzzle game: make geometric shapes composed of triangles and hexagons."
+    },
+    {
+      "title": "Hollow Floor",
+      "link": "https://store.steampowered.com/app/2815150/Hollow_Floor/",
+      "author": "Ahmed Khalifa, Pete Gresser",
+      "description": "Hollow Floor is an exploration-based single-sitting Metroidvania inspired by VVVVVV and REDDER. Hollow Floor is a relaxed game that is full of secrets and hard challenges that can be tackled at any moment in the game or completely ignored.",
+      "cover": "https://cdn.discordapp.com/attachments/1173657289316638720/1196481724423618581/hollowfloor_menu.gif?ex=662dc7b0&is=662c7630&hm=29f63b17efb4bac2c085a890361a6c38653a617b63afe90127169c0db0c83422&"
+    },
+    {
+      "title": "Crazy one (working title)",
+      "link": "https://comigo.itch.io/vacation-of-fusion",
+      "author": "Cosmo Myzrail Gorynych",
+      "description": "Explore the sea, fuse elements to shape your own island, and take selfies!",
+      "cover": "https://img.itch.zone/aW1nLzMxMzA4NTkucG5n/315x250%23c/Xuzhwn.png"
+    }
+  ],
+  "learn": [
+    {
+      "link": "https://youtu.be/UcBAFWAtvVs",
+      "title": "Visual scripting in ct.js — introduction",
+      "author": "William MC / Exceptional 3D tutorials",
+      "description": "New updates to ct.js game engine opens up a hole new world of possibilities for visual coders.",
+      "type": "video",
+      "cover": "/img/uploads/williamcatnipintro.jpg"
+    },
+    {
+      "cover": "/img/uploads/williambuttons.jpg",
+      "type": "video",
+      "link": "https://youtu.be/1xauvGocOgY",
+      "title": "Making text and button in ct.js using visual scripting (Catnip)",
+      "author": "William MC / Exceptional 3D tutorials",
+      "description": "Using buttons and text in ct.js for game development."
+    },
+    {
+      "cover": "https://docs.ctjs.rocks/assets/tutPlatformer_endResult-YuLMtaAh.png",
+      "title": "Making Games: Platformer",
+      "link": "https://docs.ctjs.rocks/tutorials/making-games-platformer.html",
+      "author": "Cosmo Myzrail Gorynych, Firecakes",
+      "description": "In this tutorial, we will create a small platformer with diamonds, checkpoints, moving platforms, and traps! You will learn how to detect collisions, use them to create a side-view movement, and how to manipulate sprites and move the player between levels.",
+      "type": "docs"
+    }
+  ]
 }
