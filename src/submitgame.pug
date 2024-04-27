@@ -1,4 +1,7 @@
+//- DON'T translate this page.
+
 extends pugTemplates/basic.pug
+
 block head
     title Contact — Ct.js
     meta(name="description" content="Send an email to the developer.")
@@ -12,7 +15,11 @@ block body
             .c8
                 p Thank you for choosing ct.js for making your game! 💖
                 p Please fill out the form below so we can put your game nicely and quickly. If we have any questions, we will contact you back.
-                form(name="submitresource" method="POST" netlify)
+                form(name="contact" method="POST" netlify netlify-honeypot="title")
+                    p.flytrap
+                        label
+                            b Do you see this field? You shouldn't.
+                            input(type="text" name="title")
                     p.fifty.npl
                         label
                             b Your Name: *

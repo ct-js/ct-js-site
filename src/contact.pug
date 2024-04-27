@@ -10,20 +10,24 @@ block body
         .inner
             .c2
             .c8
-                form(name="contact" method="POST" netlify)
+                form(name="contact" method="POST" netlify netlify-honeypot="title")
+                    p.flytrap
+                        label
+                            b Do you see this field? You shouldn't.
+                            input(type="text" name="title")
                     p.fifty.npl
                         label
-                            span Your Name:
-                            input.wide(type="text" name="name")
+                            b Your Name: *
+                            input.wide(type="text" name="name" required="required")
                     p.fifty.npr
                         label
-                            span Your Email:
-                            input.wide(type="email" name="email")
+                            b Your Email: *
+                            input.wide(type="email" name="email" required="required")
                     .clear
                     p.nmt
                         label
-                            span Message:
-                            textarea.wide(name="message")
+                            b Message: *
+                            textarea.wide(name="message" required="required")
                     p.center
                         button(type="submit").nmr
                             svg.feather

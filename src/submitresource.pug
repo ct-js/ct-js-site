@@ -1,3 +1,5 @@
+//- DON'T translate this page.
+
 extends pugTemplates/basic.pug
 block head
     title Contact — Ct.js
@@ -10,7 +12,11 @@ block body
         .inner
             .c2
             .c8
-                form(name="submitresource" method="POST" netlify)
+                form(name="contact" method="POST" netlify netlify-honeypot="title")
+                    p.flytrap
+                        label
+                            b Do you see this field? You shouldn't.
+                            input(type="text" name="title")
                     p.fifty.npl
                         label
                             b Your Name: *
