@@ -68,6 +68,12 @@ block body
                         svg.feather
                             use(xlink:href=`/icons.svg#gamepad`)
                         span=i18n.homepage[site.locale].madeWithCtjs
+                .clear
+                .center
+                    a.button.big(href="/submitgame/")
+                        svg.feather
+                            use(xlink:href=`/icons.svg#send`)
+                        span=i18n.homepage[site.locale].submitYourGame
     section#essencials
         .inner
             h2.center.nmt=i18n.homepage[site.locale].everythingYouNeedHeader

@@ -29,6 +29,7 @@ const voc = {
         vacationOfFusionParagraph: 'A light-hearted island-building game where you mix elements to create new tiles. Features creative mode, cartoony graphics, and a selfie mode!',
 
         madeWithCtjs: 'Made with ct.js',
+        submitYourGame: 'Submit your own!',
 
         everythingYouNeedHeader: 'ct.js has everything you need to build a game',
         essentials: {
@@ -405,6 +406,7 @@ const voc = {
         vacationOfFusionParagraph: 'Добродушная игра, в которой ты строишь свой остров, смешивая природные элементы. В игре милая мультяшная графика, творческий режим, и функция создания селфи!',
 
         madeWithCtjs: 'Сделано с ct.js',
+        submitYourGame: 'Отправь свою игру!',
 
         everythingYouNeedHeader: 'В ct.js есть всё, что нужно для создания игры',
         essentials: {
