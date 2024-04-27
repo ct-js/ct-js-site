@@ -1,9 +1,6 @@
-//- DON'T translate this page.
-
 extends pugTemplates/basic.pug
 block head
-    title Contact — Ct.js
-    meta(name="description" content="Send an email to the developer.")
+    title Submit a learning resource — Ct.js
 block body
     section.blue.gradient
         .inner.center
@@ -12,7 +9,7 @@ block body
         .inner
             .c2
             .c8
-                form(name="contact" method="POST" netlify netlify-honeypot="title")
+                form(name="learningResources" method="POST" netlify netlify-honeypot="title")
                     p.flytrap
                         label
                             b Do you see this field? You shouldn't.
