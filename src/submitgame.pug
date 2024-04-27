@@ -1,0 +1,65 @@
+extends pugTemplates/basic.pug
+block head
+    title Contact — Ct.js
+    meta(name="description" content="Send an email to the developer.")
+block body
+    section.blue.gradient
+        .inner.center
+            h1 Submit a game
+    section#contact
+        .inner
+            .c2
+            .c8
+                p Thank you for choosing ct.js for making your game! 💖
+                p Please fill out the form below so we can put your game nicely and quickly. If we have any questions, we will contact you back.
+                form(name="submitresource" method="POST" netlify)
+                    p.fifty.npl
+                        label
+                            b Your Name: *
+                            input.wide(type="text" name="name" required="required")
+                    p.fifty.npr
+                        label
+                            b Your Email (used only to contact you back): *
+                            input.wide(type="email" name="email" required="required")
+                    .clear
+                    p.nmt
+                        label
+                            b Link to the game: *
+                            input.wide(type="url" name="link" required="required")
+                        span Make sure it is visible to public!
+                    p
+                        label
+                            b Studio name / authors: *
+                            input.wide(type="text" name="author" required="required")
+                    p.nmt
+                        label
+                            b Short description: *
+                            textarea.wide(name="desc" required="required")
+                        span A couple sentences will be enough.
+                    p.nmt
+                        label
+                            b Cover: *
+                            input.wide(type="file" name="cover" required="required" accept=".png,.webp,.jpg,.jpeg,.gif")
+                        span This should be a square or horizontal image smaller than 300kb. WebP, JPG or PNG are preferable.
+                    p.nmt
+                        label
+                            b Anything you want to add:
+                            textarea.wide(name="message")
+                    p.nmt
+                        label
+                            input(type="checkbox" name="confirmOwnership" required="required")
+                            span I confirm that the game I submit is made by me or my team and was made in ct.js.
+                        br
+                        label
+                            input(type="checkbox" name="confirmLicensedContent" required="required")
+                            span I confirm that the game does not use unlicensed or plagiarized content.
+                        br
+                        label
+                            input(type="checkbox" name="confirmDataDisplay" required="required")
+                            span I understand that the information I provide (unless otherwise noted) will be displayed in ct.js engine to unlimited amount of viewers.
+                    p.center
+                        button(type="submit").nmr
+                            svg.feather
+                                use(xlink:href="/icons.svg#send")
+                            span Send
+            .clear
