@@ -1,3 +1,15 @@
+@font-face
+    font-family 'Iosevka'
+    src url('/fonts/iosevka-light.woff2') format('woff2')
+    font-weight 400
+    font-style normal
+
+@font-face
+    font-family 'Iosevka'
+    src url('/fonts/iosevka-lightitalic.woff2') format('woff2')
+    font-weight 400
+    font-style italic
+
 h1, h2, h3, h4, h5, h6
     margin-bottom 0
     color accent1
@@ -19,8 +31,17 @@ h3
     font-size 1.5rem
     line-height 1.5em
     font-weight 400
+    .icon, .feather
+        vertical-align middle
+        width 2rem
+        height @width
+        margin-inline-end 0.35em
+    .feather
+        stroke-width 1.5px
 .hSub
     font-size 1.5rem
+    h3 + &
+        font-size 1.25rem
     line-height 1.5em
     font-weight 300
 a
@@ -45,6 +66,18 @@ pre
     border-radius br
     padding 0.4em 0.8em
     font-family font-mono
+code pre
+    {trans}
+    transform scale(1)
+    &:hover
+        {transshort}
+        transform scale(1.025)
+    font-size 1.25rem
+    border-radius 0.5rem
+    padding 1.5rem 2rem
+    line-height 1.5
+    background white
+    {shadamb}
 
 p.big
     font-size 150%

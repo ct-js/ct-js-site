@@ -12,6 +12,12 @@ const voc = {
         discord: 'Discord',
         github: 'GitHub',
 
+        languages: 'Three programming languages. Same powers. Yours to choose.',
+        languagesSub: 'Tutorials and examples for all three are bundled with ct.js!',
+        jsDesc: 'JavaScript is the language of the web, and optional TypeScript features provide better type-checking.',
+        coffeeDesc: 'A python-inspired language with a more concise and beginner-friendly syntax.',
+        catnipDesc: 'A visual programming language made specially for ct.js that works similarly to Scratch, but better.',
+
         smoothWorkflowHeader: 'Smooth workflow',
         smoothWorkflowParagraph: 'Bad tools hinder your performance. Ct.js is designed to be like a brush with which you create games, not to be an enemy you will fight with.',
         beginnerFriendlyHeader: 'Beginner friendly',
