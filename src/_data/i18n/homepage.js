@@ -1,12 +1,12 @@
 const voc = {
     en: {
-        pageTitle: 'Ct.js — a free game editor',
-        pageDescription: 'A free 2D game editor based on web technologies.',
+        pageTitle: 'Ct.js — a free game engine',
+        pageDescription: 'A free 2D game engine based on web technologies.',
 
         logoAlt: 'A ct.js logo. Ct.js is a free alternative to Game Maker, Construct and others',
         meetCtjs: 'Meet ct.js,',
-        yourNewEditor: 'your new 2D game editor',
-        punchline: 'ct.js makes learning programming fun and game development easy with its visual tools, good docs and flexible, modular library.',
+        yourNewEditor: 'your new 2D game engine',
+        punchline: 'ct.js makes learning programming fun and game development easy with its visual tools, good docs and flexible, modular library, and several coding language options.',
         lovedBy: ' It is free, open-source, and loved by hobbyists, professionals, teachers, and their students.',
         download: 'Download',
         discord: 'Discord',
@@ -377,14 +377,14 @@ const voc = {
     },
 
     ru: {
-        pageTitle: 'Ct.js — полноценный редактор игр. Ещё и бесплатный!',
-        pageDescription: 'Бесплатный редактор, построенный на веб-технологиях и выпускающий игры на ПК и веб',
+        pageTitle: 'Ct.js — полноценный движок для создания 2D игр.',
+        pageDescription: 'Бесплатный движок, построенный на веб-технологиях и выпускающий игры на ПК и веб',
 
         logoAlt: 'Логотип ct.js. Ct.js — бесплатная альтернатива Game Maker, Construct и другим',
         meetCtjs: 'Это ct.js,',
         yourNewEditor: 'твой новый редактор игр',
+        punchline: 'С ct.js обучаться программированию легко, а разработка игр становится увлекательным занятием — в нём множество визуальных редакторов, хорошая документация, гибкая модульная библиотека и несколько языков программирования на выбор.',
         lovedBy: ' Котэ бесплатен и опен-сорсный, а любят его профессионалы, любители геймдева, учителя и их студенты.',
-        punchline: 'С ct.js обучаться программированию легко, а разработка игр становится увлекательным занятием — в нём множество визуальных редакторов, хорошая документация и гибкая модульная библиотека.',
         download: 'Скачать',
         discord: 'Discord',
         github: 'GitHub',
