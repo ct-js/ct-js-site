@@ -5,7 +5,8 @@ const gulp  = require('gulp'),
       pump = require('pump'),
       stylus = require('gulp-stylus'),
       sourcemaps = require('gulp-sourcemaps'),
-      sprite = require('gulp-svgstore');
+      sprite = require('gulp-svgstore'),
+      {asyncHtmlInline} = require('async-html-inline');;
 
 const project = {
     buildDest: './dist',
@@ -65,11 +66,18 @@ gulp.task('assets', gulp.parallel(
   'scripts',
   'icons'
 ));
+
+gulp.task('inlineImages', async () => {
+  await asyncHtmlInline(project.buildDest + '/patronsWidget.svg', project.buildDest + '/patronsWidgetInlined.svg');
+});
+
 gulp.task('generate', shell.task('eleventy'));
 gulp.task('build', gulp.series(
   'assets',
-  'generate'
+  'generate',
+  'inlineImages'
 ));
+
 
 gulp.task('serve', shell.task('eleventy --serve'));
 
