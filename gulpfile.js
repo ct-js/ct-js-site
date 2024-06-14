@@ -67,8 +67,8 @@ gulp.task('assets', gulp.parallel(
 ));
 gulp.task('generate', shell.task('eleventy'));
 gulp.task('build', gulp.series(
-  'generate',
-  'assets'
+  'assets',
+  'generate'
 ));
 
 gulp.task('serve', shell.task('eleventy --serve'));
