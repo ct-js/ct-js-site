@@ -78,8 +78,8 @@ collections:
       widget: list
       add_to_top: true
       fields:
-      - { name: image, label: Avatar, widget: image, allow_multiple: false, required: false}
       - { required: true, label: 'Name', name: 'name', widget: 'string' }
+      - { name: image, label: Avatar, widget: image, allow_multiple: false, required: false}
       - label: Rank
         name: rank
         widget: select
@@ -91,5 +91,5 @@ collections:
       widget: list
       add_to_top: true
       fields:
-      - { name: image, label: Avatar, widget: image, allow_multiple: false, required: false}
       - { required: true, label: 'Name', name: 'name', widget: 'string' }
+      - { name: image, label: Avatar, widget: image, allow_multiple: false, required: false}
