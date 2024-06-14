@@ -2,9 +2,18 @@
 permalink: |
     | patronsWidget.svg
 ---
-// ⬆️ @see https://github.com/11ty/eleventy/issues/286#issuecomment-436262893
-svg(width="100%" height="100%" xmlns="http://www.w3.org/2000/svg")
-    foreignObject(x=0 y=0 width="100%" height="100%")
+//- ⬆️ @see https://github.com/11ty/eleventy/issues/286#issuecomment-436262893
+
+- var height = 240
+- var cats = patrons.Patrons.filter(p => p.rank === 'cat').length
+- var businessCats = patrons.Patrons.filter(p => p.rank === 'business cat').length
+- var partners = patrons.Patrons.filter(p => p.rank === 'partner').length
+- if (partners > 0) {height += 80}
+- var donators = patrons.Donations.length
+- height += (Math.ceil(cats / 10) + Math.ceil(businessCats / 10) + Math.ceil(partners / 10) + Math.ceil(donators / 10)) * 105
+
+svg(width=900 height=height xmlns="http://www.w3.org/2000/svg")
+    foreignObject(x=0 y=0 width=900 height=height)
         body(xmlns="http://www.w3.org/1999/xhtml")
             style
                 include ../dist/patronsWidget.css
