@@ -35,10 +35,21 @@ gulp.task('styles', function() {
     //.pipe(sourcemaps.write())
     .pipe(gulp.dest(project.buildDest + '/'));
 });
+gulp.task('widgetStyles', function() {
+  return gulp.src(project.buildSrc + '/patronsWidget.styl')
+    //.pipe(sourcemaps.init())
+    .pipe(stylus({
+        compress: true
+    }))
+    .pipe(concat('patronsWidget.css'))
+    //.pipe(sourcemaps.write())
+    .pipe(gulp.dest(project.buildDest + '/'));
+});
 
 gulp.task('watch', function () {
   gulp.watch(project.buildSrc + '/js/**/*', gulp.parallel('scripts'));
   gulp.watch(project.buildSrc + '/styles/**/*', gulp.parallel('styles'));
+  gulp.watch(project.buildSrc + '/patronsWidget.styl', gulp.parallel('widgetStyles'));
   gulp.watch(project.buildSrc + '/icons/**/*.svg', gulp.parallel('icons'));
 });
 
@@ -50,6 +61,7 @@ gulp.task('icons', () =>
 
 gulp.task('assets', gulp.parallel(
   'styles',
+  'widgetStyles',
   'scripts',
   'icons'
 ));
