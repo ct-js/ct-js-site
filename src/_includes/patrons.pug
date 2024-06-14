@@ -20,7 +20,7 @@ if businessCats.length
                 b.aPatronName=patron.name
 if cats.length
     h2=i18n.patrons[site.locale].cats
-    .aPatronList
+    .aPatronList.smaller
         each patron of cats
             .aPatron
                 img(src=patron.image)
@@ -28,7 +28,7 @@ if cats.length
 
 if patrons.Donations.length
     h1=i18n.patrons[site.locale].donated
-    .aPatronList
+    .aPatronList.smaller
         each patron of patrons.Donations
             .aPatron
                 img(src=patron.image)
