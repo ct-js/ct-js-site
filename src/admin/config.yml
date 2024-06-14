@@ -5,84 +5,91 @@ backend:
 media_folder: src/img/uploads
 public_folder: /img/uploads
 
+logo_url: https://ctjs.rocks/img/presskit/FullColor.svg
+
 collections:
-  - name: ctideHome
-    label: Ct.IDE homepage
-    files:
-    - label: Ct.IDE homepage
-      name: ctideHome
-      file: src/staticApis/ctHome.json
+- name: staticApis
+  label: Static APIs
+  files:
+  - label: Ct.IDE homepage
+    name: ctideHome
+    file: src/staticApis/ctHome.json
+    fields:
+    - name: announcement
+      label: Announcement
+      widget: object
       fields:
-      - name: announcement
-        label: Announcement
-        widget: object
-        fields:
-          - name: title
-            label: Title
-            widget: string
-            required: true
-          - name: description
-            label: Description
-            widget: text
-            required: true
-          - name: link
-            label: Link
-            widget: string
-            required: true
-          - name: linkLabel
-            label: Button's label (can be left empty)
-            widget: string
-            required: false
-          - name: image
-            label: Main image
-            widget: image
-            allow_multiple: false
-            required: false
-          - name: bgImage
-            label: Background image
-            widget: image
-            allow_multiple: false
-            required: false
-      - name: games
-        label: Games
-        widget: list
-        fields:
-          - { required: true, label: 'Title', name: 'title', widget: 'string' }
-          - { required: true, label: 'Link', name: 'link', widget: 'string' }
-          - { required: true, label: 'Author', name: 'author', widget: 'string' }
-          - { required: true, label: 'Description', name: 'description', widget: 'text' }
-          - required: true
-            label: 'Cover'
-            name: 'cover'
-            widget: 'image'
-            allow_multiple: false
-            media_library:
-              config:
-                multiple: false
-                max_file_size: 300000
-      - name: learn
-        label: Learning resources
-        widget: list
-        fields:
-          - { required: true, label: 'Title', name: 'title', widget: 'string' }
-          - { required: true, label: 'Link', name: 'link', widget: 'string' }
-          - { required: true, label: 'Author', name: 'author', widget: 'string' }
-          - { required: true, label: 'Description', name: 'description', widget: 'text' }
-          - required: true
-            label: 'Type'
-            name: 'type'
-            widget: 'select'
-            options:
-            - { label: 'Blog post', value: 'blog' }
-            - { label: 'Written tutorial', value: 'tutorial' }
-            - { label: 'Docs', value: 'docs' }
-            - { label: 'Video', value: 'video' }
-          - label: 'Cover'
-            name: 'cover'
-            widget: 'image'
-            allow_multiple: false
-            required: false
-            media_library:
-              config:
-                multiple: false
-                max_file_size: 300000
+      - { name: title, label: Title, widget: string, required: true}
+      - { name: description, label: Description, widget: text, required: true}
+      - { name: link, label: Link, widget: string, required: true}
+      - { name: linkLabel, label: Button's label (can be left empty), widget: string, required: false}
+      - { name: image, label: Main image, widget: image, allow_multiple: false, required: false}
+      - { name: bgImage, label: Background image, widget: image, allow_multiple: false, required: false}
+    - name: games
+      label: Games
+      widget: list
+      add_to_top: true
+      fields:
+      - { required: true, label: 'Title', name: 'title', widget: 'string' }
+      - { required: true, label: 'Link', name: 'link', widget: 'string' }
+      - { required: true, label: 'Author', name: 'author', widget: 'string' }
+      - { required: true, label: 'Description', name: 'description', widget: 'text' }
+      - required: true
+        label: 'Cover'
+        name: 'cover'
+        widget: 'image'
+        allow_multiple: false
+        media_library:
+          config:
+            multiple: false
+            max_file_size: 300000
+    - name: learn
+      label: Learning resources
+      widget: list
+      add_to_top: true
+      fields:
+      - { required: true, label: 'Title', name: 'title', widget: 'string' }
+      - { required: true, label: 'Link', name: 'link', widget: 'string' }
+      - { required: true, label: 'Author', name: 'author', widget: 'string' }
+      - { required: true, label: 'Description', name: 'description', widget: 'text' }
+      - required: true
+        label: 'Type'
+        name: 'type'
+        widget: 'select'
+        options:
+        - { label: 'Blog post', value: 'blog' }
+        - { label: 'Written tutorial', value: 'tutorial' }
+        - { label: 'Docs', value: 'docs' }
+        - { label: 'Video', value: 'video' }
+      - label: 'Cover'
+        name: 'cover'
+        widget: 'image'
+        allow_multiple: false
+        required: false
+        media_library:
+          config:
+            multiple: false
+            max_file_size: 300000
+  - label: Patrons
+    name: patrons
+    file: src/staticApis/patrons.json
+    fields:
+    - name: Patrons
+      widget: list
+      add_to_top: true
+      fields:
+      - { name: image, label: Avatar, widget: image, allow_multiple: false, required: false}
+      - { required: true, label: 'Name', name: 'name', widget: 'string' }
+      - label: Rank
+        name: rank
+        widget: select
+        options:
+        - { label: 'A cat', value: 'cat' }
+        - { label: 'Business cat', value: 'business cat' }
+        - { label: 'Partner', value: 'partner' }
+    - name: Donations
+      widget: list
+      add_to_top: true
+      fields:
+      - { name: image, label: Avatar, widget: image, allow_multiple: false, required: false}
+      - { required: true, label: 'Name', name: 'name', widget: 'string' }
