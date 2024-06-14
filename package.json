@@ -10,8 +10,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@11ty/eleventy": "^1.0.2",
+    "@11ty/eleventy": "^2.0.1",
     "@11ty/eleventy-cache-assets": "^2.1.0",
+    "@11ty/eleventy-upgrade-help": "^2.0.5",
     "async-html-inline": "^1.2.0",
     "gulp": "^5.0.0",
     "gulp-concat": "^2.6.1",
