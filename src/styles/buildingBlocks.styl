@@ -70,6 +70,7 @@ section
 .inner
     max-width 1140px
     margin 0 auto
+    padding 0 2rem
     &.limited
         max-width 720px
 nav
@@ -278,3 +279,28 @@ nav
         letter-spacing 1.5px
         svg
             vertical-align -4px
+
+#patrons
+    h1, h2
+        margin-top 0
+    h2
+        font-size 2.5rem
+
+.aPatronList
+    display flex
+    flex-flow row wrap
+    gap 0.75rem
+    align-items baseline
+    justify-content center
+
+.aPatron
+    width 6rem
+    img
+        border-radius 100%
+        width 5.5rem
+        height @width
+    .smaller &
+        width 5rem
+        img
+            width 4.5rem
+            height @width

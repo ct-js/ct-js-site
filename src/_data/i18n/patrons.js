@@ -14,7 +14,14 @@ const voc = {
         cats: 'Коты',
         donated: 'Спасибо донатерам!',
         becomePatron: 'Стать покровителем'
-    }
+    },
+    ar: {},
+    'pt-BR': {},
+    de: {},
+    it: {},
+    ne: {},
+    'zh-CN': {},
+    jp: {}
 };
 
 for (const i in voc) {

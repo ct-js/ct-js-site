@@ -245,7 +245,14 @@ block body
                     span=i18n.homepage[site.locale].allFeatures
     include /joinGamedev.pug
     include /partnersSection.pug
-    section#devlog(dir="ltr" lang="en")
+    section#patrons.center.blue.gradient.waves
+        include /patrons.pug
+        p
+            a.button(href="https://boosty.to/comigo" target="_blank")
+                svg.icon
+                    use(xlink:href=`/icons.svg#boosty`)
+                span=i18n.patrons[site.locale].becomePatron
+    section#devlog.npt(dir="ltr" lang="en")
         .inner.limited
             h2=i18n.homepage[site.locale].devlog.latest
             each item in devlog.posts
