@@ -29,164 +29,163 @@ block body
                 h2.nmt=i18n.homepage[site.locale].languages
         .aLanguageList
             .aLanguage
-                .center
-                    h3
-                        svg.icon
-                            use(xlink:href="/icons.svg#javascript")
-                        svg.icon
-                            use(xlink:href="/icons.svg#typescript")
-                        span JavaScript & TypeScript
-                    .hSub=i18n.homepage[site.locale].jsDesc
-                code
-                    pre
-                        :highlight(lang="javascript")
-                            // Event for a collision with a bullet
-                            var damage = 5;
-                            // 15% crit chance!
-                            if (random.chance(15, 100)) {
-                                damage *= 2;
-                            }
-                            this.hp -= damage;
+                .aLanguageInner
+                    .center
+                        h3
+                            svg.icon
+                                use(xlink:href="/icons.svg#javascript")
+                            svg.icon
+                                use(xlink:href="/icons.svg#typescript")
+                            span JavaScript & TypeScript
+                        .hSub=i18n.homepage[site.locale].jsDesc
+                    code
+                        pre
+                            :highlight(lang="javascript")
+                                // Event for a collision with a bullet
+                                var damage = 5;
+                                // 15% crit chance!
+                                if (random.chance(15, 100)) {
+                                    damage *= 2;
+                                }
+                                this.hp -= damage;
 
-                            // Destroy the projectile
-                            other.kill = true;
+                                // Destroy the projectile
+                                other.kill = true;
 
-                            if (this.hp <= 0) {
-                                this.kill = true;
-                            }
+                                if (this.hp <= 0) {
+                                    this.kill = true;
+                                }
             .aLanguage
-                .center
-                    h3
-                        svg.icon
-                            use(xlink:href="/icons.svg#coffeescript")
-                        span CoffeeScript
-                    .hSub=i18n.homepage[site.locale].coffeeDesc
-                code
-                    pre
-                        :highlight(lang="coffeescript")
-                            # Event for collision with a bullet
-                            damage = 5
+                .aLanguageInner
+                    .center
+                        h3
+                            svg.icon
+                                use(xlink:href="/icons.svg#coffeescript")
+                            span CoffeeScript
+                        .hSub=i18n.homepage[site.locale].coffeeDesc
+                    code
+                        pre
+                            :highlight(lang="coffeescript")
+                                # Event for collision with a bullet
+                                damage = 5
 
-                            # 15% crit chance!
-                            if random.chance 15, 100
-                                damage *= 2
+                                # 15% crit chance!
+                                if random.chance 15, 100
+                                    damage *= 2
 
-                            @hp -= damage
+                                @hp -= damage
 
-                            # Destroy the projectile
-                            other.kill = true
+                                # Destroy the projectile
+                                other.kill = true
 
-                            if @hp <= 0
-                                @kill = true
+                                if @hp <= 0
+                                    @kill = true
             .aLanguage
-                .center
-                    h3
+                .aLanguageInner
+                    .center
+                        h3
+                            svg.feather
+                                use(xlink:href="/icons.svg#catnip")
+                            span Catnip
+                        .hSub=i18n.homepage[site.locale].catnipDesc
+                    catnip-block.command
                         svg.feather
-                            use(xlink:href="/icons.svg#catnip")
-                        span Catnip
-                    .hSub=i18n.homepage[site.locale].catnipDesc
-                catnip-block.command
-                    svg.feather
-                        use(xlink:href="/icons.svg#code-alt")
-                    span.catnip-block-aTextLabel Set
-                    catnip-block.computed.wildcard.wildcard.userdefined
+                            use(xlink:href="/icons.svg#code-alt")
+                        span.catnip-block-aTextLabel Set
+                        catnip-block.computed.wildcard.wildcard.userdefined
+                            svg.feather
+                                use(xlink:href="/icons.svg#clock")
+                            |
+                            span.catnip-block-aTextLabel damage
+                        span.catnip-block-aTextLabel value
+                        |
+                        input.catnip-block-aConstantInput.wildcard(type="text", style="width: 1.5ch;", value="5", readonly)
+                    catnip-block.command
                         svg.feather
-                            use(xlink:href="/icons.svg#clock")
-                        |
-                        span.catnip-block-aTextLabel damage
-                    span.catnip-block-aTextLabel value
-                    |
-                    input.catnip-block-aConstantInput.wildcard(type="text", style="width: 1.5ch;", value="5", readonly)
-                catnip-block.command.note
-                    svg.feather
-                        use(xlink:href="/icons.svg#message-circle")
-                    |  15% Crit chance!
-                catnip-block.command
-                    svg.feather
-                        use(xlink:href="/icons.svg#help-circle")
-                    span.catnip-block-aTextLabel If
-                    catnip-block.computed.boolean.boolean
-                        svg.feather
-                            use(xlink:href="/icons.svg#sort-numerically")
-                        span.catnip-block-aTextLabel random chance
-                        |
-                        input.catnip-block-aConstantInput.number(type="text", style="width: 2.5ch;", value="15", readonly)
-                        |
-                        input.catnip-block-aConstantInput.number(type="text", style="width: 3.5ch;", value="100", readonly)
-                    .catnip-block-Blocks
-                        catnip-block-list
-                            catnip-block.command
-                                svg.feather
-                                    use(xlink:href="/icons.svg#code-alt")
-                                span.catnip-block-aTextLabel Set
-                                catnip-block.computed.wildcard.wildcard.userdefined
+                            use(xlink:href="/icons.svg#help-circle")
+                        span.catnip-block-aTextLabel If
+                        catnip-block.computed.boolean.boolean
+                            svg.feather
+                                use(xlink:href="/icons.svg#sort-numerically")
+                            span.catnip-block-aTextLabel random chance
+                            |
+                            input.catnip-block-aConstantInput.number(type="text", style="width: 2.5ch;", value="15", readonly)
+                            |
+                            input.catnip-block-aConstantInput.number(type="text", style="width: 3.5ch;", value="100", readonly)
+                        .catnip-block-Blocks
+                            catnip-block-list
+                                catnip-block.command
                                     svg.feather
-                                        use(xlink:href="/icons.svg#clock")
-                                    |
-                                    span.catnip-block-aTextLabel damage
-                                span.catnip-block-aTextLabel value
-                                catnip-block.computed.number.wildcard
-                                    catnip-block.computed.wildcard.number.userdefined
+                                        use(xlink:href="/icons.svg#code-alt")
+                                    span.catnip-block-aTextLabel Set
+                                    catnip-block.computed.wildcard.wildcard.userdefined
                                         svg.feather
                                             use(xlink:href="/icons.svg#clock")
                                         |
                                         span.catnip-block-aTextLabel damage
-                                    span.catnip-block-aTextLabel ×
-                                    |
-                                    input.catnip-block-aConstantInput.number(type="text", style="width: 1.5ch;", value="2", readonly)
-                catnip-block.command
-                    svg.feather
-                        use(xlink:href="/icons.svg#minus-circle")
-                    span.catnip-block-aTextLabel Decrease
-                    catnip-block.computed.wildcard.wildcard.userdefined
+                                    span.catnip-block-aTextLabel value
+                                    catnip-block.computed.number.wildcard
+                                        catnip-block.computed.wildcard.number.userdefined
+                                            svg.feather
+                                                use(xlink:href="/icons.svg#clock")
+                                            |
+                                            span.catnip-block-aTextLabel damage
+                                        span.catnip-block-aTextLabel ×
+                                        |
+                                        input.catnip-block-aConstantInput.number(type="text", style="width: 1.5ch;", value="2", readonly)
+                    catnip-block.command
                         svg.feather
-                            use(xlink:href="/icons.svg#archive")
-                        |
-                        span.catnip-block-aTextLabel hp
-                    span.catnip-block-aTextLabel by
-                    catnip-block.computed.wildcard.number.userdefined
-                        svg.feather
-                            use(xlink:href="/icons.svg#clock")
-                        |
-                        span.catnip-block-aTextLabel damage
-                catnip-block.command.note
-                    svg.feather
-                        use(xlink:href="/icons.svg#message-circle")
-                    |  Destroy the projectile
-                catnip-block.command.void
-                    svg.feather
-                        use(xlink:href="/icons.svg#template")
-                    span.catnip-block-aTextLabel With copy
-                    catnip-block.computed.wildcard.wildcard.userdefined
-                        svg.feather
-                            use(xlink:href="/icons.svg#bell")
-                        |
-                        span.catnip-block-aTextLabel other
-                    .catnip-block-Blocks
-                        catnip-block-list
-                            catnip-block.command
-                                svg.feather
-                                    use(xlink:href="/icons.svg#template")
-                                span.catnip-block-aTextLabel Destroy this copy
-                catnip-block.command
-                    svg.feather
-                        use(xlink:href="/icons.svg#help-circle")
-                    span.catnip-block-aTextLabel If
-                    catnip-block.computed.boolean.boolean
-                        catnip-block.computed.wildcard.number.userdefined
+                            use(xlink:href="/icons.svg#minus-circle")
+                        span.catnip-block-aTextLabel Decrease
+                        catnip-block.computed.wildcard.wildcard.userdefined
                             svg.feather
                                 use(xlink:href="/icons.svg#archive")
                             |
                             span.catnip-block-aTextLabel hp
-                        span.catnip-block-aTextLabel ≤
-                        |
-                        input.catnip-block-aConstantInput.number(type="text", style="width: 1.5ch;", value="0", readonly)
-                    .catnip-block-Blocks
-                        catnip-block-list
-                            catnip-block.command
+                        span.catnip-block-aTextLabel by
+                        catnip-block.computed.wildcard.number.userdefined
+                            svg.feather
+                                use(xlink:href="/icons.svg#clock")
+                            |
+                            span.catnip-block-aTextLabel damage
+                    catnip-block.command.note
+                        svg.feather
+                            use(xlink:href="/icons.svg#message-circle")
+                        |  Destroy the projectile
+                    catnip-block.command.void
+                        svg.feather
+                            use(xlink:href="/icons.svg#template")
+                        span.catnip-block-aTextLabel With copy
+                        catnip-block.computed.wildcard.wildcard.userdefined
+                            svg.feather
+                                use(xlink:href="/icons.svg#bell")
+                            |
+                            span.catnip-block-aTextLabel other
+                        .catnip-block-Blocks
+                            catnip-block-list
+                                catnip-block.command
+                                    svg.feather
+                                        use(xlink:href="/icons.svg#template")
+                                    span.catnip-block-aTextLabel Destroy this copy
+                    catnip-block.command
+                        svg.feather
+                            use(xlink:href="/icons.svg#help-circle")
+                        span.catnip-block-aTextLabel If
+                        catnip-block.computed.boolean.boolean
+                            catnip-block.computed.wildcard.number.userdefined
                                 svg.feather
-                                    use(xlink:href="/icons.svg#template")
-                                span.catnip-block-aTextLabel Destroy this copy
+                                    use(xlink:href="/icons.svg#archive")
+                                |
+                                span.catnip-block-aTextLabel hp
+                            span.catnip-block-aTextLabel ≤
+                            |
+                            input.catnip-block-aConstantInput.number(type="text", style="width: 1.5ch;", value="0", readonly)
+                        .catnip-block-Blocks
+                            catnip-block-list
+                                catnip-block.command
+                                    svg.feather
+                                        use(xlink:href="/icons.svg#template")
+                                    span.catnip-block-aTextLabel Destroy this copy
     section.blue.gradient.waves#demos
         .wideinner
             .center

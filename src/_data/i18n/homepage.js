@@ -14,8 +14,8 @@ const voc = {
 
         languages: 'Three programming languages. Same powers. Yours to choose.',
         languagesSub: 'Tutorials and examples for all three are bundled with ct.js!',
-        jsDesc: 'JavaScript is the language of the web, and optional TypeScript features provide better type-checking.',
-        coffeeDesc: 'A python-inspired language with a more concise and beginner-friendly syntax.',
+        jsDesc: 'JavaScript is the language of the web, and optional TypeScript features provide rich coding tools.',
+        coffeeDesc: 'A python-like language with a concise and beginner-friendly syntax.',
         catnipDesc: 'A visual programming language made specially for ct.js that works similarly to Scratch, but better.',
 
         smoothWorkflowHeader: 'Smooth workflow',
