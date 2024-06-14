@@ -1,0 +1,37 @@
+h1=i18n.patrons[site.locale].patrons
+
+- var cats = patrons.Patrons.filter(p => p.rank === 'cat');
+- var businessCats = patrons.Patrons.filter(p => p.rank === 'business cat');
+- var partners = patrons.Patrons.filter(p => p.rank === 'partner');
+
+if partners.length
+    h2=i18n.patrons[site.locale].partners
+    .aPatronList
+        each patron of partners
+            .aPatron
+                img(src=patron.image)
+                b.aPatronName=patron.name
+if businessCats.length
+    h2=i18n.patrons[site.locale].businessCats
+    .aPatronList
+        each patron of businessCats
+            .aPatron
+                img(src=patron.image)
+                b.aPatronName=patron.name
+if cats.length
+    h2=i18n.patrons[site.locale].cats
+    .aPatronList
+        each patron of cats
+            .aPatron
+                img(src=patron.image)
+                .aPatronName=patron.name
+
+if patrons.Donations.length
+    h1=i18n.patrons[site.locale].donated
+    .aPatronList
+        each patron of patrons.Donations
+            .aPatron
+                img(src=patron.image)
+                .aPatronName=patron.name
+
+a.button(href="https://boosty.to/comigo" target="_blank")=i18n.patrons[site.locale].becomePatron
