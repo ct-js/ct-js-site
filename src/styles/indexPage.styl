@@ -192,6 +192,70 @@ borderShad =
         right 8vw
         bottom 10%
 
+.aLanguageList
+    display flex
+    flex-flow row nowrap
+    align-items center
+    padding 0
+    justify-content space-around
+    max-width 1200px
+    margin 0 auto 0
+.aLanguage
+    perspective 1500px
+    transform-style preserve-3d
+    flex 1 1 5rem
+    max-width 45rem
+    width 0
+    overflow visible
+    {trans}
+    h3
+        position relative
+        top 3.5rem
+        {trans}
+        z-index 2
+    .hSub
+        opacity 0
+        background rgba(white, 0.85)
+        border-radius 1rem
+        {trans}
+    .aLanguageInner
+        {trans}
+        pointer-events none
+        width 35rem
+        @media (max-width 1000px)
+            width 30rem
+        @media (max-width 640px)
+            width 25rem
+        margin 0 auto
+        transform rotateY(25deg) translateX(-5%)
+        .command .command
+            {transshort}
+            box-shadow -0.5rem 0.25rem 0.35rem rgba(0, 0, 0, 0.15)
+            transform translateX(0.5rem)
+    .aLanguageList:hover & .aLanguageInner
+        transform rotateY(45deg) translateX(-30%)
+        .command .command
+            box-shadow -1rem 0.2rem 0.35rem rgba(0, 0, 0, 0.15)
+            transform translateX(1rem)
+    .aLanguageList &:hover
+        width 0
+        flex 1 1 35rem
+        @media (max-width 1000px)
+            flex 1 1 30rem
+        @media (max-width 640px)
+            z-index 10
+            positon relative
+            flex 1 1 25rem
+        .aLanguageInner
+            transform rotateY(10deg) translateX(0)
+            .command .command
+                box-shadow -0.05rem 0.35rem 0.35rem rgba(0, 0, 0, 0.15)
+                transform translateX(0)
+        .hSub
+            opacity 1
+        h3
+            top 0
+
 .aFeatureList
     padding 2rem 0
     img, video, embed, iframe

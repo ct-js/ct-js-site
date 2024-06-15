@@ -23,33 +23,169 @@ block body
             .clear
         svg.icon.aScrollDownIcon
             use(xlink:href="/icons.svg#scrollDown")
-    section#features.npt
+    section#languages.npt
         .wideinner
-            .aFeatureList
-                .c7.breakon1400
-                    .container-video
-                        iframe#theVideoPlayer(
-                            src="https://player.vimeo.com/video/381063386"
-                            width="640" height="360" frameborder="0"
-                            allow="autoplay"
-                        )
+            .center
+                h2.nmt=i18n.homepage[site.locale].languages
+        .aLanguageList
+            .aLanguage
+                .aLanguageInner
+                    .center
+                        h3
+                            svg.icon
+                                use(xlink:href="/icons.svg#javascript")
+                            svg.icon
+                                use(xlink:href="/icons.svg#typescript")
+                            span JavaScript & TypeScript
+                        .hSub=i18n.homepage[site.locale].jsDesc
+                    code
+                        pre
+                            :highlight(lang="javascript")
+                                // Event for a collision with a bullet
+                                var damage = 5;
+                                // 15% crit chance!
+                                if (random.chance(15, 100)) {
+                                    damage *= 2;
+                                }
+                                this.hp -= damage;
 
-                    // img(src="/img/HomepageScreenshot.jpg")
-                .c5.breakon1400
-                    .aFeature.active(data-video-id="381063386")
-                        .aFeature-aPlaybackThumb
-                        h3=i18n.homepage[site.locale].smoothWorkflowHeader
-                        p=i18n.homepage[site.locale].smoothWorkflowParagraph
-                    .aFeature(data-video-id="381251535")
-                        .aFeature-aPlaybackThumb
-                        h3=i18n.homepage[site.locale].beginnerFriendlyHeader
-                        p=i18n.homepage[site.locale].beginnerFriendlyParagraph
-                        p=i18n.homepage[site.locale].chooseLanguageParagraph
-                    .aFeature(data-video-id="381254631")
-                        .aFeature-aPlaybackThumb
-                        h3=i18n.homepage[site.locale].powerfulHeader
-                        p=i18n.homepage[site.locale].powerfulParagraph
-                .clear
+                                // Destroy the projectile
+                                other.kill = true;
+
+                                if (this.hp <= 0) {
+                                    this.kill = true;
+                                }
+            .aLanguage
+                .aLanguageInner
+                    .center
+                        h3
+                            svg.icon
+                                use(xlink:href="/icons.svg#coffeescript")
+                            span CoffeeScript
+                        .hSub=i18n.homepage[site.locale].coffeeDesc
+                    code
+                        pre
+                            :highlight(lang="coffeescript")
+                                # Event for collision with a bullet
+                                damage = 5
+
+                                # 15% crit chance!
+                                if random.chance 15, 100
+                                    damage *= 2
+
+                                @hp -= damage
+
+                                # Destroy the projectile
+                                other.kill = true
+
+                                if @hp <= 0
+                                    @kill = true
+            .aLanguage
+                .aLanguageInner
+                    .center
+                        h3
+                            svg.feather
+                                use(xlink:href="/icons.svg#catnip")
+                            span Catnip
+                        .hSub=i18n.homepage[site.locale].catnipDesc
+                    catnip-block.command
+                        svg.feather
+                            use(xlink:href="/icons.svg#code-alt")
+                        span.catnip-block-aTextLabel Set
+                        catnip-block.computed.wildcard.wildcard.userdefined
+                            svg.feather
+                                use(xlink:href="/icons.svg#clock")
+                            |
+                            span.catnip-block-aTextLabel damage
+                        span.catnip-block-aTextLabel value
+                        |
+                        input.catnip-block-aConstantInput.wildcard(type="text", style="width: 1.5ch;", value="5", readonly)
+                    catnip-block.command
+                        svg.feather
+                            use(xlink:href="/icons.svg#help-circle")
+                        span.catnip-block-aTextLabel If
+                        catnip-block.computed.boolean.boolean
+                            svg.feather
+                                use(xlink:href="/icons.svg#sort-numerically")
+                            span.catnip-block-aTextLabel random chance
+                            |
+                            input.catnip-block-aConstantInput.number(type="text", style="width: 2.5ch;", value="15", readonly)
+                            |
+                            input.catnip-block-aConstantInput.number(type="text", style="width: 3.5ch;", value="100", readonly)
+                        .catnip-block-Blocks
+                            catnip-block-list
+                                catnip-block.command
+                                    svg.feather
+                                        use(xlink:href="/icons.svg#code-alt")
+                                    span.catnip-block-aTextLabel Set
+                                    catnip-block.computed.wildcard.wildcard.userdefined
+                                        svg.feather
+                                            use(xlink:href="/icons.svg#clock")
+                                        |
+                                        span.catnip-block-aTextLabel damage
+                                    span.catnip-block-aTextLabel value
+                                    catnip-block.computed.number.wildcard
+                                        catnip-block.computed.wildcard.number.userdefined
+                                            svg.feather
+                                                use(xlink:href="/icons.svg#clock")
+                                            |
+                                            span.catnip-block-aTextLabel damage
+                                        span.catnip-block-aTextLabel ×
+                                        |
+                                        input.catnip-block-aConstantInput.number(type="text", style="width: 1.5ch;", value="2", readonly)
+                    catnip-block.command
+                        svg.feather
+                            use(xlink:href="/icons.svg#minus-circle")
+                        span.catnip-block-aTextLabel Decrease
+                        catnip-block.computed.wildcard.wildcard.userdefined
+                            svg.feather
+                                use(xlink:href="/icons.svg#archive")
+                            |
+                            span.catnip-block-aTextLabel hp
+                        span.catnip-block-aTextLabel by
+                        catnip-block.computed.wildcard.number.userdefined
+                            svg.feather
+                                use(xlink:href="/icons.svg#clock")
+                            |
+                            span.catnip-block-aTextLabel damage
+                    catnip-block.command.note
+                        svg.feather
+                            use(xlink:href="/icons.svg#message-circle")
+                        |  Destroy the projectile
+                    catnip-block.command.void
+                        svg.feather
+                            use(xlink:href="/icons.svg#template")
+                        span.catnip-block-aTextLabel With copy
+                        catnip-block.computed.wildcard.wildcard.userdefined
+                            svg.feather
+                                use(xlink:href="/icons.svg#bell")
+                            |
+                            span.catnip-block-aTextLabel other
+                        .catnip-block-Blocks
+                            catnip-block-list
+                                catnip-block.command
+                                    svg.feather
+                                        use(xlink:href="/icons.svg#template")
+                                    span.catnip-block-aTextLabel Destroy this copy
+                    catnip-block.command
+                        svg.feather
+                            use(xlink:href="/icons.svg#help-circle")
+                        span.catnip-block-aTextLabel If
+                        catnip-block.computed.boolean.boolean
+                            catnip-block.computed.wildcard.number.userdefined
+                                svg.feather
+                                    use(xlink:href="/icons.svg#archive")
+                                |
+                                span.catnip-block-aTextLabel hp
+                            span.catnip-block-aTextLabel ≤
+                            |
+                            input.catnip-block-aConstantInput.number(type="text", style="width: 1.5ch;", value="0", readonly)
+                        .catnip-block-Blocks
+                            catnip-block-list
+                                catnip-block.command
+                                    svg.feather
+                                        use(xlink:href="/icons.svg#template")
+                                    span.catnip-block-aTextLabel Destroy this copy
     section.blue.gradient.waves#demos
         .wideinner
             .center
@@ -132,57 +268,6 @@ block body
                 a(href="https://comigo.itch.io/ct/devlog")=i18n.homepage[site.locale].devlog.morePosts
     section.grey#share
         include /shareBlock.pug
-    script(src="https://player.vimeo.com/api/player.js")
-    script.
-        var iframe = document.getElementById('theVideoPlayer');
-        var player = new Vimeo.Player(iframe);
-        var thumb = document.querySelector('.aFeature.active .aFeature-aPlaybackThumb');
-        var duration;
-
-        player.setAutopause(false);
-        player.setLoop(true);
-        player.setColor('#5779df');
-        player.play();
-        player.getDuration()
-        .then(function (dur) {
-            duration = dur;
-        });
-
-        var featureLists = document.querySelectorAll('.aFeatureList');
-        for (var i = 0; i < featureLists.length; i++) {
-            featureLists[i].addEventListener('click', function (event) {
-                var feature = event.target.closest('.aFeature');
-                if (feature) {
-                    var id = feature.getAttribute('data-video-id');
-                    player.loadVideo(id)
-                    .then(function () {
-                        player.play();
-                        player.setColor('#5779df');
-                        player.getDuration()
-                        .then(function (dur) {
-                            duration = dur;
-                        });
-                    });
-                    var features = feature.closest('.aFeatureList').querySelectorAll('.aFeature');
-                    for (var j = 0; j < features.length; j++) {
-                        features[j].classList.remove('active');
-                    }
-                    feature.classList.add('active');
-                    thumb.style.top = 0;
-                    thumb = feature.querySelector('.aFeature-aPlaybackThumb');
-                    thumb.style.top = 0;
-                }
-            });
-        }
-
-        setInterval(function() {
-            if (duration) {
-                player.getCurrentTime()
-                .then(function (secs) {
-                    thumb.style.top = thumb.parentElement.getBoundingClientRect().height / duration * secs + 'px';
-                });
-            }
-        }, 500);
     script(src="https://identity.netlify.com/v1/netlify-identity-widget.js")
     script.
         if (window.netlifyIdentity) {
