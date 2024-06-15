@@ -1,13 +1,20 @@
 {
   "announcement": {
-    "title": "Catnip is available for testing in ct.js Nightly!",
-    "description": "Get the Nightly build to test out the new visual programming language, made specially for ct.js. The language is available in the New project form, and can also be used in all projects with the Script asset type.",
-    "link": "https://comigo.itch.io/ct-nightly",
+    "title": "Meet Catnip — the new visual programming language in ct.js!",
+    "description": "Catnip was made from 0 for ct.js and is now the third coding option for your projects. The language is available in the New project form, and can also be used in all projects with the Script asset type. Docs now contain a new Learn Catnip section and Catnip code examples in tutorials\nCt.js v5 brought other features, too — read in the full changelog.",
+    "link": "https://forum.ctjs.rocks/d/123-v500-visual-programming-language-catnip",
     "image": "/img/uploads/catnip_emoji.png",
     "bgImage": "/img/uploads/screenshot-2024-04-03-230443.png",
-    "linkLabel": "Download"
+    "linkLabel": "Read more about v5 update"
   },
   "games": [
+    {
+      "title": "Crazy One (open for playtests!)",
+      "link": "https://hdboye.itch.io/crazy-one",
+      "author": "tariq",
+      "cover": "https://img.itch.zone/aW1hZ2UvMjU2OTExNy8xNTU0NjM3MS5wbmc=/347x500/Nl7J2R.png",
+      "description": "A game where you try to break through a very heavy hatch by dumping everything you find on it while pew-pewing monsters in procedurally generated levels. Different heroes and weapons to choose, and… pills??"
+    },
     {
       "link": "https://atavismus.itch.io/triverse",
       "title": "Triverse",
@@ -19,7 +26,7 @@
       "title": "Hollow Floor",
       "link": "https://store.steampowered.com/app/2815150/Hollow_Floor/",
       "author": "Ahmed Khalifa, Pete Gresser",
-      "description": "Hollow Floor is an exploration-based single-sitting Metroidvania inspired by VVVVVV and REDDER. Hollow Floor is a relaxed game that is full of secrets and hard challenges that can be tackled at any moment in the game or completely ignored.",
+      "description": "Hollow Floor is an exploration-based single-sitting Metroidvania inspired by VVVVVV and REDDER. Hollow Floor is a relaxed game that is full of secrets and hard challenges that can be tackled at any moment in the game or completely ignored. Checkout the demo and Wishlist on Steam!",
       "cover": "/img/uploads/hollowfloor_itch_banner.png"
     },
     {
@@ -31,6 +38,14 @@
     }
   ],
   "learn": [
+    {
+      "title": "Learn Catnip",
+      "link": "https://docs.ctjs.rocks/learn-catnip/introduction.html",
+      "author": "CoMiGo",
+      "description": "The new section in official docs is a short introduction to the new programming language. Learn about block and variable types, how to work with copies, and how to construct complex conditions and work with loops.",
+      "type": "docs",
+      "cover": "/img/uploads/catnip_emoji.png"
+    },
     {
       "link": "https://youtu.be/UcBAFWAtvVs",
       "title": "Visual scripting in ct.js — introduction",
