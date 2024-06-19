@@ -21,7 +21,14 @@ const voc = {
     it: {},
     ne: {},
     'zh-CN': {},
-    jp: {}
+    jp: {
+        patrons: 'Ct.js のパトロンたち',
+        partners: 'パートナー',
+        businessCats: 'ビジネスキャット',
+        cats: 'キャット',
+        donated: 'ct.js に寄付していただいている皆様',
+        becomePatron: 'パトロンになる'
+    }
 };
 
 for (const i in voc) {

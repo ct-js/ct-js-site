@@ -521,14 +521,20 @@ const voc = {
         pageDescription: 'ウェブ技術をベースにした無料の2Dゲームエディター。',
 
         logoAlt: 'ct.jsのロゴです。ct.jsは、Game Maker、Construct、その他の無料の代替ツールです。',
-        meetCtjs: 'ct.jsを知る',
+        meetCtjs: 'ct.jsの紹介',
         yourNewEditor: '新しい2Dゲームエディタ',
-        punchline: 'ct.jsは視覚的で使いやすく、充実したドキュメントと柔軟性の高いライブラリにより、プログラミング学習とゲーム開発を容易にできます。',
-        lovedBy: '無料でオープンソースであり、趣味、仕事、教師、そして生徒に愛されています。',
+        punchline: 'ct.jsは視覚的で使いやすく、充実したドキュメントと柔軟性の高いライブラリにより、プログラミング学習とゲーム開発が容易にできます。',
+        lovedBy: '無料・オープンソースで、趣味、仕事、教師、そして生徒に愛されています。',
         download: 'ダウンロード',
         discord: 'Discord',
         github: 'GitHub',
 
+        languages: '3つのプログラミング言語が使えます。できることは同じ。君が選ぼう。',
+        languagesSub: 'これらのチュートリアルとサンプルはct.jsに同梱されています！',
+        jsDesc: 'JavaScriptはWebの言語であり、オプションでTypeScriptの機能を使うことで、強力なコーディングツールを利用できます。',
+        coffeeDesc: '簡潔で初心者に優しい構文のPythonのような言語です。',
+        catnipDesc: 'Scratchに似ている、より優れたct.js専用のビジュアルプログラミング言語です。',
+        
         smoothWorkflowHeader: '使いやすいワークフロー',
         smoothWorkflowParagraph: '使いにくいツールは生産性を低下させます。ct.jsは開発を邪魔する敵ではなく、ゲームを作るための筆のようにデザインされています。',
         beginnerFriendlyHeader: '初心者にも優しい',
@@ -546,6 +552,7 @@ const voc = {
         vacationOfFusionParagraph: 'リラックスできる島づくりゲームで、様々な要素をミックスして新しいテクスチャを作ることができます。創造的なモード、漫画的なグラフィックと自撮りモードがあります。',
 
         madeWithCtjs: 'ct.jsで製作',
+        submitYourGame: '自分の作品を投稿する！',
 
         everythingYouNeedHeader: 'ct.jsには、ゲーム作りで必要なものがすべて揃っています',
         essentials: {
