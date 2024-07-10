@@ -21,15 +21,21 @@ block body
                             svg.feather
                                 use(xlink:href="/icons.svg#download")
                             span=voc.webInstaller
-                        //a.button.small(href=downloads.win64)
-                        //    svg.feather
-                        //        use(xlink:href="/icons.svg#download")
-                        //    span=voc.downloadx64
-                        //a.button.small(href=downloads.win32)
-                        //    svg.feather
-                        //        use(xlink:href="/icons.svg#download")
-                        //    span=voc.downloadx32
-                        //p.nm=voc.windowsInstructions
+                        p
+                            span=voc.falseReportsNotice
+                            |
+                            |
+                            a.blue(href="https://github.com/ct-js/ctjs-web-installer/issues/new/choose")=voc.reportLinkText
+                            |.
+                        a.button.small(href=downloads.win64)
+                            svg.feather
+                                use(xlink:href="/icons.svg#download")
+                            span=voc.downloadx64
+                        a.button.small(href=downloads.win32)
+                            svg.feather
+                                use(xlink:href="/icons.svg#download")
+                            span=voc.downloadx32
+                        p.nm=voc.windowsInstructions
                         p.nm.small=voc.windows7orHigher
                 .c4.breakon800
                     .aCard.center

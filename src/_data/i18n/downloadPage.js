@@ -5,6 +5,8 @@ const voc = {
         welcomeAboard: 'Welcome aboard!',
 
         webInstaller: 'Web installer',
+        falseReportsNotice: 'Getting antivirus warnings? Try these instead, and please',
+        reportLinkText: 'report an issue at web installer\'s repository',
         downloadx64: 'Download x64',
         downloadx32: 'Download x32',
         downloadarm: 'Download for ARM',
@@ -147,6 +149,8 @@ const voc = {
         pageDescription: 'Скачайте бесплатный редактор 2D игр ct.js с его официального сайта.',
         welcomeAboard: 'Добро пожаловать на борт!',
 
+        falseReportsNotice: 'Жалуется антивирус? Попробуйте загрузки ниже, и ',
+        reportLinkText: 'отправьте детали проблемы здесь',
         downloadx64: 'Скачать x64',
         downloadx32: 'Скачать x32',
         downloadarm: 'Скачать для ARM',
