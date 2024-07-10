@@ -41,10 +41,14 @@ nav#theNavBar
             svg.feather
                 use(xlink:href="/icons.svg#book-open")
             span #{i18n.header[site.locale].docs}
-        a(href="https://forum.ctjs.rocks/")
+        a(href="https://forum.ctjs.rocks/" target="_blank")
             svg.feather
                 use(xlink:href="/icons.svg#message-square")
             span #{i18n.header[site.locale].forum}
+        a(href="https://github.com/ct-js/ct-js" target="_blank")
+            svg.icon
+                use(xlink:href="/icons.svg#github")
+            span GitHub
         a(href=nDownload)
             svg.feather
                 use(xlink:href="/icons.svg#download")
