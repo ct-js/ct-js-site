@@ -1,7 +1,6 @@
 const markdownIt = require('markdown-it');
 const emoji = require('markdown-it-emoji').full;
 const mdReplacePlugin = require('@deco313/markdown-it-replace').default();
-console.log(mdReplacePlugin);
 const md = new markdownIt({
     html: true,
     linkify: true,
