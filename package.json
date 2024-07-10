@@ -17,9 +17,9 @@
     "async-html-inline": "^1.2.0",
     "gulp": "^5.0.0",
     "gulp-concat": "^2.6.1",
-    "gulp-shell": "0.6.3",
+    "gulp-shell": "0.6.5",
     "gulp-sourcemaps": "^2.6.4",
-    "gulp-stylus": "^2.7.0",
+    "gulp-stylus": "2.7.1",
     "gulp-svgstore": "^7.0.1",
     "gulp-uglify": "^3.0.1",
     "jstransformer-highlight": "^2.0.0",
@@ -27,6 +27,6 @@
     "markdown-it-checkbox": "^1.1.0",
     "markdown-it-emoji": "^3.0.0",
     "pump": "^3.0.0",
-    "xml2js": "^0.4.19"
+    "xml2js": "^0.6.2"
   }
 }
