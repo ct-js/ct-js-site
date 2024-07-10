@@ -1,11 +1,18 @@
 const markdownIt = require('markdown-it');
 const emoji = require('markdown-it-emoji').full;
-
+const mdReplacePlugin = require('@deco313/markdown-it-replace').default();
+console.log(mdReplacePlugin);
 const md = new markdownIt({
     html: true,
     linkify: true,
     typographer: true
-}).use(emoji);
+})
+.use(emoji)
+.use(
+    mdReplacePlugin
+    .addRule(/[\s(](@\w+)/, nickname => `<a href="https://github.com/${nickname.slice(1)}" target="_blank">${nickname}</a>`)
+    .addRule(/[\s(](#\d+)/, id => `<a href="https://github.com/ct-js/ct-js/issues/${id.slice(1)}" target="_blank">${id}</a>`)
+);
 
 module.exports = function(eleventyConfig) {
     eleventyConfig.addPassthroughCopy('src/img');
