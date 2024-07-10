@@ -1,3 +1,12 @@
+const markdownIt = require('markdown-it');
+const emoji = require('markdown-it-emoji').full;
+
+const md = new markdownIt({
+    html: true,
+    linkify: true,
+    typographer: true
+}).use(emoji);
+
 module.exports = function(eleventyConfig) {
     eleventyConfig.addPassthroughCopy('src/img');
     eleventyConfig.addPassthroughCopy('src/fonts');
@@ -7,6 +16,10 @@ module.exports = function(eleventyConfig) {
     eleventyConfig.addPassthroughCopy('src/favicon.ico');
     eleventyConfig.addPassthroughCopy('src/admin/config.yml');
     eleventyConfig.addPassthroughCopy('src/staticApis/*.json');
+
+    eleventyConfig.addFilter("markdown", (content) => {
+        return md.render(content);
+    });
 
     // @see my https://github.com/11ty/eleventy/issues/1523#issuecomment-733412641
     global.filters = eleventyConfig.javascriptFunctions;

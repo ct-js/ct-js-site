@@ -24,6 +24,7 @@
     "jstransformer-highlight": "^2.0.0",
     "jstransformer-markdown-it": "^2.1.0",
     "markdown-it-checkbox": "^1.1.0",
+    "markdown-it-emoji": "^3.0.0",
     "pump": "^3.0.0",
     "xml2js": "^0.4.19"
   }
