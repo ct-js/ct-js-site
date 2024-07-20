@@ -1,0 +1,220 @@
+style.
+    body, html {
+        position: relative;
+        margin: 0;
+        height: 100%;
+        font-family: sans-serif;
+        line-height: 1.5em;
+        background: #161427;
+        color: #DAD6DA;
+    }
+    h1, h2, h3 {
+        margin: 1em 0 0.25em;
+        color: #FF70B1;
+        font-weight: 300;
+        font-family: 'Open Sans', sans-serif;
+    }
+    h3 {
+        font-weight: 500;
+    }
+    h1:first-child, h2:first-child, h3:first-child {
+        margin-top: 0;
+    }
+    .Columns {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        height: 100vh;
+        padding: 1rem;
+        grid-gap: 1rem 1rem;
+        box-sizing: border-box;
+    }
+    .Columns > h1 {
+        grid-column: 1/3;
+    }
+    .aColumn {
+        overflow: auto;
+        padding-right: 1rem;
+    }
+    label {
+        display: block;
+        margin: 1rem 0;
+    }
+    input[type="text"], textarea {
+        width: 100%;
+        box-sizing: border-box;
+        background: inherit;
+        color: inherit;
+        border: 1px solid #282646;
+        font: inherit;
+        padding: 0.25em 0.5em;
+        border-radius: 0.35rem;
+    }
+    textarea {
+        height: 10rem;
+    }
+    code, pre {
+        font-family: Iosevka, 'Iosevka SS07', monospace;
+    }
+    code > pre {
+        display: block;
+        padding: 0.5rem 1rem;
+        border: 2px solid #fff4;
+        box-sizing: border-box;
+        max-height: 15rem;
+        overflow: auto;
+    }
+    pre {
+        white-space: pre-wrap;
+    }
+    a {
+        color: #FFCFD4;
+    }
+    a:hover {
+        color: #FF70B1;
+    }
+.Columns
+    h1 Release helper
+    .aColumn
+        h2 Common
+        label
+            b Version:
+            input(type="text" data-bindinput="version" value="${state.version || ''}" placeholder="0.0.0")
+        label
+            b List of contributors in Markdown format:
+            textarea(data-bindinput="contributors") ${state.changelog}
+        label
+            b Changelog:
+            textarea(data-bindinput="changelog") ${state.changelog}
+        - for (const lang in state.languages)
+            - const l = state.languages[lang];
+            h2 ${lang}
+            label
+                b Pitch:
+                input(type="text" maxlength="150" data-bindinput="languages.${lang}.pitch" value="${l.pitch || ''}")
+                br
+                | ${l.pitch?.length || 0} / 150
+            label
+                b Highlights:
+                textarea(maxlength="2000" data-bindinput="languages.${lang}.highlights") ${l.highlights || ''}
+                br
+                | ${l.highlights?.length || 0} / 2000
+    .aColumn
+        - for (const lang in state.languages)
+            - const l = state.languages[lang];
+            - const lc = state.locales[lang];
+            h2 ${lang}
+            - if (lang === 'English')
+                h3
+                    a(href="https://forum.ctjs.rocks/t/news-and-updates" target="_blank") Forum
+                    |
+                    | /
+                    |
+                    a(href="https://itch.io/dashboard/game/238348/new-devlog" target="_blank") itch.io devlog
+                code(data-onclick="selectContents")
+                    pre.
+                        Ct.js v${state.version} ${lc.isOut} 🎉
+
+                        **${l.pitch}**
+
+                        ${l.highlights}
+
+                        ## ${lc.changelog}
+
+                        ${state.changelog}
+
+                        * * *
+
+                        *Ct.js is a free and open-source game engine supported by **you**. Consider supporting us on Boosty or contributing to the project directly by adding new features, improvements, and bugfixes to our repository.*
+
+                        [![Join our Discord server](https://img.itch.zone/aW1nLzE1MTY0Mzk4LnBuZw==/original/%2BULpK3.png)](https://comigo.games/discord)
+                        [![Send a donation at Telegram](https://img.itch.zone/aW1nLzE1MTY0NDExLnBuZw==/original/%2BB90YM.png)](https://t.me/comigogames/57)
+                        [![Support ct.js on Boosty](https://img.itch.zone/aW1nLzE1MTY0NDI0LnBuZw==/original/aj8cyt.png)](https://boosty.to/comigo)
+                        [![Contribute to ct.js on GitHub](https://img.itch.zone/aW1nLzE1MTY0NDA4LnBuZw==/original/FyJ5%2Ba.png)](https://github.com/ct-js/ct-js)
+            label
+                b Link to the forum announcement:
+                input(type="text" data-bindinput="forumLink" value="${state.forumLink}")
+            h3 Discord
+            code(data-onclick="selectContents")
+                pre.
+                    **&lt;@&${lc.discordRoleId}&gt;, ct.js v${state.version} ${lc.isOut}!**
+
+                    *${l.pitch}*
+
+                    ${l.highlights}
+
+                    ${lc.readMoreAboutUpdate}
+                    ${state.forumLink}
+
+                    :ctjs: **${lc.downloadOffSite}**
+                        &lt;https://ctjs.rocks/download&gt;
+                    :itch: **${lc.installItch}**
+                        &lt;https://comigo.itch.io/ct&gt;
+                    :github: **${lc.downloadGithub}**
+                        &lt;https://github.com/ct-js/ct-js/releases/latest&gt;
+
+                    :lady_beetle: **${lc.reportBugsDiscord}**
+                        &lt;https://github.com/ct-js/ct-js/issues/new/choose&gt;
+                    :heart_decoration: **${lc.supportBoosty}**
+                        &lt;https://boosty.to/comigo&gt;
+                        &lt;https://t.me/comigogames/57&gt;
+            - if (lang === 'English')
+                h3
+                    a(href="https://twitter.com/compose/tweet" target="_blank") Twitter
+                code(data-onclick="selectContents")
+                    pre.
+                        Ct.js v${state.version} 🎉 ${l.pitch}
+                        ${state.forumLink}
+                        #gamedev #opensource #ctjs
+            - if (lang === 'Russian')
+                h3
+                    a(href="https://boosty.to/comigo/new-post" target="_blank") Boosty
+                code(data-onclick="selectContents")
+                    pre.
+                        Ct.js v${state.version} ${lc.isOut} 🎉
+                        [In English: ${state.forumLink}]
+
+                        ${l.pitch}
+
+                        ${lc.readMoreAboutUpdate}
+                        📰 ${state.forumLink}
+
+                        ${lc.downloadOffSite}
+                        📥 https://ctjs.rocks/download
+                        ${lc.reportBugsUniversal}
+                        🐞 https://github.com/ct-js/ct-js/issues/new/choose
+                h3
+                    a(href="https://gamedev.ru/projects/forum/?id=268138" target="_blank") Gamedev.ru
+                code(data-onclick="selectContents")
+                    pre.
+                        [b]Ct.js v${state.version} ${lc.isOut} 🎉[/b]
+
+                        [i]${l.pitch}[/i]
+
+                        ${l.highlights}
+
+                        ${lc.readMoreAboutUpdate}
+                        📰 ${state.forumLink}
+
+                        [b]${lc.downloadOffSite}[/b]
+                        📥 https://ctjs.rocks/ru/download
+                        [b]${lc.installItch}[/b]
+                        📥 https://comigo.itch.io/ct
+                        [b]${lc.downloadGithub}[/b]
+                        📥 https://github.com/ct-js/ct-js/releases/latest
+
+                        [b]${lc.reportBugsUniversal}[/b]
+                        🐞 https://github.com/ct-js/ct-js/issues/new/choose
+                        [b]${lc.supportBoosty}[/b]
+                        💖 https://boosty.to/comigo
+                        💖 https://t.me/comigogames/57
+                h3
+                    a(href="https://vk.com/ctjsrocks" target="_blank") Vkontakte
+                code(data-onclick="selectContents")
+                    pre.
+                        🎉 Ct.js v${state.version} ${lc.isOut} 😃
+                        ${l.pitch}
+
+                        ${lc.downloadOffSite}
+                        👉🏻 https://ctjs.rocks/ru/download
+                        ${lc.readMoreAboutUpdate}
+                        👉🏻 ${state.forumLink}

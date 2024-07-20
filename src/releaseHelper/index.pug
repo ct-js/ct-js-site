@@ -1,0 +1,59 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(http-equiv="X-UA-Compatible" content="IE=edge")
+        meta(name="viewport" content="width=device-width, initial-scale=1.0")
+        title Release helper
+        link(rel="preconnect" href="https://fonts.googleapis.com")
+        link(rel="preconnect" href="https://fonts.gstatic.com" crossorigin)
+        link(href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet")
+    body
+        div#theBoneyardApp
+        script(type="text/javascript" src="boneyard.browser.min.js")
+        script(type="text/javascript").
+            boneyard.mount('app.meat', document.getElementById('theBoneyardApp'), {
+                version: '',
+                selectContents(e) {
+                    const r = document.createRange();
+                    r.selectNode(e.target);
+                    window.getSelection().removeAllRanges();
+                    window.getSelection().addRange(r);
+                },
+                languages: {
+                    English: {
+                        pitch: '(The most notable updates in this version)',
+                        highlights: '(Expanded info about goodies included, contributors mentions, new patrons)'
+                    },
+                    Russian: {
+                        pitch: '(The most notable updates in this version)',
+                        highlights: '(Expanded info about goodies included, contributors mentions, new patrons)'
+                    }
+                },
+                locales: {
+                    English: {
+                        isOut: 'is out!',
+                        downloadOffSite: 'Download ct.js from the official site:',
+                        installItch: 'Install ct.js with the itch.io app:',
+                        downloadGithub: 'Download from Github Releases:',
+                        reportBugsDiscord: 'Found a bug? Report it at &lt;#1013964942703087646&gt; or Github Issues:',
+                        reportBugsUniversal: 'Found a bug? Report it at Github Issues:',
+                        readMoreAboutUpdate: 'Read more about the update here:',
+                        supportBoosty: 'Support the development by donating at Boosty or Telegram:',
+                        changelog: 'Changelog',
+                        discordRoleId: '490072000862093323'
+                    },
+                    Russian: {
+                        isOut: 'уже доступен!',
+                        downloadOffSite: 'Скачивай ct.js с официального сайта:',
+                        installItch: 'Скачай с itch.io:',
+                        downloadGithub: 'Или с Github:',
+                        reportBugsDiscord: 'Нашли баг? Отправь его в &lt;#903938955249065984&gt; или на Github:',
+                        reportBugsUniversal: 'Нашли баг? Напишите о нём в Github:',
+                        readMoreAboutUpdate: 'Подробнее об апдейте можно прочитать здесь:',
+                        supportBoosty: 'Поддержи разработчика денюжкой на Boosty или в телеге:',
+                        changelog: 'Лог изменений',
+                        discordRoleId: '903922184165154856'
+                    }
+                }
+            });

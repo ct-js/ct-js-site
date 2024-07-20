@@ -22,6 +22,8 @@ module.exports = function(eleventyConfig) {
     eleventyConfig.addPassthroughCopy('src/favicon.ico');
     eleventyConfig.addPassthroughCopy('src/admin/config.yml');
     eleventyConfig.addPassthroughCopy('src/staticApis/*.json');
+    eleventyConfig.addPassthroughCopy('src/releaseHelper/*.meat');
+    eleventyConfig.addPassthroughCopy('src/releaseHelper/boneyard.browser.min.js');
 
     eleventyConfig.addFilter("markdown", (content) => {
         return md.render(content);
