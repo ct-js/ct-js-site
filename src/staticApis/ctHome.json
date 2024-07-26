@@ -9,6 +9,13 @@
   },
   "games": [
     {
+      "author": "Crimson Games IO / UlisesFreitas",
+      "link": "https://ulisesfreitas.itch.io/ctjs-game-crimson-hero-quest",
+      "description": "Crimson Hero Quest is an engaging platformer game that invites players into a captivating pixel art world rendered in charming 16x16 graphics. Set in a vibrant universe, players embark on a heroic journey through lush forests and formidable castles.",
+      "cover": "https://d33wubrfki0l68.cloudfront.net/4bcb38d9-39a6-4a86-b5d9-2e86e1edcbde/512x512.jpg",
+      "title": "Crimson Hero Quest"
+    },
+    {
       "title": "Crazy One (open for playtests!)",
       "link": "https://hdboye.itch.io/crazy-one",
       "author": "tariq",
