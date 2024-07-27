@@ -1,11 +1,11 @@
 {
   "announcement": {
-    "title": "Meet Catnip — the new visual programming language in ct.js!",
-    "description": "Catnip was made from 0 for ct.js and is now the third coding option for your projects. The language is available in the New project form, and can also be used in all projects with the Script asset type. Docs now contain a new Learn Catnip section and Catnip code examples in tutorials\nCt.js v5 brought other features, too — read in the full changelog.",
-    "link": "https://forum.ctjs.rocks/d/123-v500-visual-programming-language-catnip",
-    "image": "/img/uploads/catnip_emoji.png",
-    "bgImage": "/img/uploads/screenshot-2024-04-03-230443.png",
-    "linkLabel": "Read more about v5 update"
+    "title": "v5.1.0 — Enumeration asset type, asset searchbar, and QoL improvements",
+    "description": "Try out the new search bar by clicking its icon in the top-right corner of ct.js when you open your project, or call it with Ctrl+P hotkey. In a room editor, a new modifier to placing objects was added: hold both Shift and Ctrl to draw a filled rectangle of copies or tiles!",
+    "link": "https://forum.ctjs.rocks/d/131-v510-enumeration-asset-type-asset-searchbar-and-qol-improvements",
+    "image": "/img/uploads/51gif.gif",
+    "bgImage": "/img/uploads/screenshot-2024-07-28-022233.jpg",
+    "linkLabel": "Read more about the update"
   },
   "games": [
     {
