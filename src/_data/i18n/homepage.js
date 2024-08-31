@@ -58,12 +58,6 @@ const voc = {
 
         gamesOfAnyGenre: 'Create games of any genre',
         gamesOfAnyGenreSub: 'Shooters, arcades, adventures, survivals, puzzles, visual novels — you name it!',
-        stormCrossParagraph: 'A small stylized adventure with AI-powered sea battles, violent environment, and little puzzle sections. Join the voyage to save a colony from a deadly disease!',
-        amongTheWolvesParagraph: 'A forest, a lake, a lone survivor, and monsters in the dark. The game is a "one-dimentional" survival with a day/night cycle, growing mechanics, and a wild living forest.',
-        welcomeToTheVOIDParagraph: 'A story about rebooting the universe. Swim through the endless dark cosmos, engage in space combat, land on planets for expedition missions and explore the lost technologies.',
-        illFatedParagraph: 'A vampire-survivor-esque shooter where your character only grows weaker through time. Fend off endless monsters and see how many curses you can get before you succumb to the foes.',
-        vacationOfFusionParagraph: 'A light-hearted island-building game where you mix elements to create new tiles. Features creative mode, cartoony graphics, and a selfie mode!',
-
         madeWithCtjs: 'Made with ct.js',
         submitYourGame: 'Submit your own!',
 
@@ -100,15 +94,8 @@ const voc = {
 
         gamesOfAnyGenre: 'اصنع ألعاب من أي نوع',
         gamesOfAnyGenreSub: 'ألعاب الأسلحة، الأركايد، المغامرات، سرفايفل، الألغاز، الروايات المرئية - أيا كان ما تريد',
-        stormCrossParagraph: 'مغامرة صغيرة مرسومة مع معارك بحرية، بيئة عنيفة، و ألغاز صغيرة مشغلة بواسطة الذكاء الاصطناعي، انضم لرحلة انقاذ المستعمرة من الوباء القاتل',
-        amongTheWolvesParagraph: 'غابة، بحيرة، ناج وحيد، و وحوش في الظلام، هذه لعبة نجاة أحادية الأبعاد مع طور النهار و الليل، ميكانكية في نمو و غابة وحشية',
-        welcomeToTheVOIDParagraph: 'قصة حول إعادة إحياء للكون، عم في الظلمات الكونية اللامتناهية، شارك في معارك الفضاء و اذهب للكواكب في حملة مهام و اكتشف التكنولوجيات الضائعة',
-        illFatedParagraph: 'لعبة رمي للأسلحة و نجاة مصاص دماء أين تضعف شخصيتك بالوقت، صد الوحوش اللامتناهية و اجمع اللعنات حتى تخضع للأعداء',
-        vacationOfFusionParagraph: 'لعبة بناء جزيرة ممتعة أين تمزج العناصر لتكوين بلاط جديد، فيها وضع ابداعي، رسوم متحركة و وضع سيلفي',
-
         madeWithCtjs: 'ct.js صنع ب',
 
-        everythingYouNeedHeader: 'لديه كل شيئ لبناء لعبة ct.js',
         essentials: {
             roomEditor: 'محرر المراحل',
             codeEditor: 'محرر أكواد',
@@ -156,16 +143,12 @@ const voc = {
 
         gamesOfAnyGenre: 'Crie jogos de qualquer genêro',
         gamesOfAnyGenreSub: 'Shooters, arcades, adventures, survivals, puzzles, visual novels — o que você quiser!',
-        stormCrossParagraph: 'Uma pequena aventura estilizada com batalhas marítimas com IA, ambientes violentos, e pequenas seções de puzzle. Junte-se a viagem para salvar uma colônia de uma doença mortal!',
-        amongTheWolvesParagraph: 'Uma floresta, um lago, um sobrevivente solitário, e monstros na escuridão. O jogo é uma sobrevivência "unidimensional" com um ciclo dia/noite, mecânicas de crescimento e uma floresta selvagem.',
-        welcomeToTheVOIDParagraph: 'Uma história sobre reiniciar o universo. Nade pela infinidade da escuridão do cosmos, se envolva em combates espaciais, aterrise em planetas para missões de expedição land e explore tecnologias perdidas.',
 
         extensiveLibrary: 'ct.js é uma biblioteca extensível',
         visualWorkflow: 'juntamente com um fluxo de trabalho visual',
 
         madeWithCtjs: 'Feito com ct.js',
 
-        everythingYouNeedHeader: 'ct.js tem tudo que você precisa para fazer um jogo',
         essentials: {
             roomEditor: 'Sala / Editor de fase com suporte a ladrilho',
             codeEditor: 'Integrado com editor de códigos com um reportador de erros',
@@ -213,13 +196,8 @@ const voc = {
 
         gamesOfAnyGenre: 'Erstelle Spiele jedes Genres',
         gamesOfAnyGenreSub: 'Shooters, Arcade, Abenteuer, Überleben, Puzzel, visuelle Romane — du sagst es!',
-        stormCrossParagraph: 'Ein Abenteuer Spiel in simplen Stil mit AI-betrieben Meeres Kämpfen, heftiger Umgebung, und einer kleinen Puzzel Sektion. Schließ dich der Reise an um eine Kolonie vor einer tötlichen Krankheit zu retten!',
-        amongTheWolvesParagraph: 'Ein Wald, ein See, ein einsamer Uberlebender und Monster in der Dunkelheit. Das Spiel ist ein "eindimensionales" Überlebens Spiel mit einem Tag/Nacht Zyklus, wachsenden Mechaniken und einem Wald mit wildem Leben.',
-        welcomeToTheVOIDParagraph: 'Eine Geschichte über den Neustart des Universums. Schwimme durch den endlosen schwarzen Kosmus, nimm and Weltraumkämpfen teil, lande auf Planeten für Expeditions Missionen und erkunde die verschollenen Technologien.',
-
         madeWithCtjs: 'Erstellt mit ct.js',
 
-        everythingYouNeedHeader: 'ct.js verfügt über alles was du brauchst um ein Spiel zu erstellen',
         essentials: {
             roomEditor: 'Raum / Level Editor mit Tile Unterstützung',
             codeEditor: 'Intigrierter Code Editor mit Fehler behandlung',
@@ -266,13 +244,8 @@ const voc = {
 
         gamesOfAnyGenre: 'Crea giochi di qualsiasi genere',
         gamesOfAnyGenreSub: 'Sparatutto, arcade, avventure, sopravvivenza, rompicapi, visual novel — chi più ne ha più ne metta!',
-        stormCrossParagraph: 'Una piccola avventura con grafica stilizzata, battaglie marine con l\'impiego di IA, un\'ambiente violento e sezioni di rompicapi. Unisciti al viaggio per salvare una colonia da una malattia mortale!',
-        amongTheWolvesParagraph: 'Una foresta, un lago, un sopravvissuto solitario e mostri al buio. Il gioco è un gioco di sopravvivenza "uni-dimensionale" con un ciclo di giorno/notte, meccaniche di crescita e una foresta vivente selvaggia.',
-        welcomeToTheVOIDParagraph: 'Una storia sul riavvio dell\'universo. Nuota attraverso l\'infinito cosmo scuro, impegnati in combattimenti spaziali, atterra su pianeti per completare missioni di spedizione ed esplorazione di tecnologie perdute.',
-
         madeWithCtjs: 'Made with ct.js',
 
-        everythingYouNeedHeader: 'ct.js ha tutto ciò che serve per il tuo gioco',
         essentials: {
             roomEditor: 'Editor di mappe / livelli con supporto per le tile',
             codeEditor: 'Editor di codice integrato con segnalazione degli errori',
@@ -320,15 +293,9 @@ const voc = {
 
         gamesOfAnyGenre: 'Ontwerp games van elk genre',
         gamesOfAnyGenreSub: 'Shooters, arcades, avonturen, survivals, puzzels, visuele romans — noem maar op!',
-        stormCrossParagraph: 'Een klein gestyliseerd avontuur met AI-gestuurde zeeslagen, een gewelddadige omgeving, en mini-puzzelgedeeltes. Ga mee op reis om een kolonie van een dodelijke ziekte te redden!',
-        amongTheWolvesParagraph: 'Een woud, een meer, een enkele overlevende, en monsters in het donker. Deze game is een "een-dimensionele" survival met een dag/nacht-cyclus, groei-mechanics, en een losgeslagen levend bos.',
-        welcomeToTheVOIDParagraph: 'Een verhaal over het rebooten van het universum. Zwem door de eindeloze, donkere kosmos, ga ruimtegevechten aan, land op planeten voor expeditiemissies en ontdek de verloren technologieën.',
-        illFatedParagraph: 'Een vampier-overleving-achtige shooter waar je karakter enkel zwakker wordt doorheen de tijd. Weer eindeloze monsters af en zoe hoeveel vloeken je kunt krijgen voor je bezwijkt aan de vijand.',
-        vacationOfFusionParagraph: 'Een luchtige eiland-opbouw game waar je elementen vermengt om nieuwe tegels te verkrijgen. Bevat creative-modus, cartoon-graphics, en een selfie-modus!',
 
         madeWithCtjs: 'Gemaakt met ct.js',
 
-        everythingYouNeedHeader: 'ct.js heeft alles wat je nodig hebt om een game te bouwen',
         essentials: {
             roomEditor: 'Kamer / Level editor met tegel-support',
             codeEditor: 'Geïntegreerde code-editor met error handling',
@@ -419,16 +386,10 @@ const voc = {
 
         gamesOfAnyGenre: 'Создавайте игры любого жанра',
         gamesOfAnyGenreSub: 'Шутеры, аркады, адвенчуры, выживание, паззлы, визуальные новеллы — всё, что угодно!',
-        stormCrossParagraph: 'Небольшое стилизованное приключение с морскими баталиями с ИИ, жестокой природой и паззлами. Отправляйтесь в плаванье, чтобы спасти далёкую колонию от болезни!',
-        amongTheWolvesParagraph: 'Лес, озеро, выживший, монстр в темноте. Эта игра — "одномерный сурвайвал" с циклом дня и ночи, фермерскими механиками и живым диким лесом.',
-        welcomeToTheVOIDParagraph: 'История о перезагрузке вселенной. Плывите сквозь безграничную тьму космоса, сражайтесь в космических баталиях, проводите экспедиции на поверхности планет и изучайте древние технологии.',
-        illFatedParagraph: 'Шутер в духе Vampire Survivors, в котором твой герой со временем становится только слабее. Отбивайся от бесчисленных врагов и узнай, сколько проклятий ты вынесешь, прежде чем падёшь перед противниками.',
-        vacationOfFusionParagraph: 'Добродушная игра, в которой ты строишь свой остров, смешивая природные элементы. В игре милая мультяшная графика, творческий режим, и функция создания селфи!',
 
-        madeWithCtjs: 'Сделано с ct.js',
+        madeWithCtjs: 'Сделано в ct.js',
         submitYourGame: 'Отправь свою игру!',
 
-        everythingYouNeedHeader: 'В ct.js есть всё, что нужно для создания игры',
         essentials: {
             roomEditor: 'Редактор уровней с поддержкой тайлов (плиток)',
             codeEditor: 'Интегрированный редактор кода с подсветкой ошибок',
@@ -484,15 +445,8 @@ const voc = {
 
         gamesOfAnyGenre: '创造任何类型的游戏',
         gamesOfAnyGenreSub: '射击游戏, 街机游戏, 冒险游戏, 生存游戏, 解谜游戏, 视觉小说 — 你来定义!',
-        stormCrossParagraph: '一个小型风格化的冒险与人工智能驱动的海战, 暴力的环境和少许的谜题部分. 加入航程, 以拯救殖民地从一种致命的疾病!',
-        amongTheWolvesParagraph: '一个森林, 一个湖泊, 一个孤独的幸存者, 还有黑暗中的怪物. 这款游戏是一款"一维"生存游戏, 拥有昼夜循环, 成长机制和野生森林.',
-        welcomeToTheVOIDParagraph: '一个关于重启宇宙的故事. 在无尽的黑暗宇宙中畅游, 参与太空战斗, 登陆行星进行探险任务, 探索失落的科技.',
-        illFatedParagraph: '这是一款吸血鬼-幸存者风格的射击游戏, 你的角色只会随着时间的推移而变得越来越弱. 抵挡无尽的怪物, 看看在你屈服于敌人之前你能得到多少诅咒.',
-        vacationOfFusionParagraph: '这是一款轻松的岛屿建造游戏, 你可以混合各种元素来创造新的贴图. 具有创意模式, 卡通图形和自拍模式!',
-
         madeWithCtjs: '使用 ct.js 创造',
 
-        everythingYouNeedHeader: 'ct.js 拥有制作游戏所需的一切',
         essentials: {
             roomEditor: '具有贴图支持的房间/关卡编辑器',
             codeEditor: '具有错误处理功能的集成代码编辑器',
@@ -542,7 +496,7 @@ const voc = {
         jsDesc: 'JavaScriptはWebの言語であり、オプションでTypeScriptの機能を使うことで、強力なコーディングツールを利用できます。',
         coffeeDesc: '簡潔で初心者に優しい構文のPythonのような言語です。',
         catnipDesc: 'Scratchに似ている、より優れたct.js専用のビジュアルプログラミング言語です。',
-        
+
         smoothWorkflowHeader: '使いやすいワークフロー',
         smoothWorkflowParagraph: '使いにくいツールは生産性を低下させます。ct.jsは開発を邪魔する敵ではなく、ゲームを作るための筆のようにデザインされています。',
         beginnerFriendlyHeader: '初心者にも優しい',
@@ -553,16 +507,10 @@ const voc = {
 
         gamesOfAnyGenre: 'あらゆるジャンルのゲームを作成できます',
         gamesOfAnyGenreSub: 'シューター、アーケード、アドベンチャー、サバイバル、パズル、ビジュアルノベルなど、何でも！',
-        stormCrossParagraph: 'AIによる海戦、厳しい環境、少しのパズルがある小規模なアドベンチャー。最悪の病からコロニーを救うため、航海に出よう！',
-        amongTheWolvesParagraph: '森、湖、孤独な生存者、そして暗闇の中の怪物たち。このゲームは、日夜サイクル、成長システム、生き生きとした森を備えた「1次元」のサバイバルゲームです。',
-        welcomeToTheVOIDParagraph: '宇宙の再起動を描いた物語です。果てしない暗黒の宇宙を泳ぎ、宇宙戦闘に従事し、惑星に着陸して探検ミッションを行い、失われた技術を探索しましょう。',
-        illFatedParagraph: '時間とともにキャラクターが弱くなっていく、ヴァンパイアサバイバー風のシューティングゲーム。無尽蔵にわいてくる怪物から身を守り、どれだけの呪いに耐えられるか挑戦しよう。',
-        vacationOfFusionParagraph: 'リラックスできる島づくりゲームで、様々な要素をミックスして新しいテクスチャを作ることができます。創造的なモード、漫画的なグラフィックと自撮りモードがあります。',
 
         madeWithCtjs: 'ct.jsで製作',
         submitYourGame: '自分の作品を投稿する！',
 
-        everythingYouNeedHeader: 'ct.jsには、ゲーム作りで必要なものがすべて揃っています',
         essentials: {
             roomEditor: 'テクスチャ対応のルーム/レベルエディタ',
             codeEditor: 'エラー対処機能を備えた統合コードエディタ',
