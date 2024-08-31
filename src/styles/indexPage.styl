@@ -652,7 +652,7 @@ random(a,b)
 
 #content
 
-#demos
+#games
     h2
         font-size 4rem
     .hSub
@@ -660,11 +660,24 @@ random(a,b)
     .wideinner
         margin-top 2rem
         margin-bottom 2rem
+.aGameList
+    display flex
+    flex-flow row wrap
+    gap 1rem 2rem
+    align-items center
+    justify-content center
 .aGame
-    h4
-        font-size 2rem
-        font-weight 600
+    flex 0 1 20rem
     text-align center
+    h4
+        font-size 1.5rem
+        font-weight 600
+        lihe-height 1.5em
+    &:hover
+        button, .button
+            opacity 1
+        .aGameMedia img
+            opacity 0.65
 .aGameMedia
     {borderShad}
     position relative
@@ -675,8 +688,3 @@ random(a,b)
         {trans}
     .aGameButton
         @extends .aCardButton
-    &:hover
-        button, .button
-            opacity 1
-        img
-            opacity 0.65

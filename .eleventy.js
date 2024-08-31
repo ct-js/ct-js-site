@@ -25,10 +25,14 @@ module.exports = function(eleventyConfig) {
     eleventyConfig.addPassthroughCopy('src/releaseHelper/*.meat');
     eleventyConfig.addPassthroughCopy('src/releaseHelper/boneyard.browser.min.js');
 
+    // Expose data managed by Decap CMS to Eleventy templates
+    eleventyConfig.addGlobalData('home', require('./src/staticApis/ctHome.json'));
+
     eleventyConfig.addFilter("markdown", (content) => {
         return md.render(content);
     });
 
+    // Expose eleventy filters to Pug
     // @see my https://github.com/11ty/eleventy/issues/1523#issuecomment-733412641
     global.filters = eleventyConfig.javascriptFunctions;
     eleventyConfig.setPugOptions({
