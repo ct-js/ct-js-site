@@ -4,13 +4,16 @@ borderShad =
     box-shadow -0.5rem 0.5rem 1.5rem rgba(0, 0, 0, 0.3)
 
 #intro
-    background act url("/img/Circles.svg") 250% 10% / 90% no-repeat
-    background act url("/img/Circles.svg") 250% calc(50% - 50vh) / 90% no-repeat
+    background act url("/img/Circles.svg") 250% 10% no-repeat / 90%
+    // position the background center-ish vertically (it's half-size on each dimention is 75% of screen's width)
+    // and center horizontally at roughly 2/3rds
+    background act url("/img/Circles.svg") -8vw calc(50vh - 75vw) / 150vw no-repeat
     position relative
     overflow hidden
     padding 0 1rem 11%
     @media (max-width 1400px)
-        background-position center bottom
+        background-position center 20%
+        background-position center 33vw
     h1 em
         display block
         font-size 7.2rem
@@ -22,9 +25,12 @@ borderShad =
     h1
         font-size 3rem
         font-size 2.5vw
-        line-height 1.5em
+        line-height 1.25em
         @media (max-width 1400px)
             font-size 1.5rem
+        span
+            display block
+            margin-top 0.125em
     p.big
         font-size 1.5rem
         font-size 1.25vw
@@ -69,8 +75,8 @@ borderShad =
     .wideinner
         display flex
         align-items flex-start
-        padding 0 5%
-        padding 0 calc(5.2% - 1rem)
+        padding 0 5% 5rem
+        padding 0 calc(5.2% - 1rem) 5rem
         @media (max-width 1400px)
             flex-flow column wrap
 
@@ -99,9 +105,13 @@ borderShad =
 #theIllustration
     perspective 67vw
     perspective-origin 17% center
+    @media (min-width 1399px)
+        height 100vh
+        display flex
+        align-items center
     [lang="ar"] &
         perspective-origin 83% center
-    margin 14rem 0
+    margin 0
     padding 0 7% 0
     padding-inline-start 3%
     position relative
@@ -111,14 +121,22 @@ borderShad =
         perspective-origin center center
 
 #thePunchText
-    margin 10rem 0 20rem
+    align-self center
+    padding 0
     @media (max-width 1400px)
         margin 6rem 0 1rem
         text-align center
+        p
+            max-width 65ch
+            margin-left auto
+            margin-right auto
 
 #theLittlePlanet, #theBiggerPlanet, #theRocket, #theHammerCat, #theGamepadCat
     filter drop-shadow(-50px 50px 25px rgba(0, 0, 0, 0.3))
+    @media (max-width 1400px)
+        filter drop-shadow(-20px 20px 15px rgba(0, 0, 0, 0.3))
     position absolute
+    pointer-events none
 
 #theHomepageScreenshot
     border-radius 0.5rem
@@ -153,9 +171,12 @@ borderShad =
         transform rotate3d(0.5, 1, 0, -3deg)
 
 #theGamepadCat
-    bottom -3.5%
-    bottom -5vh
-    width 70vw
+    width 70%
+    bottom -15%
+    @media (min-width 1399px)
+        height 60%
+        width unset
+        max-width unset
     right 3rem
     [lang="ar"] &
         right unset
@@ -163,19 +184,23 @@ borderShad =
 
 #theHammerCat
     left 25%
-    bottom 19rem
+    bottom 7%
     width 12%
     @media (max-width 1400px)
         bottom 3%
-        left 5%
     [lang="ar"] &
         left 3%
 
 #theRocket
-    width 25vw
+    pointer-events none
+    width 25%
+    left 33%
+    bottom 67%
     [lang="ar"] &
-        left 80%
-    top -26%
+        right 33%
+        left unset
+    @media (max-width 1400px)
+        display none
 
 #theLittlePlanet
     top 5%
@@ -188,8 +213,8 @@ borderShad =
 
 #theBiggerPlanet
     left 8vw
-    bottom 8%
-    width 15vw
+    bottom 2%
+    width 12.5%
     transform rotate(15deg)
     [lang="ar"] &
         left unset

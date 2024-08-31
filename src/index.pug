@@ -9,8 +9,8 @@ block body
     - var nDownload = site.links && site.links.download || '/download'
     section.intro#intro.blue.gradient
         .wideinner.flexrow.relative
-            .c4.breakon1400.np#thePunchText
-                h1.nm
+            .c4.breakon1400#thePunchText
+                h1.nmt
                     em=i18n.homepage[site.locale].meetCtjs
                     span=i18n.homepage[site.locale].yourNewEditor
                 p.big.nmt=i18n.homepage[site.locale].punchline
@@ -18,8 +18,8 @@ block body
                 include /homepageDownload.pug
             img(src="/img/Planet.svg")#theLittlePlanet
             img(src="/img/Planet.svg")#theBiggerPlanet
+            img(src="/img/Rocket.svg" style="animation-delay: -3s;")#theRocket.floating
             .c8.breakon1400#theIllustration
-                img(src="/img/Rocket.svg" style="animation-delay: -3s;")#theRocket.floating
                 img(src="/img/HomepageScreenshot.png")#theHomepageScreenshot
             img(src="/img/HammerCat.svg" style="animation-delay: -1.2s;")#theHammerCat.floating
             img(src="/img/GamepadCat.svg")#theGamepadCat.floating
