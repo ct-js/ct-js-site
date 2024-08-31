@@ -59,14 +59,15 @@ body
     padding 0.2em 0.3em !important
     line-height 1 !important
 
-@keyframes floating
-    0%, 100%
-        transform translate(0, 1%)
-    50%
-        transform translate(0, -1%)
-.floating
-    animation floating ease 5s infinite
-    will-change transform
+@media (prefers-reduced-motion: no-preference)
+    @keyframes floating
+            0%, 100%
+                transform translate(0, 1%)
+            50%
+                transform translate(0, -1%)
+        .floating
+            animation floating ease 5s infinite
+            will-change transform
 
 dt + dd
     margin-top 1rem

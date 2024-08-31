@@ -1,5 +1,5 @@
 - var nDownload = site.links && site.links.download || '/download'
-a.button.nml(href=nDownload)
+a.button.nml.nmr(href=nDownload)
     svg.feather
         use(xlink:href="/icons.svg#download")
     span=`${i18n.homepage[site.locale].download} ${downloads.version}`

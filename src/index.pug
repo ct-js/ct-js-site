@@ -2,10 +2,13 @@ extends pugTemplates/basic.pug
 block head
     title=i18n.homepage[site.locale].pageTitle
     meta(name="description" content=i18n.homepage[site.locale].pageDescription)
+    link(rel="preconnect" href="https://fonts.googleapis.com")
+    link(rel="preconnect" href="https://fonts.gstatic.com" crossorigin)
+    link(href="https://fonts.googleapis.com/css2?family=Jacquard+12&display=swap" rel="stylesheet")
 block body
     - var nDownload = site.links && site.links.download || '/download'
     section.intro#intro.blue.gradient
-        .wideinner.flexrow
+        .wideinner.flexrow.relative
             .c4.breakon1400.np#thePunchText
                 h1.nm
                     em=i18n.homepage[site.locale].meetCtjs
@@ -21,8 +24,100 @@ block body
             img(src="/img/HammerCat.svg" style="animation-delay: -1.2s;")#theHammerCat.floating
             img(src="/img/GamepadCat.svg")#theGamepadCat.floating
             .clear
-        svg.icon.aScrollDownIcon
-            use(xlink:href="/icons.svg#scrollDown")
+        #features
+            - var featuresGrid = i18n.homepage[site.locale].featuresGrid
+            .aFeaturesGrid
+                .aFeature.widecard.main.cell8
+                    h2.aMainLabel=featuresGrid.ctjsBringsExceptionalTools
+                    span.aSecondaryLabel 😙👌✨💅💪
+
+                .aFeature.squarecard.btl.cell1.animatepackage
+                    h3.aMainLabel=featuresGrid.oneClickExports
+                    span.aSecondaryLabel=featuresGrid.forWebDesktop
+                    svg.feather
+                        use(xlink:href="/icons.svg#package")
+                    svg.feather
+                        use(xlink:href="/icons.svg#unpackage")
+                .aFeature.widecard.cell2
+                    h3.aMainLabel=featuresGrid.toolsForResponsiveUI
+                    span.aSecondaryLabel=featuresGrid.adaptInterfaceToAnyScreen
+                    .aFeature-aHeartsCounter
+                        svg.feather
+                            use(xlink:href="/icons.svg#heart")
+                        svg.feather
+                            use(xlink:href="/icons.svg#heart")
+                        svg.feather
+                            use(xlink:href="/icons.svg#heart")
+                    .aFeature-Settings
+                        svg.feather
+                            use(xlink:href="/icons.svg#settings")
+                    .aFeature-aToolbar
+                        .aFeature-aHealthbar
+                            .aFeature-aHealthbarInner
+                .aFeature.bigcard.cell3
+                    video.aFeature-aPreview(src="/img/indexFeaturesGifs/codeEditors.mp4" autoplay loop muted)
+                    h3.aMainLabel=featuresGrid.codeEditorWithErrorChecks
+                    span.aSecondaryLabel=featuresGrid.vsCodeLikeCodeEditor
+                .aFeature.squarecard.btr.cell4
+                    h3.aMainLabel=featuresGrid.dynamicSoundSystem
+                    span.aSecondaryLabel=featuresGrid.randomizeVolumePitch
+                    svg(xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24").feather.animatevolume
+                        polygon(points="11 5 6 9 2 9 2 15 6 15 11 19 11 5")
+                        path(d="M15.54 8.46a5 5 0 0 1 0 7.07")
+                        path(d="M19.07 4.93a10 10 0 0 1 0 14.14")
+                .aFeature.bigcard.cell5
+                    video.aFeature-aPreview(src="/img/indexFeaturesGifs/levelEditor.mp4" autoplay loop muted)
+                    h3.aMainLabel=featuresGrid.satisfyingToUseLevelEditor
+                    span.aSecondaryLabel=featuresGrid.tileEditorBrushLikeObjectPlacement
+                .aFeature.smallcard.cell6
+                    h3.aMainLabel=featuresGrid.pixelartRender
+                    span.aSecondaryLabel=featuresGrid.enabledOneClick
+                    img.knights(src="/img/indexFeaturesGifs/knights.gif")
+                .aFeature.smallcard.cell7
+                    h3.aMainLabel.jacquard=featuresGrid.bitmapFonts
+                    span.aSecondaryLabel=featuresGrid.crispPerformantFonts
+                    svg.feather
+                        use(xlink:href="/icons.svg#bitmap-font")
+                .aFeature.bigcard.cell9
+                    video.aFeature-aPreview(src="/img/indexFeaturesGifs/particleSystems.mp4" autoplay loop muted)
+                    h3.aMainLabel=featuresGrid.visualParticleSystemEditor
+                    span.aSecondaryLabel=featuresGrid.layerEmittersComplexEffects
+                .aFeature.smallcard.cell10
+                    h3.aMainLabel=featuresGrid.whiteLabelling
+                    span.aSecondaryLabel=featuresGrid.brandYourAppHideCtjsLogo
+                    svg.feather
+                        use(xlink:href="/icons.svg#droplet")
+                .aFeature.bigcard.cell11
+                    video.aFeature-aPreview(src="/img/indexFeaturesGifs/behaviors.mp4" autoplay loop muted)
+                    h3.aMainLabel=featuresGrid.behaviorsAndContentSystem
+                    span.aSecondaryLabel=featuresGrid.composeGameplayLogic
+                .aFeature.squarecard.cell12
+                    h3.aMainLabel=featuresGrid.bundledInEditorDocs
+                    span.aSecondaryLabel=featuresGrid.alwaysAvailableSidebar
+                    svg.feather
+                        use(xlink:href="/icons.svg#book-open")
+                .aFeature.squarecard.bbl.cell13
+                    h3.aMainLabel=featuresGrid.uiElements
+                    span.aSecondaryLabel=featuresGrid.crossPlatformButtonsPanels
+                    svg.feather
+                        use(xlink:href="/icons.svg#ui")
+                .aFeature.smallcard.cell14
+                    h3.aMainLabel=featuresGrid.richDebugger
+                    span.aSecondaryLabel=featuresGrid.pauseNavigateAround
+                    svg.feather
+                        use(xlink:href="/icons.svg#bug")
+                .aFeature.squarecard.bbr.cell15
+                    h3.aMainLabel=featuresGrid.extendableModdable
+                    span.aSecondaryLabel=featuresGrid.addCustomJavaScript
+                    svg.feather
+                        use(xlink:href="/icons.svg#module")
+                .aFeature.wiiidecard.cell16
+                    h3.aMainLabel=featuresGrid.flexibleInputActionsSystem
+                    span.aSecondaryLabel=featuresGrid.oneLineCode
+                    svg.feather
+                        use(xlink:href="/icons.svg#gamepad")
+            .center
+                include /homepageDownload.pug
     section#languages.npt
         .wideinner
             .center
@@ -210,39 +305,6 @@ block body
                         svg.feather
                             use(xlink:href=`/icons.svg#send`)
                         span=i18n.homepage[site.locale].submitYourGame
-    section#essencials
-        .inner
-            h2.center.nmt=i18n.homepage[site.locale].everythingYouNeedHeader
-            -
-                var essencials = {
-                    'room-editor': i18n.homepage[site.locale].essentials.roomEditor,
-                    'error-handling': i18n.homepage[site.locale].essentials.codeEditor,
-                    'collision': i18n.homepage[site.locale].essentials.collisionHandling,
-                    'film': i18n.homepage[site.locale].essentials.animations,
-                    'music': i18n.homepage[site.locale].essentials.sounds,
-                    'sparkles': i18n.homepage[site.locale].essentials.fx,
-                    'book-open': i18n.homepage[site.locale].essentials.docs,
-                    'code': i18n.homepage[site.locale].essentials.customJS,
-                    'package': i18n.homepage[site.locale].essentials.easyPacking
-                }
-            .anEssencialsList
-                - var i = 0;
-                each val, key in essencials
-                    .anEssencial.c4.breakon960.centeron960
-                        svg.feather
-                            use(xlink:href=`/icons.svg#${key}`)
-                        p.breakon960= val
-                    - i++;
-                    if (i % 3 === 0 && i !== 0)
-                        .clear
-                .clear
-            .center
-                - var nAllFeatures = site.links && site.links.allFeatures || '/presskit#features'
-                a.button.big(href=nAllFeatures)
-                    svg.feather
-                        use(xlink:href=`/icons.svg#sparkles`)
-                    span=i18n.homepage[site.locale].allFeatures
-    include /joinGamedev.pug
     include /partnersSection.pug
     section#patrons.center.blue.gradient.waves
         include /patrons.pug
@@ -266,7 +328,8 @@ block body
                         span=i18n.homepage[site.locale].devlog.readMore
             p(dir=(site.locale === 'ar' ? 'rtl' : 'ltr') lang=site.locale)
                 a(href="https://comigo.itch.io/ct/devlog")=i18n.homepage[site.locale].devlog.morePosts
-    section.grey#share
+    include /joinGamedev.pug
+    section.white#share
         include /shareBlock.pug
     script(src="https://identity.netlify.com/v1/netlify-identity-widget.js")
     script.

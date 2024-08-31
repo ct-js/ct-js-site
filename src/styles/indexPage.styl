@@ -4,10 +4,11 @@ borderShad =
     box-shadow -0.5rem 0.5rem 1.5rem rgba(0, 0, 0, 0.3)
 
 #intro
-    background #4367D7 url("/img/Circles.svg") 250% 50% / 90% no-repeat
+    background act url("/img/Circles.svg") 250% 10% / 90% no-repeat
+    background act url("/img/Circles.svg") 250% calc(50% - 50vh) / 90% no-repeat
     position relative
     overflow hidden
-    padding 0 1rem 9%
+    padding 0 1rem 11%
     @media (max-width 1400px)
         background-position center bottom
     h1 em
@@ -124,15 +125,16 @@ borderShad =
     border 0.25rem white solid
     transform translate(-5%, 0) rotate3d(0, 1, 0, -30deg)
     box-shadow -50px 50px 75px rgba(0, 0, 0, 0.3)
-    animation homepageFloat cubic-bezier(0.3, 0, 0.7, 1) 7s infinite
-    will-change transform
-    @media (max-width 1400px)
-        transform rotate3d(0, 1, 0, 0)
-        animation homepageFloatAlt cubic-bezier(0.3, 0, 0.7, 1) 7s infinite
-    [lang="ar"] &
-        animation homepageFloatFlipped cubic-bezier(0.3, 0, 0.7, 1) 7s infinite
+    @media (prefers-reduced-motion: no-preference)
+        animation homepageFloat cubic-bezier(0.3, 0, 0.7, 1) 7s infinite
+        will-change transform
         @media (max-width 1400px)
+            transform rotate3d(0, 1, 0, 0)
             animation homepageFloatAlt cubic-bezier(0.3, 0, 0.7, 1) 7s infinite
+        [lang="ar"] &
+            animation homepageFloatFlipped cubic-bezier(0.3, 0, 0.7, 1) 7s infinite
+            @media (max-width 1400px)
+                animation homepageFloatAlt cubic-bezier(0.3, 0, 0.7, 1) 7s infinite
 
 @keyframes homepageFloat
     0%, 100%
@@ -151,7 +153,8 @@ borderShad =
         transform rotate3d(0.5, 1, 0, -3deg)
 
 #theGamepadCat
-    bottom -1%
+    bottom -3.5%
+    bottom -5vh
     width 70vw
     right 3rem
     [lang="ar"] &
@@ -163,7 +166,8 @@ borderShad =
     bottom 19rem
     width 12%
     @media (max-width 1400px)
-        bottom 8%
+        bottom 3%
+        left 5%
     [lang="ar"] &
         left 3%
 
@@ -208,6 +212,17 @@ borderShad =
     width 0
     overflow visible
     {trans}
+    @media (prefers-reduced-motion: no-preference)
+        animation languageFloat 5s ease infinite
+        @keyframes languageFloat
+            0%, 100%
+                transform translateY(0rem)
+            50%
+                transform translateY(-2rem)
+        &:nth-child(2)
+            animation-delay -4.67s
+        &:nth-child(3)
+            animation-delay -4.33s
     h3
         position relative
         top 3.5rem
@@ -232,76 +247,411 @@ borderShad =
             {transshort}
             box-shadow -0.5rem 0.25rem 0.35rem rgba(0, 0, 0, 0.15)
             transform translateX(0.5rem)
-    .aLanguageList:hover & .aLanguageInner
-        transform rotateY(45deg) translateX(-30%)
-        .command .command
-            box-shadow -1rem 0.2rem 0.35rem rgba(0, 0, 0, 0.15)
-            transform translateX(1rem)
-    .aLanguageList &:hover
-        width 0
-        flex 1 1 35rem
-        @media (max-width 1000px)
-            flex 1 1 30rem
-        @media (max-width 640px)
-            z-index 10
-            positon relative
-            flex 1 1 25rem
-        .aLanguageInner
-            transform rotateY(10deg) translateX(0)
+    @media (prefers-reduced-motion: no-preference)
+        .aLanguageList:hover & .aLanguageInner
+            transform rotateY(45deg) translateX(-30%)
             .command .command
-                box-shadow -0.05rem 0.35rem 0.35rem rgba(0, 0, 0, 0.15)
-                transform translateX(0)
+                box-shadow -1rem 0.2rem 0.35rem rgba(0, 0, 0, 0.15)
+                transform translateX(1rem)
+        .aLanguageList &:hover
+            width 0
+            flex 1 1 35rem
+            @media (max-width 1000px)
+                flex 1 1 30rem
+            @media (max-width 640px)
+                z-index 10
+                positon relative
+                flex 1 1 25rem
+            .aLanguageInner
+                transform rotateY(10deg) translateX(0)
+                .command .command
+                    box-shadow -0.05rem 0.35rem 0.35rem rgba(0, 0, 0, 0.15)
+                    transform translateX(0)
+            .hSub
+                opacity 1
+            h3
+                top 0
+    @media (prefers-reduced-motion)
         .hSub
             opacity 1
+            width 75%
+            margin 0 auto
         h3
             top 0
 
-.aFeatureList
-    padding 2rem 0
-    img, video, embed, iframe
-        {borderShad}
-.aFeature
-    padding 1rem 2rem
-    margin 0 0 1rem
-    margin-inline-start 2rem
-    position relative
-    cursor pointer
-    border-radius 0.2rem 0.5rem 0.5rem 0.2rem
-    {trans}
-    font-size 1.25rem
-    font-size 1vw
-    line-height 1.5em
-    border-width 0.1em
-    @media (max-width 1400px)
-        font-size 1rem
-        margin 0 0 1rem 0
-    &:hover
-        box-shadow -0.5rem 0.5rem 1.5rem rgba(0, 0, 0, 0.3)
-    h3
-        font-size 300%
-        line-height 1em
-        font-weight 100
+#features
+    perspective 100vh
+.aFeaturesGrid
+    color white
+    background white
+    margin 2rem auto
+    // Default layout is tablet layout, it assumes potato PCs that don't support grid
+    display flex
+    flex-flow row wrap
+    .aFeature
+        flex 1 1 30rem
+        &.aFeature.aFeature // artifitially increase priority for this rule
+            border-radius 0.5rem
+        &.main
+            order -1
+            flex-basis 100%
+            text-align center
+            padding-right 1rem
+    box-shadow 0rem 1rem 1.5rem rgba(0, 0, 0, 0.3)
+    padding 0.5rem
+    border-radius 1rem
+    gap 0.5rem
+
+    // Grid layout for 1440+
+    @media (min-width 1399px)
+        .aFeature.main
+            grid-column 3/5
+            grid-row 4/6
+        border-radius 2rem
+        height 90vh
+        max-width 150vh
+        display grid
+        transform rotateX(5deg) translateY(-5vh)
+        @media (prefers-reduced-motion: no-preference)
+            animation gridFloat 10s cubic-bezier(.45,.05,.55,.95) infinite
+            @keyframes gridFloat
+                0%, 100%
+                    transform rotateX(8deg) rotateY(0deg) translateY(-5vh)
+                25%
+                    transform rotateX(5deg) rotateY(2deg) translateY(-5vh)
+                50%
+                    transform rotateX(2deg) rotateY(0deg) translateY(-5vh)
+                75%
+                    transform rotateX(5deg) rotateY(-2deg) translateY(-5vh)
+        grid-gap 0.5rem
+        grid-template-columns 1fr 1fr 1fr 1fr 1fr 1fr
+        grid-template-rows 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr
+        {trans}
+        @media (prefers-reduced-motion: no-preference)
+            will-change grid-template-columns, grid-template-rows, transform
+            // 🍝 🍝 🍝 🍝 🍝 🍝 🍝 🍝 🍝 🍝 🍝 🍝 🍝 🍝 🍝 🍝 😙👌
+            &:has(.cell1:hover)
+                grid-template-columns 1.5fr 1fr 1fr 1fr 1fr 1fr
+                grid-template-rows 1.5fr 1.5fr 1fr 1fr 1fr 1fr 1fr 1fr
+            &:has(.cell2:hover)
+                grid-template-columns 1fr 1.5fr 1.5fr 1fr 1fr 1fr
+                grid-template-rows 1.5fr 1.5fr 1fr 1fr 1fr 1fr 1fr 1fr
+            &:has(.cell3:hover)
+                grid-template-columns 1fr 1fr 1fr 1.5fr 1.5fr 1fr
+                grid-template-rows 1.5fr 1.5fr 1fr 1fr 1fr 1fr 1fr 1fr
+            &:has(.cell4:hover)
+                grid-template-columns 1fr 1fr 1fr 1fr 1fr 1.5fr
+                grid-template-rows 1.5fr 1.5fr 1fr 1fr 1fr 1fr 1fr 1fr
+            &:has(.cell5:hover)
+                grid-template-columns 1.5fr 1.5fr 1fr 1fr 1fr 1fr
+                grid-template-rows 1fr 1fr 1.5fr 1.5fr 1.5fr 1fr 1fr 1fr
+            &:has(.cell6:hover)
+                grid-template-columns 1fr 1fr 1.5fr 1fr 1fr 1fr
+                grid-template-rows 1fr 1fr 1.5fr 1fr 1fr 1fr 1fr 1fr
+            &:has(.cell7:hover)
+                grid-template-columns 1fr 1fr 1fr 1fr 1fr 1.5fr
+                grid-template-rows 1fr 1fr 1.5fr 1fr 1fr 1fr 1fr 1fr
+            &:has(.cell8:hover)
+                grid-template-columns 1fr 1fr 1.5fr 1.5fr 1fr 1fr
+                grid-template-rows 1fr 1fr 1fr 1.5fr 1.5fr 1fr 1fr 1fr
+            &:has(.cell9:hover)
+                grid-template-columns 1fr 1fr 1fr 1fr 1.5fr 1.5fr
+                grid-template-rows 1fr 1fr 1fr 1.5fr 1.5fr 1.5fr 1fr 1fr
+            &:has(.cell10:hover)
+                grid-template-columns 1.5fr 1fr 1fr 1fr 1fr 1fr
+                grid-template-rows 1fr 1fr 1fr 1fr 1fr 1.5fr 1fr 1fr
+            &:has(.cell11:hover)
+                grid-template-columns 1fr 1.5fr 1.5fr 1fr 1fr 1fr
+                grid-template-rows 1fr 1fr 1fr 1fr 1fr 1.5fr 1.5fr 1.5fr
+            &:has(.cell12:hover)
+                grid-template-columns 1fr 1fr 1fr 1.5fr 1fr 1fr
+                grid-template-rows 1fr 1fr 1fr 1fr 1fr 1.5fr 1.5fr 1fr
+            &:has(.cell13:hover)
+                grid-template-columns 1.5fr 1fr 1fr 1fr 1fr 1fr
+                grid-template-rows 1fr 1fr 1fr 1fr 1fr 1fr 1.5fr 1.5fr
+            &:has(.cell14:hover)
+                grid-template-columns 1fr 1fr 1fr 1fr 1.5fr 1fr
+                grid-template-rows 1fr 1fr 1fr 1fr 1fr 1fr 1.5fr 1fr
+            &:has(.cell15:hover)
+                grid-template-columns 1fr 1fr 1fr 1fr 1fr 1.5fr
+                grid-template-rows 1fr 1fr 1fr 1fr 1fr 1fr 1.5fr 1.5fr
+            &:has(.cell16:hover)
+                grid-template-columns 1fr 1fr 1fr 1.5fr 1.5fr 1fr
+                grid-template-rows 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1.5fr
+    h2
+        color white
+        font-size 125%
+        line-height 150%
         margin 0
-        padding 0
-    &.active
-        border-left 4px solid accent1
-    p
-        &:last-child
-            padding-bottom 0
-            margin-bottom 0
-.aFeature-aPlaybackThumb
-    position absolute
-    top 0
-    left -2px
-    border-radius 100%
-    width 1rem
-    height 1rem
-    background accent1
-    transform translate(-50%, -50%)
-    transition 0.5s linear top
-    display none
-    .aFeature.active &
+    .aFeature
+        &.btl
+            border-top-left-radius 1.5rem
+        &.btr
+            border-top-right-radius 1.5rem
+        &.bbl
+            border-bottom-left-radius 1.5rem
+        &.bbr
+            border-bottom-right-radius 1.5rem
+    .squarecard
+        grid-column span 1
+        grid-row span 2
+    .bigcard
+        grid-column span 2
+        grid-row span 3
+    .widecard
+        grid-column span 2
+        grid-row span 2
+    .wiiidecard
+        grid-column span 2
+
+random(a,b)
+    return math(math(0, 'random')*(b - a + 1) + a, 'floor')
+
+.aFeature
+    display flex
+    flex-flow column nowrap
+    justify-content center
+    text-align left
+    padding 1rem 1.5rem
+    padding-right 7rem
+    &.bigcard
+        padding-right 1rem
+    box-sizing border-box
+    border-radius 0.33rem
+    background linear-gradient(to bottom right, act, accent1)
+    for i in (1..16)
+        hueShift = random(-40, 30)
+        &.cell{i}
+            background linear-gradient(to bottom right, spin(act, hueShift), spin(accent1, hueShift))
+    position relative
+    overflow hidden
+    {trans}
+    will-change font-size, box-shadow
+    .aMainLabel
+        margin 0
+        font-size 1.5rem
+    h2.aMainLabel
+        font-size 2rem
+    h2, h3, span
+        position relative
+        z-index 5
+    & > svg, img
+        position absolute
+        top 50%
+        transform translate(50%, -50%)
+        right 3.5rem
+        width 5rem
+        height @width
+        opacity 0.35
+        pointer-events none
+        stroke-width 1.5px
+        @media (min-width 1399px)
+            transform translate(-50%, -50%)
+            left 50%
+    & > .knights
+        width 6rem
+        height unset
+        image-rendering pixelated
+    @media (min-width 1399px)
+        & > .knights
+            width 8vw
+        & > svg, img
+            width 5vw
+            height @width
+        &.smallcard, &.wiiidecardcard
+            & > svg
+                width 4vw
+                height @width
+
+    // Grid layout
+    @media (min-width 1399px)
+        .aMainLabel
+            font-size 100%
+        align-items center
+        text-align center
+        font-size 1vw
+        line-height 150%
+        padding 1rem
+        @media (prefers-reduced-motion: no-preference)
+            &:hover
+                font-size 1.3vw
+        .aSecondaryLabel
+            font-size 75%
+            margin-top 0.35em
+            line-height 133%
+            {trans}
+        &.smallcard .aSecondaryLabel
+            font-size 66%
+        h2 + .aSecondaryLabel
+            font-size 125%
+    @media (prefers-reduced-motion: no-preference) and (min-width 1399px)
+        .aSecondaryLabel
+            line-height 0%
+            opacity 0
+            font-size 75%
+        &:hover .aSecondaryLabel
+            margin-top 0.35em
+            opacity 1
+            line-height 133%
+
+    // Animated icons
+    &-aHeartsCounter
+        position absolute
+        left 0.5rem
+        top 0.5rem
+        opacity 0.35
+    &-Settings
+        position absolute
+        right 0.5rem
+        top 0.5rem
+        opacity 0.35
+    &-aToolbar
+        position absolute
+        left 25%
+        right @left
+        height 1em
+        bottom 0
+        border 2px solid white
+        border-bottom 0
+        border-radius 1em 1em 0 0
+        opacity 0.35
+        padding 0.25em 0.5em
+    &-aHealthbar
+        width 100%
+        border 2px solid white
+        border-radius 0.5em
+        height 100%
+        box-sizing border-box
+        overflow hidden
+    &-aHealthbarInner
+        width 79%
+        background white
+        height 100%
+    &-aPreview
+        position absolute
+        left 50%
+        top 50%
+        opacity 0.75
+        min-width 100%
+        min-height 100%
+        transform translate(-50%, -50%)
+        object-fit cover
+        aspect-ratio 16 / 9
+        width 100%
+        height 100%
+@media (prefers-reduced-motion: no-preference)
+    .aFeature.main
+        background act
+        &:before, &:after
+            content ''
+            display block
+            position absolute
+            z-index 1
+            left 50%
+            top 50%
+            transform translate(-50%, -50%)
+            width 100%
+            height 0
+            padding-bottom 100%
+            background radial-gradient(circle at center, transparent, act, accent1, darken(accent1, 3%), darken(accent1, 10%))
+            border-radius 100%
+            animation backgroundPulse 3s infinite linear
+        &:after
+            animation-delay -2s
+        @keyframes backgroundPulse
+            0%
+                transform translate(-50%, -50%) scale(0.1)
+                opacity 0
+            35%
+                opacity 1
+            65%
+                opacity 1
+            100%
+                transform translate(-50%, -50%) scale(1.5)
+                opacity 0
+
+.jacquard
+    font-family "Jacquard 12", fonts
+    font-size 32px
+    line-height 0.8em
+    @media (prefers-reduced-motion: no-preference) and (min-width 1399px)
+        .aFeature:hover &
+            font-size 48px
+    font-weight 400
+    font-style normal
+    {trans}
+    span
+        position absolute
         display block
+        left 50%
+        top 50%
+        text-align center
+        width 7em // no jumping
+        display block
+        transform translate(-50%, -50%)
+
+@media (prefers-reduced-motion: no-preference)
+    .aFeature
+        .animatevolume
+            path:nth-child(2)
+                animation 1s fadeInOut infinite
+            path:nth-child(3)
+                animation 1s 0.2s fadeInOut infinite
+            polygon
+                animation 3s -0.3s squishSquash cubic-bezier(1,-0.01,.57,2.01) infinite
+                transform-origin 25% center
+            @keyframes fadeInOut
+                0%, 100%
+                    opacity 1
+                50%
+                    opacity 0
+            @keyframes squishSquash
+                0%, 100%
+                    transform scale(1, 1)
+                33.3%
+                    transform scale(0.85, 1.15)
+                66.7%
+                    transform scale(1.15, 0.85)
+        &.animatepackage
+            svg
+                animation 6s packageRight ease infinite
+                transform-origin center center
+            svg:last-child
+                animation 6s -3s packageRight ease infinite
+                transform-origin center center
+            @keyframes packageRight
+                0%, 100%
+                    transform translate(50%, -50%) scale(0)
+                10%, 40%
+                    transform translate(50%, -50%) scale(1)
+                45%
+                    transform translate(50%, -50%) scale(1.2)
+                50%
+                    transform translate(50%, -50%) scale(0)
+        @media (min-width 1399px)
+            &.animatepackage
+                svg
+                    animation 6s package ease infinite
+                    transform-origin center center
+                svg:last-child
+                    animation 6s -3s package ease infinite
+                    transform-origin center center
+                @keyframes package
+                    0%, 100%
+                        transform translate(-50%, -50%) scale(0)
+                    10%, 40%
+                        transform translate(-50%, -50%) scale(1)
+                    45%
+                        transform translate(-50%, -50%) scale(1.2)
+                    50%
+                        transform translate(-50%, -50%) scale(0)
+@media (prefers-reduced-motion)
+    .aFeature
+        &.animatepackage
+            svg:last-child
+                display none
+
+#content
 
 #demos
     h2
