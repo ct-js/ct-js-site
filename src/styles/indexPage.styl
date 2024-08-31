@@ -290,8 +290,7 @@ borderShad =
     flex-flow row wrap
     .aFeature
         flex 1 1 30rem
-        &.aFeature.aFeature // artifitially increase priority for this rule
-            border-radius 0.5rem
+        border-radius 0.5rem
         &.main
             order -1
             flex-basis 100%
@@ -383,15 +382,6 @@ borderShad =
         font-size 125%
         line-height 150%
         margin 0
-    .aFeature
-        &.btl
-            border-top-left-radius 1.5rem
-        &.btr
-            border-top-right-radius 1.5rem
-        &.bbl
-            border-bottom-left-radius 1.5rem
-        &.bbr
-            border-bottom-right-radius 1.5rem
     .squarecard
         grid-column span 1
         grid-row span 2
@@ -465,6 +455,14 @@ random(a,b)
 
     // Grid layout
     @media (min-width 1399px)
+        &.btl
+            border-top-left-radius 1.5rem
+        &.btr
+            border-top-right-radius 1.5rem
+        &.bbl
+            border-bottom-left-radius 1.5rem
+        &.bbr
+            border-bottom-right-radius 1.5rem
         .aMainLabel
             font-size 100%
         align-items center
@@ -631,10 +629,11 @@ random(a,b)
         @media (min-width 1399px)
             &.animatepackage
                 svg
-                    animation 6s package ease infinite
+                    animation 6s package ease infinite !important
                     transform-origin center center
+                    left 50%
                 svg:last-child
-                    animation 6s -3s package ease infinite
+                    animation 6s -3s package ease infinite !important
                     transform-origin center center
                 @keyframes package
                     0%, 100%
