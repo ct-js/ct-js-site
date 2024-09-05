@@ -1,11 +1,11 @@
 {
   "announcement": {
-    "title": "Announcing ct.js game jam!",
-    "description": "The ct.js game jam finally returns! This jam's theme is Whiskers of time 😺 Create fun historical games that may or may not involve cats 🐈 The jam has started on August 24 and ends on 2nd of September so you get four weekends to make a fun game!",
-    "link": "https://itch.io/jam/ctjs-game-jam-",
-    "image": "/img/uploads/jamicon.png",
-    "bgImage": "/img/uploads/boostybanner2.png",
-    "linkLabel": "Learn more and participate!"
+    "title": "v5.1.0 — Enumeration asset type, asset searchbar, and QoL improvements",
+    "description": "Try out the new search bar by clicking its icon in the top-right corner of ct.js when you open your project, or call it with Ctrl+P hotkey. In a room editor, a new modifier to placing objects was added: hold both Shift and Ctrl to draw a filled rectangle of copies or tiles!",
+    "link": "https://forum.ctjs.rocks/d/131-v510-enumeration-asset-type-asset-searchbar-and-qol-improvements",
+    "image": "/img/uploads/51gif.gif",
+    "bgImage": "/img/uploads/screenshot-2024-07-28-022233.jpg",
+    "linkLabel": "Read more about the update"
   },
   "games": [
     {
