@@ -1,11 +1,11 @@
 {
   "announcement": {
-    "title": "Announcing ct.js game jam!",
-    "description": "The ct.js game jam finally returns! This jam's theme is Whiskers of time 😺 Create fun historical games that may or may not involve cats 🐈 The jam has started on August 24 and ends on 2nd of September so you get four weekends to make a fun game!",
-    "link": "https://itch.io/jam/ctjs-game-jam-",
+    "title": "Leave feedback for Ct.js Game Jam games!",
+    "description": "There are few entries this time, yet the games themselves are interesting and deserve your attention. Play the games, leave a comment and rate the entries!",
+    "link": "https://itch.io/jam/ctjs-game-jam-/entries",
     "image": "/img/uploads/jamicon.png",
     "bgImage": "/img/uploads/boostybanner2.png",
-    "linkLabel": "Learn more and participate!"
+    "linkLabel": "Give your feedback"
   },
   "games": [
     {
