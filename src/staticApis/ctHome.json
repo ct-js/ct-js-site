@@ -1,13 +1,34 @@
 {
   "announcement": {
-    "title": "Leave feedback for Ct.js Game Jam games!",
-    "description": "There are few entries this time, yet the games themselves are interesting and deserve your attention. Play the games, leave a comment and rate the entries!",
-    "link": "https://itch.io/jam/ctjs-game-jam-/entries",
-    "image": "/img/uploads/jamicon.png",
-    "bgImage": "/img/uploads/boostybanner2.png",
-    "linkLabel": "Give your feedback"
+    "title": "v5.1.0 — Enumeration asset type, asset searchbar, and QoL improvements",
+    "description": "Try out the new search bar by clicking its icon in the top-right corner of ct.js when you open your project, or call it with Ctrl+P hotkey. In a room editor, a new modifier to placing objects was added: hold both Shift and Ctrl to draw a filled rectangle of copies or tiles!",
+    "link": "https://forum.ctjs.rocks/d/131-v510-enumeration-asset-type-asset-searchbar-and-qol-improvements",
+    "image": "/img/uploads/51gif.gif",
+    "bgImage": "/img/uploads/screenshot-2024-07-28-022233.jpg",
+    "linkLabel": "Read more about the update"
   },
   "games": [
+    {
+      "author": "Metal Harbor",
+      "link": "https://metalharbor.itch.io/cleopawtra",
+      "title": "Cleopawtra",
+      "cover": "https://img.itch.zone/aW1nLzE3NjI5Njg4LnBuZw==/315x250%23c/9k9LMw.png",
+      "description": "Play as Cleopawtra and rescue your husband, Meowrc Antony. An entry to the recent ct.js jam!"
+    },
+    {
+      "cover": "https://img.itch.zone/aW1nLzE3NTkzMjgwLnBuZw==/315x250%23c/9wAKfl.png",
+      "title": "Cat-Apocalypse",
+      "author": "macro21KGB",
+      "link": "https://macro21kgb.itch.io/cat-apocalypse",
+      "description": "This game, created for the ct.js game jam, casts you as a blue cat from the future on a mission to save the dinosaurs from extinction using his deadliest weapon... yarn balls."
+    },
+    {
+      "link": "https://firecakes.itch.io/pronipbition",
+      "title": "Pronipbition",
+      "description": "You're a parched cat looking for some real drinks in the city. Explore the streets and chat with locals to find the secret location of the speakeasy in this vaguely historically inspired adventure game! An entry to the recent ct.js jam!",
+      "author": "Firecakes",
+      "cover": "/img/uploads/pronipbition.png"
+    },
     {
       "title": "Hollow Floor",
       "link": "https://store.steampowered.com/app/2815150/Hollow_Floor/",
