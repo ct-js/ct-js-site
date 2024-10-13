@@ -81,7 +81,7 @@ style.
             input(type="text" data-bindinput="version" value="${state.version || ''}" placeholder="0.0.0")
         label
             b List of contributors in Markdown format:
-            textarea(data-bindinput="contributors") ${state.changelog}
+            textarea(data-bindinput="contributors") ${state.contributors}
         label
             b Changelog:
             textarea(data-bindinput="changelog") ${state.changelog}
