@@ -9,6 +9,27 @@
   },
   "games": [
     {
+      "author": "Metal Harbor",
+      "link": "https://metalharbor.itch.io/cleopawtra",
+      "title": "Cleopawtra",
+      "cover": "https://img.itch.zone/aW1nLzE3NjI5Njg4LnBuZw==/315x250%23c/9k9LMw.png",
+      "description": "Play as Cleopawtra and rescue your husband, Meowrc Antony. An entry to the recent ct.js jam!"
+    },
+    {
+      "cover": "https://img.itch.zone/aW1nLzE3NTkzMjgwLnBuZw==/315x250%23c/9wAKfl.png",
+      "title": "Cat-Apocalypse",
+      "author": "macro21KGB",
+      "link": "https://macro21kgb.itch.io/cat-apocalypse",
+      "description": "This game, created for the ct.js game jam, casts you as a blue cat from the future on a mission to save the dinosaurs from extinction using his deadliest weapon... yarn balls."
+    },
+    {
+      "link": "https://firecakes.itch.io/pronipbition",
+      "title": "Pronipbition",
+      "description": "You're a parched cat looking for some real drinks in the city. Explore the streets and chat with locals to find the secret location of the speakeasy in this vaguely historically inspired adventure game! An entry to the recent ct.js jam!",
+      "author": "Firecakes",
+      "cover": "/img/uploads/pronipbition.png"
+    },
+    {
       "title": "Hollow Floor",
       "link": "https://store.steampowered.com/app/2815150/Hollow_Floor/",
       "author": "Ahmed Khalifa, Pete Gresser",
