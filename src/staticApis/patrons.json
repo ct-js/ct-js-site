@@ -9,14 +9,13 @@
       "name": "Leo🦁",
       "rank": "business cat",
       "image": "https://images.boosty.to/user/32100736/avatar?croped=1&mh=110&mw=110"
-    },
-    {
-      "image": "https://images.boosty.to/user/15533842/avatar?change_time=1711460240&croped=1&mh=110&mw=110",
-      "name": "Vint Prox",
-      "rank": "cat"
     }
   ],
   "Donations": [
+    {
+      "name": "Vint Prox",
+      "image": "/img/uploads/avatar.png"
+    },
     {
       "image": "https://images.boosty.to/user/8238526/avatar?change_time=1656151441&croped=1&mh=110&mw=110",
       "name": "Дмитрий Елисеев"
