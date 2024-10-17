@@ -1,11 +1,11 @@
 {
   "announcement": {
-    "title": "v5.1.0 — Enumeration asset type, asset searchbar, and QoL improvements",
-    "description": "Try out the new search bar by clicking its icon in the top-right corner of ct.js when you open your project, or call it with Ctrl+P hotkey. In a room editor, a new modifier to placing objects was added: hold both Shift and Ctrl to draw a filled rectangle of copies or tiles!",
-    "link": "https://forum.ctjs.rocks/d/131-v510-enumeration-asset-type-asset-searchbar-and-qol-improvements",
-    "image": "/img/uploads/51gif.gif",
+    "title": "v5.2.0 — Object list panel for the room editor and more",
+    "description": "UI fonts to ease dyslexia, updated translations for Chinese Simplified and Brazilian Portuguese, new u.distance and u.direction methods, and dozens of fixes and polishing touches 💅",
+    "link": "https://youtu.be/anlQyM7f2e4",
+    "image": "/img/uploads/screenshot-2024-10-18-001750.png",
     "bgImage": "/img/uploads/screenshot-2024-07-28-022233.jpg",
-    "linkLabel": "Read more about the update"
+    "linkLabel": "Watch the video"
   },
   "games": [
     {
