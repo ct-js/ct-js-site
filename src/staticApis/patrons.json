@@ -1,6 +1,11 @@
 {
   "Patrons": [
     {
+      "name": "Alan",
+      "image": "https://images.boosty.to/user/712279/avatar?change_time=1690435622&croped=1&mh=110&mw=110",
+      "rank": "cat"
+    },
+    {
       "image": "https://images.boosty.to/user/12852062/avatar?change_time=1671193037&croped=1&mh=110&mw=110",
       "name": "GAKONS",
       "rank": "cat"
