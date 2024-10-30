@@ -7,11 +7,11 @@ const voc = {
         play: 'Play',
     },
     ar: {
-        pageTitle: 'ct.js - Ct.js العاب صنعت ب',
-        pageDescription: 'محرك ألعاب ثنائي الأبعاد معتمد على تكنولوجيا الويب ،ct.js ألعاب صنعت ب',
-        madeWithCths: 'صنع ب ct.js',
-        submitProject: 'ارسل مشروعك',
-        play: 'العب',
+        pageTitle: 'ألعاب صنعت باستخدام ct.js — Ct.js',
+        pageDescription: 'ألعاب أنشئت باستخدام ct.js محرر ألعاب ثنائية الأبعاد مجاني قائم على تقنيات الويب.',
+        madeWithCths: 'صنعت باستخدام ct.js',
+        submitProject: 'إرسال مشروعك',
+        play: 'لعب',
     },
     'pt-BR': {
         pageTitle: 'Jogos feitos com ct.js — Ct.js',
