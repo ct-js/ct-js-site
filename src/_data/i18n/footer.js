@@ -22,7 +22,7 @@ const voc = {
         forkUs: 'إنشاء فرع من المشروع من على GitHub',
         joinServer: 'الانضمام إلى خادم Discord!',
         discordLink: 'https://discord.gg/yuvuDW5',
-        twitter: '!متابعتنا على تويتر',
+        twitter: 'متابعتنا على تويتر!',
         patreon: 'دعم المشروع على Patreon',
         joinTelegram: 'متابعة الأخبار على قناة ComigoGames من على تيليجرام',
         vkontakte: 'متابعة الأخبار من على فكونتاكتي'
