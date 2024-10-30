@@ -15,7 +15,14 @@ const voc = {
         donated: 'Спасибо донатерам!',
         becomePatron: 'Стать покровителем'
     },
-    ar: {},
+    ar: {
+        patrons: 'رعاة Ct.js',
+        partners: 'الشركاء',
+        businessCats: 'قطط الأعمال',
+        cats: 'القطط',
+        donated: 'أناس تبرعوا إلى ct.js',
+        becomePatron: 'مراعاتنا'
+    },
     'pt-BR': {},
     de: {},
     it: {},
