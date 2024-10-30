@@ -4,8 +4,8 @@ const voc = {
         tellFriends: 'Tell your friends about it'
     },
     ar: {
-        helpCtGrow: 'على النمو ct.js ساعد',
-        tellFriends: 'أخبر اصدقائك'
+        helpCtGrow: 'مساعدة ct.js على النمو!',
+        tellFriends: 'إخبار أصدقاءك عنه'
     },
     'pt-BR': {
         helpCtGrow: 'Ajude ct.js crescer!',
