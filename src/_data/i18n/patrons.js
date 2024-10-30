@@ -21,7 +21,7 @@ const voc = {
         businessCats: 'قطط الأعمال',
         cats: 'القطط',
         donated: 'أناس تبرعوا إلى ct.js',
-        becomePatron: 'مراعاتنا'
+        becomePatron: 'الانضمام إلى الرعاة'
     },
     'pt-BR': {},
     de: {},
