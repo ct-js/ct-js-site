@@ -8,12 +8,12 @@ const voc = {
         language: 'En'
     },
     ar: {
-        changelog: 'التغييرات',
+        changelog: 'سجل التغييرات',
         docs: 'الوثائق',
         forum: 'المنتدى',
-        download: 'تحميل',
-        gotoHomepage: 'اذهب الى الصفحة الرئيسية',
-        language: 'عربية'
+        download: 'التنزيل',
+        gotoHomepage: 'الذهاب إلى الصفحة الرئيسة',
+        language: 'ع'
     },
     'pt-BR': {
         changelog: 'Notas de Atualizações',

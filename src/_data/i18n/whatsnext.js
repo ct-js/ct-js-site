@@ -29,27 +29,27 @@ const voc = {
         whatsnext: 'ماذا بعد؟',
 
         docsButton: 'الوثائق',
-        readTheDocs: 'اقرا الوثائق',
-        completeTutorials: 'دروس كاملة لتعلم كيفية العمل. توضح دروسنا التعليمية كيفية إنشاء ألعاب كاملة ، وشرح ما يتم فعله ولماذا بالتفصيل.',
+        readTheDocs: 'قراءة الوثائق',
+        completeTutorials: 'دروس كاملة لتعلم كيفية العمل مع ct.js. دروسنا توضح كيفية إنشاء ألعابًا كاملة شارحةً ما يتم ولماذا بالتفصيل.',
 
-        joinCommunity: 'انضم الى المنتدى',
-        getHelp: 'المنتدى مكان للمطورين لمشاركة العابهم ومساعدة بعضهم البعض',
-        discordButton: 'ديسكورد',
+        joinCommunity: 'الانضمام إلى مجتمعنا',
+        getHelp: 'مجتمعاتنا العامة أماكن مريحة حيث يمكنك الدردشة والتعلم وصنع ألعاب وإرسال ميمز عن القطط ومساعدة بعضنا البعض.',
+        discordButton: 'Discord',
         discordLink: 'https://discord.gg/yuvuDW5', // Russian locale has a link to a different (Russian) Discord server
         forumButton: 'المنتدى',
 
-        getCheatsheet: 'احصل على تلخيص لكيفية الاستعمال (cheatsheet)',
-        cheatsheetBlurb: 'احصل على قائمة الوظائف الأكثر استعمالا مع أمثلة جاهزة للطبع',
-        download: 'تحميل',
+        getCheatsheet: 'الحصول على ورقة غش',
+        cheatsheetBlurb: 'انتشال قائمة من الوظائف المستخدمة مرارًا وتكرارًا مع أمثلتها، مستعدة للطباعة.',
+        download: 'التنزيل',
 
-        patreonAlt: 'أو عبر شرائه Patreon على ct.js ادعم',
-        patreonRewards: 'مجاني للجميع لكن ان اردت قول اكثر من شكرا و تدعم مستقبل المشروع، يمكنك دعمنا على الموقع أو باتريون اين يكون الدعم ذو أولوية و يتم ادراج اسمك في التطبيق Ct.js',
-        buyOnItchIo: 'itch.io الشراء على',
+        patreonAlt: 'دعم ct.js على Patreon أو بشرائه',
+        patreonRewards: 'Ct.js مجاني للجميع، لكن إذا أردت قول ما هو أكثر من "شكرًا لك" ودعم مستقبل المشروع، يمكنك التبرع على itch.io أو الانضمام إلى الرعاة. الرعاة يحصلون على أولوية في الدعم وأسماؤهم متضمنة في التطبيق!',
+        buyOnItchIo: 'الشراء من على itch.io',
 
-        boostyTitle:  'Boosty بالاشتراك على ct.js ادعم',
-        boostyRewards: 'بامكانك قول أكثر من شكرا هناك و تدعم مستقبل المشروع ،باترونس على بووستي لهم أولوية الدعم و أسماءهم تدرج في التطبيق ،Patreon مثل Boosty',
-        patreonSadness: 'لكن لأسباب سياسية لم أعد أقبل التبرعات هناك itch.io و تبرعات على Patreon سابقا كان هنالك صفحة',
-        becomePatron: 'Patron اصبح'
+        boostyTitle: 'دعم ct.js بالاشتراك من على Boosty',
+        boostyRewards: 'Boosty مثل Patreon — يمكنك قول ما هو أكثر من "شكرًا لك" ودعم مستقبل هذا المشروع. الرعاة على Boosty يحصلون على أولوية في الدعم وأسماؤهم متضمنة في التطبيق!',
+        patreonSadness: 'سابقًا كانت هناك صفحة Patreon وتبرعات من على itch.io — ولكن نظرًا للوضع السياسي، لا يمكنني منذ حينها قبول التبرعات من تلك المصادر.',
+        becomePatron: 'الانضمام إلى الرعاة'
     },
     'pt-BR': {
         whatsnext: 'O que vem por ai?',

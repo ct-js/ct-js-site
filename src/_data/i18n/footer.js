@@ -15,17 +15,17 @@ const voc = {
     },
     ar: {
         comigo: 'Cosmo Myzrail Gorynych',
-        siteLicense: 'هذا المشروع مرخص تحت',
-        appLicense: 'MIT مرخص تحت رخصة ct.js تطبيق',
-        presskit: 'Presskit',
-        contact: 'تواصل',
-        forkUs: 'GitHub فورك المشروع على',
-        joinServer: '!انضم الى سيرفير الديسكورد',
+        siteLicense: 'هذا الموقع تحت ترخيص',
+        appLicense: 'تطبيق ct.js تحت ترخيص MIT',
+        presskit: 'أدوات الصحافة',
+        contact: 'التواصل',
+        forkUs: 'إنشاء فرع من المشروع من على GitHub',
+        joinServer: 'الانضمام إلى خادم Discord!',
         discordLink: 'https://discord.gg/yuvuDW5',
-        twitter: '!تابعنا على تويتر',
-        patreon: 'Patreon ادعم المشروع على',
-        joinTelegram: 'ComigoGames تابع الأخبار على قناة التيليغرام',
-        vkontakte: 'Vkontakte تابع الأخبار على'
+        twitter: 'متابعتنا على تويتر!',
+        patreon: 'دعم المشروع على Patreon',
+        joinTelegram: 'متابعة الأخبار على قناة ComigoGames من على تيليجرام',
+        vkontakte: 'متابعة الأخبار من على فكونتاكتي'
     },
     'pt-BR': {
         comigo: 'Cosmo Myzrail Gorynych',
