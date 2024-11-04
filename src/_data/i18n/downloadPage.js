@@ -209,7 +209,8 @@ const voc = {
         pageTitle: 'ct.js をダウンロードする',
         pageDescription: '公式サイトから無料の2Dゲームエディターをダウンロード',
         welcomeAboard: 'ようこそ！',
-
+        falseReportsNotice: 'アンチウィルスソフトの警告が表示されますか? 代わりにこれらを試してみてください。また、',
+        reportLinkText: 'Webインストーラーのリポジトリで問題を報告してください。',
         webInstaller: 'Webインストーラー',
         downloadx64: 'x64 用をダウンロード',
         downloadx32: 'x32 用をダウンロード',
