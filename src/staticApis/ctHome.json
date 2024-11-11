@@ -67,6 +67,14 @@
   ],
   "learn": [
     {
+      "link": "https://youtu.be/ekQQ7yS_3Hk",
+      "title": "Making a twin-stick shooter with Catnip",
+      "author": "CoMiGo, Firecakes",
+      "description": "In this tutorial we will dive into programming with Catnip by making a retro-styled twin-stick shooter. We will make a simple AI for mobs, GUI, and behaviors for gameplay logic sharing.",
+      "type": "video",
+      "cover": "https://img.youtube.com/vi/ekQQ7yS_3Hk/mqdefault.jpg"
+    },
+    {
       "title": "Learn Catnip",
       "link": "https://docs.ctjs.rocks/learn-catnip/introduction.html",
       "author": "CoMiGo",
