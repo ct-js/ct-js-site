@@ -1,6 +1,11 @@
 {
   "Patrons": [
     {
+      "name": "Desogen",
+      "rank": "business cat",
+      "image": "/img/uploads/emptypfp.png"
+    },
+    {
       "name": "Александр Гагарин",
       "rank": "cat",
       "image": "https://images.boosty.to/user/35551963/avatar?change_time=1729874240&croped=1&mh=110&mw=110"
