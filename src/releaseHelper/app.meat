@@ -148,7 +148,7 @@ style.
                     :ctjs: **${lc.downloadOffSite}**
                         &lt;https://ctjs.rocks/download&gt;
                     :itch: **${lc.installItch}**
-                        &lt;https://comigo.itch.io/ct&gt;
+                        &lt;https://ctjs.itch.io/ct&gt;
                     :github: **${lc.downloadGithub}**
                         &lt;https://github.com/ct-js/ct-js/releases/latest&gt;
 
@@ -198,7 +198,7 @@ style.
                         [b]${lc.downloadOffSite}[/b]
                         📥 https://ctjs.rocks/ru/download
                         [b]${lc.installItch}[/b]
-                        📥 https://comigo.itch.io/ct
+                        📥 https://ctjs.itch.io/ct
                         [b]${lc.downloadGithub}[/b]
                         📥 https://github.com/ct-js/ct-js/releases/latest
 
