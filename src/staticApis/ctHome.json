@@ -9,6 +9,13 @@
   },
   "games": [
     {
+      "title": "There's a house in the sky",
+      "link": "https://jsmonzani.itch.io/a-house-in-the-sky",
+      "author": "jsmonzani",
+      "cover": "/img/uploads/eop3vk.png",
+      "description": "A simple and serene hill building game for minijam 173 with theme \"Action\" and constraint \"From the top\"."
+    },
+    {
       "author": "Metal Harbor",
       "link": "https://metalharbor.itch.io/cleopawtra",
       "title": "Cleopawtra",
