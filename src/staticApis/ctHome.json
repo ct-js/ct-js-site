@@ -74,6 +74,14 @@
   ],
   "learn": [
     {
+      "link": "https://www.youtube.com/watch?v=-8huuHXfmIE",
+      "title": " How I Made my Game Jam Game Pronipbition ",
+      "description": "I talk about the various challenges I had to overcome while making a game that uses world wrapping and a lot of NPCs that you can talk to.",
+      "author": "Firecakes",
+      "type": "video",
+      "cover": "https://i3.ytimg.com/vi/-8huuHXfmIE/mqdefault.jpg"
+    },
+    {
       "link": "https://youtu.be/ekQQ7yS_3Hk",
       "title": "Making a twin-stick shooter with Catnip",
       "author": "CoMiGo, Firecakes",
