@@ -1,6 +1,11 @@
 {
   "Patrons": [
     {
+      "rank": "cat",
+      "name": "Ifritor",
+      "image": "https://images.boosty.to/user/32550820/avatar?change_time=1720790254&croped=1&mh=110&mw=110"
+    },
+    {
       "name": "Desogen",
       "rank": "business cat",
       "image": "https://ctjs.rocks/img/uploads/emptypfp.png"
