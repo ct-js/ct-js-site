@@ -1,0 +1,19 @@
+script.
+    var height = 400,
+        width = 680,
+        top = (screen.height - height) / 2,
+        left = (screen.width - width) / 2;
+    var buy = function (e) {
+        e.preventDefault();
+        var w;
+        w = window.open(
+            'https://ctjs.itch.io/ct/purchase?popup=1',
+            'purchase',
+            'scrollbars=1, resizable=no, width=' + width + ', height=' + height + ', top=' + top + ', left=' + left);
+        if (typeof w.focus === 'function') {
+            w.focus();
+        }
+    };
+    for (var elt of document.querySelectorAll('.itchbuy')) {
+        elt.addEventListener('click', buy);
+    }

@@ -76,6 +76,18 @@ block body
                             |
                             a.blue(target="_blank" href="https://www.howtogeek.com/803598/app-is-damaged-and-cant-be-opened/" rel="noopener noreferrer nofollow")=voc.macDamagedLink
             .clear
+            h2.center.nmt=voc.supportDevelopmentHeader
+            .center
+                a.button(href="https://boosty.to/comigo" target="_blank")
+                    svg.icon
+                        use(xlink:href=`/icons.svg#boosty`)
+                    span=i18n.whatsnext[site.locale].becomePatron
+                a.button.itchbuy(href="https://ctjs.itch.io/ct/purchase" target="_blank")
+                    svg.icon
+                        use(xlink:href=`/icons.svg#heart`)
+                    span=i18n.whatsnext[site.locale].donate
+            .clear
+            p
             h2.center.nmt=voc.otherDownloads
             table.aNiceTable.white
                 tr

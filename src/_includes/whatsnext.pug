@@ -35,14 +35,19 @@ section#whatsnext.npt
                             use(xlink:href=`/icons.svg#book-open`)
                         span #{i18n.whatsnext[site.locale].docsButton}
             li.heartmarker
-                h3.nmt.npt=i18n.whatsnext[site.locale].boostyTitle
+                h3.nmt.npt=i18n.whatsnext[site.locale].donateHeader
                 p=i18n.whatsnext[site.locale].boostyRewards
                 div
                     a.button(href="https://boosty.to/comigo" target="_blank")
                         svg.icon
                             use(xlink:href=`/icons.svg#boosty`)
                         span=i18n.whatsnext[site.locale].becomePatron
-                p=i18n.whatsnext[site.locale].patreonSadness
+                p=i18n.whatsnext[site.locale].oneTimeDonations
+                div
+                    a.button.itchbuy(href="https://ctjs.itch.io/ct/purchase" target="_blank")
+                        svg.icon
+                            use(xlink:href=`/icons.svg#heart`)
+                        span=i18n.whatsnext[site.locale].donate
                 //
                     h3.nmt.npt=i18n.whatsnext[site.locale].patreonAlt
                     p=i18n.whatsnext[site.locale].patreonRewards
@@ -55,3 +60,4 @@ section#whatsnext.npt
                             use(xlink:href=`/icons.svg#itch-dot-io`)
                         span #{i18n.whatsnext[site.locale].buyOnItchIo}
         .clear
+    include /itchbuy.pug

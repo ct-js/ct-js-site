@@ -28,7 +28,9 @@ const voc = {
 
         getFromItch: 'Get ct.js on itch.io',
         olderVersions: 'Older versions',
-        getOlderReleasesGithub: 'Get previous releases on Github'
+        getOlderReleasesGithub: 'Get previous releases on Github',
+
+        supportDevelopmentHeader: 'Support ct.js development!'
     },
     ar: {
         pageTitle: 'تنزيل ct.js',
@@ -174,7 +176,9 @@ const voc = {
 
         getFromItch: 'Скачайте на itch.io',
         olderVersions: 'Старые версии',
-        getOlderReleasesGithub: 'Скачайте предыдущие релизы на Github'
+        getOlderReleasesGithub: 'Скачайте предыдущие релизы на Github',
+
+        supportDevelopmentHeader: 'Поддержи разработку денюжкой!'
     },
     'zh-CN': {
         pageTitle: '下载 ct.js',
