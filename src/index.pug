@@ -309,6 +309,11 @@ block body
                 svg.icon
                     use(xlink:href=`/icons.svg#boosty`)
                 span=i18n.patrons[site.locale].becomePatron
+            a.button.itchbuy(href="https://ctjs.itch.io/ct/purchase" target="_blank")
+                svg.icon
+                    use(xlink:href=`/icons.svg#heart`)
+                span=i18n.whatsnext[site.locale].donate
+        include /itchbuy.pug
     section#devlog.npt(dir="ltr" lang="en")
         .inner.limited
             h2=i18n.homepage[site.locale].devlog.latest
