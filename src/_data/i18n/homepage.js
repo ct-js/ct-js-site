@@ -39,7 +39,7 @@ const voc = {
             bundledInEditorDocs: 'Bundled in-editor docs',
             alwaysAvailableSidebar: 'Always available in a sidebar',
             uiElements: 'UI elements',
-            crossPlatformButtonsPanels: 'Cross-platform buttons, panels, and checkboxes that just work',
+            crossPlatformButtonsPanels: 'Cross-platform buttons, panels, and textboxes that just work',
             richDebugger: 'Rich debugger',
             pauseNavigateAround: 'Pause, navigate around, execute commands, and run on mobile devices in your local network',
             extendableModdable: 'Extendable and moddable',
