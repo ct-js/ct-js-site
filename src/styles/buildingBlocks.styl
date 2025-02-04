@@ -104,6 +104,79 @@ nav
             height 2rem
         .navItems a
             padding 0.25rem 0
+#theMobileNavToggle
+    position fixed
+    right 0.5rem
+    top @right
+    cursor pointer
+    z-index 1000
+    width 2.5rem
+    height 2.5rem
+    div
+        width 1.2rem
+        height 0.15rem
+        border-radius 1rem
+        background #fff
+        position absolute
+        top (2.5rem / 2)
+        left @top
+        transform translate(-50%, -50%) rotate(0deg) translate(0, 0)
+        {transshort}
+        &:nth-child(1)
+            transform translate(-50%, -50%) rotate(0deg) translate(0, -0.5rem)
+        &:nth-child(2)
+            transform translate(-50%, -50%) rotate(0deg) translate(0, 0.5rem)
+    &:has(+ * + :checked)
+        div
+            width 1.5rem
+            transform translate(-50%, -50%) rotate(45deg)
+            &:nth-child(2)
+                transform translate(-50%, -50%) rotate(-45deg)
+#theMobileNavState
+    display none
+#theMobileNav
+    display none
+    overflow auto
+    background act
+    top 0
+    left 0
+    right 0
+    bottom 0
+    padding 4rem 0
+    box-sizing border-box
+    background rgba(act, 0.9)
+    position fixed
+    z-index 998
+    overflow auto
+    visibility hidden
+    opacity 0
+    {transshort}
+    hr
+        background white
+        width 2rem
+        height 0.1rem
+        border-radius 1rem
+        border 0
+        margin 1.5rem 0 2rem
+#theMobileNav-Inner
+    display flex
+    flex-flow column nowrap
+    & > *
+        flex 0 0 auto
+        min-height min-content
+    justify-content center
+    align-items center
+    a, .a
+        margin-inline-end 0
+        padding 1rem
+#theMobileNavState:checked + .navItems
+    visibility visible
+    opacity 1
+@media (max-width 800px)
+    #theDesktopNav
+        display none
+    #theMobileNav
+        display block
 nav, #footer
     a, .a
         text-decoration none

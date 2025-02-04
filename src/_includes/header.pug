@@ -3,53 +3,69 @@
         nDocs = site.links && site.links.docs || 'https://docs.ctjs.rocks/',
         nIndex = site.locale !== 'en' ? `/${site.locale}/` : '/';
 
-nav#theNavBar
-    a(href=nIndex title=i18n.header[site.locale].gotoHomepage).hide800
-        img(src="/img/logoWhiteSmall.png")
-    .navItems
-        .a.aSelect
-            svg.icon
-                use(xlink:href="/icons.svg#translate")
-            span=i18n.header[site.locale].language
-            svg.feather.small.thin
-                use(xlink:href=`/icons.svg#chevron-down`)
-            .Options
-                .anOption
-                    a(href="/") In English
-                .anOption
-                    a(href="/ru") На русском
-                .anOption
-                    a(href="/pt-BR") Em Português
-                .anOption
-                    a(href="/de") Auf Deutsch
-                .anOption
-                    a(href="/it") Italiano
-                .anOption
-                    a(href="/ar") بالعربية
-                .anOption
-                    a(href="/ne") In het Nederlands
-                .anOption
-                    a(href="/zh-CN") 中文 (简体)
-                .anOption
-                    a(href="/jp") 日本語
+mixin translations
+    .anOption
+        a(href="/") In English
+    .anOption
+        a(href="/ru") На русском
+    .anOption
+        a(href="/pt-BR") Em Português
+    .anOption
+        a(href="/de") Auf Deutsch
+    .anOption
+        a(href="/it") Italiano
+    .anOption
+        a(href="/ar") بالعربية
+    .anOption
+        a(href="/ne") In het Nederlands
+    .anOption
+        a(href="/zh-CN") 中文 (简体)
+    .anOption
+        a(href="/jp") 日本語
 
-        a(href="/changelog")
-            svg.feather
-                use(xlink:href="/icons.svg#file-text")
-            span #{i18n.header[site.locale].changelog}
-        a(href=nDocs)
-            svg.feather
-                use(xlink:href="/icons.svg#book-open")
-            span #{i18n.header[site.locale].docs}
-        a(href="https://forum.ctjs.rocks/" target="_blank")
-            svg.feather
-                use(xlink:href="/icons.svg#message-square")
-            span #{i18n.header[site.locale].forum}
-        a(href="https://github.com/ct-js/ct-js" target="_blank")
-            svg.icon
-                use(xlink:href="/icons.svg#github")
-            span GitHub
-        a(href=nDownload)
-            svg.feather
-                use(xlink:href="/icons.svg#download")
-            span #{i18n.header[site.locale].download}
+mixin navItems
+    a(href="/changelog")
+        svg.feather
+            use(xlink:href="/icons.svg#file-text")
+        span #{i18n.header[site.locale].changelog}
+    a(href=nDocs)
+        svg.feather
+            use(xlink:href="/icons.svg#book-open")
+        span #{i18n.header[site.locale].docs}
+    a(href="https://forum.ctjs.rocks/" target="_blank")
+        svg.feather
+            use(xlink:href="/icons.svg#message-square")
+        span #{i18n.header[site.locale].forum}
+    a(href="https://github.com/ct-js/ct-js" target="_blank")
+        svg.icon
+            use(xlink:href="/icons.svg#github")
+        span GitHub
+    a(href=nDownload)
+        svg.feather
+            use(xlink:href="/icons.svg#download")
+        span #{i18n.header[site.locale].download}
+
+nav#theNavBar
+    label#theMobileNavToggle.hide.show800(for="theMobileNavState")
+        div
+        div
+        div
+    a(href=nIndex title=i18n.header[site.locale].gotoHomepage)
+        img(src="/img/logoWhiteSmall.png")
+    input#theMobileNavState(type="checkbox")
+    .navItems#theMobileNav
+        #theMobileNav-Inner
+            +navItems
+            hr
+            +translations
+    .navItems#theDesktopNav
+        .a.aSelect
+            .aSelect-aLabel
+                svg.icon
+                    use(xlink:href="/icons.svg#translate")
+                span=i18n.header[site.locale].language
+                svg.feather.small.thin
+                    use(xlink:href=`/icons.svg#chevron-down`)
+            .Options
+                +translations
+        +navItems
