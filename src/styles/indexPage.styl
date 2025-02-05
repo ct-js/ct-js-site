@@ -221,33 +221,33 @@ borderShad =
         right 8vw
         bottom 10%
 
-.aLanguageList
-    display flex
-    flex-flow row nowrap
-    align-items center
-    padding 0
-    justify-content space-around
-    max-width 1200px
-    margin 0 auto 0
-.aLanguage
-    perspective 1500px
-    transform-style preserve-3d
-    flex 1 1 5rem
-    max-width 45rem
-    width 0
-    overflow visible
-    {trans}
-    @media (prefers-reduced-motion: no-preference)
-        animation languageFloat 5s ease infinite
-        @keyframes languageFloat
-            0%, 100%
-                transform translateY(0rem)
-            50%
-                transform translateY(-2rem)
-        &:nth-child(2)
-            animation-delay -4.67s
-        &:nth-child(3)
-            animation-delay -4.33s
+    .aLanguageList
+        display flex
+        flex-flow row nowrap
+        align-items center
+        padding 0
+        justify-content space-around
+        max-width 1200px
+        margin 0 auto 0
+    .aLanguage
+        perspective 1500px
+        transform-style preserve-3d
+        flex 1 1 5rem
+        max-width 45rem
+        width 0
+        overflow visible
+        {trans}
+        @media (prefers-reduced-motion: no-preference)
+            animation languageFloat 5s ease infinite
+            @keyframes languageFloat
+                0%, 100%
+                    transform translateY(0rem)
+                50%
+                    transform translateY(-2rem)
+            &:nth-child(2)
+                animation-delay -4.67s
+            &:nth-child(3)
+                animation-delay -4.33s
     h3
         position relative
         top 3.5rem
@@ -678,11 +678,7 @@ random(a,b)
             svg:last-child
                 display none
 
-#content
-
 #games
-    h2
-        font-size 4rem
     .hSub
         margin-bottom 1rem
     .wideinner

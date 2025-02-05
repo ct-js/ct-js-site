@@ -1,25 +1,25 @@
-h1=i18n.patrons[site.locale].patrons
+h2=i18n.patrons[site.locale].patrons
 
 - var cats = patrons.Patrons.filter(p => p.rank === 'cat');
 - var businessCats = patrons.Patrons.filter(p => p.rank === 'business cat');
 - var partners = patrons.Patrons.filter(p => p.rank === 'partner');
 
 if partners.length
-    h2=i18n.patrons[site.locale].partners
+    h3=i18n.patrons[site.locale].partners
     .aPatronList
         each patron of partners
             .aPatron
                 img(src=patron.image)
                 b.aPatronName=patron.name
 if businessCats.length
-    h2=i18n.patrons[site.locale].businessCats
+    h3=i18n.patrons[site.locale].businessCats
     .aPatronList
         each patron of businessCats
             .aPatron
                 img(src=patron.image)
                 b.aPatronName=patron.name
 if cats.length
-    h2=i18n.patrons[site.locale].cats
+    h3=i18n.patrons[site.locale].cats
     .aPatronList.smaller
         each patron of cats
             .aPatron
@@ -27,7 +27,7 @@ if cats.length
                 .aPatronName=patron.name
 
 if patrons.Donations.length
-    h1=i18n.patrons[site.locale].donated
+    h2=i18n.patrons[site.locale].donated
     .aPatronList.smaller
         each patron of patrons.Donations
             .aPatron
