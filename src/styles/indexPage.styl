@@ -221,6 +221,7 @@ borderShad =
         right 8vw
         bottom 10%
 
+@media (min-width 960px)
     .aLanguageList
         display flex
         flex-flow row nowrap
@@ -230,6 +231,11 @@ borderShad =
         max-width 1200px
         margin 0 auto 0
     .aLanguage
+        h3
+            position relative
+            top 3.5rem
+            {trans}
+            z-index 2
         perspective 1500px
         transform-style preserve-3d
         flex 1 1 5rem
@@ -248,11 +254,6 @@ borderShad =
                 animation-delay -4.67s
             &:nth-child(3)
                 animation-delay -4.33s
-    h3
-        position relative
-        top 3.5rem
-        {trans}
-        z-index 2
     .hSub
         opacity 0
         background rgba(white, 0.85)
