@@ -23,10 +23,6 @@ block body
                             span=voc.webInstaller
                         p
                             span=voc.falseReportsNotice
-                            |
-                            |
-                            a.blue(href="https://github.com/ct-js/ctjs-web-installer/issues/new/choose")=voc.reportLinkText
-                            |.
                         a.button.small(href=downloads.win64)
                             svg.feather
                                 use(xlink:href="/icons.svg#download")
@@ -43,16 +39,11 @@ block body
                             svg.feather.huge
                                 use(xlink:href=`/icons.svg#linux-linear`)
                         h3=voc.linux
-                        a.button.nmr(href=linuxWebInstaller.sh)
-                            svg.feather
-                                use(xlink:href="/icons.svg#download")
-                            span=`${voc.webInstaller} (x64)`
-                        p.small.nm=voc.shInstructions
-                        a.button.small(href=downloads.linux64)
+                        a.button(href=downloads.linux64)
                             //svg.feather
                             //    use(xlink:href="/icons.svg#download")
                             span=voc.downloadx64
-                        a.button.small.nmr(href=downloads.linux32)
+                        a.button(href=downloads.linux32)
                             //svg.feather
                             //    use(xlink:href="/icons.svg#download")
                             span=voc.downloadx32
@@ -123,8 +114,7 @@ block body
                     td
                         //a.button.small(href=windowsWebInstaller.exe)=voc.webInstaller
                         a.button.small(href="/ctjsWebInstaller.exe")=voc.webInstaller
-                    td
-                        a.button.small(href=linuxWebInstaller.sh)=`${voc.webInstaller} (x64)`
+                    td.center —
                     td.center —
                 tr
                     td itch.io

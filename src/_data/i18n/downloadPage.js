@@ -5,7 +5,7 @@ const voc = {
         welcomeAboard: 'Welcome aboard!',
 
         webInstaller: 'Web installer',
-        falseReportsNotice: 'Getting antivirus warnings? Try these instead, and please',
+        falseReportsNotice: 'Getting antivirus warnings? Try these instead:',
         reportLinkText: 'report an issue at web installer\'s repository',
         downloadx64: 'Download x64',
         downloadx32: 'Download x32',
@@ -38,7 +38,7 @@ const voc = {
         welcomeAboard: 'مرحبًا بك معنا!',
 
         webInstaller: 'مثبت الويب',
-        falseReportsNotice: 'حصلت على تحذيرات مكافحة للفيروسات؟ تجربة أولئك بدلًا من ذلك، والرجاء',
+        falseReportsNotice: 'هل تلقيت تحذيرات من برامج مكافحة الفيروسات؟ جرب هذه الحلول بدلاً من ذلك:',
         reportLinkText: 'إنشاء قضية في مستودع مثبت الويب.',
         downloadx64: 'تنزيل لأجهزة x64',
         downloadx32: 'تنزيل لأجهزة x32',
@@ -153,7 +153,7 @@ const voc = {
         pageDescription: 'Скачайте бесплатный редактор 2D игр ct.js с его официального сайта.',
         welcomeAboard: 'Добро пожаловать на борт!',
 
-        falseReportsNotice: 'Жалуется антивирус? Попробуйте загрузки ниже, и ',
+        falseReportsNotice: 'Жалуется антивирус? Попробуйте загрузки ниже:',
         reportLinkText: 'отправьте детали проблемы здесь',
         downloadx64: 'Скачать x64',
         downloadx32: 'Скачать x32',
@@ -213,7 +213,7 @@ const voc = {
         pageTitle: 'ct.js をダウンロードする',
         pageDescription: '公式サイトから無料の2Dゲームエディターをダウンロード',
         welcomeAboard: 'ようこそ！',
-        falseReportsNotice: 'アンチウィルスソフトの警告が表示されますか? 代わりにこれらを試してみてください。また、',
+        falseReportsNotice: 'アンチウィルスソフトの警告が表示されますか? 代わりにこれらを試してみてください。',
         reportLinkText: 'Webインストーラーのリポジトリで問題を報告してください。',
         webInstaller: 'Webインストーラー',
         downloadx64: 'x64 用をダウンロード',
