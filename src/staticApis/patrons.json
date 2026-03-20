@@ -1,37 +1,37 @@
 {
   "Patrons": [
     {
-      "rank": "cat",
-      "name": "Ifritor",
-      "image": "https://images.boosty.to/user/32550820/avatar?change_time=1720790254&croped=1&mh=110&mw=110"
-    },
-    {
-      "name": "Desogen",
-      "rank": "business cat",
-      "image": "https://ctjs.rocks/img/uploads/emptypfp.png"
-    },
-    {
-      "name": "Александр Гагарин",
-      "rank": "cat",
-      "image": "https://images.boosty.to/user/35551963/avatar?change_time=1729874240&croped=1&mh=110&mw=110"
-    },
-    {
-      "name": "Alan",
-      "image": "https://images.boosty.to/user/712279/avatar?change_time=1690435622&croped=1&mh=110&mw=110",
-      "rank": "cat"
-    },
-    {
       "image": "https://images.boosty.to/user/12852062/avatar?change_time=1671193037&croped=1&mh=110&mw=110",
       "name": "GAKONS",
       "rank": "cat"
     },
     {
-      "name": "Leo🦁",
-      "rank": "business cat",
-      "image": "https://images.boosty.to/user/32100736/avatar?croped=1&mh=110&mw=110"
+      "name": "Александр Гагарин",
+      "image": "https://images.boosty.to/user/35551963/avatar?change_time=1729874240&croped=1&mh=110&mw=110",
+      "rank": "cat"
     }
   ],
   "Donations": [
+    {
+      "name": "Ifritor",
+      "image": "https://images.boosty.to/user/32550820/avatar?change_time=1720790254&croped=1&mh=110&mw=110"
+    },
+    {
+      "name": "Desogen",
+      "image": "https://ctjs.rocks/img/uploads/emptypfp.png"
+    },
+    {
+      "name": "Александр Гагарин",
+      "image": "https://images.boosty.to/user/35551963/avatar?change_time=1729874240&croped=1&mh=110&mw=110"
+    },
+    {
+      "name": "Alan",
+      "image": "https://images.boosty.to/user/712279/avatar?change_time=1690435622&croped=1&mh=110&mw=110"
+    },
+    {
+      "name": "Leo🦁",
+      "image": "https://images.boosty.to/user/32100736/avatar"
+    },
     {
       "name": "Luca Maroccia",
       "image": "https://images.boosty.to/user/34771602/avatar?change_time=1726562886&croped=1&mh=80&mw=80"
@@ -39,10 +39,6 @@
     {
       "image": "https://images.boosty.to/user/27424118/avatar?change_time=1719622376&croped=1&mh=110&mw=110",
       "name": "Leo🦁"
-    },
-    {
-      "name": "Александр Гагарин",
-      "image": "https://images.boosty.to/user/35551963/avatar?change_time=1729874240&croped=1&mh=110&mw=110"
     },
     {
       "name": "Vint Prox",
