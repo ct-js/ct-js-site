@@ -1,11 +1,11 @@
 {
   "announcement": {
-    "title": "v5.2.0 — Object list panel for the room editor and more",
-    "description": "UI fonts to ease dyslexia, updated translations for Chinese Simplified and Brazilian Portuguese, new u.distance and u.direction methods, and dozens of fixes and polishing touches 💅",
-    "link": "https://youtu.be/anlQyM7f2e4",
-    "image": "/img/uploads/screenshot-2024-10-18-001750.png",
+    "title": "v5.3 — Pathfinding, Signals and a thick layer of polish and bugfixes",
+    "description": "This release fixes long-standing isues, updates Filters and Light catmods, adds a new project template, improves UI and Catnip, and more — 200 changes of various size in total!",
+    "link": "https://ctjs.itch.io/ct/devlog/1464419/v530-its-been-a-while",
+    "image": "/img/uploads/v5.3.png",
     "bgImage": "/img/uploads/screenshot-2024-07-28-022233.jpg",
-    "linkLabel": "Watch the video"
+    "linkLabel": "Read the devlog"
   },
   "games": [
     {
