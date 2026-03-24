@@ -3,37 +3,51 @@
     "title": "v5.3 — Pathfinding, Signals and a thick layer of polish and bugfixes",
     "description": "This release fixes long-standing isues, updates Filters and Light catmods, adds a new project template, improves UI and Catnip, and more — 200 changes of various size in total!",
     "link": "https://ctjs.itch.io/ct/devlog/1464419/v530-its-been-a-while",
+    "linkLabel": "Read the devlog",
     "image": "/img/uploads/v5.3.png",
-    "bgImage": "/img/uploads/screenshot-2024-07-28-022233.jpg",
-    "linkLabel": "Read the devlog"
+    "bgImage": "/img/uploads/screenshot-2024-07-28-022233.jpg"
   },
   "games": [
+    {
+      "title": "BoB-ble",
+      "link": "https://kikingpang.itch.io/bob-ble",
+      "author": "YumeCrypt",
+      "description": "Shoot your ball to teleport through obstacles, solve puzzles and go through the exit. Simple right? lol good luck.",
+      "cover": "/img/uploads/boble.png"
+    },
+    {
+      "title": "Potato Cop",
+      "link": "https://store.steampowered.com/app/3605550/Potato_Cop/",
+      "author": "TossedBloom Studio",
+      "description": "An action game where you avoid flying projectiles like spring onions. Get ready to smash your keyboard whilst you peel potatoes over and over.",
+      "cover": "/img/uploads/LOGO_2_-_MAIN_CAPSULE_-_POTATO_COP (1).jpg"
+    },
     {
       "title": "There's a house in the sky",
       "link": "https://jsmonzani.itch.io/a-house-in-the-sky",
       "author": "jsmonzani",
-      "cover": "/img/uploads/eop3vk.png",
-      "description": "A simple and serene hill building game for minijam 173 with theme \"Action\" and constraint \"From the top\"."
+      "description": "A simple and serene hill building game for minijam 173 with theme \"Action\" and constraint \"From the top\".",
+      "cover": "/img/uploads/eop3vk.png"
     },
     {
-      "author": "Metal Harbor",
-      "link": "https://metalharbor.itch.io/cleopawtra",
       "title": "Cleopawtra",
-      "cover": "https://img.itch.zone/aW1nLzE3NjI5Njg4LnBuZw==/315x250%23c/9k9LMw.png",
-      "description": "Play as Cleopawtra and rescue your husband, Meowrc Antony. An entry to the recent ct.js jam!"
+      "link": "https://metalharbor.itch.io/cleopawtra",
+      "author": "Metal Harbor",
+      "description": "Play as Cleopawtra and rescue your husband, Meowrc Antony. An entry to the recent ct.js jam!",
+      "cover": "https://img.itch.zone/aW1nLzE3NjI5Njg4LnBuZw==/315x250%23c/9k9LMw.png"
     },
     {
-      "cover": "https://img.itch.zone/aW1nLzE3NTkzMjgwLnBuZw==/315x250%23c/9wAKfl.png",
       "title": "Cat-Apocalypse",
-      "author": "macro21KGB",
       "link": "https://macro21kgb.itch.io/cat-apocalypse",
-      "description": "This game, created for the ct.js game jam, casts you as a blue cat from the future on a mission to save the dinosaurs from extinction using his deadliest weapon... yarn balls."
+      "author": "macro21KGB",
+      "description": "This game, created for the ct.js game jam, casts you as a blue cat from the future on a mission to save the dinosaurs from extinction using his deadliest weapon... yarn balls.",
+      "cover": "https://img.itch.zone/aW1nLzE3NTkzMjgwLnBuZw==/315x250%23c/9wAKfl.png"
     },
     {
-      "link": "https://firecakes.itch.io/pronipbition",
       "title": "Pronipbition",
-      "description": "You're a parched cat looking for some real drinks in the city. Explore the streets and chat with locals to find the secret location of the speakeasy in this vaguely historically inspired adventure game! An entry to the recent ct.js jam!",
+      "link": "https://firecakes.itch.io/pronipbition",
       "author": "Firecakes",
+      "description": "You're a parched cat looking for some real drinks in the city. Explore the streets and chat with locals to find the secret location of the speakeasy in this vaguely historically inspired adventure game! An entry to the recent ct.js jam!",
       "cover": "/img/uploads/pronipbition.png"
     },
     {
@@ -44,25 +58,25 @@
       "cover": "/img/uploads/hollowfloor_itch_banner.png"
     },
     {
-      "author": "Crimson Games IO / UlisesFreitas",
+      "title": "Crimson Hero Quest",
       "link": "https://ulisesfreitas.itch.io/ctjs-game-crimson-hero-quest",
+      "author": "Crimson Games IO / UlisesFreitas",
       "description": "Crimson Hero Quest is an engaging platformer game that invites players into a captivating pixel art world rendered in charming 16x16 graphics. Set in a vibrant universe, players embark on a heroic journey through lush forests and formidable castles.",
-      "cover": "https://d33wubrfki0l68.cloudfront.net/4bcb38d9-39a6-4a86-b5d9-2e86e1edcbde/512x512.jpg",
-      "title": "Crimson Hero Quest"
+      "cover": "https://d33wubrfki0l68.cloudfront.net/4bcb38d9-39a6-4a86-b5d9-2e86e1edcbde/512x512.jpg"
     },
     {
       "title": "Crazy One (open for playtests!)",
       "link": "https://hdboye.itch.io/crazy-one",
       "author": "tariq",
-      "cover": "https://img.itch.zone/aW1hZ2UvMjU2OTExNy8xNTU0NjM3MS5wbmc=/347x500/Nl7J2R.png",
-      "description": "A game where you try to break through a very heavy hatch by dumping everything you find on it while pew-pewing monsters in procedurally generated levels. Different heroes and weapons to choose, and… pills??"
+      "description": "A game where you try to break through a very heavy hatch by dumping everything you find on it while pew-pewing monsters in procedurally generated levels. Different heroes and weapons to choose, and… pills??",
+      "cover": "https://img.itch.zone/aW1hZ2UvMjU2OTExNy8xNTU0NjM3MS5wbmc=/347x500/Nl7J2R.png"
     },
     {
-      "link": "https://atavismus.itch.io/triverse",
       "title": "Triverse",
-      "cover": "https://img.itch.zone/aW1nLzE1NTM5NjI5LnBuZw==/315x250%23c/BoKvId.png",
+      "link": "https://atavismus.itch.io/triverse",
       "author": "Thomas",
-      "description": "🔺Triverse🔺 is a puzzle game: make geometric shapes composed of triangles and hexagons."
+      "description": "🔺Triverse🔺 is a puzzle game: make geometric shapes composed of triangles and hexagons.",
+      "cover": "https://img.itch.zone/aW1nLzE1NTM5NjI5LnBuZw==/315x250%23c/BoKvId.png"
     },
     {
       "title": "CoMiGo and the Vacation of Fusions",
@@ -74,16 +88,16 @@
   ],
   "learn": [
     {
+      "title": "How I Made my Game Jam Game Pronipbition",
       "link": "https://www.youtube.com/watch?v=-8huuHXfmIE",
-      "title": " How I Made my Game Jam Game Pronipbition ",
-      "description": "I talk about the various challenges I had to overcome while making a game that uses world wrapping and a lot of NPCs that you can talk to.",
       "author": "Firecakes",
+      "description": "I talk about the various challenges I had to overcome while making a game that uses world wrapping and a lot of NPCs that you can talk to.",
       "type": "video",
       "cover": "https://i3.ytimg.com/vi/-8huuHXfmIE/mqdefault.jpg"
     },
     {
-      "link": "https://youtu.be/ekQQ7yS_3Hk",
       "title": "Making a twin-stick shooter with Catnip",
+      "link": "https://youtu.be/ekQQ7yS_3Hk",
       "author": "CoMiGo, Firecakes",
       "description": "In this tutorial we will dive into programming with Catnip by making a retro-styled twin-stick shooter. We will make a simple AI for mobs, GUI, and behaviors for gameplay logic sharing.",
       "type": "video",
@@ -98,28 +112,28 @@
       "cover": "/img/uploads/catnip_emoji.png"
     },
     {
-      "link": "https://youtu.be/UcBAFWAtvVs",
       "title": "Visual scripting in ct.js — introduction",
+      "link": "https://youtu.be/UcBAFWAtvVs",
       "author": "William MC / Exceptional 3D tutorials",
       "description": "New updates to ct.js game engine opens up a hole new world of possibilities for visual coders.",
       "type": "video",
       "cover": "/img/uploads/williamcatnipintro.jpg"
     },
     {
-      "cover": "/img/uploads/williambuttons.jpg",
-      "type": "video",
-      "link": "https://youtu.be/1xauvGocOgY",
       "title": "Making text and button in ct.js using visual scripting (Catnip)",
+      "link": "https://youtu.be/1xauvGocOgY",
       "author": "William MC / Exceptional 3D tutorials",
-      "description": "Using buttons and text in ct.js for game development."
+      "description": "Using buttons and text in ct.js for game development.",
+      "type": "video",
+      "cover": "/img/uploads/williambuttons.jpg"
     },
     {
-      "cover": "https://docs.ctjs.rocks/assets/tutPlatformer_endResult-YuLMtaAh.png",
       "title": "Making Games: Platformer",
       "link": "https://docs.ctjs.rocks/tutorials/making-games-platformer.html",
       "author": "Cosmo Myzrail Gorynych, Firecakes",
       "description": "In this tutorial, we will create a small platformer with diamonds, checkpoints, moving platforms, and traps! You will learn how to detect collisions, use them to create a side-view movement, and how to manipulate sprites and move the player between levels.",
-      "type": "docs"
+      "type": "docs",
+      "cover": "https://docs.ctjs.rocks/assets/tutPlatformer_endResult-YuLMtaAh.png"
     }
   ]
 }
