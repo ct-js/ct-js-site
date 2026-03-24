@@ -1,6 +1,6 @@
 backend:
-  name: git-gateway
-  branch: master # Branch to update (optional; defaults to master)
+  name: github
+  repo: ct-js/ct-js-site
 
 media_folder: src/img/uploads
 public_folder: /img/uploads
@@ -23,8 +23,8 @@ collections:
       - { name: description, label: Description, widget: text, required: true}
       - { name: link, label: Link, widget: string, required: true}
       - { name: linkLabel, label: Button's label (can be left empty), widget: string, required: false}
-      - { name: image, label: Main image, widget: image, allow_multiple: false, required: false}
-      - { name: bgImage, label: Background image, widget: image, allow_multiple: false, required: false}
+      - { name: image, label: Main image, widget: image, multiple: false, required: false}
+      - { name: bgImage, label: Background image, widget: image, multiple: false, required: false}
     - name: games
       label: Games
       widget: list
@@ -38,7 +38,7 @@ collections:
         label: 'Cover'
         name: 'cover'
         widget: 'image'
-        allow_multiple: false
+        multiple: false
         media_library:
           config:
             multiple: false
@@ -64,7 +64,7 @@ collections:
       - label: 'Cover'
         name: 'cover'
         widget: 'image'
-        allow_multiple: false
+        multiple: false
         required: false
         media_library:
           config:
@@ -79,7 +79,7 @@ collections:
       add_to_top: true
       fields:
       - { required: true, label: 'Name', name: 'name', widget: 'string' }
-      - { name: image, label: Avatar, widget: image, allow_multiple: false, required: false}
+      - { name: image, label: Avatar, widget: image, multiple: false, required: false}
       - label: Rank
         name: rank
         widget: select
@@ -92,4 +92,4 @@ collections:
       add_to_top: true
       fields:
       - { required: true, label: 'Name', name: 'name', widget: 'string' }
-      - { name: image, label: Avatar, widget: image, allow_multiple: false, required: false}
+      - { name: image, label: Avatar, widget: image, multiple: false, required: false}
